@@ -1,0 +1,9 @@
+Nov 15 08:44:10 mark-websrv sshd[468]: Accepted password for ubuntu from 172.20.0.1 port 37456 ssh2
+Nov 15 08:44:10 mark-websrv sshd[468]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Nov 15 08:44:10 mark-websrv systemd-logind[151]: New session 67332 of user ubuntu.
+Nov 15 08:44:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Nov 15 08:44:12 mark-websrv sshd[519]: Received disconnect from 172.20.0.1 port 37456:11:
+Nov 15 08:44:12 mark-websrv sshd[519]: Disconnected from user ubuntu 172.20.0.1 port 37456
+Nov 15 08:44:12 mark-websrv sshd[468]: pam_unix(sshd:session): session closed for user ubuntu
+Nov 15 08:44:14 mark-websrv systemd-logind[151]: Removed session 67332.
+Nov 15 08:44:14 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user ubuntu

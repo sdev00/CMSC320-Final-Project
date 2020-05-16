@@ -1,0 +1,2 @@
+2019-11-13 01:34:34.869;1.186.45.250;password;asterisk;abcdefghijklmnopqr
+2019-11-13 01:34:37.613;1.186.45.250;password;nproc;nproc

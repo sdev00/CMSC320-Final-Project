@@ -1,0 +1,6 @@
+Nov 26 02:12:58 mark-websrv sshd[443]: Accepted password for wiker from 172.20.0.1 port 34560 ssh2
+Nov 26 02:12:58 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user wiker by (uid=0)
+Nov 26 02:12:58 mark-websrv systemd-logind[149]: New session 96803 of user wiker.
+Nov 26 02:12:58 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wiker by (uid=0)
+Nov 26 02:16:01 mark-websrv CRON[511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 02:16:01 mark-websrv CRON[511]: pam_unix(cron:session): session closed for user root

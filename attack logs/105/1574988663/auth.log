@@ -1,0 +1,9 @@
+Nov 29 00:51:03 mark-websrv sshd[460]: Accepted password for wenokia from 172.20.0.1 port 56980 ssh2
+Nov 29 00:51:03 mark-websrv sshd[460]: pam_unix(sshd:session): session opened for user wenokia by (uid=0)
+Nov 29 00:51:03 mark-websrv systemd-logind[161]: New session 104828 of user wenokia.
+Nov 29 00:51:03 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wenokia by (uid=0)
+Nov 29 00:59:25 mark-websrv sshd[511]: Received disconnect from 172.20.0.1 port 56980:11:
+Nov 29 00:59:25 mark-websrv sshd[511]: Disconnected from user wenokia 172.20.0.1 port 56980
+Nov 29 00:59:25 mark-websrv systemd-logind[161]: Removed session 104828.
+Nov 29 00:59:25 mark-websrv sshd[460]: pam_unix(sshd:session): session closed for user wenokia
+Nov 29 00:59:25 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user wenokia

@@ -1,0 +1,11 @@
+Nov 30 05:52:29 mark-websrv sshd[443]: Accepted password for hoyez from 172.20.0.1 port 40414 ssh2
+Nov 30 05:52:29 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user hoyez by (uid=0)
+Nov 30 05:52:29 mark-websrv systemd-logind[154]: New session 107926 of user hoyez.
+Nov 30 05:52:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hoyez by (uid=0)
+Nov 30 06:00:03 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 40414:11:
+Nov 30 06:00:03 mark-websrv sshd[494]: Disconnected from user hoyez 172.20.0.1 port 40414
+Nov 30 06:00:03 mark-websrv systemd-logind[154]: Removed session 107926.
+Nov 30 06:00:03 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user hoyez
+Nov 30 06:00:03 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user hoyez
+Nov 30 06:12:01 mark-websrv CRON[518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 06:12:10 mark-websrv CRON[518]: pam_unix(cron:session): session closed for user root

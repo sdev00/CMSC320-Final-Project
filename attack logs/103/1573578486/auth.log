@@ -1,0 +1,11 @@
+Nov 12 17:08:06 mark-websrv sshd[439]: Accepted password for jking from 172.20.0.1 port 37130 ssh2
+Nov 12 17:08:06 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user jking by (uid=0)
+Nov 12 17:08:06 mark-websrv systemd-logind[165]: New session 59522 of user jking.
+Nov 12 17:08:06 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user jking by (uid=0)
+Nov 12 17:16:01 mark-websrv CRON[510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 17:16:01 mark-websrv CRON[510]: pam_unix(cron:session): session closed for user root
+Nov 12 17:19:36 mark-websrv sshd[490]: Received disconnect from 172.20.0.1 port 37130:11:
+Nov 12 17:19:36 mark-websrv sshd[490]: Disconnected from user jking 172.20.0.1 port 37130
+Nov 12 17:19:36 mark-websrv sshd[439]: pam_unix(sshd:session): session closed for user jking
+Nov 12 17:19:36 mark-websrv systemd-logind[165]: Removed session 59522.
+Nov 12 17:19:36 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user jking

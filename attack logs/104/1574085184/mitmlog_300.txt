@@ -1,0 +1,24 @@
+2019-11-18 01:00:57.140 - [Info] MITM Version: 1.26
+2019-11-18 01:00:57.148 - [Info] Auto Access Enabled: true
+2019-11-18 01:00:57.148 - [Debug] [Init] Auto Access Barrier: true
+2019-11-18 01:00:57.172 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-18 01:37:32.499 - [Debug] [Connection] Attacker connected: 193.188.22.229 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-11-18 01:37:32.582 - [Debug] [Connection] Client error on ssh server
+2019-11-18 01:37:32.584 - [Debug] [Connection] Attacker closed the connection
+2019-11-18 02:22:25.802 - [Debug] [Connection] Attacker connected: 193.188.22.229 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-11-18 02:22:25.883 - [Debug] [Connection] Client error on ssh server
+2019-11-18 02:22:25.884 - [Debug] [Connection] Attacker closed the connection
+2019-11-18 08:53:03.947 - [Debug] [Connection] Attacker connected: 159.203.177.49 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-18 08:53:04.102 - [Debug] [Auth] Attacker 159.203.177.49 trying to authenticate with "password"
+2019-11-18 08:53:04.104 - [Debug] [Auto Access] Attacker: 159.203.177.49, Threshold: 1, Attempts: 1
+2019-11-18 08:53:04.104 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-18 08:53:04.105 - [Debug] [Auto Access] Adding the following credentials: "root:Broccoli2017"
+2019-11-18 08:53:04.388 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-18 08:53:04.388 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-18 08:53:04.475 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-18 08:53:04.557 - [Debug] [Connection] Attacker connected: 159.203.177.49 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-18 08:53:04.708 - [Debug] [Auth] Attacker 159.203.177.49 trying to authenticate with "password"
+2019-11-18 08:53:04.710 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-18 08:53:04.712 - [Debug] [Auth] Attacker: 159.203.177.49 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-18 08:53:04.777 - [Debug] [Connection] Attacker closed the connection
+2019-11-18 08:53:04.798 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

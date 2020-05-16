@@ -1,0 +1,4 @@
+Nov 14 00:51:11 mark-websrv sshd[443]: Accepted password for sanjuana from 172.20.0.1 port 53636 ssh2
+Nov 14 00:51:11 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user sanjuana by (uid=0)
+Nov 14 00:51:11 mark-websrv systemd-logind[161]: New session 63504 of user sanjuana.
+Nov 14 00:51:11 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user sanjuana by (uid=0)

@@ -1,0 +1,43 @@
+2019-12-03 11:02:56.470 - [Info] MITM Version: 1.26
+2019-12-03 11:02:56.477 - [Info] Auto Access Enabled: true
+2019-12-03 11:02:56.478 - [Debug] [Init] Auto Access Barrier: true
+2019-12-03 11:02:56.502 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-12-03 11:03:05.154 - [Debug] [Connection] Attacker connected: 50.115.168.10 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-03 11:03:05.245 - [Debug] [Connection] Attacker closed the connection
+2019-12-03 11:36:28.107 - [Debug] [Connection] Attacker connected: 159.89.123.197 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-03 11:36:28.128 - [Debug] [Connection] Attacker closed the connection
+2019-12-03 12:27:07.420 - [Debug] [Connection] Attacker connected: 86.126.119.218 | Client Identification: SSH-2.0-PuTTY_Release_0.71
+2019-12-03 12:27:09.407 - [Debug] [Auth] Attacker 86.126.119.218 trying to authenticate with "none"
+2019-12-03 12:27:09.408 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-12-03 12:27:10.771 - [Debug] [Auth] Attacker 86.126.119.218 trying to authenticate with "password"
+2019-12-03 12:27:10.774 - [Debug] [Auto Access] Attacker: 86.126.119.218, Threshold: 1, Attempts: 1
+2019-12-03 12:27:10.774 - [Debug] [Auto Access] Compromising the honeypot
+2019-12-03 12:27:10.774 - [Debug] [Auto Access] Adding the following credentials: "ts3:ts3"
+2019-12-03 12:27:11.305 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-03 12:27:11.306 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-12-03 12:27:11.390 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-03 12:27:13.010 - [Debug] [SHELL] Opened shell for attacker
+2019-12-03 12:27:14.746 - [Debug] [SHELL] Attacker Keystroke: .
+2019-12-03 12:27:14.814 - [Debug] [SHELL] Attacker Keystroke: /
+2019-12-03 12:27:14.990 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-03 12:27:14.994 - [Debug] [SHELL] line from reader: ./
+2019-12-03 12:27:14.994 - [Debug] [SHELL] Keystroke buffer: 46,47,13
+2019-12-03 12:27:15.126 - [Debug] [SHELL] Attacker Keystroke: n
+2019-12-03 12:27:15.286 - [Debug] [SHELL] Attacker Keystroke: p
+2019-12-03 12:27:15.460 - [Debug] [SHELL] Attacker Keystroke: r
+2019-12-03 12:27:15.561 - [Debug] [SHELL] Attacker Keystroke: o
+2019-12-03 12:27:15.625 - [Debug] [SHELL] Attacker Keystroke: [TAB]
+2019-12-03 12:27:15.778 - [Debug] [SHELL] Attacker Keystroke: \
+2019-12-03 12:27:15.780 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-03 12:27:15.781 - [Debug] [SHELL] line from reader: npro	\
+2019-12-03 12:27:15.782 - [Debug] [SHELL] Keystroke buffer: 110,112,114,111,9,92,13
+2019-12-03 12:27:16.749 - [Debug] [SHELL] Attacker Keystroke: [ETX]
+2019-12-03 12:27:16.873 - [Debug] [SHELL] Attacker Keystroke: [ESC][A
+2019-12-03 12:27:17.135 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2019-12-03 12:27:17.361 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-03 12:27:17.362 - [Debug] [SHELL] line from reader: npro	
+2019-12-03 12:27:17.363 - [Debug] [SHELL] Keystroke buffer: 3,27,91,65,127,13
+2019-12-03 12:27:20.456 - [Debug] [Connection] Attacker closed connection
+2019-12-03 12:27:20.485 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-03 12:27:20.486 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-12-03 12:27:20.489 - [Debug] [SHELL] Honeypot ended shell

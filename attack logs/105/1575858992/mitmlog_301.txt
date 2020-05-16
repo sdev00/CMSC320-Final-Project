@@ -1,0 +1,23 @@
+2019-12-08 20:56:54.564 - [Info] MITM Version: 1.26
+2019-12-08 20:56:54.570 - [Info] Auto Access Enabled: true
+2019-12-08 20:56:54.570 - [Debug] [Init] Auto Access Barrier: true
+2019-12-08 20:56:54.595 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-12-08 21:11:11.883 - [Debug] [Connection] Attacker connected: 185.100.87.250 | Client Identification: SSH-2.0-SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2
+2019-12-08 21:11:13.999 - [Debug] [Connection] Attacker closed the connection
+2019-12-08 21:36:29.879 - [Debug] [Connection] Attacker connected: 77.45.174.25 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-12-08 21:36:32.500 - [Debug] [Auth] Attacker 77.45.174.25 trying to authenticate with "password"
+2019-12-08 21:36:32.501 - [Debug] [Auto Access] Attacker: 77.45.174.25, Threshold: 1, Attempts: 1
+2019-12-08 21:36:32.501 - [Debug] [Auto Access] Compromising the honeypot
+2019-12-08 21:36:32.501 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2019-12-08 21:36:32.640 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-08 21:36:32.640 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-12-08 21:36:32.681 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-08 21:36:33.400 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2019-12-08 21:36:36.744 - [Debug] [Connection] Attacker closed connection
+2019-12-08 21:36:36.764 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-08 21:36:36.765 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-12-08 21:36:36.925 - [Debug] [Connection] Attacker connected: 77.45.174.25 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-12-08 21:36:39.385 - [Debug] [Auth] Attacker 77.45.174.25 trying to authenticate with "password"
+2019-12-08 21:36:39.386 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-12-08 21:36:39.387 - [Debug] [Auth] Attacker: 77.45.174.25 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-08 21:36:39.811 - [Debug] [Connection] Attacker closed the connection

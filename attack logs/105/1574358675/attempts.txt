@@ -1,0 +1,3 @@
+2019-11-21 12:03:34.783;138.197.98.251;password;tsukamoto;tsukamoto
+2019-11-21 12:51:15.049;157.245.95.69;password;shedd;shedd
+2019-11-21 12:51:15.599;157.245.95.69;password;nproc;nproc

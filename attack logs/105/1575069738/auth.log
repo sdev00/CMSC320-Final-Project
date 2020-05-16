@@ -1,0 +1,4 @@
+Nov 29 23:22:18 mark-websrv sshd[447]: Accepted password for denno from 172.20.0.1 port 58596 ssh2
+Nov 29 23:22:18 mark-websrv sshd[447]: pam_unix(sshd:session): session opened for user denno by (uid=0)
+Nov 29 23:22:18 mark-websrv systemd-logind[160]: New session 107427 of user denno.
+Nov 29 23:22:18 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user denno by (uid=0)

@@ -1,0 +1,4 @@
+Nov 15 01:54:25 mark-websrv sshd[443]: Accepted password for splaver from 172.20.0.1 port 45592 ssh2
+Nov 15 01:54:25 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user splaver by (uid=0)
+Nov 15 01:54:25 mark-websrv systemd-logind[150]: New session 66532 of user splaver.
+Nov 15 01:54:26 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user splaver by (uid=0)

@@ -1,0 +1,11 @@
+Nov 21 00:57:30 mark-websrv sshd[494]: Accepted password for dou from 172.20.0.1 port 56704 ssh2
+Nov 21 00:57:30 mark-websrv sshd[494]: pam_unix(sshd:session): session opened for user dou by (uid=0)
+Nov 21 00:57:30 mark-websrv systemd-logind[150]: New session 83037 of user dou.
+Nov 21 00:57:30 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dou by (uid=0)
+Nov 21 01:00:02 mark-websrv sshd[545]: Received disconnect from 172.20.0.1 port 56704:11:
+Nov 21 01:00:02 mark-websrv sshd[545]: Disconnected from user dou 172.20.0.1 port 56704
+Nov 21 01:00:02 mark-websrv sshd[494]: pam_unix(sshd:session): session closed for user dou
+Nov 21 01:00:02 mark-websrv systemd-logind[150]: Removed session 83037.
+Nov 21 01:00:02 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user dou
+Nov 21 01:16:01 mark-websrv CRON[568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 01:16:01 mark-websrv CRON[568]: pam_unix(cron:session): session closed for user root

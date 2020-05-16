@@ -1,0 +1,6 @@
+Nov 29 19:57:45 mark-websrv sshd[473]: Accepted password for admin from 172.20.0.1 port 39556 ssh2
+Nov 29 19:57:45 mark-websrv sshd[473]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Nov 29 19:57:45 mark-websrv systemd-logind[146]: New session 107021 of user admin.
+Nov 29 19:57:46 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user admin by (uid=0)
+Nov 29 20:16:01 mark-websrv CRON[547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 29 20:16:01 mark-websrv CRON[547]: pam_unix(cron:session): session closed for user root

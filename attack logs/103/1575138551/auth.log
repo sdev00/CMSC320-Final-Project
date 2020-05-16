@@ -1,0 +1,10 @@
+Nov 30 18:29:11 mark-websrv sshd[477]: Accepted password for backup from 172.20.0.1 port 41408 ssh2
+Nov 30 18:29:11 mark-websrv sshd[477]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Nov 30 18:29:11 mark-websrv systemd-logind[160]: New session 108506 of user backup.
+Nov 30 18:29:11 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user backup by (uid=0)
+Nov 30 18:29:12 mark-websrv nologin: Attempted login by backup on UNKNOWN
+Nov 30 18:29:12 mark-websrv sshd[528]: Received disconnect from 172.20.0.1 port 41408:11:
+Nov 30 18:29:12 mark-websrv sshd[528]: Disconnected from user backup 172.20.0.1 port 41408
+Nov 30 18:29:12 mark-websrv sshd[477]: pam_unix(sshd:session): session closed for user backup
+Nov 30 18:29:15 mark-websrv systemd-logind[160]: Removed session 108506.
+Nov 30 18:29:15 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user backup

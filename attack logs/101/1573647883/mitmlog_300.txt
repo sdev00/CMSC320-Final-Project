@@ -1,0 +1,18 @@
+2019-11-13 07:03:15.289 - [Info] MITM Version: 1.26
+2019-11-13 07:03:15.296 - [Info] Auto Access Enabled: true
+2019-11-13 07:03:15.296 - [Debug] [Init] Auto Access Barrier: true
+2019-11-13 07:03:15.320 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-13 07:24:41.448 - [Debug] [Connection] Attacker connected: 27.148.190.170 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-13 07:24:43.185 - [Debug] [Auth] Attacker 27.148.190.170 trying to authenticate with "password"
+2019-11-13 07:24:43.188 - [Debug] [Auto Access] Attacker: 27.148.190.170, Threshold: 1, Attempts: 1
+2019-11-13 07:24:43.189 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-13 07:24:43.189 - [Debug] [Auto Access] Adding the following credentials: "root:pearljam"
+2019-11-13 07:24:43.480 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-13 07:24:43.494 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-13 07:24:43.581 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-13 07:24:44.677 - [Debug] [Connection] Attacker connected: 27.148.190.170 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-13 07:24:47.609 - [Debug] [Auth] Attacker 27.148.190.170 trying to authenticate with "password"
+2019-11-13 07:24:47.610 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-13 07:24:47.611 - [Debug] [Auth] Attacker: 27.148.190.170 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-13 07:24:48.173 - [Debug] [Connection] Attacker closed the connection
+2019-11-13 07:24:48.729 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

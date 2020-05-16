@@ -1,0 +1,4 @@
+[2019-12-03 14:43:54] INFO  WEBrick 1.5.0
+[2019-12-03 14:43:54] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-03 14:43:54] INFO  WEBrick::HTTPServer#start: pid=386 port=80
+[2019-12-03 15:33:40] ERROR bad URI `À\x14À'.

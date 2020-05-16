@@ -1,0 +1,4 @@
+Nov 27 09:27:25 mark-websrv sshd[484]: Accepted password for barriere from 172.20.0.1 port 36274 ssh2
+Nov 27 09:27:25 mark-websrv sshd[484]: pam_unix(sshd:session): session opened for user barriere by (uid=0)
+Nov 27 09:27:25 mark-websrv systemd-logind[150]: New session 100360 of user barriere.
+Nov 27 09:27:25 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user barriere by (uid=0)

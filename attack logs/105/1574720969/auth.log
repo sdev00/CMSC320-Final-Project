@@ -1,0 +1,4 @@
+Nov 25 22:29:29 mark-websrv sshd[438]: Accepted password for lemarchand from 172.20.0.1 port 53002 ssh2
+Nov 25 22:29:29 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user lemarchand by (uid=0)
+Nov 25 22:29:30 mark-websrv systemd-logind[153]: New session 96374 of user lemarchand.
+Nov 25 22:29:30 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lemarchand by (uid=0)

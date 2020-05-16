@@ -1,0 +1,5 @@
+2019-11-15 23:50:29.696;59.152.237.118;password;admin;mouse
+2019-11-15 23:50:37.864;106.12.81.233;password;godbout;godbout
+2019-11-16 00:12:40.436;129.204.76.34;password;root;abc!QAZxsw2
+2019-11-16 00:34:32.961;59.152.237.118;password;mukai;mukai
+2019-11-16 00:34:35.986;59.152.237.118;password;nproc;nproc

@@ -1,0 +1,4 @@
+Nov 24 01:37:36 mark-websrv sshd[444]: Accepted password for tyrbas from 172.20.0.1 port 40528 ssh2
+Nov 24 01:37:36 mark-websrv sshd[444]: pam_unix(sshd:session): session opened for user tyrbas by (uid=0)
+Nov 24 01:37:36 mark-websrv systemd-logind[164]: New session 91439 of user tyrbas.
+Nov 24 01:37:36 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user tyrbas by (uid=0)

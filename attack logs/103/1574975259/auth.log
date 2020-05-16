@@ -1,0 +1,12 @@
+Nov 28 21:07:39 mark-websrv sshd[443]: Accepted password for uucp from 172.20.0.1 port 38126 ssh2
+Nov 28 21:07:39 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user uucp by (uid=0)
+Nov 28 21:07:39 mark-websrv systemd-logind[149]: New session 104411 of user uucp.
+Nov 28 21:07:39 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user uucp by (uid=0)
+Nov 28 21:07:40 mark-websrv nologin: Attempted login by uucp on UNKNOWN
+Nov 28 21:07:40 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 38126:11:
+Nov 28 21:07:40 mark-websrv sshd[494]: Disconnected from user uucp 172.20.0.1 port 38126
+Nov 28 21:07:40 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user uucp
+Nov 28 21:07:43 mark-websrv systemd-logind[149]: Removed session 104411.
+Nov 28 21:07:43 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user uucp
+Nov 28 21:16:01 mark-websrv CRON[509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 21:16:01 mark-websrv CRON[509]: pam_unix(cron:session): session closed for user root

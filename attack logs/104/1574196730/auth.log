@@ -1,0 +1,4 @@
+Nov 19 20:52:10 mark-websrv sshd[440]: Accepted password for web from 172.20.0.1 port 32842 ssh2
+Nov 19 20:52:10 mark-websrv sshd[440]: pam_unix(sshd:session): session opened for user web by (uid=0)
+Nov 19 20:52:10 mark-websrv systemd-logind[156]: New session 79716 of user web.
+Nov 19 20:52:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user web by (uid=0)

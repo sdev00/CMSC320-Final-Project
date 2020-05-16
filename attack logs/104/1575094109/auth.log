@@ -1,0 +1,8 @@
+Nov 30 06:08:29 mark-websrv sshd[445]: Accepted password for igibson from 172.20.0.1 port 47490 ssh2
+Nov 30 06:08:29 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user igibson by (uid=0)
+Nov 30 06:08:29 mark-websrv systemd-logind[158]: New session 107935 of user igibson.
+Nov 30 06:08:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user igibson by (uid=0)
+Nov 30 06:12:01 mark-websrv CRON[511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 06:12:08 mark-websrv CRON[511]: pam_unix(cron:session): session closed for user root
+Nov 30 06:16:01 mark-websrv CRON[656]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 06:16:01 mark-websrv CRON[656]: pam_unix(cron:session): session closed for user root

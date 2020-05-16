@@ -1,0 +1,22 @@
+2019-11-20 08:20:29.536 - [Info] MITM Version: 1.26
+2019-11-20 08:20:29.547 - [Info] Auto Access Enabled: true
+2019-11-20 08:20:29.547 - [Debug] [Init] Auto Access Barrier: true
+2019-11-20 08:20:29.585 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-20 08:30:07.442 - [Debug] [Connection] Attacker connected: 114.67.79.2 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 08:30:09.039 - [Debug] [Auth] Attacker 114.67.79.2 trying to authenticate with "password"
+2019-11-20 08:30:09.040 - [Debug] [Auto Access] Attacker: 114.67.79.2, Threshold: 1, Attempts: 1
+2019-11-20 08:30:09.040 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-20 08:30:09.040 - [Debug] [Auto Access] Adding the following credentials: "ftpuser:admin555"
+2019-11-20 08:30:09.295 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-20 08:30:09.295 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-20 08:30:09.334 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-20 08:30:10.338 - [Debug] [Connection] Attacker connected: 114.67.79.2 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 08:30:12.413 - [Debug] [Auth] Attacker 114.67.79.2 trying to authenticate with "password"
+2019-11-20 08:30:12.414 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-20 08:30:12.415 - [Debug] [Auth] Attacker: 114.67.79.2 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-20 08:30:13.437 - [Debug] [Connection] Attacker closed the connection
+2019-11-20 08:30:13.952 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-20 08:34:02.609 - [Debug] [Connection] Client error on ssh server
+2019-11-20 08:34:02.611 - [Debug] [Connection] Attacker closed connection
+2019-11-20 08:34:02.631 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-20 08:34:02.632 - [Debug] [LXC] Container's OpenSSH server closed connection

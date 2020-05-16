@@ -1,0 +1,4 @@
+Nov 16 18:50:20 mark-websrv sshd[438]: Accepted password for quest from 172.20.0.1 port 40996 ssh2
+Nov 16 18:50:20 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user quest by (uid=0)
+Nov 16 18:50:20 mark-websrv systemd-logind[150]: New session 71309 of user quest.
+Nov 16 18:50:20 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user quest by (uid=0)

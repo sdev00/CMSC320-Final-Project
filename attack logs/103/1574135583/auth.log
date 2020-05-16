@@ -1,0 +1,4 @@
+Nov 19 03:53:03 mark-websrv sshd[505]: Accepted password for perconte from 172.20.0.1 port 53324 ssh2
+Nov 19 03:53:03 mark-websrv sshd[505]: pam_unix(sshd:session): session opened for user perconte by (uid=0)
+Nov 19 03:53:03 mark-websrv systemd-logind[150]: New session 77810 of user perconte.
+Nov 19 03:53:03 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user perconte by (uid=0)

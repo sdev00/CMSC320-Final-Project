@@ -1,0 +1,4 @@
+Nov 29 07:35:52 mark-websrv sshd[492]: Accepted password for wollan from 172.20.0.1 port 57304 ssh2
+Nov 29 07:35:52 mark-websrv sshd[492]: pam_unix(sshd:session): session opened for user wollan by (uid=0)
+Nov 29 07:35:52 mark-websrv systemd-logind[162]: New session 105587 of user wollan.
+Nov 29 07:35:52 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wollan by (uid=0)

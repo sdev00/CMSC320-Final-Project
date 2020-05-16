@@ -1,0 +1,4 @@
+Nov 21 05:38:51 mark-websrv sshd[444]: Accepted password for kattie from 172.20.0.1 port 57156 ssh2
+Nov 21 05:38:51 mark-websrv sshd[444]: pam_unix(sshd:session): session opened for user kattie by (uid=0)
+Nov 21 05:38:51 mark-websrv systemd-logind[154]: New session 83598 of user kattie.
+Nov 21 05:38:51 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kattie by (uid=0)

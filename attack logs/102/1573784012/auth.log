@@ -1,0 +1,6 @@
+Nov 15 02:13:32 mark-websrv sshd[464]: Accepted password for computer_club from 172.20.0.1 port 57048 ssh2
+Nov 15 02:13:32 mark-websrv sshd[464]: pam_unix(sshd:session): session opened for user computer_club by (uid=0)
+Nov 15 02:13:32 mark-websrv systemd-logind[164]: New session 66564 of user computer_club.
+Nov 15 02:13:32 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user computer_club by (uid=0)
+Nov 15 02:16:01 mark-websrv CRON[541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 02:16:01 mark-websrv CRON[541]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,11 @@
+Nov 28 02:06:59 mark-websrv sshd[473]: Accepted password for bounpone from 172.20.0.1 port 55840 ssh2
+Nov 28 02:06:59 mark-websrv sshd[473]: pam_unix(sshd:session): session opened for user bounpone by (uid=0)
+Nov 28 02:06:59 mark-websrv systemd-logind[152]: New session 102253 of user bounpone.
+Nov 28 02:06:59 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user bounpone by (uid=0)
+Nov 28 02:09:42 mark-websrv sshd[524]: Received disconnect from 172.20.0.1 port 55840:11:
+Nov 28 02:09:42 mark-websrv sshd[524]: Disconnected from user bounpone 172.20.0.1 port 55840
+Nov 28 02:09:42 mark-websrv sshd[473]: pam_unix(sshd:session): session closed for user bounpone
+Nov 28 02:09:42 mark-websrv systemd-logind[152]: Removed session 102253.
+Nov 28 02:09:42 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user bounpone
+Nov 28 02:16:02 mark-websrv CRON[544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 02:16:02 mark-websrv CRON[544]: pam_unix(cron:session): session closed for user root

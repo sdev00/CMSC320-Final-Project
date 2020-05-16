@@ -1,0 +1,9 @@
+Nov 17 14:49:31 mark-websrv sshd[483]: Accepted password for frances from 172.20.0.1 port 42304 ssh2
+Nov 17 14:49:31 mark-websrv sshd[483]: pam_unix(sshd:session): session opened for user frances by (uid=0)
+Nov 17 14:49:31 mark-websrv systemd-logind[149]: New session 73659 of user frances.
+Nov 17 14:49:31 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user frances by (uid=0)
+Nov 17 14:52:21 mark-websrv sshd[534]: Received disconnect from 172.20.0.1 port 42304:11:
+Nov 17 14:52:21 mark-websrv sshd[534]: Disconnected from user frances 172.20.0.1 port 42304
+Nov 17 14:52:21 mark-websrv sshd[483]: pam_unix(sshd:session): session closed for user frances
+Nov 17 14:52:21 mark-websrv systemd-logind[149]: Removed session 73659.
+Nov 17 14:52:21 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user frances

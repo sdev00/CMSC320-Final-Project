@@ -1,0 +1,4 @@
+Nov 14 03:39:22 mark-websrv sshd[438]: Accepted password for webmaster from 172.20.0.1 port 42610 ssh2
+Nov 14 03:39:22 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user webmaster by (uid=0)
+Nov 14 03:39:22 mark-websrv systemd-logind[156]: New session 63850 of user webmaster.
+Nov 14 03:39:22 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user webmaster by (uid=0)

@@ -1,0 +1,9 @@
+Nov 17 16:48:19 mark-websrv sshd[491]: Accepted password for steam from 172.20.0.1 port 51964 ssh2
+Nov 17 16:48:19 mark-websrv sshd[491]: pam_unix(sshd:session): session opened for user steam by (uid=0)
+Nov 17 16:48:19 mark-websrv systemd-logind[162]: New session 73887 of user steam.
+Nov 17 16:48:19 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user steam by (uid=0)
+Nov 17 16:48:21 mark-websrv sshd[542]: Received disconnect from 172.20.0.1 port 51964:11:
+Nov 17 16:48:21 mark-websrv sshd[542]: Disconnected from user steam 172.20.0.1 port 51964
+Nov 17 16:48:21 mark-websrv sshd[491]: pam_unix(sshd:session): session closed for user steam
+Nov 17 16:48:25 mark-websrv systemd-logind[162]: Removed session 73887.
+Nov 17 16:48:25 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user steam

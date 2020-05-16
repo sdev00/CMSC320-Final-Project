@@ -1,0 +1,4 @@
+Nov 21 01:17:20 mark-websrv sshd[495]: Accepted password for moule from 172.20.0.1 port 35536 ssh2
+Nov 21 01:17:20 mark-websrv sshd[495]: pam_unix(sshd:session): session opened for user moule by (uid=0)
+Nov 21 01:17:20 mark-websrv systemd-logind[146]: New session 83080 of user moule.
+Nov 21 01:17:20 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user moule by (uid=0)

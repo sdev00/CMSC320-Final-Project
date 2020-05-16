@@ -1,0 +1,6 @@
+Nov 16 03:13:05 mark-websrv sshd[438]: Accepted password for rpm from 172.20.0.1 port 48192 ssh2
+Nov 16 03:13:05 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user rpm by (uid=0)
+Nov 16 03:13:05 mark-websrv systemd-logind[164]: New session 69461 of user rpm.
+Nov 16 03:13:06 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user rpm by (uid=0)
+Nov 16 03:16:01 mark-websrv CRON[506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 03:16:01 mark-websrv CRON[506]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,9 @@
+Nov 14 14:51:45 mark-websrv sshd[443]: Accepted password for suyud from 172.20.0.1 port 55764 ssh2
+Nov 14 14:51:45 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user suyud by (uid=0)
+Nov 14 14:51:46 mark-websrv systemd-logind[148]: New session 65242 of user suyud.
+Nov 14 14:51:46 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user suyud by (uid=0)
+Nov 14 14:54:30 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 55764:11:
+Nov 14 14:54:30 mark-websrv sshd[494]: Disconnected from user suyud 172.20.0.1 port 55764
+Nov 14 14:54:30 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user suyud
+Nov 14 14:54:30 mark-websrv systemd-logind[148]: Removed session 65242.
+Nov 14 14:54:30 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user suyud

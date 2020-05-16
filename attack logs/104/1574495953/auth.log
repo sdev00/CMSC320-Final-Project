@@ -1,0 +1,11 @@
+Nov 23 07:59:13 mark-websrv sshd[438]: Accepted password for dorothy from 172.20.0.1 port 39652 ssh2
+Nov 23 07:59:13 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user dorothy by (uid=0)
+Nov 23 07:59:13 mark-websrv systemd-logind[158]: New session 89441 of user dorothy.
+Nov 23 07:59:13 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dorothy by (uid=0)
+Nov 23 08:05:19 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 39652:11:
+Nov 23 08:05:19 mark-websrv sshd[489]: Disconnected from user dorothy 172.20.0.1 port 39652
+Nov 23 08:05:19 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user dorothy
+Nov 23 08:05:19 mark-websrv systemd-logind[158]: Removed session 89441.
+Nov 23 08:05:19 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user dorothy
+Nov 23 08:16:01 mark-websrv CRON[543]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 23 08:16:01 mark-websrv CRON[543]: pam_unix(cron:session): session closed for user root

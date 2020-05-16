@@ -1,0 +1,9 @@
+Nov 22 12:34:09 mark-websrv sshd[438]: Accepted password for masika from 172.20.0.1 port 49910 ssh2
+Nov 22 12:34:09 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user masika by (uid=0)
+Nov 22 12:34:09 mark-websrv systemd-logind[151]: New session 87199 of user masika.
+Nov 22 12:34:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user masika by (uid=0)
+Nov 22 12:36:02 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 49910:11:
+Nov 22 12:36:02 mark-websrv sshd[489]: Disconnected from user masika 172.20.0.1 port 49910
+Nov 22 12:36:02 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user masika
+Nov 22 12:36:03 mark-websrv systemd-logind[151]: Removed session 87199.
+Nov 22 12:36:03 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user masika

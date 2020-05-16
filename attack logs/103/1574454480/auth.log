@@ -1,0 +1,4 @@
+Nov 22 20:28:00 mark-websrv sshd[480]: Accepted password for dincer from 172.20.0.1 port 60158 ssh2
+Nov 22 20:28:00 mark-websrv sshd[480]: pam_unix(sshd:session): session opened for user dincer by (uid=0)
+Nov 22 20:28:00 mark-websrv systemd-logind[150]: New session 88134 of user dincer.
+Nov 22 20:28:00 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dincer by (uid=0)

@@ -1,0 +1,9 @@
+Dec  4 22:16:47 mark-websrv sshd[526]: Accepted password for ts3 from 172.20.0.1 port 43398 ssh2
+Dec  4 22:16:47 mark-websrv sshd[526]: pam_unix(sshd:session): session opened for user ts3 by (uid=0)
+Dec  4 22:16:47 mark-websrv systemd-logind[150]: New session 112372 of user ts3.
+Dec  4 22:16:48 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ts3 by (uid=0)
+Dec  4 22:16:51 mark-websrv sshd[577]: Received disconnect from 172.20.0.1 port 43398:11:
+Dec  4 22:16:51 mark-websrv sshd[577]: Disconnected from user ts3 172.20.0.1 port 43398
+Dec  4 22:16:51 mark-websrv sshd[526]: pam_unix(sshd:session): session closed for user ts3
+Dec  4 22:16:51 mark-websrv systemd-logind[150]: Removed session 112372.
+Dec  4 22:16:51 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user ts3

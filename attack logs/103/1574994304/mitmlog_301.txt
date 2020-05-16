@@ -1,0 +1,18 @@
+2019-11-28 20:51:14.950 - [Info] MITM Version: 1.26
+2019-11-28 20:51:14.956 - [Info] Auto Access Enabled: true
+2019-11-28 20:51:14.957 - [Debug] [Init] Auto Access Barrier: true
+2019-11-28 20:51:14.979 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-28 21:25:02.151 - [Debug] [Connection] Attacker connected: 148.70.33.136 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-28 21:25:03.965 - [Debug] [Auth] Attacker 148.70.33.136 trying to authenticate with "password"
+2019-11-28 21:25:03.967 - [Debug] [Auto Access] Attacker: 148.70.33.136, Threshold: 1, Attempts: 1
+2019-11-28 21:25:03.968 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-28 21:25:03.968 - [Debug] [Auto Access] Adding the following credentials: "mysql:peraka"
+2019-11-28 21:25:04.418 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 21:25:04.418 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-28 21:25:04.508 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 21:25:05.675 - [Debug] [Connection] Attacker connected: 148.70.33.136 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-28 21:25:07.470 - [Debug] [Auth] Attacker 148.70.33.136 trying to authenticate with "password"
+2019-11-28 21:25:07.471 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-28 21:25:07.473 - [Debug] [Auth] Attacker: 148.70.33.136 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-28 21:25:08.074 - [Debug] [Connection] Attacker closed the connection
+2019-11-28 21:25:08.647 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

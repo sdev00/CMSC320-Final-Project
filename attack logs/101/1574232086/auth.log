@@ -1,0 +1,4 @@
+Nov 20 06:41:25 mark-websrv sshd[445]: Accepted password for hmugo from 172.20.0.1 port 45890 ssh2
+Nov 20 06:41:26 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user hmugo by (uid=0)
+Nov 20 06:41:26 mark-websrv systemd-logind[148]: New session 80872 of user hmugo.
+Nov 20 06:41:26 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hmugo by (uid=0)

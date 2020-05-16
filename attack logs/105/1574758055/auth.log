@@ -1,0 +1,10 @@
+Nov 26 08:47:35 mark-websrv sshd[518]: Accepted password for uucp from 172.20.0.1 port 53554 ssh2
+Nov 26 08:47:35 mark-websrv sshd[518]: pam_unix(sshd:session): session opened for user uucp by (uid=0)
+Nov 26 08:47:35 mark-websrv systemd-logind[151]: New session 97544 of user uucp.
+Nov 26 08:47:35 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user uucp by (uid=0)
+Nov 26 08:47:38 mark-websrv nologin: Attempted login by uucp on UNKNOWN
+Nov 26 08:47:39 mark-websrv sshd[569]: Received disconnect from 172.20.0.1 port 53554:11:
+Nov 26 08:47:39 mark-websrv sshd[569]: Disconnected from user uucp 172.20.0.1 port 53554
+Nov 26 08:47:39 mark-websrv sshd[518]: pam_unix(sshd:session): session closed for user uucp
+Nov 26 08:47:39 mark-websrv systemd-logind[151]: Removed session 97544.
+Nov 26 08:47:39 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user uucp

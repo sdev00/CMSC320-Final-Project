@@ -1,0 +1,4 @@
+Nov 27 18:16:25 mark-websrv sshd[506]: Accepted password for domtrans from 172.20.0.1 port 36704 ssh2
+Nov 27 18:16:25 mark-websrv sshd[506]: pam_unix(sshd:session): session opened for user domtrans by (uid=0)
+Nov 27 18:16:25 mark-websrv systemd-logind[152]: New session 101369 of user domtrans.
+Nov 27 18:16:25 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user domtrans by (uid=0)

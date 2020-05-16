@@ -1,0 +1,9 @@
+Nov 30 11:19:59 mark-websrv sshd[447]: Accepted password for bpoint from 172.20.0.1 port 59542 ssh2
+Nov 30 11:19:59 mark-websrv sshd[447]: pam_unix(sshd:session): session opened for user bpoint by (uid=0)
+Nov 30 11:19:59 mark-websrv systemd-logind[149]: New session 108177 of user bpoint.
+Nov 30 11:19:59 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user bpoint by (uid=0)
+Nov 30 11:36:50 mark-websrv sshd[498]: Received disconnect from 172.20.0.1 port 59542:11:
+Nov 30 11:36:50 mark-websrv sshd[498]: Disconnected from user bpoint 172.20.0.1 port 59542
+Nov 30 11:36:50 mark-websrv sshd[447]: pam_unix(sshd:session): session closed for user bpoint
+Nov 30 11:36:50 mark-websrv systemd-logind[149]: Removed session 108177.
+Nov 30 11:36:50 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user bpoint

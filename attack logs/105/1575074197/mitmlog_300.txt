@@ -1,0 +1,24 @@
+2019-11-29 19:09:44.224 - [Info] MITM Version: 1.26
+2019-11-29 19:09:44.230 - [Info] Auto Access Enabled: true
+2019-11-29 19:09:44.231 - [Debug] [Init] Auto Access Barrier: true
+2019-11-29 19:09:44.254 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-29 19:31:23.097 - [Debug] [Connection] Attacker connected: 71.6.232.6 | Client Identification: SSH-2.0-OpenSSH_6.6.1
+2019-11-29 19:31:32.312 - [Debug] [Connection] Attacker closed the connection
+2019-11-29 19:36:36.825 - [Debug] [Connection] Attacker connected: 109.102.158.14 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 19:36:37.636 - [Debug] [Auth] Attacker 109.102.158.14 trying to authenticate with "password"
+2019-11-29 19:36:37.638 - [Debug] [Auto Access] Attacker: 109.102.158.14, Threshold: 1, Attempts: 1
+2019-11-29 19:36:37.638 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-29 19:36:37.638 - [Debug] [Auto Access] Adding the following credentials: "root:kuo"
+2019-11-29 19:36:37.776 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-29 19:36:37.777 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-29 19:36:37.816 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-29 19:36:38.338 - [Debug] [Connection] Attacker connected: 109.102.158.14 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 19:36:39.145 - [Debug] [Auth] Attacker 109.102.158.14 trying to authenticate with "password"
+2019-11-29 19:36:39.146 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-29 19:36:39.147 - [Debug] [Auth] Attacker: 109.102.158.14 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-29 19:36:39.430 - [Debug] [Connection] Attacker closed the connection
+2019-11-29 19:36:39.669 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-29 19:43:33.300 - [Debug] [Connection] Client error on ssh server
+2019-11-29 19:43:33.301 - [Debug] [Connection] Attacker closed connection
+2019-11-29 19:43:33.312 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-29 19:43:33.313 - [Debug] [LXC] Container's OpenSSH server closed connection

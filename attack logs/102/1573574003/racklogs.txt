@@ -1,0 +1,21 @@
+[2019-11-12 15:52:09] INFO  WEBrick 1.4.2
+[2019-11-12 15:52:09] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-12 15:52:09] INFO  WEBrick::HTTPServer#start: pid=387 port=80
+195.64.162.237 - - [12/Nov/2019:15:53:59 +0000] "GET / HTTP/1.1" 200 1574 0.0649
+42.202.157.208 - - [12/Nov/2019:15:57:06 +0000] "GET / HTTP/1.1" 200 1574 0.0032
+42.202.157.208 - - [12/Nov/2019:15:57:07 +0000] "GET /css/main.css HTTP/1.1" 200 999 0.0031
+42.202.157.208 - - [12/Nov/2019:15:57:10 +0000] "GET /css/normalize.css HTTP/1.1" 200 7719 0.0021
+[2019-11-12 15:57:18] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+[2019-11-12 15:57:18] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:12 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+[2019-11-12 15:57:18] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:13 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+112.74.192.184 - - [12/Nov/2019:16:05:08 +0000] "GET /TP/public/index.php HTTP/1.1" 404 562 0.0097
+112.74.192.184 - - [12/Nov/2019:16:05:09 +0000] "GET / HTTP/1.1" 200 1574 0.0089

@@ -1,0 +1,17 @@
+[2019-11-21 10:59:27] INFO  WEBrick 1.5.0
+[2019-11-21 10:59:27] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-21 10:59:27] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+139.162.174.228 - - [21/Nov/2019:11:03:50 +0000] "GET / HTTP/1.1" 200 1574 0.0892
+97.107.133.187 - - [21/Nov/2019:11:04:04 +0000] "GET / HTTP/1.1" 200 1574 0.0111
+[2019-11-21 11:04:04] ERROR bad Request-Line `Gh0st­\x00\x00\x00à\x00\x00\x00xœKS``˜ÃÀÀÀ\x06ÄŒ@¼Q–\tH\a§\x16•e&§*\x04$&g+\x182”ö°00¬¨rc\x00\x01\x11 ‚\x1F\\`&ƒÇK7†\x19ån\f9•n\f;„\x0F3¬èsch¨^Ï4'J—©‚ã0Ã‘h]&øÎ—SËA4L?2=áÄ’†\v@õ`\fT\x1F®¯]'.
+[2019-11-21 11:04:06] ERROR bad Request-Line `145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA=='.
+[2019-11-21 11:04:07] ERROR bad Request-Line `H\x00\x00\x00tj¨ž#D˜+Êð§»lÅ\x19×¶\x18íJ\x1EnÁùxu[lðE\x1D-jìÔxLÉrÉ\x15\x10uà%†Rtg\x05fv†]%Ì€\fèÏ®\x00µÀfÈDÅ\tô'.
+[2019-11-21 11:04:07] ERROR bad Request-Line `HELP'.
+[2019-11-21 11:04:07] ERROR bad Request-Line `\e„Õ°]ôÄ“Å0ÂXŒÚ±×¬¯n\x1Dá\x1E\x1A3*…·\x1D'±Ék¿ð¼'.
+[2019-11-21 11:04:09] ERROR bad Request-Line `batman'.
+[2019-11-21 11:04:09] ERROR bad Request-Line `\x16\x03\x01\x00t\x01\x00\x00p\x03\x01YF}ö\x7F3Ó¢'O®¶\x041p‡Få¦¢\x18Ñ\v}\fŸO)uþ±Ù\x00\x00\x18À\x14À\x13\x005\x00/À'.
+[2019-11-21 11:04:10] ERROR bad Request-Line `\x01‚\x00\x00\x00\x01,ï:ç‰þH¯¬øÁPq×ÃèSŠÖ:\x17Ù3\x14o)S}»»—bÎ¶\v›¹7>\x01Ïv® E¶DêáêAÄÛî\t¬ûð„)k»c\x18]V…VÅ_\x05T\vtÄ\v¾µw¼M=[1á\x06œýÓg^ã\x01›K×ü>ÿk¯•™ûÛH‹Dˆ`k’õe\x1Cª»{_LP\x15…\x1E\x0EÝÅJ'.
+[2019-11-21 11:04:10] ERROR bad URI `ÿ\x01ÿõÿ'.
+[2019-11-21 11:04:12] ERROR bad Request-Line `A\x00\x00\x00\x03fH»d~Žü”gÒÛüîÿ˜ ±¾T¤šZš ?àòt0\\í®¬X˜ÞJìòÈœlÐœÀà˜\x12çË¡£\x16ñJ©<½Ú`'.
+[2019-11-21 11:04:13] ERROR bad Request-Line `\t\x12;Bo3¢Dý\x01†si=®\x12»Æ\x19ý\x1A:ó\x11É®Ú<0¼8ž\x00\x0FÊNû\x05ÆÞ·<oN\x01¢‡‚õ/Ží*\x1F\x0E·C\f 4]½€PVf\x1A\x11¯õÈ£\x16+b±×'.
+183.87.13.3 - - [21/Nov/2019:11:47:52 +0000] "GET / HTTP/1.1" 200 1574 0.0104

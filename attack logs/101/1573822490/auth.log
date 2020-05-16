@@ -1,0 +1,4 @@
+Nov 15 12:54:50 mark-websrv sshd[444]: Accepted password for gonaksi from 172.20.0.1 port 37918 ssh2
+Nov 15 12:54:50 mark-websrv sshd[444]: pam_unix(sshd:session): session opened for user gonaksi by (uid=0)
+Nov 15 12:54:50 mark-websrv systemd-logind[163]: New session 67816 of user gonaksi.
+Nov 15 12:54:50 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user gonaksi by (uid=0)

@@ -1,0 +1,5 @@
+[2019-11-27 16:11:52] INFO  WEBrick 1.4.2
+[2019-11-27 16:11:52] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-27 16:11:52] INFO  WEBrick::HTTPServer#start: pid=324 port=80
+[2019-11-27 16:13:34] ERROR bad URI `mstshash=Administr'.
+43.255.166.7 - - [27/Nov/2019:16:20:00 +0000] "GET / HTTP/1.1" 200 1574 0.1395

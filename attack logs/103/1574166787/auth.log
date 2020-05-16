@@ -1,0 +1,9 @@
+Nov 19 12:33:07 mark-websrv sshd[438]: Accepted password for server from 172.20.0.1 port 53584 ssh2
+Nov 19 12:33:07 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user server by (uid=0)
+Nov 19 12:33:07 mark-websrv systemd-logind[163]: New session 78764 of user server.
+Nov 19 12:33:08 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user server by (uid=0)
+Nov 19 12:39:52 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 53584:11:
+Nov 19 12:39:52 mark-websrv sshd[489]: Disconnected from user server 172.20.0.1 port 53584
+Nov 19 12:39:52 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user server
+Nov 19 12:39:52 mark-websrv systemd-logind[163]: Removed session 78764.
+Nov 19 12:39:52 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user server

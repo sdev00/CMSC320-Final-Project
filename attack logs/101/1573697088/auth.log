@@ -1,0 +1,6 @@
+Nov 14 02:04:48 mark-websrv sshd[491]: Accepted password for vasconcelos from 172.20.0.1 port 33410 ssh2
+Nov 14 02:04:48 mark-websrv sshd[491]: pam_unix(sshd:session): session opened for user vasconcelos by (uid=0)
+Nov 14 02:04:48 mark-websrv systemd-logind[150]: New session 63643 of user vasconcelos.
+Nov 14 02:04:48 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user vasconcelos by (uid=0)
+Nov 14 02:16:01 mark-websrv CRON[561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 02:16:01 mark-websrv CRON[561]: pam_unix(cron:session): session closed for user root

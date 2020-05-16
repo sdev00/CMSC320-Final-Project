@@ -1,0 +1,4 @@
+Nov 30 07:16:29 mark-websrv sshd[473]: Accepted password for aDmin from 172.20.0.1 port 59232 ssh2
+Nov 30 07:16:29 mark-websrv sshd[473]: pam_unix(sshd:session): session opened for user aDmin by (uid=0)
+Nov 30 07:16:29 mark-websrv systemd-logind[159]: New session 108001 of user aDmin.
+Nov 30 07:16:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user aDmin by (uid=0)

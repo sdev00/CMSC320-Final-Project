@@ -1,0 +1,6 @@
+Nov 13 16:03:17 mark-websrv sshd[445]: Accepted password for chaitanya from 172.20.0.1 port 52350 ssh2
+Nov 13 16:03:17 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user chaitanya by (uid=0)
+Nov 13 16:03:17 mark-websrv systemd-logind[160]: New session 62413 of user chaitanya.
+Nov 13 16:03:17 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user chaitanya by (uid=0)
+Nov 13 16:16:02 mark-websrv CRON[517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 16:16:02 mark-websrv CRON[517]: pam_unix(cron:session): session closed for user root

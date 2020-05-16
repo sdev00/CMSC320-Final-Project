@@ -1,0 +1,22 @@
+2019-11-22 09:33:39.147 - [Info] MITM Version: 1.26
+2019-11-22 09:33:39.154 - [Info] Auto Access Enabled: true
+2019-11-22 09:33:39.154 - [Debug] [Init] Auto Access Barrier: true
+2019-11-22 09:33:39.178 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-22 09:47:00.592 - [Debug] [Connection] Attacker connected: 140.143.72.21 | Client Identification: SSH-2.0-libssh_0.8.2
+2019-11-22 09:47:03.131 - [Debug] [Auth] Attacker 140.143.72.21 trying to authenticate with "password"
+2019-11-22 09:47:03.134 - [Debug] [Auto Access] Attacker: 140.143.72.21, Threshold: 1, Attempts: 1
+2019-11-22 09:47:03.134 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-22 09:47:03.135 - [Debug] [Auto Access] Adding the following credentials: "root:1@#$%"
+2019-11-22 09:47:03.417 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-22 09:47:03.418 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-22 09:47:03.532 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-22 09:47:05.287 - [Debug] [Connection] Attacker connected: 140.143.72.21 | Client Identification: SSH-2.0-libssh_0.8.2
+2019-11-22 09:47:08.346 - [Debug] [Auth] Attacker 140.143.72.21 trying to authenticate with "password"
+2019-11-22 09:47:08.346 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-22 09:47:08.347 - [Debug] [Auth] Attacker: 140.143.72.21 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-22 09:47:08.863 - [Debug] [Connection] Attacker closed the connection
+2019-11-22 09:47:09.326 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-22 09:55:22.122 - [Debug] [Connection] Client error on ssh server
+2019-11-22 09:55:22.124 - [Debug] [Connection] Attacker closed connection
+2019-11-22 09:55:22.144 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-22 09:55:22.147 - [Debug] [LXC] Container's OpenSSH server closed connection

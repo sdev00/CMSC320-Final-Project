@@ -1,0 +1,4 @@
+Nov 13 19:20:37 mark-websrv sshd[446]: Accepted password for cmbc from 172.20.0.1 port 52774 ssh2
+Nov 13 19:20:37 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user cmbc by (uid=0)
+Nov 13 19:20:37 mark-websrv systemd-logind[160]: New session 62825 of user cmbc.
+Nov 13 19:20:37 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user cmbc by (uid=0)

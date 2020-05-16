@@ -1,0 +1,4 @@
+Nov 13 11:20:24 mark-websrv sshd[494]: Accepted password for huberty from 172.20.0.1 port 40204 ssh2
+Nov 13 11:20:24 mark-websrv sshd[494]: pam_unix(sshd:session): session opened for user huberty by (uid=0)
+Nov 13 11:20:25 mark-websrv systemd-logind[147]: New session 61827 of user huberty.
+Nov 13 11:20:25 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user huberty by (uid=0)

@@ -1,0 +1,11 @@
+Nov 30 01:03:46 mark-websrv sshd[448]: Accepted password for psanborn from 172.20.0.1 port 47122 ssh2
+Nov 30 01:03:46 mark-websrv sshd[448]: pam_unix(sshd:session): session opened for user psanborn by (uid=0)
+Nov 30 01:03:46 mark-websrv systemd-logind[163]: New session 107621 of user psanborn.
+Nov 30 01:03:46 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user psanborn by (uid=0)
+Nov 30 01:08:54 mark-websrv sshd[499]: Received disconnect from 172.20.0.1 port 47122:11:
+Nov 30 01:08:54 mark-websrv sshd[499]: Disconnected from user psanborn 172.20.0.1 port 47122
+Nov 30 01:08:54 mark-websrv systemd-logind[163]: Removed session 107621.
+Nov 30 01:08:54 mark-websrv sshd[448]: pam_unix(sshd:session): session closed for user psanborn
+Nov 30 01:08:54 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user psanborn
+Nov 30 01:16:01 mark-websrv CRON[520]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 01:16:01 mark-websrv CRON[520]: pam_unix(cron:session): session closed for user root

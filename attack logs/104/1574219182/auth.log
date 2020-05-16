@@ -1,0 +1,6 @@
+Nov 20 03:06:22 mark-websrv sshd[478]: Accepted password for verdell from 172.20.0.1 port 33368 ssh2
+Nov 20 03:06:22 mark-websrv sshd[478]: pam_unix(sshd:session): session opened for user verdell by (uid=0)
+Nov 20 03:06:22 mark-websrv systemd-logind[161]: New session 80451 of user verdell.
+Nov 20 03:06:22 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user verdell by (uid=0)
+Nov 20 03:16:01 mark-websrv CRON[547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 03:16:01 mark-websrv CRON[547]: pam_unix(cron:session): session closed for user root

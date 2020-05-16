@@ -1,0 +1,20 @@
+2019-11-12 10:05:41.221 - [Info] MITM Version: 1.26
+2019-11-12 10:05:41.228 - [Info] Auto Access Enabled: true
+2019-11-12 10:05:41.228 - [Debug] [Init] Auto Access Barrier: true
+2019-11-12 10:05:41.252 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-12 10:10:42.775 - [Debug] [Connection] Attacker connected: 198.108.66.161 | Client Identification: SSH-2.0-Go
+2019-11-12 10:10:47.773 - [Debug] [Connection] Attacker closed the connection
+2019-11-12 10:16:11.627 - [Debug] [Connection] Attacker connected: 121.130.88.44 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 10:16:13.005 - [Debug] [Auth] Attacker 121.130.88.44 trying to authenticate with "password"
+2019-11-12 10:16:13.008 - [Debug] [Auto Access] Attacker: 121.130.88.44, Threshold: 1, Attempts: 1
+2019-11-12 10:16:13.008 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-12 10:16:13.008 - [Debug] [Auto Access] Adding the following credentials: "harrod:harrod"
+2019-11-12 10:16:13.497 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-12 10:16:13.498 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-12 10:16:13.577 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-12 10:16:14.434 - [Debug] [Connection] Attacker connected: 121.130.88.44 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 10:16:15.700 - [Debug] [Auth] Attacker 121.130.88.44 trying to authenticate with "password"
+2019-11-12 10:16:15.701 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-12 10:16:15.702 - [Debug] [Auth] Attacker: 121.130.88.44 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-12 10:16:16.132 - [Debug] [Connection] Attacker closed the connection
+2019-11-12 10:16:16.564 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

@@ -1,0 +1,9 @@
+Nov 14 09:16:44 mark-websrv sshd[452]: Accepted password for monitor from 172.20.0.1 port 34526 ssh2
+Nov 14 09:16:44 mark-websrv sshd[452]: pam_unix(sshd:session): session opened for user monitor by (uid=0)
+Nov 14 09:16:44 mark-websrv systemd-logind[156]: New session 64553 of user monitor.
+Nov 14 09:16:44 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user monitor by (uid=0)
+Nov 14 09:18:40 mark-websrv sshd[503]: Received disconnect from 172.20.0.1 port 34526:11:
+Nov 14 09:18:40 mark-websrv sshd[503]: Disconnected from user monitor 172.20.0.1 port 34526
+Nov 14 09:18:40 mark-websrv sshd[452]: pam_unix(sshd:session): session closed for user monitor
+Nov 14 09:18:40 mark-websrv systemd-logind[156]: Removed session 64553.
+Nov 14 09:18:40 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user monitor

@@ -1,0 +1,9 @@
+Nov 14 12:28:20 mark-websrv sshd[438]: Accepted password for server from 172.20.0.1 port 34524 ssh2
+Nov 14 12:28:20 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user server by (uid=0)
+Nov 14 12:28:20 mark-websrv systemd-logind[151]: New session 64946 of user server.
+Nov 14 12:28:20 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user server by (uid=0)
+Nov 14 12:38:30 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 34524:11:
+Nov 14 12:38:30 mark-websrv sshd[489]: Disconnected from user server 172.20.0.1 port 34524
+Nov 14 12:38:30 mark-websrv systemd-logind[151]: Removed session 64946.
+Nov 14 12:38:30 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user server
+Nov 14 12:38:30 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user server

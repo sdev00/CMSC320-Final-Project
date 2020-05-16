@@ -1,0 +1,4 @@
+2019-11-27 01:23:33.336;24.63.224.206;password;quero;quero
+2019-11-27 01:47:03.111;202.169.62.187;password;rpm;abcdefghijklmnopqr
+2019-11-27 02:24:48.882;220.134.144.96;password;root;passwor
+2019-11-27 02:24:51.372;220.134.144.96;password;nproc;nproc

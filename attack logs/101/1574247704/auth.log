@@ -1,0 +1,6 @@
+Nov 20 11:01:44 mark-websrv sshd[449]: Accepted password for nfs from 172.20.0.1 port 46426 ssh2
+Nov 20 11:01:44 mark-websrv sshd[449]: pam_unix(sshd:session): session opened for user nfs by (uid=0)
+Nov 20 11:01:44 mark-websrv systemd-logind[156]: New session 81392 of user nfs.
+Nov 20 11:01:44 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user nfs by (uid=0)
+Nov 20 11:16:01 mark-websrv CRON[518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 11:16:01 mark-websrv CRON[518]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,11 @@
+Nov 16 13:17:12 mark-websrv sshd[487]: Accepted password for ouida from 172.20.0.1 port 40446 ssh2
+Nov 16 13:17:12 mark-websrv sshd[487]: pam_unix(sshd:session): session opened for user ouida by (uid=0)
+Nov 16 13:17:12 mark-websrv systemd-logind[153]: New session 70664 of user ouida.
+Nov 16 13:17:12 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ouida by (uid=0)
+Nov 16 13:28:01 mark-websrv CRON[553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 13:28:01 mark-websrv CRON[553]: pam_unix(cron:session): session closed for user root
+Nov 16 13:28:34 mark-websrv sshd[538]: Received disconnect from 172.20.0.1 port 40446:11:
+Nov 16 13:28:34 mark-websrv sshd[538]: Disconnected from user ouida 172.20.0.1 port 40446
+Nov 16 13:28:34 mark-websrv systemd-logind[153]: Removed session 70664.
+Nov 16 13:28:34 mark-websrv sshd[487]: pam_unix(sshd:session): session closed for user ouida
+Nov 16 13:28:34 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user ouida

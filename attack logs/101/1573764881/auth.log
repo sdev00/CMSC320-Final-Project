@@ -1,0 +1,9 @@
+Nov 14 20:54:41 mark-websrv sshd[443]: Accepted password for hadoop from 172.20.0.1 port 36132 ssh2
+Nov 14 20:54:41 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Nov 14 20:54:41 mark-websrv systemd-logind[159]: New session 65954 of user hadoop.
+Nov 14 20:54:41 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hadoop by (uid=0)
+Nov 14 20:54:42 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 36132:11:
+Nov 14 20:54:42 mark-websrv sshd[494]: Disconnected from user hadoop 172.20.0.1 port 36132
+Nov 14 20:54:42 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user hadoop
+Nov 14 20:54:45 mark-websrv systemd-logind[159]: Removed session 65954.
+Nov 14 20:54:45 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user hadoop

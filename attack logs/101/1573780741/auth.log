@@ -1,0 +1,9 @@
+Nov 15 01:19:01 mark-websrv sshd[479]: Accepted password for oracle from 172.20.0.1 port 36574 ssh2
+Nov 15 01:19:01 mark-websrv sshd[479]: pam_unix(sshd:session): session opened for user oracle by (uid=0)
+Nov 15 01:19:01 mark-websrv systemd-logind[154]: New session 66463 of user oracle.
+Nov 15 01:19:01 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Nov 15 01:19:02 mark-websrv sshd[530]: Received disconnect from 172.20.0.1 port 36574:11:
+Nov 15 01:19:02 mark-websrv sshd[530]: Disconnected from user oracle 172.20.0.1 port 36574
+Nov 15 01:19:02 mark-websrv sshd[479]: pam_unix(sshd:session): session closed for user oracle
+Nov 15 01:19:06 mark-websrv systemd-logind[154]: Removed session 66463.
+Nov 15 01:19:06 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user oracle

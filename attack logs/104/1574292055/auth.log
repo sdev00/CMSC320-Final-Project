@@ -1,0 +1,4 @@
+Nov 20 23:20:55 mark-websrv sshd[442]: Accepted password for jalinah from 172.20.0.1 port 35400 ssh2
+Nov 20 23:20:55 mark-websrv sshd[442]: pam_unix(sshd:session): session opened for user jalinah by (uid=0)
+Nov 20 23:20:55 mark-websrv systemd-logind[155]: New session 82858 of user jalinah.
+Nov 20 23:20:55 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user jalinah by (uid=0)

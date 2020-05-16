@@ -1,0 +1,4 @@
+[2019-11-28 09:14:20] INFO  WEBrick 1.4.2
+[2019-11-28 09:14:20] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-28 09:14:20] INFO  WEBrick::HTTPServer#start: pid=383 port=80
+[2019-11-28 10:02:09] ERROR bad Request-Line `Gh0st­\x00\x00\x00à\x00\x00\x00xœKS``˜ÃÀÀÀ\x06ÄŒ@¼Q–\tH\a§\x16•e&§*\x04$&g+\x182”ö°00¬¨rc\x00\x01\x11 ‚\x1F\\`&ƒÇK7†\x19ån\f9•n\f;„\x0F3¬èsch¨^Ï4'J—©‚ã0Ã‘h]&øÎ—SËA4L?2=áÄ’†\v@õ`\fT\x1F®¯]'.

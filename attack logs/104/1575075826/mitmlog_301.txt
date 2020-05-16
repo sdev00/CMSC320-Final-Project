@@ -1,0 +1,22 @@
+2019-11-29 19:44:02.695 - [Info] MITM Version: 1.26
+2019-11-29 19:44:02.711 - [Info] Auto Access Enabled: true
+2019-11-29 19:44:02.712 - [Debug] [Init] Auto Access Barrier: true
+2019-11-29 19:44:02.766 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-29 20:03:44.066 - [Debug] [Connection] Attacker connected: 62.234.119.16 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 20:03:45.615 - [Debug] [Auth] Attacker 62.234.119.16 trying to authenticate with "password"
+2019-11-29 20:03:45.618 - [Debug] [Auto Access] Attacker: 62.234.119.16, Threshold: 1, Attempts: 1
+2019-11-29 20:03:45.618 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-29 20:03:45.619 - [Debug] [Auto Access] Adding the following credentials: "psanborn:psanborn"
+2019-11-29 20:03:46.055 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-29 20:03:46.055 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-29 20:03:46.183 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-29 20:03:47.180 - [Debug] [Connection] Attacker connected: 62.234.119.16 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 20:03:48.723 - [Debug] [Auth] Attacker 62.234.119.16 trying to authenticate with "password"
+2019-11-29 20:03:48.725 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-29 20:03:48.727 - [Debug] [Auth] Attacker: 62.234.119.16 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-29 20:03:49.743 - [Debug] [Connection] Attacker closed the connection
+2019-11-29 20:03:50.223 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-29 20:08:54.542 - [Debug] [Connection] Client error on ssh server
+2019-11-29 20:08:54.543 - [Debug] [Connection] Attacker closed connection
+2019-11-29 20:08:54.551 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-29 20:08:54.551 - [Debug] [LXC] Container's OpenSSH server closed connection

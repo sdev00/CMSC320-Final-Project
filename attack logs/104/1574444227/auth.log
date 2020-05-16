@@ -1,0 +1,4 @@
+Nov 22 17:37:07 mark-websrv sshd[438]: Accepted password for counsel from 172.20.0.1 port 38774 ssh2
+Nov 22 17:37:07 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user counsel by (uid=0)
+Nov 22 17:37:07 mark-websrv systemd-logind[146]: New session 87805 of user counsel.
+Nov 22 17:37:07 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user counsel by (uid=0)

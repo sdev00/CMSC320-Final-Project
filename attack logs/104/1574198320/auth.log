@@ -1,0 +1,4 @@
+Nov 19 21:18:40 mark-websrv sshd[448]: Accepted password for zanotto from 172.20.0.1 port 32870 ssh2
+Nov 19 21:18:40 mark-websrv sshd[448]: pam_unix(sshd:session): session opened for user zanotto by (uid=0)
+Nov 19 21:18:40 mark-websrv systemd-logind[165]: New session 79771 of user zanotto.
+Nov 19 21:18:40 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user zanotto by (uid=0)

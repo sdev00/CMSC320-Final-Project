@@ -1,0 +1,4 @@
+Nov 14 13:47:24 mark-websrv sshd[506]: Accepted password for bulmer from 172.20.0.1 port 55610 ssh2
+Nov 14 13:47:24 mark-websrv sshd[506]: pam_unix(sshd:session): session opened for user bulmer by (uid=0)
+Nov 14 13:47:24 mark-websrv systemd-logind[150]: New session 65110 of user bulmer.
+Nov 14 13:47:24 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user bulmer by (uid=0)

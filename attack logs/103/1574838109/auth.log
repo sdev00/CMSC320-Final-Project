@@ -1,0 +1,6 @@
+Nov 27 07:01:49 mark-websrv sshd[451]: Accepted password for publisher from 172.20.0.1 port 36138 ssh2
+Nov 27 07:01:49 mark-websrv sshd[451]: pam_unix(sshd:session): session opened for user publisher by (uid=0)
+Nov 27 07:01:49 mark-websrv systemd-logind[148]: New session 100082 of user publisher.
+Nov 27 07:01:49 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user publisher by (uid=0)
+Nov 27 07:16:01 mark-websrv CRON[520]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 27 07:16:01 mark-websrv CRON[520]: pam_unix(cron:session): session closed for user root

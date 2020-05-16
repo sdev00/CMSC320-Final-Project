@@ -1,0 +1,4 @@
+Nov 15 14:40:33 mark-websrv sshd[455]: Accepted password for takitani from 172.20.0.1 port 37502 ssh2
+Nov 15 14:40:33 mark-websrv sshd[455]: pam_unix(sshd:session): session opened for user takitani by (uid=0)
+Nov 15 14:40:33 mark-websrv systemd-logind[150]: New session 68025 of user takitani.
+Nov 15 14:40:33 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user takitani by (uid=0)

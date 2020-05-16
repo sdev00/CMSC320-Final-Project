@@ -1,0 +1,9 @@
+Nov 13 00:41:29 mark-websrv sshd[237]: Accepted password for tomcat from 172.20.0.1 port 57646 ssh2
+Nov 13 00:41:29 mark-websrv sshd[237]: pam_unix(sshd:session): session opened for user tomcat by (uid=0)
+Nov 13 00:41:29 mark-websrv systemd-logind[153]: New session 60483 of user tomcat.
+Nov 13 00:41:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user tomcat by (uid=0)
+Nov 13 00:41:33 mark-websrv sshd[367]: Received disconnect from 172.20.0.1 port 57646:11:
+Nov 13 00:41:33 mark-websrv sshd[367]: Disconnected from user tomcat 172.20.0.1 port 57646
+Nov 13 00:41:33 mark-websrv sshd[237]: pam_unix(sshd:session): session closed for user tomcat
+Nov 13 00:41:39 mark-websrv systemd-logind[153]: Removed session 60483.
+Nov 13 00:41:39 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user tomcat

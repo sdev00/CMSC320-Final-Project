@@ -1,0 +1,18 @@
+2019-11-25 11:57:30.471 - [Info] MITM Version: 1.26
+2019-11-25 11:57:30.477 - [Info] Auto Access Enabled: true
+2019-11-25 11:57:30.478 - [Debug] [Init] Auto Access Barrier: true
+2019-11-25 11:57:30.501 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-25 11:58:55.497 - [Debug] [Connection] Attacker connected: 62.215.6.11 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-25 11:58:56.827 - [Debug] [Auth] Attacker 62.215.6.11 trying to authenticate with "password"
+2019-11-25 11:58:56.828 - [Debug] [Auto Access] Attacker: 62.215.6.11, Threshold: 1, Attempts: 1
+2019-11-25 11:58:56.829 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-25 11:58:56.829 - [Debug] [Auto Access] Adding the following credentials: "ftp:guest1234567"
+2019-11-25 11:58:57.241 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-25 11:58:57.241 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-25 11:58:57.290 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-25 11:58:58.176 - [Debug] [Connection] Attacker connected: 62.215.6.11 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-25 11:58:59.545 - [Debug] [Auth] Attacker 62.215.6.11 trying to authenticate with "password"
+2019-11-25 11:58:59.546 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-25 11:58:59.548 - [Debug] [Auth] Attacker: 62.215.6.11 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-25 11:59:00.023 - [Debug] [Connection] Attacker closed the connection
+2019-11-25 11:59:00.435 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

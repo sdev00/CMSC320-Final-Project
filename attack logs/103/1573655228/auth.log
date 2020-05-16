@@ -1,0 +1,9 @@
+Nov 13 14:27:08 mark-websrv sshd[448]: Accepted password for sybase from 172.20.0.1 port 40730 ssh2
+Nov 13 14:27:08 mark-websrv sshd[448]: pam_unix(sshd:session): session opened for user sybase by (uid=0)
+Nov 13 14:27:08 mark-websrv systemd-logind[150]: New session 62223 of user sybase.
+Nov 13 14:27:08 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user sybase by (uid=0)
+Nov 13 14:27:10 mark-websrv sshd[499]: Received disconnect from 172.20.0.1 port 40730:11:
+Nov 13 14:27:10 mark-websrv sshd[499]: Disconnected from user sybase 172.20.0.1 port 40730
+Nov 13 14:27:10 mark-websrv sshd[448]: pam_unix(sshd:session): session closed for user sybase
+Nov 13 14:27:14 mark-websrv systemd-logind[150]: Removed session 62223.
+Nov 13 14:27:14 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user sybase

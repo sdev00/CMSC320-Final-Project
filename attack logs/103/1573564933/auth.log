@@ -1,0 +1,11 @@
+Nov 12 13:22:13 mark-websrv sshd[446]: Accepted password for ftp from 172.20.0.1 port 36536 ssh2
+Nov 12 13:22:13 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user ftp by (uid=0)
+Nov 12 13:22:13 mark-websrv systemd-logind[155]: New session 59053 of user ftp.
+Nov 12 13:22:13 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ftp by (uid=0)
+Nov 12 13:22:16 mark-websrv sshd[497]: Received disconnect from 172.20.0.1 port 36536:11:
+Nov 12 13:22:16 mark-websrv sshd[497]: Disconnected from user ftp 172.20.0.1 port 36536
+Nov 12 13:22:16 mark-websrv sshd[446]: pam_unix(sshd:session): session closed for user ftp
+Nov 12 13:22:19 mark-websrv systemd-logind[155]: Removed session 59053.
+Nov 12 13:22:19 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user ftp
+Nov 12 13:28:01 mark-websrv CRON[516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 13:28:01 mark-websrv CRON[516]: pam_unix(cron:session): session closed for user root

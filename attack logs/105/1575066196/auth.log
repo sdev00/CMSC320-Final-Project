@@ -1,0 +1,4 @@
+Nov 29 22:23:16 mark-websrv sshd[439]: Accepted password for eder from 172.20.0.1 port 58506 ssh2
+Nov 29 22:23:16 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user eder by (uid=0)
+Nov 29 22:23:16 mark-websrv systemd-logind[157]: New session 107313 of user eder.
+Nov 29 22:23:16 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user eder by (uid=0)

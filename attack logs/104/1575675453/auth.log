@@ -1,0 +1,49 @@
+Dec  6 23:37:33 mark-websrv sshd[566]: Accepted password for root from 172.20.0.1 port 51432 ssh2
+Dec  6 23:37:33 mark-websrv sshd[566]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  6 23:37:33 mark-websrv systemd-logind[148]: New session 114207 of user root.
+Dec  6 23:37:33 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Dec  6 23:37:35 mark-websrv sshd[566]: Received disconnect from 172.20.0.1 port 51432:11:
+Dec  6 23:37:35 mark-websrv sshd[566]: Disconnected from user root 172.20.0.1 port 51432
+Dec  6 23:37:35 mark-websrv sshd[566]: pam_unix(sshd:session): session closed for user root
+Dec  6 23:37:37 mark-websrv systemd-logind[148]: Removed session 114207.
+Dec  6 23:39:27 mark-websrv sshd[626]: Accepted password for root from 172.20.0.1 port 51436 ssh2
+Dec  6 23:39:27 mark-websrv sshd[626]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  6 23:39:27 mark-websrv systemd-logind[148]: New session 114210 of user root.
+Dec  6 23:39:27 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Dec  6 23:39:49 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/su
+Dec  6 23:39:49 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec  6 23:39:49 mark-websrv su[692]: Successful su for root by root
+Dec  6 23:39:49 mark-websrv su[692]: + /dev/pts/2 root:root
+Dec  6 23:39:49 mark-websrv su[692]: pam_unix(su:session): session opened for user root by root(uid=0)
+Dec  6 23:39:49 mark-websrv su[692]: pam_systemd(su:session): Cannot create session: Already running in a session
+Dec  6 23:40:06 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd -u 0 -o -g 0 centos
+Dec  6 23:40:06 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec  6 23:40:06 mark-websrv useradd[704]: new user: name=centos, UID=0, GID=0, home=/home/centos, shell=/bin/sh
+Dec  6 23:40:06 mark-websrv sudo: pam_unix(sudo:session): session closed for user root
+Dec  6 23:40:07 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/passwd centos
+Dec  6 23:40:07 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec  6 23:40:18 mark-websrv passwd[711]: pam_unix(passwd:chauthtok): password changed for centos
+Dec  6 23:40:18 mark-websrv sudo: pam_unix(sudo:session): session closed for user root
+Dec  6 23:41:00 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install screen
+Dec  6 23:41:00 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec  6 23:41:16 mark-websrv sudo: pam_unix(sudo:session): session closed for user root
+Dec  6 23:41:20 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install -y git
+Dec  6 23:41:20 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec  6 23:41:29 mark-websrv sudo: pam_unix(sudo:session): session closed for user root
+Dec  6 23:41:37 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+Dec  6 23:41:37 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec  6 23:41:43 mark-websrv sudo: pam_unix(sudo:session): session closed for user root
+Dec  6 23:42:14 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root/xmr-stak/build ; USER=root ; COMMAND=/bin/su
+Dec  6 23:42:14 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec  6 23:42:14 mark-websrv su[1909]: Successful su for root by root
+Dec  6 23:42:14 mark-websrv su[1909]: + /dev/pts/2 root:root
+Dec  6 23:42:14 mark-websrv su[1909]: pam_unix(su:session): session opened for user root by root(uid=0)
+Dec  6 23:42:14 mark-websrv su[1909]: pam_systemd(su:session): Cannot create session: Already running in a session
+Dec  6 23:43:38 mark-websrv sshd[626]: Received disconnect from 172.20.0.1 port 51436:11:
+Dec  6 23:43:39 mark-websrv sshd[626]: Disconnected from user root 172.20.0.1 port 51436
+Dec  6 23:43:39 mark-websrv sshd[626]: pam_unix(sshd:session): session closed for user root
+Dec  6 23:43:39 mark-websrv sshd[626]: syslogin_perform_logout: logout() returned an error
+Dec  6 23:43:39 mark-websrv su[1909]: pam_unix(su:session): session closed for user root
+Dec  6 23:43:39 mark-websrv sudo: pam_unix(sudo:session): session closed for user root
+Dec  6 23:43:39 mark-websrv su[692]: pam_unix(su:session): session closed for user root
+Dec  6 23:43:39 mark-websrv sudo: pam_unix(sudo:session): session closed for user root

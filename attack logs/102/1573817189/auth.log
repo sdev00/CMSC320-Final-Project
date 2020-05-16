@@ -1,0 +1,9 @@
+Nov 15 11:26:29 mark-websrv sshd[448]: Accepted password for zamrod from 172.20.0.1 port 58152 ssh2
+Nov 15 11:26:29 mark-websrv sshd[448]: pam_unix(sshd:session): session opened for user zamrod by (uid=0)
+Nov 15 11:26:29 mark-websrv systemd-logind[151]: New session 67655 of user zamrod.
+Nov 15 11:26:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user zamrod by (uid=0)
+Nov 15 11:31:39 mark-websrv sshd[499]: Received disconnect from 172.20.0.1 port 58152:11:
+Nov 15 11:31:39 mark-websrv sshd[499]: Disconnected from user zamrod 172.20.0.1 port 58152
+Nov 15 11:31:39 mark-websrv systemd-logind[151]: Removed session 67655.
+Nov 15 11:31:39 mark-websrv sshd[448]: pam_unix(sshd:session): session closed for user zamrod
+Nov 15 11:31:39 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user zamrod

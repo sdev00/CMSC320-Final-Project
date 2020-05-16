@@ -1,0 +1,75 @@
+2019-11-11 10:28:34.844 - [Info] MITM Version: 1.26
+2019-11-11 10:28:34.851 - [Info] Auto Access Enabled: true
+2019-11-11 10:28:34.852 - [Debug] [Init] Auto Access Barrier: true
+2019-11-11 10:28:34.876 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-11 10:44:47.566 - [Debug] [Connection] Attacker connected: 212.129.138.198 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 10:44:50.947 - [Debug] [Auth] Attacker 212.129.138.198 trying to authenticate with "password"
+2019-11-11 10:44:50.948 - [Debug] [Auto Access] Attacker: 212.129.138.198, Threshold: 3, Attempts: 1
+2019-11-11 10:44:50.949 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 10:44:50.950 - [Debug] [Auth] Attacker: 212.129.138.198 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 10:44:51.438 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 10:46:11.030 - [Debug] [Connection] Attacker connected: 71.126.167.89 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 10:46:11.200 - [Debug] [Auth] Attacker 71.126.167.89 trying to authenticate with "password"
+2019-11-11 10:46:11.201 - [Debug] [Auto Access] Attacker: 71.126.167.89, Threshold: 3, Attempts: 1
+2019-11-11 10:46:11.201 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 10:46:11.202 - [Debug] [Auth] Attacker: 71.126.167.89 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 10:46:11.268 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 10:46:28.542 - [Debug] [Connection] Attacker connected: 148.66.132.190 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 10:46:30.248 - [Debug] [Auth] Attacker 148.66.132.190 trying to authenticate with "password"
+2019-11-11 10:46:30.249 - [Debug] [Auto Access] Attacker: 148.66.132.190, Threshold: 3, Attempts: 1
+2019-11-11 10:46:30.249 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 10:46:30.250 - [Debug] [Auth] Attacker: 148.66.132.190 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 10:46:30.827 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 10:55:45.542 - [Debug] [Connection] Attacker connected: 106.13.59.229 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 10:55:48.899 - [Debug] [Auth] Attacker 106.13.59.229 trying to authenticate with "password"
+2019-11-11 10:55:48.899 - [Debug] [Auto Access] Attacker: 106.13.59.229, Threshold: 3, Attempts: 1
+2019-11-11 10:55:48.899 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 10:55:48.900 - [Debug] [Auth] Attacker: 106.13.59.229 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 10:55:50.459 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 10:59:19.547 - [Debug] [Connection] Attacker connected: 157.245.111.175 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 10:59:20.929 - [Debug] [Auth] Attacker 157.245.111.175 trying to authenticate with "password"
+2019-11-11 10:59:20.930 - [Debug] [Auto Access] Attacker: 157.245.111.175, Threshold: 3, Attempts: 1
+2019-11-11 10:59:20.930 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 10:59:20.931 - [Debug] [Auth] Attacker: 157.245.111.175 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 10:59:21.402 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 11:13:05.450 - [Debug] [Connection] Attacker connected: 139.59.84.55 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 11:13:06.872 - [Debug] [Auth] Attacker 139.59.84.55 trying to authenticate with "password"
+2019-11-11 11:13:06.873 - [Debug] [Auto Access] Attacker: 139.59.84.55, Threshold: 3, Attempts: 1
+2019-11-11 11:13:06.873 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 11:13:06.874 - [Debug] [Auth] Attacker: 139.59.84.55 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 11:13:07.357 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 11:17:06.362 - [Debug] [Connection] Attacker connected: 182.135.64.12 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 11:17:08.633 - [Debug] [Auth] Attacker 182.135.64.12 trying to authenticate with "password"
+2019-11-11 11:17:08.633 - [Debug] [Auto Access] Attacker: 182.135.64.12, Threshold: 3, Attempts: 1
+2019-11-11 11:17:08.634 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 11:17:08.635 - [Debug] [Auth] Attacker: 182.135.64.12 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 11:17:09.195 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 11:19:54.419 - [Debug] [Connection] Attacker connected: 59.11.233.160 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 11:19:55.852 - [Debug] [Auth] Attacker 59.11.233.160 trying to authenticate with "password"
+2019-11-11 11:19:55.853 - [Debug] [Auto Access] Attacker: 59.11.233.160, Threshold: 3, Attempts: 1
+2019-11-11 11:19:55.853 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 11:19:55.854 - [Debug] [Auth] Attacker: 59.11.233.160 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 11:19:56.372 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 11:22:48.137 - [Debug] [Connection] Attacker connected: 139.59.84.55 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 11:22:49.575 - [Debug] [Auth] Attacker 139.59.84.55 trying to authenticate with "password"
+2019-11-11 11:22:49.576 - [Debug] [Auto Access] Attacker: 139.59.84.55, Threshold: 3, Attempts: 2
+2019-11-11 11:22:49.576 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 11:22:49.577 - [Debug] [Auth] Attacker: 139.59.84.55 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 11:22:50.068 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 11:26:51.093 - [Debug] [Connection] Attacker connected: 139.59.84.55 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 11:26:52.556 - [Debug] [Auth] Attacker 139.59.84.55 trying to authenticate with "password"
+2019-11-11 11:26:52.556 - [Debug] [Auto Access] Attacker: 139.59.84.55, Threshold: 3, Attempts: 3
+2019-11-11 11:26:52.556 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-11 11:26:52.556 - [Debug] [Auto Access] Adding the following credentials: "admin:fuckoff"
+2019-11-11 11:26:52.800 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-11 11:26:52.801 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-11 11:26:52.839 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-11 11:26:53.791 - [Debug] [Connection] Attacker connected: 139.59.84.55 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 11:26:55.254 - [Debug] [Auth] Attacker 139.59.84.55 trying to authenticate with "password"
+2019-11-11 11:26:55.255 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-11 11:26:55.257 - [Debug] [Auth] Attacker: 139.59.84.55 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 11:26:55.750 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 11:26:56.216 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-11 22:54:11.424 - [Debug] [Connection] Attacker closed connection
+2019-11-11 22:54:11.432 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-11 22:54:11.433 - [Debug] [LXC] Container's OpenSSH server closed connection

@@ -1,0 +1,4 @@
+Nov 12 10:46:16 mark-websrv sshd[438]: Accepted password for lighttpd from 172.20.0.1 port 43130 ssh2
+Nov 12 10:46:16 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user lighttpd by (uid=0)
+Nov 12 10:46:16 mark-websrv systemd-logind[146]: New session 58719 of user lighttpd.
+Nov 12 10:46:16 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lighttpd by (uid=0)

@@ -1,0 +1,4 @@
+Nov 16 12:33:01 mark-websrv sshd[443]: Accepted password for wormer from 172.20.0.1 port 49326 ssh2
+Nov 16 12:33:01 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user wormer by (uid=0)
+Nov 16 12:33:01 mark-websrv systemd-logind[162]: New session 70575 of user wormer.
+Nov 16 12:33:01 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wormer by (uid=0)

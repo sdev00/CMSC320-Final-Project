@@ -1,0 +1,6 @@
+Nov 20 07:57:49 mark-websrv sshd[440]: Accepted password for lindfors from 172.20.0.1 port 54974 ssh2
+Nov 20 07:57:49 mark-websrv sshd[440]: pam_unix(sshd:session): session opened for user lindfors by (uid=0)
+Nov 20 07:57:49 mark-websrv systemd-logind[153]: New session 81015 of user lindfors.
+Nov 20 07:57:49 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lindfors by (uid=0)
+Nov 20 08:16:01 mark-websrv CRON[544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 08:16:01 mark-websrv CRON[544]: pam_unix(cron:session): session closed for user root

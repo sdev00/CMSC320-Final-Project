@@ -1,0 +1,4 @@
+Nov 20 07:32:38 mark-websrv sshd[501]: Accepted password for dovecot from 172.20.0.1 port 33750 ssh2
+Nov 20 07:32:38 mark-websrv sshd[501]: pam_unix(sshd:session): session opened for user dovecot by (uid=0)
+Nov 20 07:32:38 mark-websrv systemd-logind[157]: New session 80971 of user dovecot.
+Nov 20 07:32:38 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dovecot by (uid=0)

@@ -1,0 +1,4 @@
+Nov 16 15:49:31 mark-websrv sshd[491]: Accepted password for topnes from 172.20.0.1 port 49684 ssh2
+Nov 16 15:49:31 mark-websrv sshd[491]: pam_unix(sshd:session): session opened for user topnes by (uid=0)
+Nov 16 15:49:32 mark-websrv systemd-logind[149]: New session 70958 of user topnes.
+Nov 16 15:49:32 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user topnes by (uid=0)

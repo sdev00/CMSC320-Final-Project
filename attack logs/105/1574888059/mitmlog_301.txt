@@ -1,0 +1,18 @@
+2019-11-27 15:04:47.509 - [Info] MITM Version: 1.26
+2019-11-27 15:04:47.516 - [Info] Auto Access Enabled: true
+2019-11-27 15:04:47.517 - [Debug] [Init] Auto Access Barrier: true
+2019-11-27 15:04:47.541 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-27 15:54:18.391 - [Debug] [Connection] Attacker connected: 192.157.236.124 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-27 15:54:18.662 - [Debug] [Auth] Attacker 192.157.236.124 trying to authenticate with "password"
+2019-11-27 15:54:18.665 - [Debug] [Auto Access] Attacker: 192.157.236.124, Threshold: 1, Attempts: 1
+2019-11-27 15:54:18.665 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-27 15:54:18.666 - [Debug] [Auto Access] Adding the following credentials: "aquilina:aquilina"
+2019-11-27 15:54:19.090 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-27 15:54:19.091 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-27 15:54:19.172 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-27 15:54:19.327 - [Debug] [Connection] Attacker connected: 192.157.236.124 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-27 15:54:19.585 - [Debug] [Auth] Attacker 192.157.236.124 trying to authenticate with "password"
+2019-11-27 15:54:19.587 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-27 15:54:19.589 - [Debug] [Auth] Attacker: 192.157.236.124 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-27 15:54:19.685 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 15:54:19.747 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

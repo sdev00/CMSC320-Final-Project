@@ -1,0 +1,9 @@
+Nov 27 15:50:07 mark-websrv sshd[445]: Accepted password for denis from 172.20.0.1 port 55318 ssh2
+Nov 27 15:50:07 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user denis by (uid=0)
+Nov 27 15:50:07 mark-websrv systemd-logind[148]: New session 101087 of user denis.
+Nov 27 15:50:07 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user denis by (uid=0)
+Nov 27 16:00:16 mark-websrv sshd[496]: Received disconnect from 172.20.0.1 port 55318:11:
+Nov 27 16:00:16 mark-websrv sshd[496]: Disconnected from user denis 172.20.0.1 port 55318
+Nov 27 16:00:16 mark-websrv systemd-logind[148]: Removed session 101087.
+Nov 27 16:00:16 mark-websrv sshd[445]: pam_unix(sshd:session): session closed for user denis
+Nov 27 16:00:16 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user denis

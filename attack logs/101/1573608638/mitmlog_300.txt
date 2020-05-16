@@ -1,0 +1,18 @@
+2019-11-12 20:29:26.003 - [Info] MITM Version: 1.26
+2019-11-12 20:29:26.010 - [Info] Auto Access Enabled: true
+2019-11-12 20:29:26.010 - [Debug] [Init] Auto Access Barrier: true
+2019-11-12 20:29:26.035 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-12 20:30:35.768 - [Debug] [Connection] Attacker connected: 106.75.181.162 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 20:30:38.410 - [Debug] [Auth] Attacker 106.75.181.162 trying to authenticate with "password"
+2019-11-12 20:30:38.413 - [Debug] [Auto Access] Attacker: 106.75.181.162, Threshold: 1, Attempts: 1
+2019-11-12 20:30:38.414 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-12 20:30:38.414 - [Debug] [Auto Access] Adding the following credentials: "root:sasunwave"
+2019-11-12 20:30:38.713 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-12 20:30:38.714 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-12 20:30:38.825 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-12 20:30:40.576 - [Debug] [Connection] Attacker connected: 106.75.181.162 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 20:30:43.016 - [Debug] [Auth] Attacker 106.75.181.162 trying to authenticate with "password"
+2019-11-12 20:30:43.017 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-12 20:30:43.018 - [Debug] [Auth] Attacker: 106.75.181.162 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-12 20:30:43.592 - [Debug] [Connection] Attacker closed the connection
+2019-11-12 20:30:44.139 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

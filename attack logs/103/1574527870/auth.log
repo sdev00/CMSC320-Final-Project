@@ -1,0 +1,4 @@
+Nov 23 16:51:10 mark-websrv sshd[440]: Accepted password for wampler from 172.20.0.1 port 33076 ssh2
+Nov 23 16:51:10 mark-websrv sshd[440]: pam_unix(sshd:session): session opened for user wampler by (uid=0)
+Nov 23 16:51:10 mark-websrv systemd-logind[148]: New session 90457 of user wampler.
+Nov 23 16:51:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wampler by (uid=0)

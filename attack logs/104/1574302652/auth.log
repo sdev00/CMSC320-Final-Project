@@ -1,0 +1,4 @@
+Nov 21 02:17:32 mark-websrv sshd[473]: Accepted password for mysql from 172.20.0.1 port 35648 ssh2
+Nov 21 02:17:32 mark-websrv sshd[473]: pam_unix(sshd:session): session opened for user mysql by (uid=0)
+Nov 21 02:17:32 mark-websrv systemd-logind[149]: New session 83200 of user mysql.
+Nov 21 02:17:32 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mysql by (uid=0)

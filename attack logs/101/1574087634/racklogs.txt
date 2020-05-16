@@ -1,0 +1,3 @@
+[2019-11-18 14:12:13] INFO  WEBrick 1.4.2
+[2019-11-18 14:12:13] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-18 14:12:13] INFO  WEBrick::HTTPServer#start: pid=421 port=80

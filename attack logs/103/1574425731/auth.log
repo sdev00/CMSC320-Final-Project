@@ -1,0 +1,9 @@
+Nov 22 12:28:51 mark-websrv sshd[438]: Accepted password for varnado from 172.20.0.1 port 59418 ssh2
+Nov 22 12:28:51 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user varnado by (uid=0)
+Nov 22 12:28:51 mark-websrv systemd-logind[160]: New session 87188 of user varnado.
+Nov 22 12:28:51 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user varnado by (uid=0)
+Nov 22 12:30:47 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 59418:11:
+Nov 22 12:30:47 mark-websrv sshd[489]: Disconnected from user varnado 172.20.0.1 port 59418
+Nov 22 12:30:47 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user varnado
+Nov 22 12:30:47 mark-websrv systemd-logind[160]: Removed session 87188.
+Nov 22 12:30:47 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user varnado

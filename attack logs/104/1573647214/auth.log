@@ -1,0 +1,6 @@
+Nov 13 12:13:34 mark-websrv sshd[450]: Accepted password for fujioka from 172.20.0.1 port 47410 ssh2
+Nov 13 12:13:34 mark-websrv sshd[450]: pam_unix(sshd:session): session opened for user fujioka by (uid=0)
+Nov 13 12:13:34 mark-websrv systemd-logind[163]: New session 61929 of user fujioka.
+Nov 13 12:13:34 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user fujioka by (uid=0)
+Nov 13 12:16:01 mark-websrv CRON[518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 12:16:01 mark-websrv CRON[518]: pam_unix(cron:session): session closed for user root

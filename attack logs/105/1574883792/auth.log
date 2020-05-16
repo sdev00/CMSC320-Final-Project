@@ -1,0 +1,9 @@
+Nov 27 19:43:12 mark-websrv sshd[496]: Accepted password for jesse from 172.20.0.1 port 55468 ssh2
+Nov 27 19:43:12 mark-websrv sshd[496]: pam_unix(sshd:session): session opened for user jesse by (uid=0)
+Nov 27 19:43:12 mark-websrv systemd-logind[154]: New session 101524 of user jesse.
+Nov 27 19:43:12 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user jesse by (uid=0)
+Nov 27 19:44:52 mark-websrv sshd[547]: Received disconnect from 172.20.0.1 port 55468:11:
+Nov 27 19:44:52 mark-websrv sshd[547]: Disconnected from user jesse 172.20.0.1 port 55468
+Nov 27 19:44:52 mark-websrv sshd[496]: pam_unix(sshd:session): session closed for user jesse
+Nov 27 19:44:52 mark-websrv systemd-logind[154]: Removed session 101524.
+Nov 27 19:44:52 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user jesse

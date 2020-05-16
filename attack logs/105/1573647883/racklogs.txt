@@ -1,0 +1,12 @@
+[2019-11-13 11:45:08] INFO  WEBrick 1.4.2
+[2019-11-13 11:45:08] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-13 11:45:08] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+82.221.105.7 - - [13/Nov/2019:11:54:06 +0000] "GET / HTTP/1.1" 200 1574 0.2097
+82.221.105.7 - - [13/Nov/2019:11:54:07 +0000] "GET /robots.txt HTTP/1.1" 404 562 0.0038
+82.221.105.7 - - [13/Nov/2019:11:54:07 +0000] "GET /sitemap.xml HTTP/1.1" 404 562 0.0026
+82.221.105.7 - - [13/Nov/2019:11:54:07 +0000] "GET /.well-known/security.txt HTTP/1.1" 404 562 0.0029
+82.221.105.7 - - [13/Nov/2019:11:54:08 +0000] "GET /favicon.ico HTTP/1.1" 404 562 0.0080
+[2019-11-13 11:54:12] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'

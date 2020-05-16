@@ -1,0 +1,23 @@
+2019-11-14 03:50:25.187 - [Info] MITM Version: 1.26
+2019-11-14 03:50:25.199 - [Info] Auto Access Enabled: true
+2019-11-14 03:50:25.200 - [Debug] [Init] Auto Access Barrier: true
+2019-11-14 03:50:25.222 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-14 04:16:40.788 - [Debug] [Connection] Attacker connected: 118.24.201.168 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 04:16:44.220 - [Debug] [Auth] Attacker 118.24.201.168 trying to authenticate with "password"
+2019-11-14 04:16:44.222 - [Debug] [Auto Access] Attacker: 118.24.201.168, Threshold: 1, Attempts: 1
+2019-11-14 04:16:44.222 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 04:16:44.223 - [Debug] [Auto Access] Adding the following credentials: "monitor:monitor01"
+2019-11-14 04:16:44.609 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 04:16:44.610 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-14 04:16:44.683 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 04:16:45.840 - [Debug] [Connection] Attacker connected: 118.24.201.168 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 04:16:47.598 - [Debug] [Auth] Attacker 118.24.201.168 trying to authenticate with "password"
+2019-11-14 04:16:47.600 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-14 04:16:47.602 - [Debug] [Auth] Attacker: 118.24.201.168 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-14 04:16:48.195 - [Debug] [Connection] Attacker closed the connection
+2019-11-14 04:16:48.790 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-14 04:18:40.817 - [Debug] [Connection] Client error on ssh server
+2019-11-14 04:18:40.819 - [Debug] [Connection] Attacker closed connection
+2019-11-14 04:18:40.829 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-14 04:18:40.830 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-14 04:34:14.229 - [Debug] [Connection] Client error on ssh server

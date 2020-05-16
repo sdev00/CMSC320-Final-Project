@@ -1,0 +1,25 @@
+Nov 12 00:16:43 mark-websrv sshd[446]: Accepted password for test from 172.20.0.1 port 42596 ssh2
+Nov 12 00:16:43 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user test by (uid=0)
+Nov 12 00:16:43 mark-websrv systemd-logind[155]: New session 57531 of user test.
+Nov 12 00:16:43 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user test by (uid=0)
+Nov 12 01:16:01 mark-websrv CRON[559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 01:16:01 mark-websrv CRON[559]: pam_unix(cron:session): session closed for user root
+Nov 12 02:16:01 mark-websrv CRON[581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 02:16:01 mark-websrv CRON[581]: pam_unix(cron:session): session closed for user root
+Nov 12 03:16:01 mark-websrv CRON[601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 03:16:01 mark-websrv CRON[601]: pam_unix(cron:session): session closed for user root
+Nov 12 04:16:01 mark-websrv CRON[625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 04:16:01 mark-websrv CRON[625]: pam_unix(cron:session): session closed for user root
+Nov 12 05:16:01 mark-websrv CRON[646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 05:16:01 mark-websrv CRON[646]: pam_unix(cron:session): session closed for user root
+Nov 12 06:12:01 mark-websrv CRON[667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 06:12:15 mark-websrv CRON[667]: pam_unix(cron:session): session closed for user root
+Nov 12 06:16:01 mark-websrv CRON[812]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 06:16:02 mark-websrv CRON[812]: pam_unix(cron:session): session closed for user root
+Nov 12 07:12:05 mark-websrv sshd[497]: Received disconnect from 172.20.0.1 port 42596:11:
+Nov 12 07:12:05 mark-websrv sshd[497]: Disconnected from user test 172.20.0.1 port 42596
+Nov 12 07:12:05 mark-websrv systemd-logind[155]: Removed session 57531.
+Nov 12 07:12:05 mark-websrv sshd[446]: pam_unix(sshd:session): session closed for user test
+Nov 12 07:12:05 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user test
+Nov 12 07:16:01 mark-websrv CRON[883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 07:16:01 mark-websrv CRON[883]: pam_unix(cron:session): session closed for user root

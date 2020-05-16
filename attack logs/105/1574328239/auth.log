@@ -1,0 +1,4 @@
+Nov 21 09:23:59 mark-websrv sshd[441]: Accepted password for kacee from 172.20.0.1 port 47974 ssh2
+Nov 21 09:23:59 mark-websrv sshd[441]: pam_unix(sshd:session): session opened for user kacee by (uid=0)
+Nov 21 09:23:59 mark-websrv systemd-logind[150]: New session 84052 of user kacee.
+Nov 21 09:23:59 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kacee by (uid=0)

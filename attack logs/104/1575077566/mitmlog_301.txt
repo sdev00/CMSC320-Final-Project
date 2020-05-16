@@ -1,0 +1,22 @@
+2019-11-29 20:25:22.905 - [Info] MITM Version: 1.26
+2019-11-29 20:25:22.912 - [Info] Auto Access Enabled: true
+2019-11-29 20:25:22.912 - [Debug] [Init] Auto Access Barrier: true
+2019-11-29 20:25:22.937 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-29 20:32:44.331 - [Debug] [Connection] Attacker connected: 125.227.164.62 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 20:32:45.590 - [Debug] [Auth] Attacker 125.227.164.62 trying to authenticate with "password"
+2019-11-29 20:32:45.592 - [Debug] [Auto Access] Attacker: 125.227.164.62, Threshold: 1, Attempts: 1
+2019-11-29 20:32:45.593 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-29 20:32:45.593 - [Debug] [Auto Access] Adding the following credentials: "trittler:trittler"
+2019-11-29 20:32:45.921 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-29 20:32:45.922 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-29 20:32:45.996 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-29 20:32:46.815 - [Debug] [Connection] Attacker connected: 125.227.164.62 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 20:32:48.070 - [Debug] [Auth] Attacker 125.227.164.62 trying to authenticate with "password"
+2019-11-29 20:32:48.072 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-29 20:32:48.074 - [Debug] [Auth] Attacker: 125.227.164.62 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-29 20:32:48.498 - [Debug] [Connection] Attacker closed the connection
+2019-11-29 20:32:48.889 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-29 20:42:06.664 - [Debug] [Connection] Client error on ssh server
+2019-11-29 20:42:06.666 - [Debug] [Connection] Attacker closed connection
+2019-11-29 20:42:06.774 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-29 20:42:06.775 - [Debug] [LXC] Container's OpenSSH server closed connection

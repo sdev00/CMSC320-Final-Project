@@ -1,0 +1,6 @@
+Nov 23 12:00:44 mark-websrv sshd[448]: Accepted password for gabrielle from 172.20.0.1 port 32828 ssh2
+Nov 23 12:00:44 mark-websrv sshd[448]: pam_unix(sshd:session): session opened for user gabrielle by (uid=0)
+Nov 23 12:00:44 mark-websrv systemd-logind[154]: New session 89904 of user gabrielle.
+Nov 23 12:00:44 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user gabrielle by (uid=0)
+Nov 23 12:16:02 mark-websrv CRON[517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 23 12:16:02 mark-websrv CRON[517]: pam_unix(cron:session): session closed for user root

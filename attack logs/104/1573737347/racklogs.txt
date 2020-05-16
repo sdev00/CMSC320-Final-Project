@@ -1,0 +1,4 @@
+[2019-11-14 12:53:14] INFO  WEBrick 1.4.2
+[2019-11-14 12:53:14] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-14 12:53:14] INFO  WEBrick::HTTPServer#start: pid=318 port=80
+[2019-11-14 13:07:25] ERROR WEBrick::HTTPStatus::LengthRequired

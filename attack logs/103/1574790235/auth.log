@@ -1,0 +1,4 @@
+Nov 26 17:43:55 mark-websrv sshd[439]: Accepted password for yoyo from 172.20.0.1 port 35366 ssh2
+Nov 26 17:43:55 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user yoyo by (uid=0)
+Nov 26 17:43:55 mark-websrv systemd-logind[147]: New session 98564 of user yoyo.
+Nov 26 17:43:55 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user yoyo by (uid=0)

@@ -1,0 +1,24 @@
+2019-12-08 18:40:54.251 - [Info] MITM Version: 1.26
+2019-12-08 18:40:54.257 - [Info] Auto Access Enabled: true
+2019-12-08 18:40:54.257 - [Debug] [Init] Auto Access Barrier: true
+2019-12-08 18:40:54.279 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-12-08 20:10:53.050 - [Debug] [Connection] Attacker connected: 193.188.22.229 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-12-08 20:10:53.132 - [Debug] [Connection] Client error on ssh server
+2019-12-08 20:10:53.134 - [Debug] [Connection] Attacker closed the connection
+2019-12-08 22:24:12.558 - [Debug] [Connection] Attacker connected: 104.244.72.98 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-08 22:24:12.650 - [Debug] [Connection] Attacker closed the connection
+2019-12-08 22:38:37.382 - [Debug] [Connection] Attacker connected: 118.89.224.141 | Client Identification: SSH-2.0-libssh-0.5.2
+2019-12-08 22:38:37.614 - [Debug] [Connection] Attacker closed the connection
+2019-12-09 02:44:18.591 - [Debug] [Connection] Attacker connected: 185.104.249.192 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-09 02:44:18.724 - [Debug] [Connection] Attacker closed the connection
+2019-12-09 03:23:56.342 - [Debug] [Connection] Attacker connected: 168.253.119.76 | Client Identification: SSH-2.0-libssh2_1.8.0
+2019-12-09 03:24:00.818 - [Debug] [Auth] Attacker 168.253.119.76 trying to authenticate with "password"
+2019-12-09 03:24:00.820 - [Debug] [Auto Access] Attacker: 168.253.119.76, Threshold: 1, Attempts: 1
+2019-12-09 03:24:00.820 - [Debug] [Auto Access] Compromising the honeypot
+2019-12-09 03:24:00.820 - [Debug] [Auto Access] Adding the following credentials: "admin:admin"
+2019-12-09 03:24:01.193 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-09 03:24:01.194 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-12-09 03:24:01.269 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-09 03:24:03.692 - [Debug] [Connection] Attacker closed connection
+2019-12-09 03:24:03.699 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-09 03:24:03.699 - [Debug] [LXC] Container's OpenSSH server closed connection

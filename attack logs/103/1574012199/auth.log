@@ -1,0 +1,4 @@
+Nov 17 17:36:39 mark-websrv sshd[481]: Accepted password for falcon from 172.20.0.1 port 52010 ssh2
+Nov 17 17:36:39 mark-websrv sshd[481]: pam_unix(sshd:session): session opened for user falcon by (uid=0)
+Nov 17 17:36:39 mark-websrv systemd-logind[163]: New session 73983 of user falcon.
+Nov 17 17:36:39 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user falcon by (uid=0)

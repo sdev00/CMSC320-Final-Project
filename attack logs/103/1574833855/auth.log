@@ -1,0 +1,4 @@
+Nov 27 05:50:55 mark-websrv sshd[486]: Accepted password for lisa from 172.20.0.1 port 36052 ssh2
+Nov 27 05:50:55 mark-websrv sshd[486]: pam_unix(sshd:session): session opened for user lisa by (uid=0)
+Nov 27 05:50:55 mark-websrv systemd-logind[156]: New session 99942 of user lisa.
+Nov 27 05:50:55 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lisa by (uid=0)

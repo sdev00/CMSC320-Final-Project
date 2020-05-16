@@ -1,0 +1,2 @@
+2019-11-13 03:25:17.390;193.70.90.59;password;takepon;takepon
+2019-11-13 03:25:22.463;193.70.90.59;password;nproc;nproc

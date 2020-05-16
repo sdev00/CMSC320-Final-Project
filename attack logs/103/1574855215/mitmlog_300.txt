@@ -1,0 +1,34 @@
+2019-11-27 06:12:59.989 - [Info] MITM Version: 1.26
+2019-11-27 06:12:59.996 - [Info] Auto Access Enabled: true
+2019-11-27 06:12:59.996 - [Debug] [Init] Auto Access Barrier: true
+2019-11-27 06:13:00.027 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-27 06:16:24.247 - [Debug] [Connection] Attacker connected: 198.108.67.112 | Client Identification: SSH-2.0-Go
+2019-11-27 06:16:24.307 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 06:16:32.037 - [Debug] [Connection] Attacker connected: 129.78.110.128 | Client Identification: SSH-2.0-Go
+2019-11-27 06:16:32.453 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 06:16:58.959 - [Debug] [Connection] Attacker connected: 66.240.244.146 | Client Identification: SSH-2.0-Go
+2019-11-27 06:16:59.089 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 06:17:04.803 - [Debug] [Connection] Attacker connected: 133.34.149.5 | Client Identification: SSH-2.0-Go
+2019-11-27 06:17:05.130 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 06:17:36.527 - [Debug] [Connection] Attacker connected: 200.19.156.22 | Client Identification: SSH-2.0-Go
+2019-11-27 06:17:36.799 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 06:18:01.282 - [Debug] [Connection] Attacker connected: 171.67.70.128 | Client Identification: SSH-2.0-Go
+2019-11-27 06:18:01.435 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 06:18:05.827 - [Debug] [Connection] Attacker connected: 171.67.70.144 | Client Identification: SSH-2.0-Go
+2019-11-27 06:18:05.982 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 06:18:20.939 - [Debug] [Connection] Attacker connected: 139.19.117.1 | Client Identification: SSH-2.0-Go
+2019-11-27 06:18:21.134 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 06:46:53.733 - [Debug] [Connection] Attacker connected: 106.75.249.25 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-27 06:46:55.513 - [Debug] [Auth] Attacker 106.75.249.25 trying to authenticate with "password"
+2019-11-27 06:46:55.514 - [Debug] [Auto Access] Attacker: 106.75.249.25, Threshold: 1, Attempts: 1
+2019-11-27 06:46:55.514 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-27 06:46:55.514 - [Debug] [Auto Access] Adding the following credentials: "root:vbfgrt45nhy6"
+2019-11-27 06:46:55.647 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-27 06:46:55.647 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-27 06:46:55.687 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-27 06:46:56.797 - [Debug] [Connection] Attacker connected: 106.75.249.25 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-27 06:46:59.457 - [Debug] [Auth] Attacker 106.75.249.25 trying to authenticate with "password"
+2019-11-27 06:46:59.457 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-27 06:46:59.458 - [Debug] [Auth] Attacker: 106.75.249.25 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-27 06:47:00.039 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 06:47:00.615 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

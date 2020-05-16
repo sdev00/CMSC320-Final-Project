@@ -1,0 +1,4 @@
+Nov 17 07:22:32 mark-websrv sshd[698]: Accepted password for hasselb from 172.20.0.1 port 41738 ssh2
+Nov 17 07:22:32 mark-websrv sshd[698]: pam_unix(sshd:session): session opened for user hasselb by (uid=0)
+Nov 17 07:22:32 mark-websrv systemd-logind[147]: New session 72791 of user hasselb.
+Nov 17 07:22:32 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hasselb by (uid=0)

@@ -1,0 +1,22 @@
+2019-11-14 08:24:34.648 - [Info] MITM Version: 1.26
+2019-11-14 08:24:34.655 - [Info] Auto Access Enabled: true
+2019-11-14 08:24:34.655 - [Debug] [Init] Auto Access Barrier: true
+2019-11-14 08:24:34.681 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-14 08:57:44.375 - [Debug] [Connection] Attacker connected: 125.43.68.83 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 08:57:45.947 - [Debug] [Auth] Attacker 125.43.68.83 trying to authenticate with "password"
+2019-11-14 08:57:45.949 - [Debug] [Auto Access] Attacker: 125.43.68.83, Threshold: 1, Attempts: 1
+2019-11-14 08:57:45.950 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 08:57:45.950 - [Debug] [Auto Access] Adding the following credentials: "ire:billiard"
+2019-11-14 08:57:46.391 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 08:57:46.392 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-14 08:57:46.472 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 08:57:47.492 - [Debug] [Connection] Attacker connected: 125.43.68.83 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 08:57:49.048 - [Debug] [Auth] Attacker 125.43.68.83 trying to authenticate with "password"
+2019-11-14 08:57:49.049 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-14 08:57:49.050 - [Debug] [Auth] Attacker: 125.43.68.83 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-14 08:57:49.585 - [Debug] [Connection] Attacker closed the connection
+2019-11-14 08:57:50.075 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-14 09:17:00.890 - [Debug] [Connection] Client error on ssh server
+2019-11-14 09:17:00.892 - [Debug] [Connection] Attacker closed connection
+2019-11-14 09:17:00.902 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-14 09:17:00.903 - [Debug] [LXC] Container's OpenSSH server closed connection

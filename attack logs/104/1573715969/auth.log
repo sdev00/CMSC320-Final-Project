@@ -1,0 +1,4 @@
+Nov 14 07:19:29 mark-websrv sshd[479]: Accepted password for iemergen from 172.20.0.1 port 50270 ssh2
+Nov 14 07:19:29 mark-websrv sshd[479]: pam_unix(sshd:session): session opened for user iemergen by (uid=0)
+Nov 14 07:19:29 mark-websrv systemd-logind[151]: New session 64309 of user iemergen.
+Nov 14 07:19:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user iemergen by (uid=0)

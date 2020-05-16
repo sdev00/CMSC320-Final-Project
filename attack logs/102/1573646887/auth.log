@@ -1,0 +1,11 @@
+Nov 13 12:08:07 mark-websrv sshd[438]: Accepted password for nagios from 172.20.0.1 port 51752 ssh2
+Nov 13 12:08:07 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user nagios by (uid=0)
+Nov 13 12:08:07 mark-websrv systemd-logind[148]: New session 61918 of user nagios.
+Nov 13 12:08:07 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user nagios by (uid=0)
+Nov 13 12:08:10 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 51752:11:
+Nov 13 12:08:10 mark-websrv sshd[489]: Disconnected from user nagios 172.20.0.1 port 51752
+Nov 13 12:08:10 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user nagios
+Nov 13 12:08:13 mark-websrv systemd-logind[148]: Removed session 61918.
+Nov 13 12:08:13 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user nagios
+Nov 13 12:16:01 mark-websrv CRON[510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 12:16:01 mark-websrv CRON[510]: pam_unix(cron:session): session closed for user root

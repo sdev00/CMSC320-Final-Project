@@ -1,0 +1,6 @@
+Nov 20 14:56:55 mark-websrv sshd[449]: Accepted password for moghazi from 172.20.0.1 port 34568 ssh2
+Nov 20 14:56:55 mark-websrv sshd[449]: pam_unix(sshd:session): session opened for user moghazi by (uid=0)
+Nov 20 14:56:56 mark-websrv systemd-logind[164]: New session 81857 of user moghazi.
+Nov 20 14:56:56 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user moghazi by (uid=0)
+Nov 20 15:16:01 mark-websrv CRON[524]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 15:16:01 mark-websrv CRON[524]: pam_unix(cron:session): session closed for user root

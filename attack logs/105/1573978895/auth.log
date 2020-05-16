@@ -1,0 +1,4 @@
+Nov 17 08:21:35 mark-websrv sshd[438]: Accepted password for misionamaras from 172.20.0.1 port 41846 ssh2
+Nov 17 08:21:35 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user misionamaras by (uid=0)
+Nov 17 08:21:35 mark-websrv systemd-logind[153]: New session 72906 of user misionamaras.
+Nov 17 08:21:35 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user misionamaras by (uid=0)

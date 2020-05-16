@@ -1,0 +1,6 @@
+Nov 12 15:07:57 mark-websrv sshd[476]: Accepted password for developer from 172.20.0.1 port 48216 ssh2
+Nov 12 15:07:57 mark-websrv sshd[476]: pam_unix(sshd:session): session opened for user developer by (uid=0)
+Nov 12 15:07:57 mark-websrv systemd-logind[155]: New session 59268 of user developer.
+Nov 12 15:07:58 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user developer by (uid=0)
+Nov 12 15:16:01 mark-websrv CRON[547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 15:16:01 mark-websrv CRON[547]: pam_unix(cron:session): session closed for user root

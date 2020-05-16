@@ -1,0 +1,4 @@
+Nov 22 12:35:24 mark-websrv sshd[445]: Accepted password for gnoh from 172.20.0.1 port 38264 ssh2
+Nov 22 12:35:24 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user gnoh by (uid=0)
+Nov 22 12:35:24 mark-websrv systemd-logind[166]: New session 87209 of user gnoh.
+Nov 22 12:35:24 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user gnoh by (uid=0)

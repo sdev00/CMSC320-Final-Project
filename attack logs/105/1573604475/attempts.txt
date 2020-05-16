@@ -1,0 +1,2 @@
+2019-11-12 19:21:14.750;162.144.51.90;password;botelho;botelho
+2019-11-12 19:21:16.172;162.144.51.90;password;nproc;nproc

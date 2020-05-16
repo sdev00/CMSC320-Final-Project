@@ -1,0 +1,23 @@
+2019-11-14 19:44:02.046 - [Info] MITM Version: 1.26
+2019-11-14 19:44:02.053 - [Info] Auto Access Enabled: true
+2019-11-14 19:44:02.053 - [Debug] [Init] Auto Access Barrier: true
+2019-11-14 19:44:02.075 - [Info] SSH man-in-the-middle server for 172.20.0.3 listening on 0.0.0.0:10102
+2019-11-14 19:46:47.619 - [Debug] [Connection] Attacker connected: 106.13.200.7 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 19:46:49.335 - [Debug] [Auth] Attacker 106.13.200.7 trying to authenticate with "password"
+2019-11-14 19:46:49.336 - [Debug] [Auto Access] Attacker: 106.13.200.7, Threshold: 1, Attempts: 1
+2019-11-14 19:46:49.337 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 19:46:49.340 - [Debug] [Auto Access] Adding the following credentials: "maslah:maslah"
+2019-11-14 19:46:49.619 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 19:46:49.619 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.3
+2019-11-14 19:46:49.672 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 19:46:50.794 - [Debug] [Connection] Attacker connected: 106.13.200.7 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 19:46:53.160 - [Debug] [Auth] Attacker 106.13.200.7 trying to authenticate with "password"
+2019-11-14 19:46:53.161 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-14 19:46:53.163 - [Debug] [Auth] Attacker: 106.13.200.7 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-14 19:46:53.748 - [Debug] [Connection] Attacker closed the connection
+2019-11-14 19:46:54.291 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-14 19:49:34.875 - [Debug] [Connection] Client error on ssh server
+2019-11-14 19:49:34.879 - [Debug] [Connection] Attacker closed connection
+2019-11-14 19:49:34.887 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-14 19:49:34.889 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-14 20:05:03.186 - [Debug] [Connection] Client error on ssh server

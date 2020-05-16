@@ -1,0 +1,11 @@
+Nov 19 08:06:20 mark-websrv sshd[480]: Accepted password for cacti from 172.20.0.1 port 53434 ssh2
+Nov 19 08:06:20 mark-websrv sshd[480]: pam_unix(sshd:session): session opened for user cacti by (uid=0)
+Nov 19 08:06:21 mark-websrv systemd-logind[154]: New session 78272 of user cacti.
+Nov 19 08:06:21 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user cacti by (uid=0)
+Nov 19 08:06:21 mark-websrv sshd[531]: Received disconnect from 172.20.0.1 port 53434:11:
+Nov 19 08:06:21 mark-websrv sshd[531]: Disconnected from user cacti 172.20.0.1 port 53434
+Nov 19 08:06:21 mark-websrv sshd[480]: pam_unix(sshd:session): session closed for user cacti
+Nov 19 08:06:25 mark-websrv systemd-logind[154]: Removed session 78272.
+Nov 19 08:06:25 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user cacti
+Nov 19 08:16:01 mark-websrv CRON[552]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 19 08:16:01 mark-websrv CRON[552]: pam_unix(cron:session): session closed for user root

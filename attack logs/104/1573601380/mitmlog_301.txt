@@ -1,0 +1,18 @@
+2019-11-12 18:19:48.371 - [Info] MITM Version: 1.26
+2019-11-12 18:19:48.378 - [Info] Auto Access Enabled: true
+2019-11-12 18:19:48.378 - [Debug] [Init] Auto Access Barrier: true
+2019-11-12 18:19:48.401 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-12 18:29:40.199 - [Debug] [Connection] Attacker connected: 142.93.57.62 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 18:29:40.381 - [Debug] [Auth] Attacker 142.93.57.62 trying to authenticate with "password"
+2019-11-12 18:29:40.384 - [Debug] [Auto Access] Attacker: 142.93.57.62, Threshold: 1, Attempts: 1
+2019-11-12 18:29:40.384 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-12 18:29:40.385 - [Debug] [Auto Access] Adding the following credentials: "root:ritika"
+2019-11-12 18:29:40.700 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-12 18:29:40.701 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-12 18:29:40.799 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-12 18:29:40.895 - [Debug] [Connection] Attacker connected: 142.93.57.62 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 18:29:41.060 - [Debug] [Auth] Attacker 142.93.57.62 trying to authenticate with "password"
+2019-11-12 18:29:41.061 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-12 18:29:41.063 - [Debug] [Auth] Attacker: 142.93.57.62 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-12 18:29:41.130 - [Debug] [Connection] Attacker closed the connection
+2019-11-12 18:29:41.160 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

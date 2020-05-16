@@ -1,0 +1,4 @@
+Nov 30 18:55:24 mark-websrv sshd[439]: Accepted password for il from 172.20.0.1 port 48516 ssh2
+Nov 30 18:55:24 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user il by (uid=0)
+Nov 30 18:55:24 mark-websrv systemd-logind[161]: New session 108525 of user il.
+Nov 30 18:55:25 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user il by (uid=0)

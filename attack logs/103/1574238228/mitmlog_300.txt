@@ -1,0 +1,15 @@
+2019-11-20 03:19:28.243 - [Info] MITM Version: 1.26
+2019-11-20 03:19:28.249 - [Info] Auto Access Enabled: true
+2019-11-20 03:19:28.249 - [Debug] [Init] Auto Access Barrier: true
+2019-11-20 03:19:28.273 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-20 03:23:45.571 - [Debug] [Connection] Attacker connected: 62.234.152.218 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 03:23:47.714 - [Debug] [Auth] Attacker 62.234.152.218 trying to authenticate with "password"
+2019-11-20 03:23:47.716 - [Debug] [Auto Access] Attacker: 62.234.152.218, Threshold: 1, Attempts: 1
+2019-11-20 03:23:47.716 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-20 03:23:47.716 - [Debug] [Auto Access] Adding the following credentials: "taphos:taphos"
+2019-11-20 03:23:47.994 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-20 03:23:47.995 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-20 03:23:48.048 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-20 03:24:02.168 - [Debug] [Connection] Attacker connected: 62.234.152.218 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 03:24:03.100 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-20 03:24:04.094 - [Debug] [Connection] Attacker closed the connection

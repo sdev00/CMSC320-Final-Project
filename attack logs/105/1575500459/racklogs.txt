@@ -1,0 +1,19 @@
+[2019-12-04 19:51:18] INFO  WEBrick 1.5.0
+[2019-12-04 19:51:18] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-04 19:51:18] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+185.142.236.35 - - [04/Dec/2019:20:49:22 +0000] "GET / HTTP/1.1" 200 1574 0.1326
+185.142.236.35 - - [04/Dec/2019:20:49:22 +0000] "GET /robots.txt HTTP/1.1" 404 562 0.0081
+185.142.236.35 - - [04/Dec/2019:20:49:22 +0000] "GET /sitemap.xml HTTP/1.1" 404 562 0.0060
+185.142.236.35 - - [04/Dec/2019:20:49:22 +0000] "GET /.well-known/security.txt HTTP/1.1" 404 562 0.0059
+185.142.236.35 - - [04/Dec/2019:20:49:23 +0000] "GET /favicon.ico HTTP/1.1" 404 562 0.0062
+[2019-12-04 20:49:24] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+170.106.81.231 - - [04/Dec/2019:21:25:53 +0000] "GET / HTTP/1.1" 200 1574 0.0081
+170.106.81.231 - - [04/Dec/2019:21:25:53 +0000] "GET / HTTP/1.1" 200 1574 0.0058
+[2019-12-04 21:25:53] ERROR bad Request-Line `\x16\x03\x01\x00Ö\x01\x00\x00Å\x03\x03©.<Ö˚Å£«É‘)ãπLÈ,À‰\x139Äéî?î\x1Eı\x028æ”ë\x00\x00 ¿/¿0¿+¿,Ã®Ã©¿\x13¿\t¿\x14¿'.
+[2019-12-04 21:25:53] ERROR bad Request-Line `\x16\x03\x01\x00Ö\x01\x00\x00Å\x03\x03»Rz)¬muÑ∂¬T\x04ûîÿhGƒ≤\x15Ωˆ„ªNâb‚LoÄg\x00\x00 ¿/¿0¿+¿,Ã®Ã©¿\x13¿\t¿\x14¿'.
+131.161.64.22 - - [04/Dec/2019:21:44:33 +0000] "GET / HTTP/1.1" 200 1574 0.0044
+[2019-12-04 23:09:12] ERROR invalid body size.
+71.6.232.9 - - [04/Dec/2019:23:13:07 +0000] "GET / HTTP/1.1" 200 1574 0.0060

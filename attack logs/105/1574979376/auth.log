@@ -1,0 +1,9 @@
+Nov 28 22:16:16 mark-websrv sshd[453]: Accepted password for wmycek from 172.20.0.1 port 56890 ssh2
+Nov 28 22:16:16 mark-websrv sshd[453]: pam_unix(sshd:session): session opened for user wmycek by (uid=0)
+Nov 28 22:16:16 mark-websrv systemd-logind[149]: New session 104548 of user wmycek.
+Nov 28 22:16:16 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wmycek by (uid=0)
+Nov 28 22:20:01 mark-websrv sshd[504]: Received disconnect from 172.20.0.1 port 56890:11:
+Nov 28 22:20:01 mark-websrv sshd[504]: Disconnected from user wmycek 172.20.0.1 port 56890
+Nov 28 22:20:01 mark-websrv systemd-logind[149]: Removed session 104548.
+Nov 28 22:20:01 mark-websrv sshd[453]: pam_unix(sshd:session): session closed for user wmycek
+Nov 28 22:20:01 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user wmycek

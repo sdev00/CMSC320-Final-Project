@@ -1,0 +1,11 @@
+Nov 14 13:57:46 mark-websrv sshd[497]: Accepted password for ire from 172.20.0.1 port 34694 ssh2
+Nov 14 13:57:46 mark-websrv sshd[497]: pam_unix(sshd:session): session opened for user ire by (uid=0)
+Nov 14 13:57:46 mark-websrv systemd-logind[147]: New session 65132 of user ire.
+Nov 14 13:57:46 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ire by (uid=0)
+Nov 14 14:16:01 mark-websrv CRON[573]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 14:16:01 mark-websrv CRON[573]: pam_unix(cron:session): session closed for user root
+Nov 14 14:17:00 mark-websrv sshd[548]: Received disconnect from 172.20.0.1 port 34694:11:
+Nov 14 14:17:00 mark-websrv sshd[548]: Disconnected from user ire 172.20.0.1 port 34694
+Nov 14 14:17:00 mark-websrv sshd[497]: pam_unix(sshd:session): session closed for user ire
+Nov 14 14:17:00 mark-websrv systemd-logind[147]: Removed session 65132.
+Nov 14 14:17:00 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user ire

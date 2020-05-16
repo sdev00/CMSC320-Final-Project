@@ -1,0 +1,9 @@
+Nov 14 03:39:19 mark-websrv sshd[438]: Accepted password for ragan from 172.20.0.1 port 33638 ssh2
+Nov 14 03:39:19 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user ragan by (uid=0)
+Nov 14 03:39:19 mark-websrv systemd-logind[156]: New session 63848 of user ragan.
+Nov 14 03:39:19 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ragan by (uid=0)
+Nov 14 03:55:24 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 33638:11:
+Nov 14 03:55:24 mark-websrv sshd[489]: Disconnected from user ragan 172.20.0.1 port 33638
+Nov 14 03:55:24 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user ragan
+Nov 14 03:55:24 mark-websrv systemd-logind[156]: Removed session 63848.
+Nov 14 03:55:24 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user ragan

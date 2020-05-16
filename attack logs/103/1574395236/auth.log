@@ -1,0 +1,6 @@
+Nov 22 04:00:36 mark-websrv sshd[444]: Accepted password for sanako from 172.20.0.1 port 58790 ssh2
+Nov 22 04:00:36 mark-websrv sshd[444]: pam_unix(sshd:session): session opened for user sanako by (uid=0)
+Nov 22 04:00:36 mark-websrv systemd-logind[149]: New session 86211 of user sanako.
+Nov 22 04:00:36 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user sanako by (uid=0)
+Nov 22 04:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 04:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,9 @@
+Nov 14 16:52:53 mark-websrv sshd[439]: Accepted password for lobenz from 172.20.0.1 port 56054 ssh2
+Nov 14 16:52:53 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user lobenz by (uid=0)
+Nov 14 16:52:53 mark-websrv systemd-logind[157]: New session 65484 of user lobenz.
+Nov 14 16:52:53 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lobenz by (uid=0)
+Nov 14 17:00:18 mark-websrv sshd[490]: Received disconnect from 172.20.0.1 port 56054:11:
+Nov 14 17:00:18 mark-websrv sshd[490]: Disconnected from user lobenz 172.20.0.1 port 56054
+Nov 14 17:00:18 mark-websrv systemd-logind[157]: Removed session 65484.
+Nov 14 17:00:18 mark-websrv sshd[439]: pam_unix(sshd:session): session closed for user lobenz
+Nov 14 17:00:18 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user lobenz

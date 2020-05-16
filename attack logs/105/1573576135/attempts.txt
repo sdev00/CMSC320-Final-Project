@@ -1,0 +1,2 @@
+2019-11-12 11:28:54.925;41.224.59.78;password;usuario;123qweasdzxc
+2019-11-12 11:28:57.106;41.224.59.78;password;nproc;nproc

@@ -1,0 +1,22 @@
+2019-11-22 15:49:37.492 - [Info] MITM Version: 1.26
+2019-11-22 15:49:37.502 - [Info] Auto Access Enabled: true
+2019-11-22 15:49:37.502 - [Debug] [Init] Auto Access Barrier: true
+2019-11-22 15:49:37.533 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-22 16:22:35.515 - [Debug] [Connection] Attacker connected: 62.234.222.101 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-22 16:22:37.019 - [Debug] [Auth] Attacker 62.234.222.101 trying to authenticate with "password"
+2019-11-22 16:22:37.022 - [Debug] [Auto Access] Attacker: 62.234.222.101, Threshold: 1, Attempts: 1
+2019-11-22 16:22:37.023 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-22 16:22:37.023 - [Debug] [Auto Access] Adding the following credentials: "dass:dass"
+2019-11-22 16:22:37.476 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-22 16:22:37.477 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-22 16:22:37.567 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-22 16:22:38.541 - [Debug] [Connection] Attacker connected: 62.234.222.101 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-22 16:22:40.035 - [Debug] [Auth] Attacker 62.234.222.101 trying to authenticate with "password"
+2019-11-22 16:22:40.037 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-22 16:22:40.039 - [Debug] [Auth] Attacker: 62.234.222.101 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-22 16:22:40.553 - [Debug] [Connection] Attacker closed the connection
+2019-11-22 16:22:41.020 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-22 16:37:03.581 - [Debug] [Connection] Client error on ssh server
+2019-11-22 16:37:03.583 - [Debug] [Connection] Attacker closed connection
+2019-11-22 16:37:03.594 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-22 16:37:03.595 - [Debug] [LXC] Container's OpenSSH server closed connection

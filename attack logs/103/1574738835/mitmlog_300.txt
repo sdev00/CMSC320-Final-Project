@@ -1,0 +1,22 @@
+2019-11-25 22:24:40.810 - [Info] MITM Version: 1.26
+2019-11-25 22:24:40.816 - [Info] Auto Access Enabled: true
+2019-11-25 22:24:40.817 - [Debug] [Init] Auto Access Barrier: true
+2019-11-25 22:24:40.837 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-25 22:26:35.989 - [Debug] [Connection] Attacker connected: 123.51.152.54 | Client Identification: SSH-2.0-libssh-0.1
+2019-11-25 22:26:36.211 - [Debug] [Connection] Attacker closed the connection
+2019-11-25 22:26:36.608 - [Debug] [Connection] Attacker connected: 123.51.152.54 | Client Identification: SSH-2.0-libssh-0.1
+2019-11-25 22:26:36.810 - [Debug] [Connection] Attacker closed the connection
+2019-11-25 22:27:14.233 - [Debug] [Connection] Attacker connected: 181.48.99.90 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-25 22:27:14.767 - [Debug] [Auth] Attacker 181.48.99.90 trying to authenticate with "password"
+2019-11-25 22:27:14.775 - [Debug] [Auto Access] Attacker: 181.48.99.90, Threshold: 1, Attempts: 1
+2019-11-25 22:27:14.775 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-25 22:27:14.776 - [Debug] [Auto Access] Adding the following credentials: "friede:friede"
+2019-11-25 22:27:15.237 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-25 22:27:15.237 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-25 22:27:15.331 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-25 22:27:15.667 - [Debug] [Connection] Attacker connected: 181.48.99.90 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-25 22:27:16.210 - [Debug] [Auth] Attacker 181.48.99.90 trying to authenticate with "password"
+2019-11-25 22:27:16.211 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-25 22:27:16.213 - [Debug] [Auth] Attacker: 181.48.99.90 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-25 22:27:16.408 - [Debug] [Connection] Attacker closed the connection
+2019-11-25 22:27:16.553 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

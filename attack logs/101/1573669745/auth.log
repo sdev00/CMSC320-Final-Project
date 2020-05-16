@@ -1,0 +1,9 @@
+Nov 13 18:29:05 mark-websrv sshd[438]: Accepted password for guest from 172.20.0.1 port 60462 ssh2
+Nov 13 18:29:05 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user guest by (uid=0)
+Nov 13 18:29:05 mark-websrv systemd-logind[152]: New session 62707 of user guest.
+Nov 13 18:29:05 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user guest by (uid=0)
+Nov 13 18:29:08 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 60462:11:
+Nov 13 18:29:08 mark-websrv sshd[489]: Disconnected from user guest 172.20.0.1 port 60462
+Nov 13 18:29:08 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user guest
+Nov 13 18:29:08 mark-websrv systemd-logind[152]: Removed session 62707.
+Nov 13 18:29:08 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user guest

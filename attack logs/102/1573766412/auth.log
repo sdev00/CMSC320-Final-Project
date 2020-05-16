@@ -1,0 +1,4 @@
+Nov 14 21:20:12 mark-websrv sshd[446]: Accepted password for mkim from 172.20.0.1 port 56556 ssh2
+Nov 14 21:20:12 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user mkim by (uid=0)
+Nov 14 21:20:12 mark-websrv systemd-logind[152]: New session 66006 of user mkim.
+Nov 14 21:20:12 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mkim by (uid=0)

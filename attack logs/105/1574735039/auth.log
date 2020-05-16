@@ -1,0 +1,4 @@
+Nov 26 02:23:59 mark-websrv sshd[496]: Accepted password for antoine from 172.20.0.1 port 53270 ssh2
+Nov 26 02:23:59 mark-websrv sshd[496]: pam_unix(sshd:session): session opened for user antoine by (uid=0)
+Nov 26 02:23:59 mark-websrv systemd-logind[147]: New session 96828 of user antoine.
+Nov 26 02:23:59 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user antoine by (uid=0)

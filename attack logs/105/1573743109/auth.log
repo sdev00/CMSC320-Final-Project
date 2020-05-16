@@ -1,0 +1,9 @@
+Nov 14 14:51:49 mark-websrv sshd[470]: Accepted password for garnier from 172.20.0.1 port 34836 ssh2
+Nov 14 14:51:49 mark-websrv sshd[470]: pam_unix(sshd:session): session opened for user garnier by (uid=0)
+Nov 14 14:51:49 mark-websrv systemd-logind[154]: New session 65244 of user garnier.
+Nov 14 14:51:49 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user garnier by (uid=0)
+Nov 14 14:58:22 mark-websrv sshd[521]: Received disconnect from 172.20.0.1 port 34836:11:
+Nov 14 14:58:22 mark-websrv sshd[521]: Disconnected from user garnier 172.20.0.1 port 34836
+Nov 14 14:58:22 mark-websrv systemd-logind[154]: Removed session 65244.
+Nov 14 14:58:22 mark-websrv sshd[470]: pam_unix(sshd:session): session closed for user garnier
+Nov 14 14:58:22 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user garnier

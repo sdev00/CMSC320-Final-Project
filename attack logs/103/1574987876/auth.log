@@ -1,0 +1,4 @@
+Nov 29 00:37:56 mark-websrv sshd[498]: Accepted password for parai from 172.20.0.1 port 38270 ssh2
+Nov 29 00:37:56 mark-websrv sshd[498]: pam_unix(sshd:session): session opened for user parai by (uid=0)
+Nov 29 00:37:57 mark-websrv systemd-logind[148]: New session 104800 of user parai.
+Nov 29 00:37:57 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user parai by (uid=0)

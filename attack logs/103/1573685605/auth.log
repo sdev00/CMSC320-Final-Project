@@ -1,0 +1,4 @@
+Nov 13 22:53:25 mark-websrv sshd[490]: Accepted password for merigold from 172.20.0.1 port 41896 ssh2
+Nov 13 22:53:25 mark-websrv sshd[490]: pam_unix(sshd:session): session opened for user merigold by (uid=0)
+Nov 13 22:53:26 mark-websrv systemd-logind[157]: New session 63256 of user merigold.
+Nov 13 22:53:26 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user merigold by (uid=0)

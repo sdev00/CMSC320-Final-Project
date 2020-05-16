@@ -1,0 +1,21 @@
+2019-11-30 04:00:17.355 - [Info] MITM Version: 1.26
+2019-11-30 04:00:17.363 - [Info] Auto Access Enabled: true
+2019-11-30 04:00:17.363 - [Debug] [Init] Auto Access Barrier: true
+2019-11-30 04:00:17.394 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-30 04:10:06.336 - [Debug] [Connection] Attacker connected: 193.188.22.188 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-11-30 04:10:06.418 - [Debug] [Connection] Client error on ssh server
+2019-11-30 04:10:06.419 - [Debug] [Connection] Attacker closed the connection
+2019-11-30 05:03:31.633 - [Debug] [Connection] Attacker connected: 14.139.173.129 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 05:03:33.190 - [Debug] [Auth] Attacker 14.139.173.129 trying to authenticate with "password"
+2019-11-30 05:03:33.192 - [Debug] [Auto Access] Attacker: 14.139.173.129, Threshold: 1, Attempts: 1
+2019-11-30 05:03:33.193 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-30 05:03:33.193 - [Debug] [Auto Access] Adding the following credentials: "root:qnsoft"
+2019-11-30 05:03:33.463 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-30 05:03:33.464 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-30 05:03:33.549 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-30 05:03:34.559 - [Debug] [Connection] Attacker connected: 14.139.173.129 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 05:03:36.099 - [Debug] [Auth] Attacker 14.139.173.129 trying to authenticate with "password"
+2019-11-30 05:03:36.100 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-30 05:03:36.102 - [Debug] [Auth] Attacker: 14.139.173.129 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-30 05:03:36.628 - [Debug] [Connection] Attacker closed the connection
+2019-11-30 05:03:37.113 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

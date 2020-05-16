@@ -1,0 +1,4 @@
+Nov 13 17:32:09 mark-websrv sshd[521]: Accepted password for mluna from 172.20.0.1 port 48134 ssh2
+Nov 13 17:32:09 mark-websrv sshd[521]: pam_unix(sshd:session): session opened for user mluna by (uid=0)
+Nov 13 17:32:09 mark-websrv systemd-logind[161]: New session 62596 of user mluna.
+Nov 13 17:32:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mluna by (uid=0)

@@ -1,0 +1,4 @@
+Nov 15 03:22:12 mark-websrv sshd[452]: Accepted password for kecia from 172.20.0.1 port 45802 ssh2
+Nov 15 03:22:12 mark-websrv sshd[452]: pam_unix(sshd:session): session opened for user kecia by (uid=0)
+Nov 15 03:22:12 mark-websrv systemd-logind[146]: New session 66707 of user kecia.
+Nov 15 03:22:12 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kecia by (uid=0)

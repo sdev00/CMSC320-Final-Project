@@ -1,0 +1,4 @@
+Nov 12 17:40:13 mark-websrv sshd[443]: Accepted password for knight from 172.20.0.1 port 37226 ssh2
+Nov 12 17:40:13 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user knight by (uid=0)
+Nov 12 17:40:13 mark-websrv systemd-logind[148]: New session 59592 of user knight.
+Nov 12 17:40:13 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user knight by (uid=0)

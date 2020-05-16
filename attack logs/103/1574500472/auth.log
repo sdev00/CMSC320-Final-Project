@@ -1,0 +1,6 @@
+Nov 23 09:14:32 mark-websrv sshd[443]: Accepted password for heaney from 172.20.0.1 port 60906 ssh2
+Nov 23 09:14:32 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user heaney by (uid=0)
+Nov 23 09:14:32 mark-websrv systemd-logind[149]: New session 89581 of user heaney.
+Nov 23 09:14:32 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user heaney by (uid=0)
+Nov 23 09:16:01 mark-websrv CRON[511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 23 09:16:01 mark-websrv CRON[511]: pam_unix(cron:session): session closed for user root

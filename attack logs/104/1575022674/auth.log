@@ -1,0 +1,9 @@
+Nov 29 10:17:54 mark-websrv sshd[452]: Accepted password for haubold from 172.20.0.1 port 45858 ssh2
+Nov 29 10:17:54 mark-websrv sshd[452]: pam_unix(sshd:session): session opened for user haubold by (uid=0)
+Nov 29 10:17:54 mark-websrv systemd-logind[159]: New session 105898 of user haubold.
+Nov 29 10:17:54 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user haubold by (uid=0)
+Nov 29 10:34:20 mark-websrv sshd[503]: Received disconnect from 172.20.0.1 port 45858:11:
+Nov 29 10:34:20 mark-websrv sshd[503]: Disconnected from user haubold 172.20.0.1 port 45858
+Nov 29 10:34:20 mark-websrv sshd[452]: pam_unix(sshd:session): session closed for user haubold
+Nov 29 10:34:20 mark-websrv systemd-logind[159]: Removed session 105898.
+Nov 29 10:34:20 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user haubold

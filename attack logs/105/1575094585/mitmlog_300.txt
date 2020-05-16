@@ -1,0 +1,22 @@
+2019-11-30 01:02:30.307 - [Info] MITM Version: 1.26
+2019-11-30 01:02:30.313 - [Info] Auto Access Enabled: true
+2019-11-30 01:02:30.314 - [Debug] [Init] Auto Access Barrier: true
+2019-11-30 01:02:30.334 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-30 01:16:24.262 - [Debug] [Connection] Attacker connected: 64.43.37.92 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 01:16:24.919 - [Debug] [Auth] Attacker 64.43.37.92 trying to authenticate with "password"
+2019-11-30 01:16:24.920 - [Debug] [Auto Access] Attacker: 64.43.37.92, Threshold: 1, Attempts: 1
+2019-11-30 01:16:24.920 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-30 01:16:24.920 - [Debug] [Auto Access] Adding the following credentials: "igibson:igibson"
+2019-11-30 01:16:25.133 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-30 01:16:25.134 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-30 01:16:25.169 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-30 01:16:25.580 - [Debug] [Connection] Attacker connected: 64.43.37.92 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 01:16:26.221 - [Debug] [Auth] Attacker 64.43.37.92 trying to authenticate with "password"
+2019-11-30 01:16:26.222 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-30 01:16:26.224 - [Debug] [Auth] Attacker: 64.43.37.92 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-30 01:16:26.450 - [Debug] [Connection] Attacker closed the connection
+2019-11-30 01:16:26.643 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-30 01:29:29.123 - [Debug] [Connection] Client error on ssh server
+2019-11-30 01:29:29.124 - [Debug] [Connection] Attacker closed connection
+2019-11-30 01:29:29.136 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-30 01:29:29.137 - [Debug] [LXC] Container's OpenSSH server closed connection

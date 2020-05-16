@@ -1,0 +1,4 @@
+Nov 27 04:42:34 mark-websrv sshd[452]: Accepted password for mobasheri from 172.20.0.1 port 54690 ssh2
+Nov 27 04:42:34 mark-websrv sshd[452]: pam_unix(sshd:session): session opened for user mobasheri by (uid=0)
+Nov 27 04:42:34 mark-websrv systemd-logind[154]: New session 99816 of user mobasheri.
+Nov 27 04:42:34 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mobasheri by (uid=0)

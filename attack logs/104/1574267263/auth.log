@@ -1,0 +1,4 @@
+Nov 20 16:27:43 mark-websrv sshd[441]: Accepted password for mckibbin from 172.20.0.1 port 34736 ssh2
+Nov 20 16:27:43 mark-websrv sshd[441]: pam_unix(sshd:session): session opened for user mckibbin by (uid=0)
+Nov 20 16:27:43 mark-websrv systemd-logind[157]: New session 82041 of user mckibbin.
+Nov 20 16:27:43 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mckibbin by (uid=0)

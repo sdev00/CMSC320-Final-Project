@@ -1,0 +1,18 @@
+2019-11-25 19:38:24.685 - [Info] MITM Version: 1.26
+2019-11-25 19:38:24.692 - [Info] Auto Access Enabled: true
+2019-11-25 19:38:24.692 - [Debug] [Init] Auto Access Barrier: true
+2019-11-25 19:38:24.718 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-25 19:45:05.672 - [Debug] [Connection] Attacker connected: 5.196.67.41 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-25 19:45:06.241 - [Debug] [Auth] Attacker 5.196.67.41 trying to authenticate with "password"
+2019-11-25 19:45:06.242 - [Debug] [Auto Access] Attacker: 5.196.67.41, Threshold: 1, Attempts: 1
+2019-11-25 19:45:06.242 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-25 19:45:06.242 - [Debug] [Auto Access] Adding the following credentials: "hinoki:hinoki"
+2019-11-25 19:45:06.518 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-25 19:45:06.518 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-25 19:45:06.578 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-25 19:45:06.935 - [Debug] [Connection] Attacker connected: 5.196.67.41 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-25 19:45:07.496 - [Debug] [Auth] Attacker 5.196.67.41 trying to authenticate with "password"
+2019-11-25 19:45:07.497 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-25 19:45:07.498 - [Debug] [Auth] Attacker: 5.196.67.41 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-25 19:45:07.697 - [Debug] [Connection] Attacker closed the connection
+2019-11-25 19:45:07.858 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

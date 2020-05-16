@@ -1,0 +1,4 @@
+Nov 19 15:47:15 mark-websrv sshd[438]: Accepted password for boucree from 172.20.0.1 port 60746 ssh2
+Nov 19 15:47:15 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user boucree by (uid=0)
+Nov 19 15:47:15 mark-websrv systemd-logind[159]: New session 79131 of user boucree.
+Nov 19 15:47:15 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user boucree by (uid=0)

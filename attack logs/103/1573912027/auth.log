@@ -1,0 +1,4 @@
+Nov 16 13:47:07 mark-websrv sshd[482]: Accepted password for demaris from 172.20.0.1 port 49478 ssh2
+Nov 16 13:47:07 mark-websrv sshd[482]: pam_unix(sshd:session): session opened for user demaris by (uid=0)
+Nov 16 13:47:07 mark-websrv systemd-logind[149]: New session 70724 of user demaris.
+Nov 16 13:47:07 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user demaris by (uid=0)

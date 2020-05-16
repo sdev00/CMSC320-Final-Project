@@ -1,0 +1,6 @@
+Nov 23 14:06:23 mark-websrv sshd[453]: Accepted password for mihi from 172.20.0.1 port 32964 ssh2
+Nov 23 14:06:23 mark-websrv sshd[453]: pam_unix(sshd:session): session opened for user mihi by (uid=0)
+Nov 23 14:06:23 mark-websrv systemd-logind[157]: New session 90146 of user mihi.
+Nov 23 14:06:23 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mihi by (uid=0)
+Nov 23 14:16:01 mark-websrv CRON[523]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 23 14:16:01 mark-websrv CRON[523]: pam_unix(cron:session): session closed for user root

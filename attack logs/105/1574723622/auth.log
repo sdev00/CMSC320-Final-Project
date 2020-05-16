@@ -1,0 +1,6 @@
+Nov 25 23:13:42 mark-websrv sshd[408]: Accepted password for wakeman from 172.20.0.1 port 53078 ssh2
+Nov 25 23:13:42 mark-websrv sshd[408]: pam_unix(sshd:session): session opened for user wakeman by (uid=0)
+Nov 25 23:13:42 mark-websrv systemd-logind[147]: New session 96459 of user wakeman.
+Nov 25 23:13:42 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wakeman by (uid=0)
+Nov 25 23:16:01 mark-websrv CRON[506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 25 23:16:01 mark-websrv CRON[506]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,18 @@
+2019-11-16 21:34:32.630 - [Info] MITM Version: 1.26
+2019-11-16 21:34:32.637 - [Info] Auto Access Enabled: true
+2019-11-16 21:34:32.637 - [Debug] [Init] Auto Access Barrier: true
+2019-11-16 21:34:32.667 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-16 21:42:41.351 - [Debug] [Connection] Attacker connected: 196.200.181.2 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 21:42:42.443 - [Debug] [Auth] Attacker 196.200.181.2 trying to authenticate with "password"
+2019-11-16 21:42:42.444 - [Debug] [Auto Access] Attacker: 196.200.181.2, Threshold: 1, Attempts: 1
+2019-11-16 21:42:42.444 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-16 21:42:42.445 - [Debug] [Auto Access] Adding the following credentials: "kingfish:fogy"
+2019-11-16 21:42:42.740 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-16 21:42:42.741 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-16 21:42:42.801 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-16 21:42:43.511 - [Debug] [Connection] Attacker connected: 196.200.181.2 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 21:42:44.597 - [Debug] [Auth] Attacker 196.200.181.2 trying to authenticate with "password"
+2019-11-16 21:42:44.598 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-16 21:42:44.599 - [Debug] [Auth] Attacker: 196.200.181.2 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-16 21:42:44.969 - [Debug] [Connection] Attacker closed the connection
+2019-11-16 21:42:45.322 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

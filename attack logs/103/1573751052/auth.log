@@ -1,0 +1,6 @@
+Nov 14 17:04:12 mark-websrv sshd[465]: Accepted password for root from 172.20.0.1 port 44660 ssh2
+Nov 14 17:04:12 mark-websrv sshd[465]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 14 17:04:12 mark-websrv systemd-logind[149]: New session 65505 of user root.
+Nov 14 17:04:12 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 17:16:01 mark-websrv CRON[533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:16:01 mark-websrv CRON[533]: pam_unix(cron:session): session closed for user root

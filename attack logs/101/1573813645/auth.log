@@ -1,0 +1,9 @@
+Nov 15 10:27:25 mark-websrv sshd[439]: Accepted password for admin from 172.20.0.1 port 37622 ssh2
+Nov 15 10:27:25 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Nov 15 10:27:25 mark-websrv systemd-logind[151]: New session 67532 of user admin.
+Nov 15 10:27:25 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user admin by (uid=0)
+Nov 15 10:42:06 mark-websrv sshd[490]: Received disconnect from 172.20.0.1 port 37622:11:
+Nov 15 10:42:06 mark-websrv sshd[490]: Disconnected from user admin 172.20.0.1 port 37622
+Nov 15 10:42:06 mark-websrv sshd[439]: pam_unix(sshd:session): session closed for user admin
+Nov 15 10:42:06 mark-websrv systemd-logind[151]: Removed session 67532.
+Nov 15 10:42:06 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user admin

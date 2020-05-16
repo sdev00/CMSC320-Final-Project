@@ -1,0 +1,6 @@
+Nov 13 20:03:50 mark-websrv sshd[445]: Accepted password for abeadapart from 172.20.0.1 port 60754 ssh2
+Nov 13 20:03:50 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user abeadapart by (uid=0)
+Nov 13 20:03:50 mark-websrv systemd-logind[155]: New session 62903 of user abeadapart.
+Nov 13 20:03:50 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user abeadapart by (uid=0)
+Nov 13 20:16:01 mark-websrv CRON[515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 20:16:01 mark-websrv CRON[515]: pam_unix(cron:session): session closed for user root

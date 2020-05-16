@@ -1,0 +1,23 @@
+2019-11-15 09:06:14.753 - [Info] MITM Version: 1.26
+2019-11-15 09:06:14.760 - [Info] Auto Access Enabled: true
+2019-11-15 09:06:14.760 - [Debug] [Init] Auto Access Barrier: true
+2019-11-15 09:06:14.782 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-15 09:33:04.595 - [Debug] [Connection] Attacker connected: 167.172.244.78 | Client Identification: SSH-2.0-libssh-0.1
+2019-11-15 09:33:04.616 - [Debug] [Connection] Attacker closed the connection
+2019-11-15 09:36:04.430 - [Debug] [Connection] Attacker connected: 88.144.120.169 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-11-15 09:36:06.336 - [Debug] [Auth] Attacker 88.144.120.169 trying to authenticate with "password"
+2019-11-15 09:36:06.339 - [Debug] [Auto Access] Attacker: 88.144.120.169, Threshold: 1, Attempts: 1
+2019-11-15 09:36:06.339 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-15 09:36:06.340 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2019-11-15 09:36:06.645 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-15 09:36:06.645 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-15 09:36:06.733 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-15 09:36:07.210 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2019-11-15 09:36:09.559 - [Debug] [Connection] Attacker closed connection
+2019-11-15 09:36:09.581 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-15 09:36:09.582 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-15 09:36:09.659 - [Debug] [Connection] Attacker connected: 88.144.120.169 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-11-15 09:36:12.733 - [Debug] [Auth] Attacker 88.144.120.169 trying to authenticate with "password"
+2019-11-15 09:36:12.735 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-11-15 09:36:12.737 - [Debug] [Auth] Attacker: 88.144.120.169 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-15 09:36:12.974 - [Debug] [Connection] Attacker closed the connection

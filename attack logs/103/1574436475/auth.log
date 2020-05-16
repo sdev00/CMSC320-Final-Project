@@ -1,0 +1,4 @@
+Nov 22 15:27:55 mark-websrv sshd[438]: Accepted password for kazushi from 172.20.0.1 port 59768 ssh2
+Nov 22 15:27:55 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user kazushi by (uid=0)
+Nov 22 15:27:55 mark-websrv systemd-logind[146]: New session 87553 of user kazushi.
+Nov 22 15:27:55 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kazushi by (uid=0)

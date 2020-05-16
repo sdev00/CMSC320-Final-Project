@@ -1,0 +1,2 @@
+2019-11-14 05:13:23.508;200.34.88.37;password;root;mandragora
+2019-11-14 05:13:24.386;200.34.88.37;password;nproc;nproc

@@ -1,0 +1,11 @@
+Nov 12 19:08:35 mark-websrv sshd[445]: Accepted password for zabbix from 172.20.0.1 port 37442 ssh2
+Nov 12 19:08:35 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user zabbix by (uid=0)
+Nov 12 19:08:35 mark-websrv systemd-logind[156]: New session 59774 of user zabbix.
+Nov 12 19:08:35 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user zabbix by (uid=0)
+Nov 12 19:08:37 mark-websrv sshd[496]: Received disconnect from 172.20.0.1 port 37442:11:
+Nov 12 19:08:37 mark-websrv sshd[496]: Disconnected from user zabbix 172.20.0.1 port 37442
+Nov 12 19:08:37 mark-websrv sshd[445]: pam_unix(sshd:session): session closed for user zabbix
+Nov 12 19:08:38 mark-websrv systemd-logind[156]: Removed session 59774.
+Nov 12 19:08:38 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user zabbix
+Nov 12 19:16:01 mark-websrv CRON[520]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 19:16:01 mark-websrv CRON[520]: pam_unix(cron:session): session closed for user root

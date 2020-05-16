@@ -1,0 +1,4 @@
+Nov 13 18:48:11 mark-websrv sshd[444]: Accepted password for degrace from 172.20.0.1 port 52662 ssh2
+Nov 13 18:48:11 mark-websrv sshd[444]: pam_unix(sshd:session): session opened for user degrace by (uid=0)
+Nov 13 18:48:11 mark-websrv systemd-logind[154]: New session 62748 of user degrace.
+Nov 13 18:48:12 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user degrace by (uid=0)

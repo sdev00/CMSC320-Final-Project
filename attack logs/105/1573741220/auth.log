@@ -1,0 +1,4 @@
+Nov 14 14:20:20 mark-websrv sshd[438]: Accepted password for gamio from 172.20.0.1 port 34778 ssh2
+Nov 14 14:20:20 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user gamio by (uid=0)
+Nov 14 14:20:20 mark-websrv systemd-logind[153]: New session 65184 of user gamio.
+Nov 14 14:20:20 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user gamio by (uid=0)

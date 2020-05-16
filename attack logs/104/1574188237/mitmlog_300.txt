@@ -1,0 +1,18 @@
+2019-11-19 12:43:59.554 - [Info] MITM Version: 1.26
+2019-11-19 12:43:59.561 - [Info] Auto Access Enabled: true
+2019-11-19 12:43:59.561 - [Debug] [Init] Auto Access Barrier: true
+2019-11-19 12:43:59.586 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-19 13:30:36.328 - [Debug] [Connection] Attacker connected: 51.75.248.127 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-19 13:30:36.893 - [Debug] [Auth] Attacker 51.75.248.127 trying to authenticate with "password"
+2019-11-19 13:30:36.894 - [Debug] [Auto Access] Attacker: 51.75.248.127, Threshold: 1, Attempts: 1
+2019-11-19 13:30:36.895 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-19 13:30:36.895 - [Debug] [Auto Access] Adding the following credentials: "aloysia:aloysia"
+2019-11-19 13:30:37.108 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-19 13:30:37.109 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-19 13:30:37.145 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-19 13:30:37.500 - [Debug] [Connection] Attacker connected: 51.75.248.127 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-19 13:30:38.065 - [Debug] [Auth] Attacker 51.75.248.127 trying to authenticate with "password"
+2019-11-19 13:30:38.066 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-19 13:30:38.068 - [Debug] [Auth] Attacker: 51.75.248.127 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-19 13:30:38.266 - [Debug] [Connection] Attacker closed the connection
+2019-11-19 13:30:38.429 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

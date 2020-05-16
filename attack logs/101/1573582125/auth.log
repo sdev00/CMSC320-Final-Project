@@ -1,0 +1,6 @@
+Nov 12 18:08:45 mark-websrv sshd[438]: Accepted password for wipperman from 172.20.0.1 port 56570 ssh2
+Nov 12 18:08:45 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user wipperman by (uid=0)
+Nov 12 18:08:45 mark-websrv systemd-logind[155]: New session 59648 of user wipperman.
+Nov 12 18:08:45 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wipperman by (uid=0)
+Nov 12 18:16:01 mark-websrv CRON[507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 18:16:01 mark-websrv CRON[507]: pam_unix(cron:session): session closed for user root

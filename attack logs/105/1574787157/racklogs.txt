@@ -1,0 +1,4 @@
+[2019-11-26 16:40:47] INFO  WEBrick 1.4.2
+[2019-11-26 16:40:47] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-26 16:40:47] INFO  WEBrick::HTTPServer#start: pid=343 port=80
+182.235.252.104 - - [26/Nov/2019:17:00:03 +0000] "POST /editBlackAndWhiteList HTTP/1.1" 404 562 0.0682

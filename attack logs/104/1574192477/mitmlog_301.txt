@@ -1,0 +1,24 @@
+2019-11-19 13:52:12.087 - [Info] MITM Version: 1.26
+2019-11-19 13:52:12.093 - [Info] Auto Access Enabled: true
+2019-11-19 13:52:12.094 - [Debug] [Init] Auto Access Barrier: true
+2019-11-19 13:52:12.119 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-19 14:13:31.102 - [Debug] [Connection] Attacker connected: 193.188.22.188 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-11-19 14:13:31.184 - [Debug] [Connection] Client error on ssh server
+2019-11-19 14:13:31.185 - [Debug] [Connection] Attacker closed the connection
+2019-11-19 14:40:00.252 - [Debug] [Connection] Attacker connected: 193.188.22.188 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-11-19 14:40:00.333 - [Debug] [Connection] Client error on ssh server
+2019-11-19 14:40:00.334 - [Debug] [Connection] Attacker closed the connection
+2019-11-19 14:41:15.210 - [Debug] [Connection] Attacker connected: 62.234.99.172 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-19 14:41:16.740 - [Debug] [Auth] Attacker 62.234.99.172 trying to authenticate with "password"
+2019-11-19 14:41:16.743 - [Debug] [Auto Access] Attacker: 62.234.99.172, Threshold: 1, Attempts: 1
+2019-11-19 14:41:16.743 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-19 14:41:16.744 - [Debug] [Auto Access] Adding the following credentials: "xbian:123456"
+2019-11-19 14:41:17.140 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-19 14:41:17.141 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-19 14:41:17.221 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-19 14:41:18.213 - [Debug] [Connection] Attacker connected: 62.234.99.172 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-19 14:41:19.733 - [Debug] [Auth] Attacker 62.234.99.172 trying to authenticate with "password"
+2019-11-19 14:41:19.734 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-19 14:41:19.735 - [Debug] [Auth] Attacker: 62.234.99.172 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-19 14:41:20.256 - [Debug] [Connection] Attacker closed the connection
+2019-11-19 14:41:20.732 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

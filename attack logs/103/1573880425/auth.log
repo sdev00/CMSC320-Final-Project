@@ -1,0 +1,12 @@
+Nov 16 05:00:25 mark-websrv sshd[448]: Accepted password for news from 172.20.0.1 port 48402 ssh2
+Nov 16 05:00:25 mark-websrv sshd[448]: pam_unix(sshd:session): session opened for user news by (uid=0)
+Nov 16 05:00:25 mark-websrv systemd-logind[149]: New session 69685 of user news.
+Nov 16 05:00:25 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user news by (uid=0)
+Nov 16 05:00:26 mark-websrv nologin: Attempted login by news on UNKNOWN
+Nov 16 05:00:27 mark-websrv sshd[499]: Received disconnect from 172.20.0.1 port 48402:11:
+Nov 16 05:00:27 mark-websrv sshd[499]: Disconnected from user news 172.20.0.1 port 48402
+Nov 16 05:00:27 mark-websrv sshd[448]: pam_unix(sshd:session): session closed for user news
+Nov 16 05:00:29 mark-websrv systemd-logind[149]: Removed session 69685.
+Nov 16 05:00:29 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user news
+Nov 16 05:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 05:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session closed for user root

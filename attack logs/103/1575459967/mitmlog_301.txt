@@ -1,0 +1,39 @@
+2019-12-03 20:34:48.968 - [Info] MITM Version: 1.26
+2019-12-03 20:34:48.984 - [Info] Auto Access Enabled: true
+2019-12-03 20:34:48.985 - [Debug] [Init] Auto Access Barrier: true
+2019-12-03 20:34:49.036 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-12-04 01:11:57.106 - [Debug] [Connection] Attacker connected: 196.52.43.89 | Client Identification: SSH-2.0-ZGrab ZGrab SSH Survey
+2019-12-04 01:12:00.754 - [Debug] [Connection] Attacker closed the connection
+2019-12-04 03:26:59.554 - [Debug] [Connection] Attacker connected: 185.43.209.8 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-04 03:26:59.638 - [Debug] [Connection] Attacker closed the connection
+2019-12-04 03:26:59.803 - [Debug] [Connection] Attacker connected: 185.43.209.8 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-04 03:26:59.893 - [Debug] [Connection] Attacker closed the connection
+2019-12-04 04:49:16.553 - [Debug] [Connection] Attacker connected: 185.43.209.8 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-04 04:49:16.636 - [Debug] [Connection] Attacker closed the connection
+2019-12-04 04:49:16.795 - [Debug] [Connection] Attacker connected: 185.43.209.8 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-04 04:49:16.876 - [Debug] [Connection] Attacker closed the connection
+2019-12-04 06:46:05.484 - [Debug] [Connection] Attacker connected: 5.42.137.157 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10
+2019-12-04 06:46:05.549 - [Debug] [Connection] Attacker connected: 5.42.137.157 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10
+2019-12-04 06:46:06.306 - [Debug] [Auth] Attacker 5.42.137.157 trying to authenticate with "none"
+2019-12-04 06:46:06.307 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-12-04 06:46:06.347 - [Debug] [Auth] Attacker 5.42.137.157 trying to authenticate with "none"
+2019-12-04 06:46:06.348 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-12-04 06:46:06.591 - [Debug] [Auth] Attacker 5.42.137.157 trying to authenticate with "password"
+2019-12-04 06:46:06.594 - [Debug] [Auto Access] Attacker: 5.42.137.157, Threshold: 1, Attempts: 1
+2019-12-04 06:46:06.594 - [Debug] [Auto Access] Compromising the honeypot
+2019-12-04 06:46:06.594 - [Debug] [Auto Access] Adding the following credentials: "pi:raspberryraspberry993311"
+2019-12-04 06:46:07.078 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-04 06:46:07.078 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-12-04 06:46:07.092 - [Debug] [Auth] Attacker 5.42.137.157 trying to authenticate with "password"
+2019-12-04 06:46:07.093 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-04 06:46:07.094 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-12-04 06:46:07.204 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-04 06:46:07.215 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-04 06:46:07.763 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/LIob7G4d
+2019-12-04 06:46:07.769 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/LIob7G4d
+2019-12-04 06:46:26.295 - [Debug] [Connection] Attacker closed connection
+2019-12-04 06:46:26.298 - [Debug] [Connection] Attacker closed connection
+2019-12-04 06:46:26.307 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-04 06:46:26.308 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-12-04 06:46:26.311 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-04 06:46:26.311 - [Debug] [LXC] Container's OpenSSH server closed connection

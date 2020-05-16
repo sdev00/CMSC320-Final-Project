@@ -1,0 +1,13 @@
+2019-11-28 16:29:10.009 - [Info] MITM Version: 1.26
+2019-11-28 16:29:10.016 - [Info] Auto Access Enabled: true
+2019-11-28 16:29:10.017 - [Debug] [Init] Auto Access Barrier: true
+2019-11-28 16:29:10.040 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-28 16:39:54.313 - [Debug] [Connection] Attacker connected: 109.134.73.82 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-28 16:39:55.031 - [Debug] [Auth] Attacker 109.134.73.82 trying to authenticate with "password"
+2019-11-28 16:39:55.033 - [Debug] [Auto Access] Attacker: 109.134.73.82, Threshold: 1, Attempts: 1
+2019-11-28 16:39:55.034 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-28 16:39:55.034 - [Debug] [Auto Access] Adding the following credentials: "eichhorn:eichhorn"
+2019-11-28 16:39:55.498 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 16:39:55.499 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-28 16:39:55.609 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 16:39:56.115 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

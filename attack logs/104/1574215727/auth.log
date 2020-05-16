@@ -1,0 +1,6 @@
+Nov 20 02:08:47 mark-websrv sshd[441]: Accepted password for apache from 172.20.0.1 port 33318 ssh2
+Nov 20 02:08:47 mark-websrv sshd[441]: pam_unix(sshd:session): session opened for user apache by (uid=0)
+Nov 20 02:08:47 mark-websrv systemd-logind[150]: New session 80335 of user apache.
+Nov 20 02:08:47 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user apache by (uid=0)
+Nov 20 02:16:01 mark-websrv CRON[511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 02:16:01 mark-websrv CRON[511]: pam_unix(cron:session): session closed for user root

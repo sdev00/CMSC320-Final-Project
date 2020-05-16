@@ -1,0 +1,4 @@
+Nov 19 13:39:10 mark-websrv sshd[447]: Accepted password for cyrus from 172.20.0.1 port 53622 ssh2
+Nov 19 13:39:10 mark-websrv sshd[447]: pam_unix(sshd:session): session opened for user cyrus by (uid=0)
+Nov 19 13:39:10 mark-websrv systemd-logind[149]: New session 78889 of user cyrus.
+Nov 19 13:39:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user cyrus by (uid=0)

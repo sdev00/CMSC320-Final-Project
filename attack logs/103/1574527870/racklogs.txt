@@ -1,0 +1,8 @@
+[2019-11-23 16:49:49] INFO  WEBrick 1.5.0
+[2019-11-23 16:49:49] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-23 16:49:49] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+185.216.140.52 - - [23/Nov/2019:16:50:27 +0000] "GET /polycom/000000000000.cfg HTTP/1.1" 404 562 0.1722
+[2019-11-23 16:50:45] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'

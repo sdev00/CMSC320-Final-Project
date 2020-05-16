@@ -1,0 +1,4 @@
+Nov 27 13:47:23 mark-websrv sshd[511]: Accepted password for babkirk from 172.20.0.1 port 55194 ssh2
+Nov 27 13:47:23 mark-websrv sshd[511]: pam_unix(sshd:session): session opened for user babkirk by (uid=0)
+Nov 27 13:47:23 mark-websrv systemd-logind[147]: New session 100856 of user babkirk.
+Nov 27 13:47:24 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user babkirk by (uid=0)

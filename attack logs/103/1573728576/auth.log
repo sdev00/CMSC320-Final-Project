@@ -1,0 +1,9 @@
+Nov 14 10:49:36 mark-websrv sshd[443]: Accepted password for avis from 172.20.0.1 port 43782 ssh2
+Nov 14 10:49:36 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user avis by (uid=0)
+Nov 14 10:49:36 mark-websrv systemd-logind[152]: New session 64740 of user avis.
+Nov 14 10:49:36 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user avis by (uid=0)
+Nov 14 10:49:38 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 43782:11:
+Nov 14 10:49:38 mark-websrv sshd[494]: Disconnected from user avis 172.20.0.1 port 43782
+Nov 14 10:49:38 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user avis
+Nov 14 10:49:39 mark-websrv systemd-logind[152]: Removed session 64740.
+Nov 14 10:49:39 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user avis

@@ -1,0 +1,6 @@
+Nov 20 11:06:09 mark-websrv sshd[471]: Accepted password for hornak from 172.20.0.1 port 34238 ssh2
+Nov 20 11:06:09 mark-websrv sshd[471]: pam_unix(sshd:session): session opened for user hornak by (uid=0)
+Nov 20 11:06:09 mark-websrv systemd-logind[158]: New session 81402 of user hornak.
+Nov 20 11:06:09 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hornak by (uid=0)
+Nov 20 11:16:01 mark-websrv CRON[541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 11:16:01 mark-websrv CRON[541]: pam_unix(cron:session): session closed for user root

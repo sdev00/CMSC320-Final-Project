@@ -1,0 +1,9 @@
+Dec  6 18:17:13 mark-websrv sshd[1167]: Accepted password for ftpuser from 172.20.0.1 port 51334 ssh2
+Dec  6 18:17:13 mark-websrv sshd[1167]: pam_unix(sshd:session): session opened for user ftpuser by (uid=0)
+Dec  6 18:17:13 mark-websrv systemd-logind[147]: New session 114008 of user ftpuser.
+Dec  6 18:17:13 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ftpuser by (uid=0)
+Dec  6 18:17:14 mark-websrv sshd[1218]: Received disconnect from 172.20.0.1 port 51334:11:
+Dec  6 18:17:14 mark-websrv sshd[1218]: Disconnected from user ftpuser 172.20.0.1 port 51334
+Dec  6 18:17:14 mark-websrv sshd[1167]: pam_unix(sshd:session): session closed for user ftpuser
+Dec  6 18:17:17 mark-websrv systemd-logind[147]: Removed session 114008.
+Dec  6 18:17:17 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user ftpuser

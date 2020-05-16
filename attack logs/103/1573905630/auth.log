@@ -1,0 +1,6 @@
+Nov 16 12:00:30 mark-websrv sshd[484]: Accepted password for amahori from 172.20.0.1 port 49284 ssh2
+Nov 16 12:00:30 mark-websrv sshd[484]: pam_unix(sshd:session): session opened for user amahori by (uid=0)
+Nov 16 12:00:31 mark-websrv systemd-logind[153]: New session 70516 of user amahori.
+Nov 16 12:00:31 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user amahori by (uid=0)
+Nov 16 12:16:01 mark-websrv CRON[554]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 12:16:01 mark-websrv CRON[554]: pam_unix(cron:session): session closed for user root

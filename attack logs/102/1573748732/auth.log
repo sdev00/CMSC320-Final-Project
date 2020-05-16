@@ -1,0 +1,4 @@
+Nov 14 16:25:32 mark-websrv sshd[438]: Accepted password for hea_center from 172.20.0.1 port 55988 ssh2
+Nov 14 16:25:32 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user hea_center by (uid=0)
+Nov 14 16:25:32 mark-websrv systemd-logind[151]: New session 65437 of user hea_center.
+Nov 14 16:25:32 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hea_center by (uid=0)

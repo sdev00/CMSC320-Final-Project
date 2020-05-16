@@ -1,0 +1,4 @@
+Nov 18 14:33:54 mark-websrv sshd[478]: Accepted password for cbrown from 172.20.0.1 port 43758 ssh2
+Nov 18 14:33:54 mark-websrv sshd[478]: pam_unix(sshd:session): session opened for user cbrown by (uid=0)
+Nov 18 14:33:54 mark-websrv systemd-logind[155]: New session 76312 of user cbrown.
+Nov 18 14:33:54 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user cbrown by (uid=0)

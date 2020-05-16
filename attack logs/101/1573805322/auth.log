@@ -1,0 +1,6 @@
+Nov 15 08:08:42 mark-websrv sshd[443]: Accepted password for evonetanonymous from 172.20.0.1 port 37392 ssh2
+Nov 15 08:08:42 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user evonetanonymous by (uid=0)
+Nov 15 08:08:42 mark-websrv systemd-logind[149]: New session 67262 of user evonetanonymous.
+Nov 15 08:08:42 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user evonetanonymous by (uid=0)
+Nov 15 08:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 08:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session closed for user root

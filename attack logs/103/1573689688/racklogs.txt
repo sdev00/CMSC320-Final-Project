@@ -1,0 +1,4 @@
+[2019-11-13 23:57:58] INFO  WEBrick 1.4.2
+[2019-11-13 23:57:58] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-13 23:57:58] INFO  WEBrick::HTTPServer#start: pid=395 port=80
+[2019-11-14 00:11:11] ERROR bad Request-Line `GET ../../mnt/custom/ProductDefinition HTTP'.

@@ -1,0 +1,7 @@
+2019-11-15 00:01:53.538;190.9.132.202;password;root;yyyysa
+2019-11-15 00:24:31.428;106.13.11.127;password;root;111168
+2019-11-15 00:55:39.671;51.83.106.0;password;root;qaz!wsx@
+2019-11-15 01:20:37.155;193.70.42.33;password;ema;password
+2019-11-15 01:42:28.094;223.171.32.56;password;dovydaitis;dovydaitis
+2019-11-15 02:12:11.737;218.23.104.250;password;root;root
+2019-11-15 02:12:16.684;218.23.104.250;password;nproc;nproc

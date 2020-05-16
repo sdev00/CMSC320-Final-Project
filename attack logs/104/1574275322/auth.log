@@ -1,0 +1,4 @@
+Nov 20 18:42:02 mark-websrv sshd[438]: Accepted password for sveta from 172.20.0.1 port 34948 ssh2
+Nov 20 18:42:02 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user sveta by (uid=0)
+Nov 20 18:42:02 mark-websrv systemd-logind[151]: New session 82303 of user sveta.
+Nov 20 18:42:02 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user sveta by (uid=0)

@@ -1,0 +1,4 @@
+[2019-11-24 01:59:26] INFO  WEBrick 1.4.2
+[2019-11-24 01:59:26] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-24 01:59:26] INFO  WEBrick::HTTPServer#start: pid=330 port=80
+93.174.93.84 - - [24/Nov/2019:02:23:07 +0000] "GET /devicecfg/yealink/y000000000000.cfg HTTP/1.1" 404 562 0.1371

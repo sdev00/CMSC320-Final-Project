@@ -1,0 +1,4 @@
+Nov 21 07:16:42 mark-websrv sshd[448]: Accepted password for shake from 172.20.0.1 port 57326 ssh2
+Nov 21 07:16:42 mark-websrv sshd[448]: pam_unix(sshd:session): session opened for user shake by (uid=0)
+Nov 21 07:16:42 mark-websrv systemd-logind[148]: New session 83803 of user shake.
+Nov 21 07:16:42 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user shake by (uid=0)

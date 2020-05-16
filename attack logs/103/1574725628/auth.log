@@ -1,0 +1,4 @@
+Nov 25 23:47:08 mark-websrv sshd[445]: Accepted password for aplusbiz from 172.20.0.1 port 34416 ssh2
+Nov 25 23:47:08 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user aplusbiz by (uid=0)
+Nov 25 23:47:08 mark-websrv systemd-logind[159]: New session 96531 of user aplusbiz.
+Nov 25 23:47:08 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user aplusbiz by (uid=0)

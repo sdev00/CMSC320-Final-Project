@@ -1,0 +1,22 @@
+2019-11-14 11:22:50.513 - [Info] MITM Version: 1.26
+2019-11-14 11:22:50.524 - [Info] Auto Access Enabled: true
+2019-11-14 11:22:50.524 - [Debug] [Init] Auto Access Barrier: true
+2019-11-14 11:22:50.555 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-14 11:23:22.776 - [Debug] [Connection] Attacker connected: 182.61.36.38 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 11:23:26.921 - [Debug] [Auth] Attacker 182.61.36.38 trying to authenticate with "password"
+2019-11-14 11:23:26.924 - [Debug] [Auto Access] Attacker: 182.61.36.38, Threshold: 1, Attempts: 1
+2019-11-14 11:23:26.924 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 11:23:26.924 - [Debug] [Auto Access] Adding the following credentials: "root:Red@2017"
+2019-11-14 11:23:27.199 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 11:23:27.200 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-14 11:23:27.328 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 11:23:30.209 - [Debug] [Connection] Attacker connected: 182.61.36.38 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 11:23:34.539 - [Debug] [Auth] Attacker 182.61.36.38 trying to authenticate with "password"
+2019-11-14 11:23:34.540 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-14 11:23:34.541 - [Debug] [Auth] Attacker: 182.61.36.38 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-14 11:23:35.125 - [Debug] [Connection] Attacker closed the connection
+2019-11-14 11:23:36.544 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-14 11:28:59.736 - [Debug] [Connection] Client error on ssh server
+2019-11-14 11:28:59.738 - [Debug] [Connection] Attacker closed connection
+2019-11-14 11:28:59.760 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-14 11:28:59.761 - [Debug] [LXC] Container's OpenSSH server closed connection

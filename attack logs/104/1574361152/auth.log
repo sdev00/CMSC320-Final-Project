@@ -1,0 +1,4 @@
+Nov 21 18:32:32 mark-websrv sshd[443]: Accepted password for beagleindex from 172.20.0.1 port 37080 ssh2
+Nov 21 18:32:32 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user beagleindex by (uid=0)
+Nov 21 18:32:32 mark-websrv systemd-logind[152]: New session 85126 of user beagleindex.
+Nov 21 18:32:32 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user beagleindex by (uid=0)

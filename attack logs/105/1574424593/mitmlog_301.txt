@@ -1,0 +1,18 @@
+2019-11-22 05:46:40.304 - [Info] MITM Version: 1.26
+2019-11-22 05:46:40.310 - [Info] Auto Access Enabled: true
+2019-11-22 05:46:40.311 - [Debug] [Init] Auto Access Barrier: true
+2019-11-22 05:46:40.334 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-22 07:09:52.738 - [Debug] [Connection] Attacker connected: 92.222.216.81 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-22 07:09:53.354 - [Debug] [Auth] Attacker 92.222.216.81 trying to authenticate with "password"
+2019-11-22 07:09:53.355 - [Debug] [Auto Access] Attacker: 92.222.216.81, Threshold: 1, Attempts: 1
+2019-11-22 07:09:53.356 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-22 07:09:53.356 - [Debug] [Auto Access] Adding the following credentials: "gogan:gogan"
+2019-11-22 07:09:53.608 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-22 07:09:53.609 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-22 07:09:53.648 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-22 07:09:54.035 - [Debug] [Connection] Attacker connected: 92.222.216.81 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-22 07:09:54.637 - [Debug] [Auth] Attacker 92.222.216.81 trying to authenticate with "password"
+2019-11-22 07:09:54.637 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-22 07:09:54.638 - [Debug] [Auth] Attacker: 92.222.216.81 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-22 07:09:54.848 - [Debug] [Connection] Attacker closed the connection
+2019-11-22 07:09:55.025 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

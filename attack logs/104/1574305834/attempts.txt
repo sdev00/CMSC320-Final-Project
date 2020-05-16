@@ -1,0 +1,2 @@
+2019-11-20 22:10:33.481;159.65.148.91;password;catarino;catarino
+2019-11-20 22:10:36.492;159.65.148.91;password;nproc;nproc

@@ -1,0 +1,4 @@
+[2019-11-17 03:56:31] INFO  WEBrick 1.4.2
+[2019-11-17 03:56:31] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-17 03:56:31] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+159.203.201.21 - - [17/Nov/2019:04:25:26 +0000] "GET /manager/text/list HTTP/1.1" 404 562 0.0541

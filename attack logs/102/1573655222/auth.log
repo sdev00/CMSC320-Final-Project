@@ -1,0 +1,9 @@
+Nov 13 14:27:02 mark-websrv sshd[438]: Accepted password for webadmin from 172.20.0.1 port 52130 ssh2
+Nov 13 14:27:02 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user webadmin by (uid=0)
+Nov 13 14:27:02 mark-websrv systemd-logind[149]: New session 62221 of user webadmin.
+Nov 13 14:27:02 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user webadmin by (uid=0)
+Nov 13 14:30:17 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 52130:11:
+Nov 13 14:30:17 mark-websrv sshd[489]: Disconnected from user webadmin 172.20.0.1 port 52130
+Nov 13 14:30:17 mark-websrv systemd-logind[149]: Removed session 62221.
+Nov 13 14:30:17 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user webadmin
+Nov 13 14:30:17 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user webadmin

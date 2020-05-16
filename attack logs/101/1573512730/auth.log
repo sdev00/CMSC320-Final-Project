@@ -1,0 +1,35 @@
+Nov 11 22:52:10 mark-websrv sshd[1854]: Accepted password for eryn from 172.20.0.1 port 54784 ssh2
+Nov 11 22:52:10 mark-websrv sshd[1854]: pam_unix(sshd:session): session opened for user eryn by (uid=0)
+Nov 11 22:52:10 mark-websrv systemd-logind[153]: New session 57373 of user eryn.
+Nov 11 22:52:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user eryn by (uid=0)
+Nov 11 23:16:01 mark-websrv CRON[1931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 11 23:16:01 mark-websrv CRON[1931]: pam_unix(cron:session): session closed for user root
+Nov 12 00:16:01 mark-websrv CRON[1949]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 00:16:01 mark-websrv CRON[1949]: pam_unix(cron:session): session closed for user root
+Nov 12 01:16:01 mark-websrv CRON[1968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 01:16:01 mark-websrv CRON[1968]: pam_unix(cron:session): session closed for user root
+Nov 12 02:16:01 mark-websrv CRON[1988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 02:16:01 mark-websrv CRON[1988]: pam_unix(cron:session): session closed for user root
+Nov 12 03:16:01 mark-websrv CRON[2007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 03:16:01 mark-websrv CRON[2007]: pam_unix(cron:session): session closed for user root
+Nov 12 04:16:01 mark-websrv CRON[2027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 04:16:01 mark-websrv CRON[2027]: pam_unix(cron:session): session closed for user root
+Nov 12 05:16:01 mark-websrv CRON[2052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 05:16:01 mark-websrv CRON[2052]: pam_unix(cron:session): session closed for user root
+Nov 12 06:12:01 mark-websrv CRON[2114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 06:12:16 mark-websrv CRON[2114]: pam_unix(cron:session): session closed for user root
+Nov 12 06:16:01 mark-websrv CRON[2258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 06:16:01 mark-websrv CRON[2258]: pam_unix(cron:session): session closed for user root
+Nov 12 07:16:01 mark-websrv CRON[2280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 07:16:01 mark-websrv CRON[2280]: pam_unix(cron:session): session closed for user root
+Nov 12 08:16:01 mark-websrv CRON[2302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 08:16:01 mark-websrv CRON[2302]: pam_unix(cron:session): session closed for user root
+Nov 12 09:16:01 mark-websrv CRON[2377]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 09:16:01 mark-websrv CRON[2377]: pam_unix(cron:session): session closed for user root
+Nov 12 10:16:01 mark-websrv CRON[2427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 10:16:01 mark-websrv CRON[2427]: pam_unix(cron:session): session closed for user root
+Nov 12 10:23:11 mark-websrv sshd[1905]: Received disconnect from 172.20.0.1 port 54784:11:
+Nov 12 10:23:15 mark-websrv systemd-logind[153]: Removed session 57373.
+Nov 12 10:23:15 mark-websrv sshd[1905]: Disconnected from user eryn 172.20.0.1 port 54784
+Nov 12 10:23:15 mark-websrv sshd[1854]: pam_unix(sshd:session): session closed for user eryn
+Nov 12 10:23:15 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user eryn

@@ -1,0 +1,4 @@
+Nov 30 12:30:08 mark-websrv sshd[438]: Accepted password for kf from 172.20.0.1 port 47988 ssh2
+Nov 30 12:30:08 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user kf by (uid=0)
+Nov 30 12:30:09 mark-websrv systemd-logind[151]: New session 108233 of user kf.
+Nov 30 12:30:09 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kf by (uid=0)

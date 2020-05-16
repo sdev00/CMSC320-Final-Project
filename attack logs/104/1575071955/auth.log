@@ -1,0 +1,6 @@
+Nov 29 23:59:15 mark-websrv sshd[468]: Accepted password for toyia from 172.20.0.1 port 47028 ssh2
+Nov 29 23:59:15 mark-websrv sshd[468]: pam_unix(sshd:session): session opened for user toyia by (uid=0)
+Nov 29 23:59:15 mark-websrv systemd-logind[148]: New session 107496 of user toyia.
+Nov 29 23:59:15 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user toyia by (uid=0)
+Nov 30 00:16:01 mark-websrv CRON[542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 00:16:01 mark-websrv CRON[542]: pam_unix(cron:session): session closed for user root

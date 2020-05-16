@@ -1,0 +1,3 @@
+2019-11-15 10:06:04.651;107.173.145.168;password;norah;norah
+2019-11-15 10:50:50.949;190.8.80.42;password;rmedina;rmedina
+2019-11-15 10:50:52.897;190.8.80.42;password;nproc;nproc

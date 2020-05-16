@@ -1,0 +1,4 @@
+Nov 23 07:36:12 mark-websrv sshd[515]: Accepted password for saroli from 172.20.0.1 port 39610 ssh2
+Nov 23 07:36:12 mark-websrv sshd[515]: pam_unix(sshd:session): session opened for user saroli by (uid=0)
+Nov 23 07:36:12 mark-websrv systemd-logind[146]: New session 89403 of user saroli.
+Nov 23 07:36:13 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user saroli by (uid=0)

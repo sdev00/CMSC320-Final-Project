@@ -1,0 +1,11 @@
+Nov 14 05:57:47 mark-websrv sshd[489]: Accepted password for ubnt from 172.20.0.1 port 33460 ssh2
+Nov 14 05:57:47 mark-websrv sshd[489]: pam_unix(sshd:session): session opened for user ubnt by (uid=0)
+Nov 14 05:57:47 mark-websrv systemd-logind[155]: New session 64130 of user ubnt.
+Nov 14 05:57:47 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ubnt by (uid=0)
+Nov 14 05:58:48 mark-websrv sshd[540]: Received disconnect from 172.20.0.1 port 33460:11:
+Nov 14 05:58:48 mark-websrv sshd[540]: Disconnected from user ubnt 172.20.0.1 port 33460
+Nov 14 05:58:48 mark-websrv sshd[489]: pam_unix(sshd:session): session closed for user ubnt
+Nov 14 06:12:01 mark-websrv CRON[585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 06:12:16 mark-websrv CRON[585]: pam_unix(cron:session): session closed for user root
+Nov 14 06:16:01 mark-websrv CRON[729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 06:16:01 mark-websrv CRON[729]: pam_unix(cron:session): session closed for user root

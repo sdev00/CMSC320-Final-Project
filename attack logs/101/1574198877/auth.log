@@ -1,0 +1,4 @@
+Nov 19 21:27:57 mark-websrv sshd[438]: Accepted password for arleen from 172.20.0.1 port 45114 ssh2
+Nov 19 21:27:57 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user arleen by (uid=0)
+Nov 19 21:27:57 mark-websrv systemd-logind[151]: New session 79789 of user arleen.
+Nov 19 21:27:58 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user arleen by (uid=0)

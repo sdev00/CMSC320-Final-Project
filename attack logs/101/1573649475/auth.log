@@ -1,0 +1,9 @@
+Nov 13 12:51:15 mark-websrv sshd[438]: Accepted password for olivia from 172.20.0.1 port 59728 ssh2
+Nov 13 12:51:15 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user olivia by (uid=0)
+Nov 13 12:51:15 mark-websrv systemd-logind[150]: New session 62013 of user olivia.
+Nov 13 12:51:15 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user olivia by (uid=0)
+Nov 13 12:55:01 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 59728:11:
+Nov 13 12:55:01 mark-websrv sshd[489]: Disconnected from user olivia 172.20.0.1 port 59728
+Nov 13 12:55:01 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user olivia
+Nov 13 12:55:01 mark-websrv systemd-logind[150]: Removed session 62013.
+Nov 13 12:55:01 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user olivia

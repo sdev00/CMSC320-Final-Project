@@ -1,0 +1,4 @@
+Nov 12 06:28:00 mark-websrv sshd[581]: Accepted password for dancer from 172.20.0.1 port 54334 ssh2
+Nov 12 06:28:00 mark-websrv sshd[581]: pam_unix(sshd:session): session opened for user dancer by (uid=0)
+Nov 12 06:28:00 mark-websrv systemd-logind[152]: New session 58213 of user dancer.
+Nov 12 06:28:00 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dancer by (uid=0)

@@ -1,0 +1,4 @@
+Nov 30 01:26:09 mark-websrv sshd[455]: Accepted password for 8022 from 172.20.0.1 port 40088 ssh2
+Nov 30 01:26:09 mark-websrv sshd[455]: pam_unix(sshd:session): session opened for user 8022 by (uid=0)
+Nov 30 01:26:09 mark-websrv systemd-logind[152]: New session 107673 of user 8022.
+Nov 30 01:26:09 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user 8022 by (uid=0)

@@ -1,0 +1,2 @@
+2019-11-26 00:35:14.784;97.87.244.154;password;aspehaug;aspehaug
+2019-11-26 00:35:15.950;97.87.244.154;password;nproc;nproc

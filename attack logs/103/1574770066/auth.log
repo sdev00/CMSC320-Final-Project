@@ -1,0 +1,6 @@
+Nov 26 12:07:46 mark-websrv sshd[453]: Accepted password for barney from 172.20.0.1 port 35066 ssh2
+Nov 26 12:07:46 mark-websrv sshd[453]: pam_unix(sshd:session): session opened for user barney by (uid=0)
+Nov 26 12:07:46 mark-websrv systemd-logind[150]: New session 97922 of user barney.
+Nov 26 12:07:47 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user barney by (uid=0)
+Nov 26 12:16:01 mark-websrv CRON[550]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 12:16:01 mark-websrv CRON[550]: pam_unix(cron:session): session closed for user root

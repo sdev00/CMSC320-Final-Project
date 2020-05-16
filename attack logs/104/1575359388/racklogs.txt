@@ -1,0 +1,8 @@
+[2019-12-03 07:31:34] INFO  WEBrick 1.5.0
+[2019-12-03 07:31:34] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-03 07:31:34] INFO  WEBrick::HTTPServer#start: pid=395 port=80
+186.226.117.158 - - [03/Dec/2019:07:41:36 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=busybox&curpath=/&currentsetting.htm=1 HTTP/1.1" 404 562 0.1104
+[2019-12-03 07:41:37] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'

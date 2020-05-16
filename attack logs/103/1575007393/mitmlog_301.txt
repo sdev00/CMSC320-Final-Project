@@ -1,0 +1,14 @@
+2019-11-29 00:09:18.140 - [Info] MITM Version: 1.26
+2019-11-29 00:09:18.147 - [Info] Auto Access Enabled: true
+2019-11-29 00:09:18.147 - [Debug] [Init] Auto Access Barrier: true
+2019-11-29 00:09:18.169 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-29 01:03:09.562 - [Debug] [Connection] Attacker connected: 59.108.32.55 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 01:03:12.773 - [Debug] [Auth] Attacker 59.108.32.55 trying to authenticate with "password"
+2019-11-29 01:03:12.776 - [Debug] [Auto Access] Attacker: 59.108.32.55, Threshold: 1, Attempts: 1
+2019-11-29 01:03:12.776 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-29 01:03:12.776 - [Debug] [Auto Access] Adding the following credentials: "root:thanasis"
+2019-11-29 01:03:13.063 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-29 01:03:13.063 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-29 01:03:13.148 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-29 01:03:26.050 - [Debug] [Connection] Attacker connected: 59.108.32.55 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 01:03:26.196 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

@@ -1,0 +1,4 @@
+Nov 27 03:50:46 mark-websrv sshd[444]: Accepted password for hollran from 172.20.0.1 port 54650 ssh2
+Nov 27 03:50:46 mark-websrv sshd[444]: pam_unix(sshd:session): session opened for user hollran by (uid=0)
+Nov 27 03:50:46 mark-websrv systemd-logind[148]: New session 99721 of user hollran.
+Nov 27 03:50:46 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hollran by (uid=0)

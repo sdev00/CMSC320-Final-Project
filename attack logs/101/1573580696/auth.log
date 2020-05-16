@@ -1,0 +1,4 @@
+Nov 12 17:44:56 mark-websrv sshd[439]: Accepted password for lisens from 172.20.0.1 port 56498 ssh2
+Nov 12 17:44:56 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user lisens by (uid=0)
+Nov 12 17:44:56 mark-websrv systemd-logind[155]: New session 59600 of user lisens.
+Nov 12 17:44:56 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lisens by (uid=0)

@@ -1,0 +1,26 @@
+2019-11-28 01:39:39.812 - [Info] MITM Version: 1.26
+2019-11-28 01:39:39.819 - [Info] Auto Access Enabled: true
+2019-11-28 01:39:39.820 - [Debug] [Init] Auto Access Barrier: true
+2019-11-28 01:39:39.844 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-28 02:28:27.126 - [Debug] [Connection] Attacker connected: 144.91.80.178 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 02:28:28.365 - [Debug] [Auth] Attacker 144.91.80.178 trying to authenticate with "password"
+2019-11-28 02:28:28.367 - [Debug] [Auto Access] Attacker: 144.91.80.178, Threshold: 1, Attempts: 1
+2019-11-28 02:28:28.367 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-28 02:28:28.367 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2019-11-28 02:28:28.518 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 02:28:28.519 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-28 02:28:28.557 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 02:28:28.732 - [Debug] [Connection] Attacker connected: 144.91.80.178 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 02:28:29.850 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2019-11-28 02:28:30.086 - [Debug] [Auth] Attacker 144.91.80.178 trying to authenticate with "password"
+2019-11-28 02:28:30.088 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-11-28 02:28:30.090 - [Debug] [Auth] Attacker: 144.91.80.178 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-28 02:28:30.155 - [Debug] [Connection] Attacker closed connection
+2019-11-28 02:28:30.180 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 02:28:30.181 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-28 02:28:30.326 - [Debug] [Connection] Attacker closed the connection
+2019-11-28 02:28:30.725 - [Debug] [Connection] Attacker connected: 144.91.80.178 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 02:28:32.203 - [Debug] [Auth] Attacker 144.91.80.178 trying to authenticate with "password"
+2019-11-28 02:28:32.205 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-11-28 02:28:32.208 - [Debug] [Auth] Attacker: 144.91.80.178 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-28 02:28:32.437 - [Debug] [Connection] Attacker closed the connection

@@ -1,0 +1,4 @@
+Nov 24 01:43:30 mark-websrv sshd[488]: Accepted password for hatsuyo from 172.20.0.1 port 33478 ssh2
+Nov 24 01:43:30 mark-websrv sshd[488]: pam_unix(sshd:session): session opened for user hatsuyo by (uid=0)
+Nov 24 01:43:30 mark-websrv systemd-logind[165]: New session 91450 of user hatsuyo.
+Nov 24 01:43:30 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hatsuyo by (uid=0)

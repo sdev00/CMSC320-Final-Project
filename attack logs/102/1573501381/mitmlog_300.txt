@@ -1,0 +1,45 @@
+2019-11-11 14:22:41.948 - [Info] MITM Version: 1.26
+2019-11-11 14:22:41.954 - [Info] Auto Access Enabled: true
+2019-11-11 14:22:41.955 - [Debug] [Init] Auto Access Barrier: true
+2019-11-11 14:22:41.979 - [Info] SSH man-in-the-middle server for 172.20.0.3 listening on 0.0.0.0:10102
+2019-11-11 14:25:27.216 - [Debug] [Connection] Attacker connected: 51.68.227.49 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 14:25:27.777 - [Debug] [Auth] Attacker 51.68.227.49 trying to authenticate with "password"
+2019-11-11 14:25:27.779 - [Debug] [Auto Access] Attacker: 51.68.227.49, Threshold: 3, Attempts: 1
+2019-11-11 14:25:27.779 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 14:25:27.780 - [Debug] [Auth] Attacker: 51.68.227.49 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 14:25:27.978 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 14:32:05.243 - [Debug] [Connection] Attacker connected: 223.197.175.171 | Client Identification: SSH-2.0-libssh2_1.2.8
+2019-11-11 14:32:06.962 - [Debug] [Auth] Attacker 223.197.175.171 trying to authenticate with "password"
+2019-11-11 14:32:06.963 - [Debug] [Auto Access] Attacker: 223.197.175.171, Threshold: 3, Attempts: 1
+2019-11-11 14:32:06.963 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 14:32:06.964 - [Debug] [Auth] Attacker: 223.197.175.171 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 14:32:07.466 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 14:38:34.525 - [Debug] [Connection] Attacker connected: 68.251.142.26 | Client Identification: SSH-2.0-libssh2_1.8.0
+2019-11-11 14:38:36.481 - [Debug] [Auth] Attacker 68.251.142.26 trying to authenticate with "password"
+2019-11-11 14:38:36.482 - [Debug] [Auto Access] Attacker: 68.251.142.26, Threshold: 3, Attempts: 1
+2019-11-11 14:38:36.482 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 14:38:36.483 - [Debug] [Auth] Attacker: 68.251.142.26 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 14:38:36.678 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 14:40:00.595 - [Debug] [Connection] Attacker connected: 51.68.227.49 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 14:40:01.272 - [Debug] [Auth] Attacker 51.68.227.49 trying to authenticate with "password"
+2019-11-11 14:40:01.272 - [Debug] [Auto Access] Attacker: 51.68.227.49, Threshold: 3, Attempts: 2
+2019-11-11 14:40:01.272 - [Debug] [Auth] Attacker authentication error: Not yet compromised
+2019-11-11 14:40:01.273 - [Debug] [Auth] Attacker: 51.68.227.49 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 14:40:01.469 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 14:43:01.135 - [Debug] [Connection] Attacker connected: 51.68.227.49 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 14:43:01.693 - [Debug] [Auth] Attacker 51.68.227.49 trying to authenticate with "password"
+2019-11-11 14:43:01.693 - [Debug] [Auto Access] Attacker: 51.68.227.49, Threshold: 3, Attempts: 3
+2019-11-11 14:43:01.693 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-11 14:43:01.693 - [Debug] [Auto Access] Adding the following credentials: "chungkui:chungkui"
+2019-11-11 14:43:01.921 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-11 14:43:01.921 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.3
+2019-11-11 14:43:01.971 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-11 14:43:02.327 - [Debug] [Connection] Attacker connected: 51.68.227.49 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-11 14:43:02.885 - [Debug] [Auth] Attacker 51.68.227.49 trying to authenticate with "password"
+2019-11-11 14:43:02.886 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-11 14:43:02.887 - [Debug] [Auth] Attacker: 51.68.227.49 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-11 14:43:03.085 - [Debug] [Connection] Attacker closed the connection
+2019-11-11 14:43:03.246 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-12 02:22:25.486 - [Debug] [Connection] Attacker closed connection
+2019-11-12 02:22:25.508 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-12 02:22:25.509 - [Debug] [LXC] Container's OpenSSH server closed connection

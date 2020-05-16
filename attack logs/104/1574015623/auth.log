@@ -1,0 +1,4 @@
+Nov 17 18:33:43 mark-websrv sshd[490]: Accepted password for qwerty from 172.20.0.1 port 59104 ssh2
+Nov 17 18:33:43 mark-websrv sshd[490]: pam_unix(sshd:session): session opened for user qwerty by (uid=0)
+Nov 17 18:33:43 mark-websrv systemd-logind[165]: New session 74085 of user qwerty.
+Nov 17 18:33:43 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)

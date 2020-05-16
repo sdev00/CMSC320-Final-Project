@@ -1,0 +1,15 @@
+[2019-12-04 23:22:52] INFO  WEBrick 1.5.0
+[2019-12-04 23:22:52] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-04 23:22:52] INFO  WEBrick::HTTPServer#start: pid=386 port=80
+177.135.39.222 - - [04/Dec/2019:23:41:21 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=busybox&curpath=/&currentsetting.htm=1 HTTP/1.1" 404 562 0.1475
+188.143.21.226 - - [04/Dec/2019:23:52:32 +0000] "GET / HTTP/1.1" 200 1574 0.0067
+78.171.157.72 - - [04/Dec/2019:23:53:36 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+185.162.174.3 - - [05/Dec/2019:01:01:48 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+96.27.195.119 - - [05/Dec/2019:03:51:19 +0000] "GET / HTTP/1.1" 200 1574 0.0032
+[2019-12-05 03:51:19] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+187.34.164.81 - - [05/Dec/2019:04:21:46 +0000] "GET / HTTP/1.1" 200 1574 0.0064
+198.143.158.178 - - [05/Dec/2019:04:26:53 +0000] "GET / HTTP/1.1" 200 1574 0.0031
+201.49.231.208 - - [05/Dec/2019:05:33:29 +0000] "GET / HTTP/1.1" 200 1574 0.0063

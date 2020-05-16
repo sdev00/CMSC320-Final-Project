@@ -1,0 +1,6 @@
+Nov 14 11:04:12 mark-websrv sshd[490]: Accepted password for ftp from 172.20.0.1 port 34298 ssh2
+Nov 14 11:04:12 mark-websrv sshd[490]: pam_unix(sshd:session): session opened for user ftp by (uid=0)
+Nov 14 11:04:12 mark-websrv systemd-logind[148]: New session 64769 of user ftp.
+Nov 14 11:04:12 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ftp by (uid=0)
+Nov 14 11:16:01 mark-websrv CRON[560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 11:16:01 mark-websrv CRON[560]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,105 @@
+2019-11-21 00:07:29.952 - [Info] MITM Version: 1.26
+2019-11-21 00:07:29.978 - [Info] Auto Access Enabled: true
+2019-11-21 00:07:29.978 - [Debug] [Init] Auto Access Barrier: true
+2019-11-21 00:07:30.076 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-21 00:15:02.046 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-paramiko_2.6.0
+2019-11-21 00:15:04.732 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:15:04.733 - [Debug] [Auto Access] Attacker: 167.99.64.212, Threshold: 1, Attempts: 1
+2019-11-21 00:15:04.733 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-21 00:15:04.734 - [Debug] [Auto Access] Adding the following credentials: "root:12345"
+2019-11-21 00:15:04.902 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:15:04.902 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:15:04.959 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:15:05.918 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:15:05.979 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:15:05.980 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 00:18:02.496 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-Renci.SshNet.SshClient.0.0.1
+2019-11-21 00:18:04.551 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "none"
+2019-11-21 00:18:04.552 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-21 00:18:05.158 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:18:05.160 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:18:05.160 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:18:05.213 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:18:11.568 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:18:11.576 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:18:11.576 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 00:20:21.312 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-Renci.SshNet.SshClient.0.0.1
+2019-11-21 00:20:23.452 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "none"
+2019-11-21 00:20:23.452 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-21 00:20:24.163 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:20:24.164 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:20:24.164 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:20:24.303 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:20:30.168 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:20:30.197 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:20:30.198 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 00:21:12.494 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-Renci.SshNet.SshClient.0.0.1
+2019-11-21 00:21:14.569 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "none"
+2019-11-21 00:21:14.571 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-21 00:21:15.206 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:21:15.207 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:21:15.207 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:21:15.599 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:21:22.555 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:21:22.562 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:21:22.562 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 00:22:45.478 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-Renci.SshNet.SshClient.0.0.1
+2019-11-21 00:22:47.671 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "none"
+2019-11-21 00:22:47.671 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-21 00:22:48.370 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:22:48.370 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:22:48.370 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:22:48.397 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:22:52.622 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:22:52.631 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:22:52.631 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 00:24:13.939 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-Renci.SshNet.SshClient.0.0.1
+2019-11-21 00:24:16.772 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "none"
+2019-11-21 00:24:16.772 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-21 00:24:17.425 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:24:17.427 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:24:17.427 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:24:17.477 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:24:23.022 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:24:23.041 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:24:23.042 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 00:25:57.156 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-Renci.SshNet.SshClient.0.0.1
+2019-11-21 00:25:59.783 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "none"
+2019-11-21 00:25:59.783 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-21 00:26:00.347 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:26:00.348 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:26:00.348 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:26:00.371 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:26:11.365 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:26:11.381 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:26:11.382 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 00:27:34.033 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-Renci.SshNet.SshClient.0.0.1
+2019-11-21 00:27:36.943 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "none"
+2019-11-21 00:27:36.944 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-21 00:27:37.551 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:27:37.553 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:27:37.553 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:27:37.603 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:27:45.232 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:27:45.245 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:27:45.245 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 00:29:23.228 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-Renci.SshNet.SshClient.0.0.1
+2019-11-21 00:29:25.731 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "none"
+2019-11-21 00:29:25.732 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-21 00:29:26.401 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:29:26.403 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:29:26.403 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:29:26.477 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:29:33.931 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:29:33.939 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:29:33.939 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 00:31:53.693 - [Debug] [Connection] Attacker connected: 167.99.64.212 | Client Identification: SSH-2.0-Renci.SshNet.SshClient.0.0.1
+2019-11-21 00:31:55.654 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "none"
+2019-11-21 00:31:55.654 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-21 00:31:56.360 - [Debug] [Auth] Attacker 167.99.64.212 trying to authenticate with "password"
+2019-11-21 00:31:56.361 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 00:31:56.361 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 00:31:56.385 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 00:32:00.062 - [Debug] [Connection] Attacker closed connection
+2019-11-21 00:32:00.070 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 00:32:00.071 - [Debug] [LXC] Container's OpenSSH server closed connection

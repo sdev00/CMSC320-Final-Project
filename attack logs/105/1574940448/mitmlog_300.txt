@@ -1,0 +1,81 @@
+2019-11-28 05:07:44.085 - [Info] MITM Version: 1.26
+2019-11-28 05:07:44.092 - [Info] Auto Access Enabled: true
+2019-11-28 05:07:44.092 - [Debug] [Init] Auto Access Barrier: true
+2019-11-28 05:07:44.116 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-28 05:32:46.592 - [Debug] [Connection] Attacker connected: 111.62.12.169 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-28 05:32:56.023 - [Debug] [Connection] Attacker closed the connection
+2019-11-28 06:27:21.406 - [Debug] [Connection] Attacker connected: 94.153.212.65 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 06:27:21.408 - [Debug] [Connection] Attacker connected: 94.153.212.65 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 06:27:21.418 - [Debug] [Connection] Attacker connected: 94.153.212.65 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 06:27:23.493 - [Debug] [Connection] Attacker connected: 94.153.212.65 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 06:27:23.493 - [Debug] [Connection] Attacker connected: 94.153.212.65 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 06:27:23.493 - [Debug] [Connection] Attacker connected: 94.153.212.65 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 06:27:25.016 - [Debug] [Connection] Attacker connected: 94.153.212.65 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 06:27:25.016 - [Debug] [Connection] Attacker connected: 94.153.212.65 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-28 06:27:27.600 - [Debug] [Auth] Attacker 94.153.212.65 trying to authenticate with "password"
+2019-11-28 06:27:27.603 - [Debug] [Auto Access] Attacker: 94.153.212.65, Threshold: 1, Attempts: 1
+2019-11-28 06:27:27.603 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-28 06:27:27.603 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2019-11-28 06:27:27.854 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 06:27:27.854 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 06:27:27.866 - [Debug] [Auth] Attacker 94.153.212.65 trying to authenticate with "password"
+2019-11-28 06:27:27.867 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 06:27:27.867 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 06:27:27.870 - [Debug] [Auth] Attacker 94.153.212.65 trying to authenticate with "password"
+2019-11-28 06:27:27.871 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 06:27:27.871 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 06:27:27.873 - [Debug] [Auth] Attacker 94.153.212.65 trying to authenticate with "password"
+2019-11-28 06:27:27.874 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 06:27:27.874 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 06:27:27.876 - [Debug] [Auth] Attacker 94.153.212.65 trying to authenticate with "password"
+2019-11-28 06:27:27.877 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 06:27:27.877 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 06:27:27.879 - [Debug] [Auth] Attacker 94.153.212.65 trying to authenticate with "password"
+2019-11-28 06:27:27.879 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 06:27:27.880 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 06:27:27.881 - [Debug] [Auth] Attacker 94.153.212.65 trying to authenticate with "password"
+2019-11-28 06:27:27.882 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 06:27:27.882 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 06:27:27.884 - [Debug] [Auth] Attacker 94.153.212.65 trying to authenticate with "password"
+2019-11-28 06:27:27.885 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-28 06:27:27.885 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-28 06:27:28.185 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 06:27:28.316 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 06:27:28.386 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 06:27:28.389 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 06:27:28.402 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 06:27:28.479 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 06:27:28.494 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 06:27:28.501 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-28 06:27:28.818 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2019-11-28 06:27:28.917 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2019-11-28 06:27:28.949 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2019-11-28 06:27:28.950 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2019-11-28 06:27:29.020 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2019-11-28 06:27:29.047 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2019-11-28 06:27:29.089 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2019-11-28 06:27:29.114 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2019-11-28 06:27:33.697 - [Debug] [Connection] Attacker closed connection
+2019-11-28 06:27:33.716 - [Debug] [Connection] Attacker closed connection
+2019-11-28 06:27:33.718 - [Debug] [Connection] Attacker closed connection
+2019-11-28 06:27:33.754 - [Debug] [Connection] Attacker closed connection
+2019-11-28 06:27:33.756 - [Debug] [Connection] Attacker closed connection
+2019-11-28 06:27:33.763 - [Debug] [Connection] Attacker closed connection
+2019-11-28 06:27:33.777 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 06:27:33.777 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-28 06:27:33.789 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 06:27:33.790 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-28 06:27:33.791 - [Debug] [Connection] Attacker closed connection
+2019-11-28 06:27:33.810 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 06:27:33.810 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-28 06:27:33.812 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 06:27:33.813 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-28 06:27:33.827 - [Debug] [Connection] Attacker closed connection
+2019-11-28 06:27:33.864 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 06:27:33.865 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-28 06:27:33.871 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 06:27:33.871 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-28 06:27:33.897 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 06:27:33.897 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-28 06:27:33.976 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-28 06:27:33.977 - [Debug] [LXC] Container's OpenSSH server closed connection

@@ -1,0 +1,4 @@
+Nov 29 21:25:56 mark-websrv sshd[466]: Accepted password for maximillia from 172.20.0.1 port 58416 ssh2
+Nov 29 21:25:56 mark-websrv sshd[466]: pam_unix(sshd:session): session opened for user maximillia by (uid=0)
+Nov 29 21:25:56 mark-websrv systemd-logind[158]: New session 107204 of user maximillia.
+Nov 29 21:25:56 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user maximillia by (uid=0)

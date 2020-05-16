@@ -1,0 +1,11 @@
+Nov 18 09:58:13 mark-websrv sshd[468]: Accepted password for jboss from 172.20.0.1 port 43638 ssh2
+Nov 18 09:58:13 mark-websrv sshd[468]: pam_unix(sshd:session): session opened for user jboss by (uid=0)
+Nov 18 09:58:13 mark-websrv systemd-logind[156]: New session 75799 of user jboss.
+Nov 18 09:58:13 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user jboss by (uid=0)
+Nov 18 09:58:16 mark-websrv sshd[519]: Received disconnect from 172.20.0.1 port 43638:11:
+Nov 18 09:58:16 mark-websrv sshd[519]: Disconnected from user jboss 172.20.0.1 port 43638
+Nov 18 09:58:16 mark-websrv sshd[468]: pam_unix(sshd:session): session closed for user jboss
+Nov 18 09:58:17 mark-websrv systemd-logind[156]: Removed session 75799.
+Nov 18 09:58:17 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user jboss
+Nov 18 10:16:01 mark-websrv CRON[570]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 18 10:16:01 mark-websrv CRON[570]: pam_unix(cron:session): session closed for user root

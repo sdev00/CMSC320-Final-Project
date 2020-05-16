@@ -1,0 +1,4 @@
+Nov 12 16:28:55 mark-websrv sshd[265]: Accepted password for usuario from 172.20.0.1 port 55740 ssh2
+Nov 12 16:28:55 mark-websrv sshd[265]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Nov 12 16:28:55 mark-websrv systemd-logind[160]: New session 59442 of user usuario.
+Nov 12 16:28:55 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user usuario by (uid=0)

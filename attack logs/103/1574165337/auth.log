@@ -1,0 +1,6 @@
+Nov 19 12:08:57 mark-websrv sshd[445]: Accepted password for boudje from 172.20.0.1 port 53562 ssh2
+Nov 19 12:08:57 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user boudje by (uid=0)
+Nov 19 12:08:57 mark-websrv systemd-logind[151]: New session 78713 of user boudje.
+Nov 19 12:08:57 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user boudje by (uid=0)
+Nov 19 12:16:01 mark-websrv CRON[544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 19 12:16:01 mark-websrv CRON[544]: pam_unix(cron:session): session closed for user root

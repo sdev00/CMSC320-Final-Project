@@ -1,0 +1,4 @@
+Nov 27 08:21:58 mark-websrv sshd[438]: Accepted password for rojakovick from 172.20.0.1 port 36228 ssh2
+Nov 27 08:21:58 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user rojakovick by (uid=0)
+Nov 27 08:21:58 mark-websrv systemd-logind[163]: New session 100240 of user rojakovick.
+Nov 27 08:21:58 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user rojakovick by (uid=0)

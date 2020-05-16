@@ -1,0 +1,9 @@
+Nov 29 18:40:30 mark-websrv sshd[438]: Accepted password for bessel from 172.20.0.1 port 58194 ssh2
+Nov 29 18:40:30 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user bessel by (uid=0)
+Nov 29 18:40:30 mark-websrv systemd-logind[159]: New session 106880 of user bessel.
+Nov 29 18:40:30 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user bessel by (uid=0)
+Nov 29 18:57:50 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 58194:11:
+Nov 29 18:57:50 mark-websrv sshd[489]: Disconnected from user bessel 172.20.0.1 port 58194
+Nov 29 18:57:50 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user bessel
+Nov 29 18:57:50 mark-websrv systemd-logind[159]: Removed session 106880.
+Nov 29 18:57:50 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user bessel

@@ -1,0 +1,8 @@
+Nov 20 06:04:48 mark-websrv sshd[443]: Accepted password for dovecot from 172.20.0.1 port 33630 ssh2
+Nov 20 06:04:48 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user dovecot by (uid=0)
+Nov 20 06:04:48 mark-websrv systemd-logind[149]: New session 80789 of user dovecot.
+Nov 20 06:04:48 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dovecot by (uid=0)
+Nov 20 06:12:01 mark-websrv CRON[510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 06:12:09 mark-websrv CRON[510]: pam_unix(cron:session): session closed for user root
+Nov 20 06:16:01 mark-websrv CRON[658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 06:16:01 mark-websrv CRON[658]: pam_unix(cron:session): session closed for user root

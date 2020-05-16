@@ -1,0 +1,8 @@
+Nov 28 07:36:00 mark-websrv sshd[485]: Accepted password for ranjeet from 172.20.0.1 port 56146 ssh2
+Nov 28 07:36:00 mark-websrv sshd[485]: pam_unix(sshd:session): session opened for user ranjeet by (uid=0)
+Nov 28 07:36:00 mark-websrv systemd-logind[158]: New session 102883 of user ranjeet.
+Nov 28 07:36:00 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ranjeet by (uid=0)
+Nov 28 07:49:17 mark-websrv sshd[536]: Received disconnect from 172.20.0.1 port 56146:11:
+Nov 28 07:49:17 mark-websrv sshd[536]: Disconnected from user ranjeet 172.20.0.1 port 56146
+Nov 28 07:49:17 mark-websrv systemd-logind[158]: Removed session 102883.
+Nov 28 07:49:17 mark-websrv sshd[485]: pam_unix(sshd:session): session closed for user ranjeet

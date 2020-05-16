@@ -1,0 +1,18 @@
+2019-11-14 05:10:35.507 - [Info] MITM Version: 1.26
+2019-11-14 05:10:35.513 - [Info] Auto Access Enabled: true
+2019-11-14 05:10:35.513 - [Debug] [Init] Auto Access Barrier: true
+2019-11-14 05:10:35.533 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-14 05:13:23.025 - [Debug] [Connection] Attacker connected: 200.34.88.37 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 05:13:23.507 - [Debug] [Auth] Attacker 200.34.88.37 trying to authenticate with "password"
+2019-11-14 05:13:23.508 - [Debug] [Auto Access] Attacker: 200.34.88.37, Threshold: 1, Attempts: 1
+2019-11-14 05:13:23.509 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 05:13:23.509 - [Debug] [Auto Access] Adding the following credentials: "root:mandragora"
+2019-11-14 05:13:23.634 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 05:13:23.634 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-14 05:13:23.677 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 05:13:23.949 - [Debug] [Connection] Attacker connected: 200.34.88.37 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 05:13:24.385 - [Debug] [Auth] Attacker 200.34.88.37 trying to authenticate with "password"
+2019-11-14 05:13:24.386 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-14 05:13:24.387 - [Debug] [Auth] Attacker: 200.34.88.37 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-14 05:13:24.542 - [Debug] [Connection] Attacker closed the connection
+2019-11-14 05:13:24.676 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

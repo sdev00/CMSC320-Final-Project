@@ -1,0 +1,9 @@
+Nov 14 02:28:36 mark-websrv sshd[438]: Accepted password for usuario from 172.20.0.1 port 33472 ssh2
+Nov 14 02:28:36 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Nov 14 02:28:36 mark-websrv systemd-logind[164]: New session 63700 of user usuario.
+Nov 14 02:28:36 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user usuario by (uid=0)
+Nov 14 02:28:39 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 33472:11:
+Nov 14 02:28:39 mark-websrv sshd[489]: Disconnected from user usuario 172.20.0.1 port 33472
+Nov 14 02:28:39 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user usuario
+Nov 14 02:28:41 mark-websrv systemd-logind[164]: Removed session 63700.
+Nov 14 02:28:41 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user usuario

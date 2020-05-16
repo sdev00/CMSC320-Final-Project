@@ -1,0 +1,10 @@
+[2019-11-28 04:35:25] INFO  WEBrick 1.5.0
+[2019-11-28 04:35:25] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-28 04:35:25] INFO  WEBrick::HTTPServer#start: pid=419 port=80
+123.206.226.149 - - [28/Nov/2019:04:43:02 +0000] "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1" 404 562 0.1299
+123.206.226.149 - - [28/Nov/2019:04:43:03 +0000] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 562 0.0029
+123.206.226.149 - - [28/Nov/2019:04:43:03 +0000] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 562 0.0027
+123.206.226.149 - - [28/Nov/2019:04:43:04 +0000] "GET /pma/scripts/setup.php HTTP/1.1" 404 562 0.0028
+123.206.226.149 - - [28/Nov/2019:04:43:04 +0000] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 562 0.0058
+123.206.226.149 - - [28/Nov/2019:04:43:05 +0000] "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 562 0.0067
+[2019-11-28 04:43:06] ERROR bad URI `HTTP/1.1'.

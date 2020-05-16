@@ -1,0 +1,13 @@
+Nov 20 05:59:11 mark-websrv sshd[468]: Accepted password for gi from 172.20.0.1 port 45834 ssh2
+Nov 20 05:59:11 mark-websrv sshd[468]: pam_unix(sshd:session): session opened for user gi by (uid=0)
+Nov 20 05:59:11 mark-websrv systemd-logind[154]: New session 80778 of user gi.
+Nov 20 05:59:12 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user gi by (uid=0)
+Nov 20 06:09:38 mark-websrv sshd[519]: Received disconnect from 172.20.0.1 port 45834:11:
+Nov 20 06:09:38 mark-websrv sshd[519]: Disconnected from user gi 172.20.0.1 port 45834
+Nov 20 06:09:38 mark-websrv sshd[468]: pam_unix(sshd:session): session closed for user gi
+Nov 20 06:09:38 mark-websrv systemd-logind[154]: Removed session 80778.
+Nov 20 06:09:38 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user gi
+Nov 20 06:12:01 mark-websrv CRON[548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 06:12:09 mark-websrv CRON[548]: pam_unix(cron:session): session closed for user root
+Nov 20 06:16:01 mark-websrv CRON[698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 06:16:01 mark-websrv CRON[698]: pam_unix(cron:session): session closed for user root

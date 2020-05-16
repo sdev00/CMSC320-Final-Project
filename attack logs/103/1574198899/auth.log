@@ -1,0 +1,10 @@
+Nov 19 21:28:19 mark-websrv sshd[434]: Accepted password for games from 172.20.0.1 port 54086 ssh2
+Nov 19 21:28:19 mark-websrv sshd[434]: pam_unix(sshd:session): session opened for user games by (uid=0)
+Nov 19 21:28:19 mark-websrv systemd-logind[167]: New session 79791 of user games.
+Nov 19 21:28:19 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user games by (uid=0)
+Nov 19 21:28:32 mark-websrv nologin: Attempted login by games on UNKNOWN
+Nov 19 21:28:32 mark-websrv sshd[485]: Received disconnect from 172.20.0.1 port 54086:11:
+Nov 19 21:28:32 mark-websrv sshd[485]: Disconnected from user games 172.20.0.1 port 54086
+Nov 19 21:28:32 mark-websrv sshd[434]: pam_unix(sshd:session): session closed for user games
+Nov 19 21:28:32 mark-websrv systemd-logind[167]: Removed session 79791.
+Nov 19 21:28:32 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user games

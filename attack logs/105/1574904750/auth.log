@@ -1,0 +1,4 @@
+Nov 28 01:32:30 mark-websrv sshd[456]: Accepted password for loft from 172.20.0.1 port 55800 ssh2
+Nov 28 01:32:30 mark-websrv sshd[456]: pam_unix(sshd:session): session opened for user loft by (uid=0)
+Nov 28 01:32:30 mark-websrv systemd-logind[146]: New session 102190 of user loft.
+Nov 28 01:32:30 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user loft by (uid=0)

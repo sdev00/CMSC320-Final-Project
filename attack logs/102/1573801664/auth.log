@@ -1,0 +1,6 @@
+Nov 15 07:07:44 mark-websrv sshd[445]: Accepted password for farima from 172.20.0.1 port 57642 ssh2
+Nov 15 07:07:44 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user farima by (uid=0)
+Nov 15 07:07:44 mark-websrv systemd-logind[150]: New session 67145 of user farima.
+Nov 15 07:07:44 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user farima by (uid=0)
+Nov 15 07:16:01 mark-websrv CRON[516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 07:16:01 mark-websrv CRON[516]: pam_unix(cron:session): session closed for user root

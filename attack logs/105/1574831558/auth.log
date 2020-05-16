@@ -1,0 +1,6 @@
+Nov 27 05:12:38 mark-websrv sshd[439]: Accepted password for foxi from 172.20.0.1 port 54736 ssh2
+Nov 27 05:12:38 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user foxi by (uid=0)
+Nov 27 05:12:38 mark-websrv systemd-logind[155]: New session 99866 of user foxi.
+Nov 27 05:12:38 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user foxi by (uid=0)
+Nov 27 05:16:01 mark-websrv CRON[507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 27 05:16:01 mark-websrv CRON[507]: pam_unix(cron:session): session closed for user root

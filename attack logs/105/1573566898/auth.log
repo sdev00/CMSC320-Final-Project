@@ -1,0 +1,16 @@
+Nov 12 13:54:58 mark-websrv sshd[439]: Accepted password for pi from 172.20.0.1 port 55350 ssh2
+Nov 12 13:54:58 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Nov 12 13:54:58 mark-websrv sshd[438]: Accepted password for pi from 172.20.0.1 port 55348 ssh2
+Nov 12 13:54:58 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Nov 12 13:54:58 mark-websrv systemd-logind[156]: New session 59117 of user pi.
+Nov 12 13:54:58 mark-websrv systemd-logind[156]: New session 59118 of user pi.
+Nov 12 13:54:58 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Nov 12 13:56:01 mark-websrv sshd[530]: Received disconnect from 172.20.0.1 port 55350:11:
+Nov 12 13:56:01 mark-websrv sshd[530]: Disconnected from user pi 172.20.0.1 port 55350
+Nov 12 13:56:01 mark-websrv systemd-logind[156]: Removed session 59118.
+Nov 12 13:56:01 mark-websrv sshd[439]: pam_unix(sshd:session): session closed for user pi
+Nov 12 13:56:01 mark-websrv systemd-logind[156]: Removed session 59117.
+Nov 12 13:56:01 mark-websrv sshd[529]: Received disconnect from 172.20.0.1 port 55348:11:
+Nov 12 13:56:01 mark-websrv sshd[529]: Disconnected from user pi 172.20.0.1 port 55348
+Nov 12 13:56:01 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user pi
+Nov 12 13:56:01 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user pi

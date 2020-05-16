@@ -1,0 +1,8 @@
+Nov 12 15:30:18 mark-websrv sshd[437]: Accepted password for games from 172.20.0.1 port 48282 ssh2
+Nov 12 15:30:18 mark-websrv sshd[437]: pam_unix(sshd:session): session opened for user games by (uid=0)
+Nov 12 15:30:18 mark-websrv systemd-logind[147]: New session 59322 of user games.
+Nov 12 15:30:18 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user games by (uid=0)
+Nov 12 15:30:30 mark-websrv sshd[488]: Received disconnect from 172.20.0.1 port 48282:11:
+Nov 12 15:30:30 mark-websrv sshd[488]: Disconnected from user games 172.20.0.1 port 48282
+Nov 12 15:30:30 mark-websrv sshd[437]: pam_unix(sshd:session): session closed for user games
+Nov 12 15:30:30 mark-websrv systemd-logind[147]: Removed session 59322.

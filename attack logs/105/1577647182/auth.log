@@ -1,0 +1,10 @@
+Dec 29 19:19:42 mark-websrv sshd[17377]: Accepted password for LIBRSYSISVC from 172.20.0.1 port 36488 ssh2
+Dec 29 19:19:42 mark-websrv sshd[17377]: pam_unix(sshd:session): session opened for user LIBRSYSISVC by (uid=0)
+Dec 29 19:19:42 mark-websrv systemd-logind[146]: New session 134263 of user LIBRSYSISVC.
+Dec 29 19:19:42 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user LIBRSYSISVC by (uid=0)
+Dec 29 19:19:45 mark-websrv sudo: LIBRSYSISVC : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/LIBRSYSISVC ; USER=root ; COMMAND=/bin/echo ok
+Dec 29 19:19:45 mark-websrv sshd[17428]: Received disconnect from 172.20.0.1 port 36488:11:
+Dec 29 19:19:45 mark-websrv sshd[17428]: Disconnected from user LIBRSYSISVC 172.20.0.1 port 36488
+Dec 29 19:19:45 mark-websrv sshd[17377]: pam_unix(sshd:session): session closed for user LIBRSYSISVC
+Dec 29 19:19:47 mark-websrv systemd-logind[146]: Removed session 134263.
+Dec 29 19:19:47 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user LIBRSYSISVC

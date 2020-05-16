@@ -1,0 +1,4 @@
+Nov 13 00:21:15 mark-websrv sshd[438]: Accepted password for botelho from 172.20.0.1 port 57000 ssh2
+Nov 13 00:21:15 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user botelho by (uid=0)
+Nov 13 00:21:15 mark-websrv systemd-logind[166]: New session 60443 of user botelho.
+Nov 13 00:21:15 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user botelho by (uid=0)

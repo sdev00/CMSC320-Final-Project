@@ -1,0 +1,1 @@
+2019-11-13 09:00:36.062;200.69.250.253;password;administrator;password

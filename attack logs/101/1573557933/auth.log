@@ -1,0 +1,9 @@
+Nov 12 11:25:33 mark-websrv sshd[438]: Accepted password for thomas from 172.20.0.1 port 55458 ssh2
+Nov 12 11:25:33 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user thomas by (uid=0)
+Nov 12 11:25:33 mark-websrv systemd-logind[150]: New session 58807 of user thomas.
+Nov 12 11:25:33 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user thomas by (uid=0)
+Nov 12 11:34:08 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 55458:11:
+Nov 12 11:34:08 mark-websrv sshd[489]: Disconnected from user thomas 172.20.0.1 port 55458
+Nov 12 11:34:08 mark-websrv systemd-logind[150]: Removed session 58807.
+Nov 12 11:34:08 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user thomas
+Nov 12 11:34:08 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user thomas

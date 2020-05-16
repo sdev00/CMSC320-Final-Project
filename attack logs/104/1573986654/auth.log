@@ -1,0 +1,4 @@
+Nov 17 10:30:54 mark-websrv sshd[493]: Accepted password for charlesworth from 172.20.0.1 port 58566 ssh2
+Nov 17 10:30:54 mark-websrv sshd[493]: pam_unix(sshd:session): session opened for user charlesworth by (uid=0)
+Nov 17 10:30:54 mark-websrv systemd-logind[151]: New session 73151 of user charlesworth.
+Nov 17 10:30:54 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user charlesworth by (uid=0)

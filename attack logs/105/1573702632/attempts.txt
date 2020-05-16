@@ -1,0 +1,4 @@
+2019-11-13 21:30:04.481;110.80.17.26;password;khairati;khairati
+2019-11-13 22:01:22.099;182.151.37.230;password;otsuki;otsuki
+2019-11-13 22:37:12.474;49.232.51.237;password;oth;oth
+2019-11-13 22:37:15.880;49.232.51.237;password;nproc;nproc

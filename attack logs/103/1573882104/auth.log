@@ -1,0 +1,4 @@
+Nov 16 05:28:24 mark-websrv sshd[439]: Accepted password for polychronis from 172.20.0.1 port 48470 ssh2
+Nov 16 05:28:24 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user polychronis by (uid=0)
+Nov 16 05:28:24 mark-websrv systemd-logind[162]: New session 69733 of user polychronis.
+Nov 16 05:28:24 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user polychronis by (uid=0)

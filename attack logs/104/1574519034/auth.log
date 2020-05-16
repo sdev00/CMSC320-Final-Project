@@ -1,0 +1,4 @@
+Nov 23 14:23:54 mark-websrv sshd[454]: Accepted password for goldfield from 172.20.0.1 port 40026 ssh2
+Nov 23 14:23:54 mark-websrv sshd[454]: pam_unix(sshd:session): session opened for user goldfield by (uid=0)
+Nov 23 14:23:54 mark-websrv systemd-logind[146]: New session 90180 of user goldfield.
+Nov 23 14:23:54 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user goldfield by (uid=0)

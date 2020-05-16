@@ -1,0 +1,9 @@
+Nov 21 06:27:21 mark-websrv sshd[439]: Accepted password for juniper from 172.20.0.1 port 47696 ssh2
+Nov 21 06:27:21 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user juniper by (uid=0)
+Nov 21 06:27:21 mark-websrv systemd-logind[151]: New session 83702 of user juniper.
+Nov 21 06:27:21 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user juniper by (uid=0)
+Nov 21 06:41:13 mark-websrv sshd[490]: Received disconnect from 172.20.0.1 port 47696:11:
+Nov 21 06:41:13 mark-websrv sshd[490]: Disconnected from user juniper 172.20.0.1 port 47696
+Nov 21 06:41:13 mark-websrv sshd[439]: pam_unix(sshd:session): session closed for user juniper
+Nov 21 06:41:13 mark-websrv systemd-logind[151]: Removed session 83702.
+Nov 21 06:41:13 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user juniper

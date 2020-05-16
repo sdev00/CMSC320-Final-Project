@@ -1,0 +1,4 @@
+Nov 20 08:55:29 mark-websrv sshd[438]: Accepted password for arcadia from 172.20.0.1 port 38270 ssh2
+Nov 20 08:55:29 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user arcadia by (uid=0)
+Nov 20 08:55:29 mark-websrv systemd-logind[152]: New session 81138 of user arcadia.
+Nov 20 08:55:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user arcadia by (uid=0)

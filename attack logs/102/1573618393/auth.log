@@ -1,0 +1,11 @@
+Nov 13 04:13:13 mark-websrv sshd[438]: Accepted password for dummy from 172.20.0.1 port 50378 ssh2
+Nov 13 04:13:13 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user dummy by (uid=0)
+Nov 13 04:13:13 mark-websrv systemd-logind[147]: New session 60924 of user dummy.
+Nov 13 04:13:13 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dummy by (uid=0)
+Nov 13 04:13:15 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 50378:11:
+Nov 13 04:13:15 mark-websrv sshd[489]: Disconnected from user dummy 172.20.0.1 port 50378
+Nov 13 04:13:15 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user dummy
+Nov 13 04:13:17 mark-websrv systemd-logind[147]: Removed session 60924.
+Nov 13 04:13:17 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user dummy
+Nov 13 04:16:01 mark-websrv CRON[510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 04:16:01 mark-websrv CRON[510]: pam_unix(cron:session): session closed for user root

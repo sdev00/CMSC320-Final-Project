@@ -1,0 +1,4 @@
+Dec  1 05:23:26 mark-websrv sshd[449]: Accepted password for jacklin from 172.20.0.1 port 42026 ssh2
+Dec  1 05:23:26 mark-websrv sshd[449]: pam_unix(sshd:session): session opened for user jacklin by (uid=0)
+Dec  1 05:23:26 mark-websrv systemd-logind[147]: New session 108973 of user jacklin.
+Dec  1 05:23:26 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user jacklin by (uid=0)

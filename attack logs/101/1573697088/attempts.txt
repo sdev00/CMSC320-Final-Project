@@ -1,0 +1,2 @@
+2019-11-13 21:04:47.699;206.189.72.217;password;vasconcelos;vasconcelos
+2019-11-13 21:04:49.047;206.189.72.217;password;nproc;nproc

@@ -1,0 +1,4 @@
+Nov 20 18:19:57 mark-websrv sshd[485]: Accepted password for lorraine from 172.20.0.1 port 34896 ssh2
+Nov 20 18:19:57 mark-websrv sshd[485]: pam_unix(sshd:session): session opened for user lorraine by (uid=0)
+Nov 20 18:19:57 mark-websrv systemd-logind[152]: New session 82257 of user lorraine.
+Nov 20 18:19:57 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lorraine by (uid=0)

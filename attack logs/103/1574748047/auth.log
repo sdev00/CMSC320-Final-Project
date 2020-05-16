@@ -1,0 +1,8 @@
+Nov 26 06:00:47 mark-websrv sshd[526]: Accepted password for kjerengtroeen from 172.20.0.1 port 34786 ssh2
+Nov 26 06:00:47 mark-websrv sshd[526]: pam_unix(sshd:session): session opened for user kjerengtroeen by (uid=0)
+Nov 26 06:00:47 mark-websrv systemd-logind[153]: New session 97234 of user kjerengtroeen.
+Nov 26 06:00:47 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kjerengtroeen by (uid=0)
+Nov 26 06:12:01 mark-websrv CRON[591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 06:12:10 mark-websrv CRON[591]: pam_unix(cron:session): session closed for user root
+Nov 26 06:16:01 mark-websrv CRON[738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 06:16:01 mark-websrv CRON[738]: pam_unix(cron:session): session closed for user root

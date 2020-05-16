@@ -1,0 +1,11 @@
+Nov 12 23:12:52 mark-websrv sshd[438]: Accepted password for mysql from 172.20.0.1 port 38052 ssh2
+Nov 12 23:12:52 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user mysql by (uid=0)
+Nov 12 23:12:52 mark-websrv systemd-logind[155]: New session 60288 of user mysql.
+Nov 12 23:12:52 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mysql by (uid=0)
+Nov 12 23:14:14 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 38052:11:
+Nov 12 23:14:14 mark-websrv sshd[489]: Disconnected from user mysql 172.20.0.1 port 38052
+Nov 12 23:14:14 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user mysql
+Nov 12 23:14:14 mark-websrv systemd-logind[155]: Removed session 60288.
+Nov 12 23:14:14 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user mysql
+Nov 12 23:16:01 mark-websrv CRON[507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 23:16:01 mark-websrv CRON[507]: pam_unix(cron:session): session closed for user root

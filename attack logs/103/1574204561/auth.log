@@ -1,0 +1,6 @@
+Nov 19 23:02:41 mark-websrv sshd[444]: Accepted password for voller from 172.20.0.1 port 54240 ssh2
+Nov 19 23:02:41 mark-websrv sshd[444]: pam_unix(sshd:session): session opened for user voller by (uid=0)
+Nov 19 23:02:41 mark-websrv systemd-logind[148]: New session 79977 of user voller.
+Nov 19 23:02:41 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user voller by (uid=0)
+Nov 19 23:16:01 mark-websrv CRON[544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 19 23:16:01 mark-websrv CRON[544]: pam_unix(cron:session): session closed for user root

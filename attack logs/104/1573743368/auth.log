@@ -1,0 +1,6 @@
+Nov 14 14:56:08 mark-websrv sshd[456]: Accepted password for wingo from 172.20.0.1 port 51438 ssh2
+Nov 14 14:56:08 mark-websrv sshd[456]: pam_unix(sshd:session): session opened for user wingo by (uid=0)
+Nov 14 14:56:08 mark-websrv systemd-logind[148]: New session 65254 of user wingo.
+Nov 14 14:56:08 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wingo by (uid=0)
+Nov 14 15:16:01 mark-websrv CRON[558]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 15:16:01 mark-websrv CRON[558]: pam_unix(cron:session): session closed for user root

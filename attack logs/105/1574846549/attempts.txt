@@ -1,0 +1,3 @@
+2019-11-27 02:51:33.240;81.133.142.45;password;chance;chance
+2019-11-27 04:22:28.552;178.128.231.88;password;eyrignoux;eyrignoux
+2019-11-27 04:22:29.386;178.128.231.88;password;nproc;nproc

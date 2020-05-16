@@ -1,0 +1,4 @@
+Nov 30 16:45:33 mark-websrv sshd[484]: Accepted password for dbus from 172.20.0.1 port 48336 ssh2
+Nov 30 16:45:33 mark-websrv sshd[484]: pam_unix(sshd:session): session opened for user dbus by (uid=0)
+Nov 30 16:45:33 mark-websrv systemd-logind[151]: New session 108429 of user dbus.
+Nov 30 16:45:33 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dbus by (uid=0)

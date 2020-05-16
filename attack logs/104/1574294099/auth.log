@@ -1,0 +1,9 @@
+Nov 20 23:54:59 mark-websrv sshd[443]: Accepted password for breast from 172.20.0.1 port 35474 ssh2
+Nov 20 23:54:59 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user breast by (uid=0)
+Nov 20 23:54:59 mark-websrv systemd-logind[148]: New session 82917 of user breast.
+Nov 20 23:54:59 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user breast by (uid=0)
+Nov 20 23:57:10 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 35474:11:
+Nov 20 23:57:10 mark-websrv sshd[494]: Disconnected from user breast 172.20.0.1 port 35474
+Nov 20 23:57:10 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user breast
+Nov 20 23:57:10 mark-websrv systemd-logind[148]: Removed session 82917.
+Nov 20 23:57:10 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user breast

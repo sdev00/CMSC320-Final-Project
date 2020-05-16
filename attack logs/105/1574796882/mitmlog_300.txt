@@ -1,0 +1,23 @@
+2019-11-26 14:33:53.316 - [Info] MITM Version: 1.26
+2019-11-26 14:33:53.322 - [Info] Auto Access Enabled: true
+2019-11-26 14:33:53.322 - [Debug] [Init] Auto Access Barrier: true
+2019-11-26 14:33:53.343 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-26 14:34:40.569 - [Debug] [Connection] Attacker connected: 106.13.97.16 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-26 14:34:42.052 - [Debug] [Auth] Attacker 106.13.97.16 trying to authenticate with "password"
+2019-11-26 14:34:42.055 - [Debug] [Auto Access] Attacker: 106.13.97.16, Threshold: 1, Attempts: 1
+2019-11-26 14:34:42.055 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-26 14:34:42.055 - [Debug] [Auto Access] Adding the following credentials: "root:wsxedcrfv"
+2019-11-26 14:34:42.330 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-26 14:34:42.331 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-26 14:34:42.428 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-26 14:34:43.391 - [Debug] [Connection] Attacker connected: 106.13.97.16 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-26 14:34:44.868 - [Debug] [Auth] Attacker 106.13.97.16 trying to authenticate with "password"
+2019-11-26 14:34:44.870 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-26 14:34:44.872 - [Debug] [Auth] Attacker: 106.13.97.16 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-26 14:34:45.377 - [Debug] [Connection] Attacker closed the connection
+2019-11-26 14:34:45.849 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-26 14:36:19.541 - [Debug] [Connection] Client error on ssh server
+2019-11-26 14:36:19.542 - [Debug] [Connection] Attacker closed connection
+2019-11-26 14:36:19.550 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-26 14:36:19.550 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-26 14:51:44.594 - [Debug] [Connection] Client error on ssh server

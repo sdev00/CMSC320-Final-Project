@@ -1,0 +1,27 @@
+2019-11-25 19:19:39.659 - [Info] MITM Version: 1.26
+2019-11-25 19:19:39.677 - [Info] Auto Access Enabled: true
+2019-11-25 19:19:39.678 - [Debug] [Init] Auto Access Barrier: true
+2019-11-25 19:19:39.731 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-25 19:20:26.052 - [Debug] [Connection] Attacker connected: 222.221.248.242 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-25 19:20:27.825 - [Debug] [Auth] Attacker 222.221.248.242 trying to authenticate with "password"
+2019-11-25 19:20:27.827 - [Debug] [Auto Access] Attacker: 222.221.248.242, Threshold: 1, Attempts: 1
+2019-11-25 19:20:27.827 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-25 19:20:27.828 - [Debug] [Auto Access] Adding the following credentials: "root:!QAZXSW@@mxy"
+2019-11-25 19:20:28.082 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-25 19:20:28.082 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-25 19:20:28.179 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-25 19:20:29.980 - [Debug] [Connection] Attacker connected: 222.221.248.242 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-25 19:20:31.824 - [Debug] [Auth] Attacker 222.221.248.242 trying to authenticate with "password"
+2019-11-25 19:20:31.825 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-25 19:20:31.826 - [Debug] [Auth] Attacker: 222.221.248.242 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-25 19:20:32.447 - [Debug] [Connection] Attacker closed the connection
+2019-11-25 19:20:33.004 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-25 19:35:45.265 - [Debug] [Connection] Client error on ssh server
+2019-11-25 19:35:45.267 - [Debug] [Connection] Attacker closed connection
+2019-11-25 19:35:45.286 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-25 19:35:45.288 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-25 19:39:32.573 - [Debug] [Connection] Attacker connected: 222.221.248.242 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-25 19:39:34.222 - [Debug] [Auth] Attacker 222.221.248.242 trying to authenticate with "password"
+2019-11-25 19:39:34.224 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-11-25 19:39:34.225 - [Debug] [Auth] Attacker: 222.221.248.242 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-25 19:39:34.783 - [Debug] [Connection] Attacker closed the connection

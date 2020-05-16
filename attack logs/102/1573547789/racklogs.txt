@@ -1,0 +1,9 @@
+[2019-11-12 08:36:08] INFO  WEBrick 1.4.2
+[2019-11-12 08:36:08] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-12 08:36:08] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+34.70.61.82 - - [12/Nov/2019:08:51:21 +0000] "GET /muieblackcat HTTP/1.1" 404 562 0.1527
+34.70.61.82 - - [12/Nov/2019:08:51:21 +0000] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 562 0.0055
+34.70.61.82 - - [12/Nov/2019:08:51:21 +0000] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 562 0.0056
+34.70.61.82 - - [12/Nov/2019:08:51:21 +0000] "GET /pma/scripts/setup.php HTTP/1.1" 404 562 0.0058
+34.70.61.82 - - [12/Nov/2019:08:51:21 +0000] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 562 0.0055
+34.70.61.82 - - [12/Nov/2019:08:51:22 +0000] "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 562 0.0055

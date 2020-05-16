@@ -1,0 +1,6 @@
+Nov 15 10:09:04 mark-websrv sshd[443]: Accepted password for flaxman from 172.20.0.1 port 37012 ssh2
+Nov 15 10:09:04 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user flaxman by (uid=0)
+Nov 15 10:09:04 mark-websrv systemd-logind[148]: New session 67493 of user flaxman.
+Nov 15 10:09:04 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user flaxman by (uid=0)
+Nov 15 10:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 10:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session closed for user root

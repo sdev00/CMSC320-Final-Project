@@ -1,0 +1,18 @@
+2019-11-13 12:00:29.110 - [Info] MITM Version: 1.26
+2019-11-13 12:00:29.117 - [Info] Auto Access Enabled: true
+2019-11-13 12:00:29.117 - [Debug] [Init] Auto Access Barrier: true
+2019-11-13 12:00:29.140 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-13 13:06:28.671 - [Debug] [Connection] Attacker connected: 41.93.32.88 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-13 13:06:30.222 - [Debug] [Auth] Attacker 41.93.32.88 trying to authenticate with "password"
+2019-11-13 13:06:30.228 - [Debug] [Auto Access] Attacker: 41.93.32.88, Threshold: 1, Attempts: 1
+2019-11-13 13:06:30.228 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-13 13:06:30.229 - [Debug] [Auto Access] Adding the following credentials: "mysql:ramana"
+2019-11-13 13:06:30.961 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-13 13:06:30.962 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-13 13:06:31.184 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-13 13:06:32.173 - [Debug] [Connection] Attacker connected: 41.93.32.88 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-13 13:06:33.676 - [Debug] [Auth] Attacker 41.93.32.88 trying to authenticate with "password"
+2019-11-13 13:06:33.677 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-13 13:06:33.679 - [Debug] [Auth] Attacker: 41.93.32.88 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-13 13:06:34.189 - [Debug] [Connection] Attacker closed the connection
+2019-11-13 13:06:34.673 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

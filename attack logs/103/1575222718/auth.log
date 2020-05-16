@@ -1,0 +1,4 @@
+Dec  1 17:51:58 mark-websrv sshd[445]: Accepted password for chem from 172.20.0.1 port 42500 ssh2
+Dec  1 17:51:58 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user chem by (uid=0)
+Dec  1 17:51:58 mark-websrv systemd-logind[147]: New session 109501 of user chem.
+Dec  1 17:51:58 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user chem by (uid=0)

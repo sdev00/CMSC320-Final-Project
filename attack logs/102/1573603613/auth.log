@@ -1,0 +1,10 @@
+Nov 13 00:06:53 mark-websrv sshd[438]: Accepted password for usuario from 172.20.0.1 port 49644 ssh2
+Nov 13 00:06:53 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user usuario by (uid=0)
+Nov 13 00:06:53 mark-websrv systemd-logind[148]: New session 60406 of user usuario.
+Nov 13 00:06:53 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user usuario by (uid=0)
+Nov 13 00:06:54 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 49644:11:
+Nov 13 00:06:54 mark-websrv sshd[489]: Disconnected from user usuario 172.20.0.1 port 49644
+Nov 13 00:06:54 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user usuario
+Nov 13 00:06:56 mark-websrv systemd-logind[148]: Removed session 60406.
+Nov 13 00:16:01 mark-websrv CRON[510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 00:16:01 mark-websrv CRON[510]: pam_unix(cron:session): session closed for user root

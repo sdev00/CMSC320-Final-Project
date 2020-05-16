@@ -1,0 +1,9 @@
+Nov 12 11:28:36 mark-websrv sshd[439]: Accepted password for server from 172.20.0.1 port 47604 ssh2
+Nov 12 11:28:36 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user server by (uid=0)
+Nov 12 11:28:36 mark-websrv systemd-logind[167]: New session 58809 of user server.
+Nov 12 11:28:36 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user server by (uid=0)
+Nov 12 11:29:48 mark-websrv sshd[490]: Received disconnect from 172.20.0.1 port 47604:11:
+Nov 12 11:29:48 mark-websrv sshd[490]: Disconnected from user server 172.20.0.1 port 47604
+Nov 12 11:29:48 mark-websrv sshd[439]: pam_unix(sshd:session): session closed for user server
+Nov 12 11:29:48 mark-websrv systemd-logind[167]: Removed session 58809.
+Nov 12 11:29:48 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user server

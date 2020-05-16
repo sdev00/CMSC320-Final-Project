@@ -1,0 +1,4 @@
+2019-11-12 10:38:42.771;69.244.198.97;password;pcap;oooooooo
+2019-11-12 10:38:47.010;18.176.92.35;password;root;Tools123@
+2019-11-12 11:05:17.350;160.153.244.195;password;sshd;abcdefghijklmnopqrs
+2019-11-12 11:05:18.816;160.153.244.195;password;nproc;nproc

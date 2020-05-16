@@ -1,0 +1,4 @@
+Nov 21 02:17:39 mark-websrv sshd[451]: Accepted password for nada from 172.20.0.1 port 56828 ssh2
+Nov 21 02:17:39 mark-websrv sshd[451]: pam_unix(sshd:session): session opened for user nada by (uid=0)
+Nov 21 02:17:39 mark-websrv systemd-logind[155]: New session 83202 of user nada.
+Nov 21 02:17:39 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user nada by (uid=0)

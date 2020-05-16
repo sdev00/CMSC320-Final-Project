@@ -1,0 +1,9 @@
+Nov 29 10:28:33 mark-websrv sshd[484]: Accepted password for haubold from 172.20.0.1 port 57516 ssh2
+Nov 29 10:28:33 mark-websrv sshd[484]: pam_unix(sshd:session): session opened for user haubold by (uid=0)
+Nov 29 10:28:33 mark-websrv systemd-logind[158]: New session 105916 of user haubold.
+Nov 29 10:28:33 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user haubold by (uid=0)
+Nov 29 10:34:13 mark-websrv sshd[535]: Received disconnect from 172.20.0.1 port 57516:11:
+Nov 29 10:34:13 mark-websrv sshd[535]: Disconnected from user haubold 172.20.0.1 port 57516
+Nov 29 10:34:13 mark-websrv systemd-logind[158]: Removed session 105916.
+Nov 29 10:34:13 mark-websrv sshd[484]: pam_unix(sshd:session): session closed for user haubold
+Nov 29 10:34:13 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user haubold

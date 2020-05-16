@@ -1,0 +1,18 @@
+2019-11-18 14:58:08.511 - [Info] MITM Version: 1.26
+2019-11-18 14:58:08.518 - [Info] Auto Access Enabled: true
+2019-11-18 14:58:08.519 - [Debug] [Init] Auto Access Barrier: true
+2019-11-18 14:58:08.544 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-18 15:36:48.062 - [Debug] [Connection] Attacker connected: 106.12.207.197 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-18 15:36:49.566 - [Debug] [Auth] Attacker 106.12.207.197 trying to authenticate with "password"
+2019-11-18 15:36:49.567 - [Debug] [Auto Access] Attacker: 106.12.207.197, Threshold: 1, Attempts: 1
+2019-11-18 15:36:49.567 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-18 15:36:49.567 - [Debug] [Auto Access] Adding the following credentials: "root:candycane"
+2019-11-18 15:36:49.707 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-18 15:36:49.708 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-18 15:36:49.749 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-18 15:36:50.732 - [Debug] [Connection] Attacker connected: 106.12.207.197 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-18 15:36:52.235 - [Debug] [Auth] Attacker 106.12.207.197 trying to authenticate with "password"
+2019-11-18 15:36:52.236 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-18 15:36:52.237 - [Debug] [Auth] Attacker: 106.12.207.197 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-18 15:36:52.749 - [Debug] [Connection] Attacker closed the connection
+2019-11-18 15:36:53.218 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

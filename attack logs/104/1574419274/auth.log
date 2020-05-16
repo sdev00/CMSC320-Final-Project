@@ -1,0 +1,9 @@
+Nov 22 10:41:14 mark-websrv sshd[486]: Accepted password for tez from 172.20.0.1 port 38114 ssh2
+Nov 22 10:41:14 mark-websrv sshd[486]: pam_unix(sshd:session): session opened for user tez by (uid=0)
+Nov 22 10:41:14 mark-websrv systemd-logind[156]: New session 86983 of user tez.
+Nov 22 10:41:14 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user tez by (uid=0)
+Nov 22 10:50:13 mark-websrv sshd[537]: Received disconnect from 172.20.0.1 port 38114:11:
+Nov 22 10:50:13 mark-websrv sshd[537]: Disconnected from user tez 172.20.0.1 port 38114
+Nov 22 10:50:13 mark-websrv sshd[486]: pam_unix(sshd:session): session closed for user tez
+Nov 22 10:50:13 mark-websrv systemd-logind[156]: Removed session 86983.
+Nov 22 10:50:13 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user tez

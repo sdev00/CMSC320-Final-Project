@@ -1,0 +1,13 @@
+2019-11-30 22:59:52.405 - [Info] MITM Version: 1.26
+2019-11-30 22:59:52.413 - [Info] Auto Access Enabled: true
+2019-11-30 22:59:52.413 - [Debug] [Init] Auto Access Barrier: true
+2019-11-30 22:59:52.436 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-30 23:19:34.384 - [Debug] [Connection] Attacker connected: 122.5.46.22 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 23:19:36.018 - [Debug] [Auth] Attacker 122.5.46.22 trying to authenticate with "password"
+2019-11-30 23:19:36.020 - [Debug] [Auto Access] Attacker: 122.5.46.22, Threshold: 1, Attempts: 1
+2019-11-30 23:19:36.021 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-30 23:19:36.021 - [Debug] [Auto Access] Adding the following credentials: "mysql:111111"
+2019-11-30 23:19:36.426 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-30 23:19:36.426 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-30 23:19:36.500 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-30 23:19:45.568 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

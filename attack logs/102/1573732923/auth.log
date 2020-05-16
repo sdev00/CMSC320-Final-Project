@@ -1,0 +1,19 @@
+Nov 14 12:02:03 mark-websrv sshd[492]: Accepted password for root from 172.20.0.1 port 55366 ssh2
+Nov 14 12:02:03 mark-websrv sshd[492]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 14 12:02:04 mark-websrv systemd-logind[157]: New session 64890 of user root.
+Nov 14 12:02:04 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 12:06:29 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd -ou 0 -g 0 supremo
+Nov 14 12:06:29 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 14 12:06:29 mark-websrv useradd[656]: new user: name=supremo, UID=0, GID=0, home=/home/supremo, shell=/bin/sh
+Nov 14 12:06:29 mark-websrv sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 12:06:30 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/passwd supremo
+Nov 14 12:06:30 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 14 12:06:36 mark-websrv passwd[663]: pam_unix(passwd:chauthtok): password changed for supremo
+Nov 14 12:06:36 mark-websrv sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 12:06:42 mark-websrv sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/usermod -a -G root supremo
+Nov 14 12:06:42 mark-websrv sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 14 12:06:42 mark-websrv usermod[665]: add 'supremo' to group 'root'
+Nov 14 12:06:42 mark-websrv usermod[665]: add 'supremo' to shadow group 'root'
+Nov 14 12:06:42 mark-websrv sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 12:16:01 mark-websrv CRON[1025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:16:01 mark-websrv CRON[1025]: pam_unix(cron:session): session closed for user root

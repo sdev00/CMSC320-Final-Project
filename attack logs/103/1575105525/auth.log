@@ -1,0 +1,4 @@
+Nov 30 09:18:45 mark-websrv sshd[446]: Accepted password for ident from 172.20.0.1 port 40684 ssh2
+Nov 30 09:18:45 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user ident by (uid=0)
+Nov 30 09:18:45 mark-websrv systemd-logind[166]: New session 108089 of user ident.
+Nov 30 09:18:45 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ident by (uid=0)

@@ -1,0 +1,4 @@
+Nov 26 00:45:06 mark-websrv sshd[439]: Accepted password for hinoki from 172.20.0.1 port 34500 ssh2
+Nov 26 00:45:06 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user hinoki by (uid=0)
+Nov 26 00:45:06 mark-websrv systemd-logind[165]: New session 96642 of user hinoki.
+Nov 26 00:45:06 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hinoki by (uid=0)

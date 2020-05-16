@@ -1,0 +1,4 @@
+Nov 29 20:36:53 mark-websrv sshd[443]: Accepted password for tet from 172.20.0.1 port 58324 ssh2
+Nov 29 20:36:53 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user tet by (uid=0)
+Nov 29 20:36:53 mark-websrv systemd-logind[152]: New session 107103 of user tet.
+Nov 29 20:36:53 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user tet by (uid=0)

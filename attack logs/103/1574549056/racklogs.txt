@@ -1,0 +1,11 @@
+[2019-11-23 22:12:05] INFO  WEBrick 1.4.2
+[2019-11-23 22:12:05] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-23 22:12:05] INFO  WEBrick::HTTPServer#start: pid=334 port=80
+168.121.54.99 - - [23/Nov/2019:22:14:00 +0000] "GET / HTTP/1.1" 200 1574 0.1011
+159.192.120.44 - - [23/Nov/2019:22:16:05 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+163.172.10.53 - - [23/Nov/2019:22:33:06 +0000] "GET / HTTP/1.1" 200 1574 0.0065
+190.94.136.157 - - [23/Nov/2019:22:38:02 +0000] "GET / HTTP/1.1" 200 1574 0.0072
+[2019-11-23 22:38:02] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'

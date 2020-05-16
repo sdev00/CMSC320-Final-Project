@@ -1,0 +1,4 @@
+Nov 14 00:26:49 mark-websrv sshd[453]: Accepted password for abts from 172.20.0.1 port 49220 ssh2
+Nov 14 00:26:49 mark-websrv sshd[453]: pam_unix(sshd:session): session opened for user abts by (uid=0)
+Nov 14 00:26:49 mark-websrv systemd-logind[159]: New session 63457 of user abts.
+Nov 14 00:26:49 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user abts by (uid=0)

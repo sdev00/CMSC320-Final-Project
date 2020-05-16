@@ -1,0 +1,6 @@
+Nov 20 17:15:23 mark-websrv sshd[469]: Accepted password for secreto from 172.20.0.1 port 34828 ssh2
+Nov 20 17:15:23 mark-websrv sshd[469]: pam_unix(sshd:session): session opened for user secreto by (uid=0)
+Nov 20 17:15:23 mark-websrv systemd-logind[159]: New session 82131 of user secreto.
+Nov 20 17:15:23 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user secreto by (uid=0)
+Nov 20 17:16:01 mark-websrv CRON[532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 17:16:01 mark-websrv CRON[532]: pam_unix(cron:session): session closed for user root

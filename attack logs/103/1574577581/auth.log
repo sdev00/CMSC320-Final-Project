@@ -1,0 +1,6 @@
+Nov 24 06:39:41 mark-websrv sshd[444]: Accepted password for amavis from 172.20.0.1 port 33714 ssh2
+Nov 24 06:39:41 mark-websrv sshd[444]: pam_unix(sshd:session): session opened for user amavis by (uid=0)
+Nov 24 06:39:41 mark-websrv systemd-logind[146]: New session 92003 of user amavis.
+Nov 24 06:39:41 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user amavis by (uid=0)
+Nov 24 06:55:01 mark-websrv CRON[541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 24 06:55:03 mark-websrv CRON[541]: pam_unix(cron:session): session closed for user root

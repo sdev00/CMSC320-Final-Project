@@ -1,0 +1,9 @@
+Nov 17 13:52:04 mark-websrv sshd[445]: Accepted password for maria from 172.20.0.1 port 51762 ssh2
+Nov 17 13:52:04 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user maria by (uid=0)
+Nov 17 13:52:04 mark-websrv systemd-logind[149]: New session 73549 of user maria.
+Nov 17 13:52:04 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user maria by (uid=0)
+Nov 17 14:10:54 mark-websrv sshd[496]: Received disconnect from 172.20.0.1 port 51762:11:
+Nov 17 14:10:54 mark-websrv sshd[496]: Disconnected from user maria 172.20.0.1 port 51762
+Nov 17 14:10:54 mark-websrv sshd[445]: pam_unix(sshd:session): session closed for user maria
+Nov 17 14:10:54 mark-websrv systemd-logind[149]: Removed session 73549.
+Nov 17 14:10:54 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user maria

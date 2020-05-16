@@ -1,0 +1,4 @@
+Nov 18 17:20:45 mark-websrv sshd[457]: Accepted password for wwwrun from 172.20.0.1 port 52912 ssh2
+Nov 18 17:20:45 mark-websrv sshd[457]: pam_unix(sshd:session): session opened for user wwwrun by (uid=0)
+Nov 18 17:20:45 mark-websrv systemd-logind[150]: New session 76639 of user wwwrun.
+Nov 18 17:20:45 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wwwrun by (uid=0)

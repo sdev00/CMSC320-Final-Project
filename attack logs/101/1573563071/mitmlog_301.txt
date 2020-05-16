@@ -1,0 +1,18 @@
+2019-11-12 07:48:07.004 - [Info] MITM Version: 1.26
+2019-11-12 07:48:07.010 - [Info] Auto Access Enabled: true
+2019-11-12 07:48:07.011 - [Debug] [Init] Auto Access Barrier: true
+2019-11-12 07:48:07.065 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-12 07:51:10.328 - [Debug] [Connection] Attacker connected: 91.121.211.59 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 07:51:11.463 - [Debug] [Auth] Attacker 91.121.211.59 trying to authenticate with "password"
+2019-11-12 07:51:11.465 - [Debug] [Auto Access] Attacker: 91.121.211.59, Threshold: 1, Attempts: 1
+2019-11-12 07:51:11.465 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-12 07:51:11.466 - [Debug] [Auto Access] Adding the following credentials: "root:diddybop"
+2019-11-12 07:51:11.690 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-12 07:51:11.690 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-12 07:51:11.759 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-12 07:51:12.264 - [Debug] [Connection] Attacker connected: 91.121.211.59 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 07:51:12.841 - [Debug] [Auth] Attacker 91.121.211.59 trying to authenticate with "password"
+2019-11-12 07:51:12.841 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-12 07:51:12.843 - [Debug] [Auth] Attacker: 91.121.211.59 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-12 07:51:13.065 - [Debug] [Connection] Attacker closed the connection
+2019-11-12 07:51:13.331 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

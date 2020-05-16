@@ -1,0 +1,11 @@
+Nov 24 09:05:18 mark-websrv sshd[438]: Accepted password for lib from 172.20.0.1 port 33812 ssh2
+Nov 24 09:05:18 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user lib by (uid=0)
+Nov 24 09:05:18 mark-websrv systemd-logind[149]: New session 92279 of user lib.
+Nov 24 09:05:18 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lib by (uid=0)
+Nov 24 09:14:36 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 33812:11:
+Nov 24 09:14:36 mark-websrv sshd[489]: Disconnected from user lib 172.20.0.1 port 33812
+Nov 24 09:14:36 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user lib
+Nov 24 09:14:36 mark-websrv systemd-logind[149]: Removed session 92279.
+Nov 24 09:14:36 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user lib
+Nov 24 09:16:01 mark-websrv CRON[509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 24 09:16:01 mark-websrv CRON[509]: pam_unix(cron:session): session closed for user root

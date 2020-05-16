@@ -1,0 +1,4 @@
+Nov 22 02:26:57 mark-websrv sshd[438]: Accepted password for chi from 172.20.0.1 port 58642 ssh2
+Nov 22 02:26:57 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user chi by (uid=0)
+Nov 22 02:26:57 mark-websrv systemd-logind[158]: New session 86025 of user chi.
+Nov 22 02:26:57 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user chi by (uid=0)

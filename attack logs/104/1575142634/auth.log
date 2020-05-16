@@ -1,0 +1,9 @@
+Nov 30 19:37:14 mark-websrv sshd[446]: Accepted password for teamspeak from 172.20.0.1 port 48556 ssh2
+Nov 30 19:37:14 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user teamspeak by (uid=0)
+Nov 30 19:37:14 mark-websrv systemd-logind[146]: New session 108554 of user teamspeak.
+Nov 30 19:37:14 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user teamspeak by (uid=0)
+Nov 30 19:42:03 mark-websrv sshd[497]: Received disconnect from 172.20.0.1 port 48556:11:
+Nov 30 19:42:03 mark-websrv sshd[497]: Disconnected from user teamspeak 172.20.0.1 port 48556
+Nov 30 19:42:03 mark-websrv sshd[446]: pam_unix(sshd:session): session closed for user teamspeak
+Nov 30 19:42:03 mark-websrv systemd-logind[146]: Removed session 108554.
+Nov 30 19:42:03 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user teamspeak

@@ -1,0 +1,10 @@
+Dec  9 04:01:37 mark-websrv sshd[3639]: Accepted password for root from 172.20.0.1 port 44936 ssh2
+Dec  9 04:01:37 mark-websrv sshd[3639]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 04:01:37 mark-websrv systemd-logind[157]: New session 116166 of user root.
+Dec  9 04:01:37 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Dec  9 04:01:40 mark-websrv sshd[3639]: Received disconnect from 172.20.0.1 port 44936:11:
+Dec  9 04:01:40 mark-websrv sshd[3639]: Disconnected from user root 172.20.0.1 port 44936
+Dec  9 04:01:40 mark-websrv sshd[3639]: pam_unix(sshd:session): session closed for user root
+Dec  9 04:01:40 mark-websrv systemd-logind[157]: Removed session 116166.
+Dec  9 04:16:01 mark-websrv CRON[3704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  9 04:16:01 mark-websrv CRON[3704]: pam_unix(cron:session): session closed for user root

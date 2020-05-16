@@ -1,0 +1,8 @@
+Dec  3 04:33:44 mark-websrv sshd[506]: Accepted password for ubnt from 172.20.0.1 port 42830 ssh2
+Dec  3 04:33:44 mark-websrv sshd[506]: pam_unix(sshd:session): session opened for user ubnt by (uid=0)
+Dec  3 04:33:44 mark-websrv systemd-logind[166]: New session 110793 of user ubnt.
+Dec  3 04:33:44 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ubnt by (uid=0)
+Dec  3 04:33:46 mark-websrv sshd[557]: Received disconnect from 172.20.0.1 port 42830:11:
+Dec  3 04:33:46 mark-websrv sshd[557]: Disconnected from user ubnt 172.20.0.1 port 42830
+Dec  3 04:33:46 mark-websrv sshd[506]: pam_unix(sshd:session): session closed for user ubnt
+Dec  3 04:33:50 mark-websrv systemd-logind[166]: Removed session 110793.

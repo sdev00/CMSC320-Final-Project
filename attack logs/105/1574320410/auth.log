@@ -1,0 +1,6 @@
+Nov 21 07:13:30 mark-websrv sshd[473]: Accepted password for calis from 172.20.0.1 port 47792 ssh2
+Nov 21 07:13:30 mark-websrv sshd[473]: pam_unix(sshd:session): session opened for user calis by (uid=0)
+Nov 21 07:13:30 mark-websrv systemd-logind[147]: New session 83785 of user calis.
+Nov 21 07:13:30 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user calis by (uid=0)
+Nov 21 07:16:01 mark-websrv CRON[541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 07:16:01 mark-websrv CRON[541]: pam_unix(cron:session): session closed for user root

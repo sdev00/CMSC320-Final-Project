@@ -1,0 +1,4 @@
+Nov 15 10:55:48 mark-websrv sshd[477]: Accepted password for database2 from 172.20.0.1 port 46682 ssh2
+Nov 15 10:55:48 mark-websrv sshd[477]: pam_unix(sshd:session): session opened for user database2 by (uid=0)
+Nov 15 10:55:48 mark-websrv systemd-logind[147]: New session 67589 of user database2.
+Nov 15 10:55:49 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user database2 by (uid=0)

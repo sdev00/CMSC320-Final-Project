@@ -1,0 +1,2 @@
+2019-11-16 13:30:00.718;92.195.90.78;password;pi;raspberry
+2019-11-16 13:30:01.009;92.195.90.78;password;pi;raspberryraspberry993311

@@ -1,0 +1,6 @@
+Nov 30 12:04:19 mark-websrv sshd[442]: Accepted password for nakashian from 172.20.0.1 port 47958 ssh2
+Nov 30 12:04:19 mark-websrv sshd[442]: pam_unix(sshd:session): session opened for user nakashian by (uid=0)
+Nov 30 12:04:19 mark-websrv systemd-logind[152]: New session 108206 of user nakashian.
+Nov 30 12:04:19 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user nakashian by (uid=0)
+Nov 30 12:16:01 mark-websrv CRON[513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 12:16:01 mark-websrv CRON[513]: pam_unix(cron:session): session closed for user root

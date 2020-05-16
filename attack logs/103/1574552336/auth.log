@@ -1,0 +1,4 @@
+Nov 23 23:38:56 mark-websrv sshd[495]: Accepted password for rpc from 172.20.0.1 port 33386 ssh2
+Nov 23 23:38:56 mark-websrv sshd[495]: pam_unix(sshd:session): session opened for user rpc by (uid=0)
+Nov 23 23:38:56 mark-websrv systemd-logind[148]: New session 91215 of user rpc.
+Nov 23 23:38:56 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user rpc by (uid=0)

@@ -1,0 +1,2 @@
+2019-11-16 04:56:10.938;197.251.69.4;password;teamspeak;Muklesr0x!221845
+2019-11-16 04:56:31.127;197.251.69.4;password;nproc;nproc

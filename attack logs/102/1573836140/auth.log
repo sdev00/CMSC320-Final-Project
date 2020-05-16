@@ -1,0 +1,4 @@
+Nov 15 16:42:20 mark-websrv sshd[439]: Accepted password for huntsinger from 172.20.0.1 port 58586 ssh2
+Nov 15 16:42:20 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user huntsinger by (uid=0)
+Nov 15 16:42:20 mark-websrv systemd-logind[164]: New session 68257 of user huntsinger.
+Nov 15 16:42:20 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user huntsinger by (uid=0)

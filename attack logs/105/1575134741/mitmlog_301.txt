@@ -1,0 +1,22 @@
+2019-11-30 12:09:34.010 - [Info] MITM Version: 1.26
+2019-11-30 12:09:34.016 - [Info] Auto Access Enabled: true
+2019-11-30 12:09:34.017 - [Debug] [Init] Auto Access Barrier: true
+2019-11-30 12:09:34.042 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-30 12:25:40.905 - [Debug] [Connection] Attacker connected: 72.139.119.82 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 12:25:41.232 - [Debug] [Auth] Attacker 72.139.119.82 trying to authenticate with "password"
+2019-11-30 12:25:41.234 - [Debug] [Auto Access] Attacker: 72.139.119.82, Threshold: 1, Attempts: 1
+2019-11-30 12:25:41.235 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-30 12:25:41.235 - [Debug] [Auto Access] Adding the following credentials: "admin:muiemata"
+2019-11-30 12:25:41.689 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-30 12:25:41.690 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-30 12:25:41.779 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-30 12:25:41.962 - [Debug] [Connection] Attacker connected: 72.139.119.82 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 12:25:42.262 - [Debug] [Auth] Attacker 72.139.119.82 trying to authenticate with "password"
+2019-11-30 12:25:42.263 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-30 12:25:42.265 - [Debug] [Auth] Attacker: 72.139.119.82 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-30 12:25:42.383 - [Debug] [Connection] Attacker closed the connection
+2019-11-30 12:25:42.461 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-30 12:34:28.425 - [Debug] [Connection] Client error on ssh server
+2019-11-30 12:34:28.427 - [Debug] [Connection] Attacker closed connection
+2019-11-30 12:34:28.439 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-30 12:34:28.440 - [Debug] [LXC] Container's OpenSSH server closed connection

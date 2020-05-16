@@ -1,0 +1,6 @@
+Nov 14 12:04:10 mark-websrv sshd[443]: Accepted password for arron from 172.20.0.1 port 51026 ssh2
+Nov 14 12:04:10 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user arron by (uid=0)
+Nov 14 12:04:10 mark-websrv systemd-logind[155]: New session 64892 of user arron.
+Nov 14 12:04:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user arron by (uid=0)
+Nov 14 12:16:01 mark-websrv CRON[515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:16:01 mark-websrv CRON[515]: pam_unix(cron:session): session closed for user root

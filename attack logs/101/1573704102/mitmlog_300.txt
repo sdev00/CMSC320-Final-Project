@@ -1,0 +1,18 @@
+2019-11-13 23:00:45.253 - [Info] MITM Version: 1.26
+2019-11-13 23:00:45.262 - [Info] Auto Access Enabled: true
+2019-11-13 23:00:45.262 - [Debug] [Init] Auto Access Barrier: true
+2019-11-13 23:00:45.299 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-13 23:01:42.007 - [Debug] [Connection] Attacker connected: 157.230.228.62 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-13 23:01:42.183 - [Debug] [Auth] Attacker 157.230.228.62 trying to authenticate with "password"
+2019-11-13 23:01:42.185 - [Debug] [Auto Access] Attacker: 157.230.228.62, Threshold: 1, Attempts: 1
+2019-11-13 23:01:42.185 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-13 23:01:42.186 - [Debug] [Auto Access] Adding the following credentials: "isidora:isidora"
+2019-11-13 23:01:42.540 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-13 23:01:42.541 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-13 23:01:42.625 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-13 23:01:42.714 - [Debug] [Connection] Attacker connected: 157.230.228.62 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-13 23:01:42.869 - [Debug] [Auth] Attacker 157.230.228.62 trying to authenticate with "password"
+2019-11-13 23:01:42.870 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-13 23:01:42.871 - [Debug] [Auth] Attacker: 157.230.228.62 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-13 23:01:42.937 - [Debug] [Connection] Attacker closed the connection
+2019-11-13 23:01:42.963 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

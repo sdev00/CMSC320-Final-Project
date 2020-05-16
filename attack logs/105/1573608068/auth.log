@@ -1,0 +1,4 @@
+Nov 13 01:21:08 mark-websrv sshd[459]: Accepted password for home from 172.20.0.1 port 57182 ssh2
+Nov 13 01:21:08 mark-websrv sshd[459]: pam_unix(sshd:session): session opened for user home by (uid=0)
+Nov 13 01:21:08 mark-websrv systemd-logind[149]: New session 60567 of user home.
+Nov 13 01:21:08 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user home by (uid=0)

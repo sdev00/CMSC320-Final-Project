@@ -1,0 +1,21 @@
+2019-12-02 17:33:21.897 - [Info] MITM Version: 1.26
+2019-12-02 17:33:21.922 - [Info] Auto Access Enabled: true
+2019-12-02 17:33:21.924 - [Debug] [Init] Auto Access Barrier: true
+2019-12-02 17:33:22.000 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-12-02 20:11:06.407 - [Debug] [Connection] Attacker connected: 177.11.44.131 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-12-02 20:11:08.735 - [Debug] [Auth] Attacker 177.11.44.131 trying to authenticate with "password"
+2019-12-02 20:11:08.738 - [Debug] [Auto Access] Attacker: 177.11.44.131, Threshold: 1, Attempts: 1
+2019-12-02 20:11:08.738 - [Debug] [Auto Access] Compromising the honeypot
+2019-12-02 20:11:08.748 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2019-12-02 20:11:09.049 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-02 20:11:09.050 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-12-02 20:11:09.134 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-02 20:11:09.789 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2019-12-02 20:11:13.436 - [Debug] [Connection] Attacker closed connection
+2019-12-02 20:11:13.471 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-02 20:11:13.472 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-12-02 20:11:13.587 - [Debug] [Connection] Attacker connected: 177.11.44.131 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-12-02 20:11:15.744 - [Debug] [Auth] Attacker 177.11.44.131 trying to authenticate with "password"
+2019-12-02 20:11:15.746 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-12-02 20:11:15.751 - [Debug] [Auth] Attacker: 177.11.44.131 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-02 20:11:16.086 - [Debug] [Connection] Attacker closed the connection

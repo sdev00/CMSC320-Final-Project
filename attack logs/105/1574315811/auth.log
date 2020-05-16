@@ -1,0 +1,13 @@
+Nov 21 05:56:51 mark-websrv sshd[472]: Accepted password for dennese from 172.20.0.1 port 47638 ssh2
+Nov 21 05:56:51 mark-websrv sshd[472]: pam_unix(sshd:session): session opened for user dennese by (uid=0)
+Nov 21 05:56:51 mark-websrv systemd-logind[162]: New session 83634 of user dennese.
+Nov 21 05:56:51 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dennese by (uid=0)
+Nov 21 06:04:58 mark-websrv sshd[523]: Received disconnect from 172.20.0.1 port 47638:11:
+Nov 21 06:04:58 mark-websrv sshd[523]: Disconnected from user dennese 172.20.0.1 port 47638
+Nov 21 06:04:58 mark-websrv sshd[472]: pam_unix(sshd:session): session closed for user dennese
+Nov 21 06:04:59 mark-websrv systemd-logind[162]: Removed session 83634.
+Nov 21 06:04:59 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user dennese
+Nov 21 06:12:01 mark-websrv CRON[547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 06:12:17 mark-websrv CRON[547]: pam_unix(cron:session): session closed for user root
+Nov 21 06:16:01 mark-websrv CRON[694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 06:16:01 mark-websrv CRON[694]: pam_unix(cron:session): session closed for user root

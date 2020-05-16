@@ -1,0 +1,14 @@
+[2019-12-03 11:00:47] INFO  WEBrick 1.5.0
+[2019-12-03 11:00:47] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-03 11:00:47] INFO  WEBrick::HTTPServer#start: pid=389 port=80
+77.89.228.66 - - [03/Dec/2019:11:38:30 +0000] "GET / HTTP/1.1" 200 1574 0.0956
+185.104.241.92 - - [03/Dec/2019:11:51:21 +0000] "GET / HTTP/1.1" 200 1574 0.0027
+85.172.12.101 - - [03/Dec/2019:12:09:58 +0000] "GET / HTTP/1.1" 200 1574 0.0035
+45.143.221.27 - - [03/Dec/2019:12:16:16 +0000] "GET / HTTP/1.1" 200 1574 0.0028
+71.51.76.242 - - [03/Dec/2019:12:32:50 +0000] "POST /editBlackAndWhiteList HTTP/1.1" 404 562 0.0087
+212.227.191.218 - - [03/Dec/2019:13:42:11 +0000] "GET / HTTP/1.1" 200 1574 0.0032
+[2019-12-03 13:42:11] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+41.41.80.250 - - [03/Dec/2019:14:16:51 +0000] "POST /editBlackAndWhiteList HTTP/1.1" 404 562 0.0030

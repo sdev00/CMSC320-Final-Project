@@ -1,0 +1,22 @@
+2019-11-16 07:39:51.890 - [Info] MITM Version: 1.26
+2019-11-16 07:39:51.896 - [Info] Auto Access Enabled: true
+2019-11-16 07:39:51.897 - [Debug] [Init] Auto Access Barrier: true
+2019-11-16 07:39:51.922 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-16 08:17:09.728 - [Debug] [Connection] Attacker connected: 106.13.2.130 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 08:17:12.271 - [Debug] [Auth] Attacker 106.13.2.130 trying to authenticate with "password"
+2019-11-16 08:17:12.273 - [Debug] [Auto Access] Attacker: 106.13.2.130, Threshold: 1, Attempts: 1
+2019-11-16 08:17:12.274 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-16 08:17:12.274 - [Debug] [Auto Access] Adding the following credentials: "ouida:ouida"
+2019-11-16 08:17:12.773 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-16 08:17:12.774 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-16 08:17:12.850 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-16 08:17:13.970 - [Debug] [Connection] Attacker connected: 106.13.2.130 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 08:17:15.685 - [Debug] [Auth] Attacker 106.13.2.130 trying to authenticate with "password"
+2019-11-16 08:17:15.686 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-16 08:17:15.687 - [Debug] [Auth] Attacker: 106.13.2.130 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-16 08:17:16.814 - [Debug] [Connection] Attacker closed the connection
+2019-11-16 08:17:17.360 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-16 08:28:34.670 - [Debug] [Connection] Client error on ssh server
+2019-11-16 08:28:34.671 - [Debug] [Connection] Attacker closed connection
+2019-11-16 08:28:34.677 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-16 08:28:34.677 - [Debug] [LXC] Container's OpenSSH server closed connection

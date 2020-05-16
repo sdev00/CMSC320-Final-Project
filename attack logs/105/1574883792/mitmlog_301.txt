@@ -1,0 +1,23 @@
+2019-11-27 13:19:08.154 - [Info] MITM Version: 1.26
+2019-11-27 13:19:08.161 - [Info] Auto Access Enabled: true
+2019-11-27 13:19:08.162 - [Debug] [Init] Auto Access Barrier: true
+2019-11-27 13:19:08.183 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-27 14:43:09.327 - [Debug] [Connection] Attacker connected: 106.12.86.240 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-27 14:43:11.997 - [Debug] [Auth] Attacker 106.12.86.240 trying to authenticate with "password"
+2019-11-27 14:43:11.999 - [Debug] [Auto Access] Attacker: 106.12.86.240, Threshold: 1, Attempts: 1
+2019-11-27 14:43:11.999 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-27 14:43:11.999 - [Debug] [Auto Access] Adding the following credentials: "jesse:jesse123"
+2019-11-27 14:43:12.285 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-27 14:43:12.286 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-27 14:43:12.347 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-27 14:43:13.458 - [Debug] [Connection] Attacker connected: 106.12.86.240 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-27 14:43:15.116 - [Debug] [Auth] Attacker 106.12.86.240 trying to authenticate with "password"
+2019-11-27 14:43:15.117 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-27 14:43:15.119 - [Debug] [Auth] Attacker: 106.12.86.240 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-27 14:43:15.697 - [Debug] [Connection] Attacker closed the connection
+2019-11-27 14:43:16.265 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-27 14:44:52.467 - [Debug] [Connection] Client error on ssh server
+2019-11-27 14:44:52.469 - [Debug] [Connection] Attacker closed connection
+2019-11-27 14:44:52.489 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-27 14:44:52.491 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-27 15:01:14.962 - [Debug] [Connection] Client error on ssh server

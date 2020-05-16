@@ -1,0 +1,6 @@
+Nov 15 15:12:07 mark-websrv sshd[481]: Accepted password for murrah from 172.20.0.1 port 58480 ssh2
+Nov 15 15:12:07 mark-websrv sshd[481]: pam_unix(sshd:session): session opened for user murrah by (uid=0)
+Nov 15 15:12:07 mark-websrv systemd-logind[153]: New session 68082 of user murrah.
+Nov 15 15:12:07 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user murrah by (uid=0)
+Nov 15 15:16:01 mark-websrv CRON[549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 15:16:01 mark-websrv CRON[549]: pam_unix(cron:session): session closed for user root

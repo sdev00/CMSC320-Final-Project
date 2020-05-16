@@ -1,0 +1,10 @@
+Nov 29 15:01:47 mark-websrv sshd[437]: Accepted password for root from 172.20.0.1 port 46240 ssh2
+Nov 29 15:01:47 mark-websrv sshd[437]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 29 15:01:47 mark-websrv systemd-logind[149]: New session 106452 of user root.
+Nov 29 15:01:47 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 29 15:08:24 mark-websrv sshd[437]: Received disconnect from 172.20.0.1 port 46240:11:
+Nov 29 15:08:24 mark-websrv sshd[437]: Disconnected from user root 172.20.0.1 port 46240
+Nov 29 15:08:24 mark-websrv sshd[437]: pam_unix(sshd:session): session closed for user root
+Nov 29 15:08:24 mark-websrv systemd-logind[149]: Removed session 106452.
+Nov 29 15:16:01 mark-websrv CRON[507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 29 15:16:01 mark-websrv CRON[507]: pam_unix(cron:session): session closed for user root

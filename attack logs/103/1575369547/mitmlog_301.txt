@@ -1,0 +1,26 @@
+2019-12-03 02:42:12.986 - [Info] MITM Version: 1.26
+2019-12-03 02:42:12.992 - [Info] Auto Access Enabled: true
+2019-12-03 02:42:12.993 - [Debug] [Init] Auto Access Barrier: true
+2019-12-03 02:42:13.014 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-12-03 03:34:58.458 - [Debug] [Connection] Attacker connected: 198.108.66.192 | Client Identification: SSH-2.0-Go
+2019-12-03 03:35:03.452 - [Debug] [Connection] Attacker closed the connection
+2019-12-03 05:39:04.202 - [Debug] [Connection] Attacker connected: 90.220.55.200 | Client Identification: SSH-2.0-libssh-0.6.1
+2019-12-03 05:39:06.096 - [Debug] [Auth] Attacker 90.220.55.200 trying to authenticate with "none"
+2019-12-03 05:39:06.097 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-12-03 05:39:06.747 - [Debug] [Auth] Attacker 90.220.55.200 trying to authenticate with "password"
+2019-12-03 05:39:06.749 - [Debug] [Auto Access] Attacker: 90.220.55.200, Threshold: 1, Attempts: 1
+2019-12-03 05:39:06.749 - [Debug] [Auto Access] Compromising the honeypot
+2019-12-03 05:39:06.750 - [Debug] [Auto Access] Adding the following credentials: "root:P@ssw0rd"
+2019-12-03 05:39:06.962 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-03 05:39:06.962 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-12-03 05:39:07.029 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-03 05:39:09.519 - [Debug] [SHELL] Opened shell for attacker
+2019-12-03 05:39:10.589 - [Debug] [SHELL] Attacker Keystroke: echo[Space]"Z""IGAZAGA148""8"
+2019-12-03 05:39:10.689 - [Debug] [SHELL] Attacker Keystroke: [LF]
+2019-12-03 05:39:10.691 - [Debug] [SHELL] line from reader: echo "Z""IGAZAGA148""8"
+2019-12-03 05:39:10.691 - [Debug] [SHELL] Keystroke buffer: 101,99,104,111,32,34,90,34,34,73,71,65,90,65,71,65,49,52,56,34,34,56,34,10
+2019-12-03 05:39:10.692 - [Debug] [SHELL] Attacker ended the shell
+2019-12-03 05:40:35.093 - [Debug] [Connection] Attacker closed connection
+2019-12-03 05:40:35.106 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-03 05:40:35.106 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-12-03 05:40:35.107 - [Debug] [SHELL] Honeypot ended shell

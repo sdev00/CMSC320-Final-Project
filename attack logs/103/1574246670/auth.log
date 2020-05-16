@@ -1,0 +1,4 @@
+Nov 20 10:44:30 mark-websrv sshd[439]: Accepted password for linauer from 172.20.0.1 port 55370 ssh2
+Nov 20 10:44:30 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user linauer by (uid=0)
+Nov 20 10:44:30 mark-websrv systemd-logind[154]: New session 81354 of user linauer.
+Nov 20 10:44:30 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user linauer by (uid=0)

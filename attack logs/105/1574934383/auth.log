@@ -1,0 +1,4 @@
+Nov 28 09:46:23 mark-websrv sshd[483]: Accepted password for ragil from 172.20.0.1 port 56250 ssh2
+Nov 28 09:46:23 mark-websrv sshd[483]: pam_unix(sshd:session): session opened for user ragil by (uid=0)
+Nov 28 09:46:23 mark-websrv systemd-logind[162]: New session 103125 of user ragil.
+Nov 28 09:46:23 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ragil by (uid=0)

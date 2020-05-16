@@ -1,0 +1,9 @@
+Nov 29 18:53:21 mark-websrv sshd[483]: Accepted password for schwane from 172.20.0.1 port 39498 ssh2
+Nov 29 18:53:21 mark-websrv sshd[483]: pam_unix(sshd:session): session opened for user schwane by (uid=0)
+Nov 29 18:53:21 mark-websrv systemd-logind[166]: New session 106901 of user schwane.
+Nov 29 18:53:21 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user schwane by (uid=0)
+Nov 29 18:55:17 mark-websrv sshd[534]: Received disconnect from 172.20.0.1 port 39498:11:
+Nov 29 18:55:17 mark-websrv sshd[534]: Disconnected from user schwane 172.20.0.1 port 39498
+Nov 29 18:55:17 mark-websrv sshd[483]: pam_unix(sshd:session): session closed for user schwane
+Nov 29 18:55:17 mark-websrv systemd-logind[166]: Removed session 106901.
+Nov 29 18:55:17 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user schwane

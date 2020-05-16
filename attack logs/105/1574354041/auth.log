@@ -1,0 +1,4 @@
+Nov 21 16:34:01 mark-websrv sshd[438]: Accepted password for ching from 172.20.0.1 port 48608 ssh2
+Nov 21 16:34:01 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user ching by (uid=0)
+Nov 21 16:34:01 mark-websrv systemd-logind[152]: New session 84896 of user ching.
+Nov 21 16:34:01 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ching by (uid=0)

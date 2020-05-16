@@ -1,0 +1,4 @@
+Nov 21 22:18:32 mark-websrv sshd[445]: Accepted password for butera from 172.20.0.1 port 48902 ssh2
+Nov 21 22:18:32 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user butera by (uid=0)
+Nov 21 22:18:32 mark-websrv systemd-logind[155]: New session 85553 of user butera.
+Nov 21 22:18:33 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user butera by (uid=0)

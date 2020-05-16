@@ -1,0 +1,4 @@
+Nov 16 04:29:00 mark-websrv sshd[438]: Accepted password for bcast from 172.20.0.1 port 55398 ssh2
+Nov 16 04:29:00 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user bcast by (uid=0)
+Nov 16 04:29:00 mark-websrv systemd-logind[151]: New session 69619 of user bcast.
+Nov 16 04:29:00 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user bcast by (uid=0)

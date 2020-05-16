@@ -1,0 +1,24 @@
+[2019-12-06 19:26:57] INFO  WEBrick 1.5.0
+[2019-12-06 19:26:57] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-06 19:26:57] INFO  WEBrick::HTTPServer#start: pid=261 port=80
+71.6.232.9 - - [06/Dec/2019:19:56:09 +0000] "GET / HTTP/1.1" 200 1574 0.0469
+94.102.49.193 - - [06/Dec/2019:20:04:29 +0000] "GET / HTTP/1.1" 200 1574 0.0028
+94.102.49.193 - - [06/Dec/2019:20:04:34 +0000] "GET /robots.txt HTTP/1.1" 404 562 0.0044
+[2019-12-06 20:04:35] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+94.102.49.193 - - [06/Dec/2019:20:04:39 +0000] "GET /sitemap.xml HTTP/1.1" 404 562 0.0028
+[2019-12-06 20:04:40] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+211.243.89.101 - - [06/Dec/2019:20:26:28 +0000] "GET / HTTP/1.1" 200 1574 0.0072
+36.81.226.244 - - [06/Dec/2019:20:31:22 +0000] "GET / HTTP/1.1" 200 1574 0.0063
+107.172.94.68 - - [06/Dec/2019:21:35:45 +0000] "GET /_cat/indices HTTP/1.1" 404 562 0.0052
+[2019-12-06 21:35:45] ERROR bad Request-Line `'.
+139.162.119.197 - - [06/Dec/2019:21:39:26 +0000] "GET / HTTP/1.1" 200 1574 0.0029
+103.76.241.46 - - [06/Dec/2019:22:10:58 +0000] "GET / HTTP/1.1" 200 1574 0.0071
+84.201.157.103 - - [06/Dec/2019:22:54:15 +0000] "GET /image.php HTTP/1.1" 404 562 0.0044
+170.254.74.93 - - [06/Dec/2019:23:43:54 +0000] "GET / HTTP/1.1" 200 1574 0.0056
+91.222.221.46 - - [06/Dec/2019:23:46:31 +0000] "GET / HTTP/1.1" 200 1574 0.0162

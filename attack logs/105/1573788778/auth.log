@@ -1,0 +1,9 @@
+Nov 15 03:32:58 mark-websrv sshd[443]: Accepted password for kehler from 172.20.0.1 port 36286 ssh2
+Nov 15 03:32:58 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user kehler by (uid=0)
+Nov 15 03:32:58 mark-websrv systemd-logind[152]: New session 66728 of user kehler.
+Nov 15 03:32:58 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kehler by (uid=0)
+Nov 15 03:49:06 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 36286:11:
+Nov 15 03:49:06 mark-websrv sshd[494]: Disconnected from user kehler 172.20.0.1 port 36286
+Nov 15 03:49:06 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user kehler
+Nov 15 03:49:06 mark-websrv systemd-logind[152]: Removed session 66728.
+Nov 15 03:49:06 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user kehler

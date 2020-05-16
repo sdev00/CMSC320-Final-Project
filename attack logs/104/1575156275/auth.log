@@ -1,0 +1,8 @@
+Nov 30 23:24:35 mark-websrv sshd[439]: Accepted password for oi from 172.20.0.1 port 48752 ssh2
+Nov 30 23:24:35 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user oi by (uid=0)
+Nov 30 23:24:35 mark-websrv systemd-logind[161]: New session 108713 of user oi.
+Nov 30 23:24:35 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user oi by (uid=0)
+Nov 30 23:35:50 mark-websrv sshd[490]: Received disconnect from 172.20.0.1 port 48752:11:
+Nov 30 23:35:50 mark-websrv sshd[490]: Disconnected from user oi 172.20.0.1 port 48752
+Nov 30 23:35:50 mark-websrv systemd-logind[161]: Removed session 108713.
+Nov 30 23:35:50 mark-websrv sshd[439]: pam_unix(sshd:session): session closed for user oi

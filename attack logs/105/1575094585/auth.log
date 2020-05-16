@@ -1,0 +1,9 @@
+Nov 30 06:16:25 mark-websrv sshd[606]: Accepted password for igibson from 172.20.0.1 port 59158 ssh2
+Nov 30 06:16:25 mark-websrv sshd[606]: pam_unix(sshd:session): session opened for user igibson by (uid=0)
+Nov 30 06:16:25 mark-websrv systemd-logind[149]: New session 107953 of user igibson.
+Nov 30 06:16:25 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user igibson by (uid=0)
+Nov 30 06:29:29 mark-websrv sshd[657]: Received disconnect from 172.20.0.1 port 59158:11:
+Nov 30 06:29:30 mark-websrv systemd-logind[149]: Removed session 107953.
+Nov 30 06:29:30 mark-websrv sshd[657]: Disconnected from user igibson 172.20.0.1 port 59158
+Nov 30 06:29:30 mark-websrv sshd[606]: pam_unix(sshd:session): session closed for user igibson
+Nov 30 06:29:30 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user igibson

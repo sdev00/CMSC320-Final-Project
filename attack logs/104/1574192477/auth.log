@@ -1,0 +1,4 @@
+Nov 19 19:41:17 mark-websrv sshd[487]: Accepted password for xbian from 172.20.0.1 port 60996 ssh2
+Nov 19 19:41:17 mark-websrv sshd[487]: pam_unix(sshd:session): session opened for user xbian by (uid=0)
+Nov 19 19:41:17 mark-websrv systemd-logind[165]: New session 79582 of user xbian.
+Nov 19 19:41:17 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user xbian by (uid=0)

@@ -1,0 +1,4 @@
+Nov 16 06:56:01 mark-websrv sshd[445]: Accepted password for baghdadi from 172.20.0.1 port 48614 ssh2
+Nov 16 06:56:01 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user baghdadi by (uid=0)
+Nov 16 06:56:01 mark-websrv systemd-logind[153]: New session 69910 of user baghdadi.
+Nov 16 06:56:01 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user baghdadi by (uid=0)

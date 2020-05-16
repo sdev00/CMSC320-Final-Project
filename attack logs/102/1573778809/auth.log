@@ -1,0 +1,9 @@
+Nov 15 00:46:49 mark-websrv sshd[442]: Accepted password for maslah from 172.20.0.1 port 56920 ssh2
+Nov 15 00:46:49 mark-websrv sshd[442]: pam_unix(sshd:session): session opened for user maslah by (uid=0)
+Nov 15 00:46:49 mark-websrv systemd-logind[147]: New session 66406 of user maslah.
+Nov 15 00:46:49 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user maslah by (uid=0)
+Nov 15 00:49:34 mark-websrv sshd[493]: Received disconnect from 172.20.0.1 port 56920:11:
+Nov 15 00:49:34 mark-websrv sshd[493]: Disconnected from user maslah 172.20.0.1 port 56920
+Nov 15 00:49:34 mark-websrv systemd-logind[147]: Removed session 66406.
+Nov 15 00:49:34 mark-websrv sshd[442]: pam_unix(sshd:session): session closed for user maslah
+Nov 15 00:49:34 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user maslah

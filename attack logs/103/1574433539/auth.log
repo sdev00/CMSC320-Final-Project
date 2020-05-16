@@ -1,0 +1,4 @@
+Nov 22 14:38:59 mark-websrv sshd[438]: Accepted password for ubuntu from 172.20.0.1 port 59684 ssh2
+Nov 22 14:38:59 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Nov 22 14:38:59 mark-websrv systemd-logind[147]: New session 87452 of user ubuntu.
+Nov 22 14:38:59 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)

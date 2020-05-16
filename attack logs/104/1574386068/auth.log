@@ -1,0 +1,4 @@
+Nov 22 01:27:48 mark-websrv sshd[490]: Accepted password for griego from 172.20.0.1 port 37396 ssh2
+Nov 22 01:27:48 mark-websrv sshd[490]: pam_unix(sshd:session): session opened for user griego by (uid=0)
+Nov 22 01:27:48 mark-websrv systemd-logind[148]: New session 85907 of user griego.
+Nov 22 01:27:48 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user griego by (uid=0)

@@ -1,0 +1,4 @@
+Nov 15 03:23:37 mark-websrv sshd[450]: Accepted password for nfs from 172.20.0.1 port 36838 ssh2
+Nov 15 03:23:37 mark-websrv sshd[450]: pam_unix(sshd:session): session opened for user nfs by (uid=0)
+Nov 15 03:23:37 mark-websrv systemd-logind[153]: New session 66709 of user nfs.
+Nov 15 03:23:37 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user nfs by (uid=0)

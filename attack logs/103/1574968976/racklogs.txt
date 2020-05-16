@@ -1,0 +1,5 @@
+[2019-11-28 19:18:04] INFO  WEBrick 1.4.2
+[2019-11-28 19:18:04] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-28 19:18:04] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+185.172.110.221 - - [28/Nov/2019:19:28:25 +0000] "GET / HTTP/1.1" 200 1574 0.0714
+[2019-11-28 19:28:25] ERROR bad Request-Line `'.

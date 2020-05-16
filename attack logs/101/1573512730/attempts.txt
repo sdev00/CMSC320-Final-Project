@@ -1,0 +1,12 @@
+2019-11-11 16:36:12.006;106.12.33.80;password;root;lxpll@tom
+2019-11-11 16:37:39.330;206.189.89.28;password;root;root
+2019-11-11 16:53:04.061;210.245.2.226;password;root;wugui
+2019-11-11 17:01:13.583;106.54.251.183;password;postgres;Qwerty1
+2019-11-11 17:07:15.632;1.34.117.251;password;ftp_user;ftp_user123
+2019-11-11 17:37:59.845;111.230.61.51;password;proehl;proehl
+2019-11-11 17:40:58.284;5.135.198.62;password;backup;khosrow
+2019-11-11 17:46:50.585;111.230.61.51;password;breig;breig
+2019-11-11 17:48:46.701;5.135.198.62;password;nagios;0123456789
+2019-11-11 17:51:00.195;128.199.233.188;password;root;uwiyono
+2019-11-11 17:52:10.053;5.135.198.62;password;eryn;eryn
+2019-11-11 17:52:11.498;5.135.198.62;password;nproc;nproc

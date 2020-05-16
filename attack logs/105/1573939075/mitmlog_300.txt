@@ -1,0 +1,18 @@
+2019-11-16 15:33:54.342 - [Info] MITM Version: 1.26
+2019-11-16 15:33:54.358 - [Info] Auto Access Enabled: true
+2019-11-16 15:33:54.359 - [Debug] [Init] Auto Access Barrier: true
+2019-11-16 15:33:54.414 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-16 16:17:54.767 - [Debug] [Connection] Attacker connected: 51.254.206.149 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 16:17:55.337 - [Debug] [Auth] Attacker 51.254.206.149 trying to authenticate with "password"
+2019-11-16 16:17:55.339 - [Debug] [Auto Access] Attacker: 51.254.206.149, Threshold: 1, Attempts: 1
+2019-11-16 16:17:55.340 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-16 16:17:55.340 - [Debug] [Auto Access] Adding the following credentials: "root:gongxifacai"
+2019-11-16 16:17:55.626 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-16 16:17:55.627 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-16 16:17:55.709 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-16 16:17:56.061 - [Debug] [Connection] Attacker connected: 51.254.206.149 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 16:17:56.623 - [Debug] [Auth] Attacker 51.254.206.149 trying to authenticate with "password"
+2019-11-16 16:17:56.625 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-16 16:17:56.627 - [Debug] [Auth] Attacker: 51.254.206.149 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-16 16:17:56.824 - [Debug] [Connection] Attacker closed the connection
+2019-11-16 16:17:56.986 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

@@ -1,0 +1,10 @@
+Nov 26 18:50:02 mark-websrv sshd[472]: Accepted password for www-data from 172.20.0.1 port 54138 ssh2
+Nov 26 18:50:02 mark-websrv sshd[472]: pam_unix(sshd:session): session opened for user www-data by (uid=0)
+Nov 26 18:50:02 mark-websrv systemd-logind[159]: New session 98687 of user www-data.
+Nov 26 18:50:02 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user www-data by (uid=0)
+Nov 26 18:50:13 mark-websrv nologin: Attempted login by www-data on UNKNOWN
+Nov 26 18:50:14 mark-websrv sshd[523]: Received disconnect from 172.20.0.1 port 54138:11:
+Nov 26 18:50:14 mark-websrv sshd[523]: Disconnected from user www-data 172.20.0.1 port 54138
+Nov 26 18:50:14 mark-websrv sshd[472]: pam_unix(sshd:session): session closed for user www-data
+Nov 26 18:50:14 mark-websrv systemd-logind[159]: Removed session 98687.
+Nov 26 18:50:14 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user www-data

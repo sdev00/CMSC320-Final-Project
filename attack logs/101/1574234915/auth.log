@@ -1,0 +1,4 @@
+Nov 20 07:28:35 mark-websrv sshd[477]: Accepted password for chi-tai from 172.20.0.1 port 45950 ssh2
+Nov 20 07:28:35 mark-websrv sshd[477]: pam_unix(sshd:session): session opened for user chi-tai by (uid=0)
+Nov 20 07:28:35 mark-websrv systemd-logind[151]: New session 80958 of user chi-tai.
+Nov 20 07:28:35 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user chi-tai by (uid=0)

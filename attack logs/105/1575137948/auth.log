@@ -1,0 +1,4 @@
+Nov 30 18:19:08 mark-websrv sshd[452]: Accepted password for guest from 172.20.0.1 port 60104 ssh2
+Nov 30 18:19:08 mark-websrv sshd[452]: pam_unix(sshd:session): session opened for user guest by (uid=0)
+Nov 30 18:19:08 mark-websrv systemd-logind[148]: New session 108498 of user guest.
+Nov 30 18:19:08 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user guest by (uid=0)

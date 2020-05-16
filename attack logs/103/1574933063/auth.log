@@ -1,0 +1,4 @@
+Nov 28 09:24:23 mark-websrv sshd[508]: Accepted password for mignon from 172.20.0.1 port 37522 ssh2
+Nov 28 09:24:23 mark-websrv sshd[508]: pam_unix(sshd:session): session opened for user mignon by (uid=0)
+Nov 28 09:24:23 mark-websrv systemd-logind[159]: New session 103080 of user mignon.
+Nov 28 09:24:23 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mignon by (uid=0)

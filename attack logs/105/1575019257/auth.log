@@ -1,0 +1,8 @@
+Nov 29 09:20:57 mark-websrv sshd[454]: Accepted password for zurawlev from 172.20.0.1 port 57432 ssh2
+Nov 29 09:20:57 mark-websrv sshd[454]: pam_unix(sshd:session): session opened for user zurawlev by (uid=0)
+Nov 29 09:20:57 mark-websrv systemd-logind[161]: New session 105792 of user zurawlev.
+Nov 29 09:20:57 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user zurawlev by (uid=0)
+Nov 29 09:28:21 mark-websrv sshd[505]: Received disconnect from 172.20.0.1 port 57432:11:
+Nov 29 09:28:21 mark-websrv sshd[505]: Disconnected from user zurawlev 172.20.0.1 port 57432
+Nov 29 09:28:21 mark-websrv systemd-logind[161]: Removed session 105792.
+Nov 29 09:28:21 mark-websrv sshd[454]: pam_unix(sshd:session): session closed for user zurawlev

@@ -1,0 +1,23 @@
+2019-11-20 16:25:28.113 - [Info] MITM Version: 1.26
+2019-11-20 16:25:28.130 - [Info] Auto Access Enabled: true
+2019-11-20 16:25:28.131 - [Debug] [Init] Auto Access Barrier: true
+2019-11-20 16:25:28.188 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-20 16:28:56.275 - [Debug] [Connection] Attacker connected: 54.37.154.254 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 16:28:56.902 - [Debug] [Auth] Attacker 54.37.154.254 trying to authenticate with "password"
+2019-11-20 16:28:56.905 - [Debug] [Auto Access] Attacker: 54.37.154.254, Threshold: 1, Attempts: 1
+2019-11-20 16:28:56.906 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-20 16:28:56.906 - [Debug] [Auto Access] Adding the following credentials: "root:dni11590!@"
+2019-11-20 16:28:57.202 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-20 16:28:57.202 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-20 16:28:57.318 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-20 16:28:57.706 - [Debug] [Connection] Attacker connected: 54.37.154.254 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 16:28:58.316 - [Debug] [Auth] Attacker 54.37.154.254 trying to authenticate with "password"
+2019-11-20 16:28:58.317 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-20 16:28:58.319 - [Debug] [Auth] Attacker: 54.37.154.254 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-20 16:29:57.396 - [Debug] [Connection] Client error on ssh server
+2019-11-20 16:29:57.398 - [Debug] [Connection] Attacker closed connection
+2019-11-20 16:29:57.426 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-20 16:29:57.428 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-20 16:45:38.771 - [Debug] [Connection] Client error on ssh server
+2019-11-20 16:45:38.772 - [Debug] [Connection] Attacker closed the connection
+2019-11-20 16:45:55.153 - [Debug] [Connection] Client error on ssh server

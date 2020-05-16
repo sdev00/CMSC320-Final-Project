@@ -1,0 +1,9 @@
+Nov 13 00:32:58 mark-websrv sshd[442]: Accepted password for qhsupport from 172.20.0.1 port 49734 ssh2
+Nov 13 00:32:58 mark-websrv sshd[442]: pam_unix(sshd:session): session opened for user qhsupport by (uid=0)
+Nov 13 00:32:58 mark-websrv systemd-logind[161]: New session 60462 of user qhsupport.
+Nov 13 00:32:58 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user qhsupport by (uid=0)
+Nov 13 00:33:04 mark-websrv sshd[493]: Received disconnect from 172.20.0.1 port 49734:11:
+Nov 13 00:33:04 mark-websrv sshd[493]: Disconnected from user qhsupport 172.20.0.1 port 49734
+Nov 13 00:33:04 mark-websrv sshd[442]: pam_unix(sshd:session): session closed for user qhsupport
+Nov 13 00:33:04 mark-websrv systemd-logind[161]: Removed session 60462.
+Nov 13 00:33:04 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user qhsupport

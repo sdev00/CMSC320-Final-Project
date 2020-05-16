@@ -1,0 +1,4 @@
+Nov 30 19:46:09 mark-websrv sshd[477]: Accepted password for lelah from 172.20.0.1 port 41506 ssh2
+Nov 30 19:46:09 mark-websrv sshd[477]: pam_unix(sshd:session): session opened for user lelah by (uid=0)
+Nov 30 19:46:09 mark-websrv systemd-logind[147]: New session 108562 of user lelah.
+Nov 30 19:46:09 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lelah by (uid=0)

@@ -1,0 +1,4 @@
+Nov 27 22:53:31 mark-websrv sshd[443]: Accepted password for kaschig from 172.20.0.1 port 55650 ssh2
+Nov 27 22:53:31 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user kaschig by (uid=0)
+Nov 27 22:53:31 mark-websrv systemd-logind[146]: New session 101885 of user kaschig.
+Nov 27 22:53:31 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kaschig by (uid=0)

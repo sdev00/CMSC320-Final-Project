@@ -1,0 +1,4 @@
+Nov 26 16:20:27 mark-websrv sshd[438]: Accepted password for amandi from 172.20.0.1 port 35302 ssh2
+Nov 26 16:20:27 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user amandi by (uid=0)
+Nov 26 16:20:27 mark-websrv systemd-logind[152]: New session 98414 of user amandi.
+Nov 26 16:20:27 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user amandi by (uid=0)

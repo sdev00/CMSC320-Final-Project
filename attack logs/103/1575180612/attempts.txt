@@ -1,0 +1,2 @@
+2019-12-01 01:10:11.900;34.206.72.238;password;stensdal;stensdal
+2019-12-01 01:10:12.359;34.206.72.238;password;nproc;nproc

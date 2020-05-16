@@ -1,0 +1,9 @@
+Nov 21 14:50:09 mark-websrv sshd[438]: Accepted password for kimler from 172.20.0.1 port 58026 ssh2
+Nov 21 14:50:09 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user kimler by (uid=0)
+Nov 21 14:50:10 mark-websrv systemd-logind[153]: New session 84694 of user kimler.
+Nov 21 14:50:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kimler by (uid=0)
+Nov 21 15:02:33 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 58026:11:
+Nov 21 15:02:33 mark-websrv sshd[489]: Disconnected from user kimler 172.20.0.1 port 58026
+Nov 21 15:02:33 mark-websrv systemd-logind[153]: Removed session 84694.
+Nov 21 15:02:33 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user kimler
+Nov 21 15:02:33 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user kimler

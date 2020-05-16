@@ -1,0 +1,35 @@
+Nov 11 19:43:01 mark-websrv sshd[446]: Accepted password for chungkui from 172.20.0.1 port 46874 ssh2
+Nov 11 19:43:01 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user chungkui by (uid=0)
+Nov 11 19:43:01 mark-websrv systemd-logind[148]: New session 57026 of user chungkui.
+Nov 11 19:43:02 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user chungkui by (uid=0)
+Nov 11 20:16:01 mark-websrv CRON[553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 11 20:16:01 mark-websrv CRON[553]: pam_unix(cron:session): session closed for user root
+Nov 11 21:16:01 mark-websrv CRON[577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 11 21:16:01 mark-websrv CRON[577]: pam_unix(cron:session): session closed for user root
+Nov 11 22:16:01 mark-websrv CRON[600]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 11 22:16:01 mark-websrv CRON[600]: pam_unix(cron:session): session closed for user root
+Nov 11 23:16:01 mark-websrv CRON[625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 11 23:16:01 mark-websrv CRON[625]: pam_unix(cron:session): session closed for user root
+Nov 12 00:16:01 mark-websrv CRON[650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 00:16:01 mark-websrv CRON[650]: pam_unix(cron:session): session closed for user root
+Nov 12 01:16:01 mark-websrv CRON[673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 01:16:01 mark-websrv CRON[673]: pam_unix(cron:session): session closed for user root
+Nov 12 02:16:01 mark-websrv CRON[696]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 02:16:01 mark-websrv CRON[696]: pam_unix(cron:session): session closed for user root
+Nov 12 03:16:01 mark-websrv CRON[733]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 03:16:01 mark-websrv CRON[733]: pam_unix(cron:session): session closed for user root
+Nov 12 04:16:01 mark-websrv CRON[754]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 04:16:01 mark-websrv CRON[754]: pam_unix(cron:session): session closed for user root
+Nov 12 05:16:01 mark-websrv CRON[776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 05:16:01 mark-websrv CRON[776]: pam_unix(cron:session): session closed for user root
+Nov 12 06:12:01 mark-websrv CRON[840]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 06:12:16 mark-websrv CRON[840]: pam_unix(cron:session): session closed for user root
+Nov 12 06:16:01 mark-websrv CRON[986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 06:16:01 mark-websrv CRON[986]: pam_unix(cron:session): session closed for user root
+Nov 12 07:16:01 mark-websrv CRON[1021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 07:16:01 mark-websrv CRON[1021]: pam_unix(cron:session): session closed for user root
+Nov 12 07:22:25 mark-websrv sshd[497]: Received disconnect from 172.20.0.1 port 46874:11:
+Nov 12 07:22:25 mark-websrv sshd[497]: Disconnected from user chungkui 172.20.0.1 port 46874
+Nov 12 07:22:25 mark-websrv sshd[446]: pam_unix(sshd:session): session closed for user chungkui
+Nov 12 07:22:25 mark-websrv systemd-logind[148]: Removed session 57026.
+Nov 12 07:22:25 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user chungkui

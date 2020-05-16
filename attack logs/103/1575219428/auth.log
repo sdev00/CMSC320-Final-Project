@@ -1,0 +1,6 @@
+Dec  1 16:57:08 mark-websrv sshd[439]: Accepted password for oe from 172.20.0.1 port 42460 ssh2
+Dec  1 16:57:08 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user oe by (uid=0)
+Dec  1 16:57:08 mark-websrv systemd-logind[157]: New session 109463 of user oe.
+Dec  1 16:57:08 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user oe by (uid=0)
+Dec  1 17:16:02 mark-websrv CRON[542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  1 17:16:02 mark-websrv CRON[542]: pam_unix(cron:session): session closed for user root

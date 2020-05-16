@@ -1,0 +1,4 @@
+Nov 21 04:45:55 mark-websrv sshd[451]: Accepted password for raverdino from 172.20.0.1 port 47516 ssh2
+Nov 21 04:45:55 mark-websrv sshd[451]: pam_unix(sshd:session): session opened for user raverdino by (uid=0)
+Nov 21 04:45:55 mark-websrv systemd-logind[158]: New session 83488 of user raverdino.
+Nov 21 04:45:55 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user raverdino by (uid=0)

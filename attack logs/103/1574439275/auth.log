@@ -1,0 +1,6 @@
+Nov 22 16:14:35 mark-websrv sshd[479]: Accepted password for demarco from 172.20.0.1 port 59830 ssh2
+Nov 22 16:14:35 mark-websrv sshd[479]: pam_unix(sshd:session): session opened for user demarco by (uid=0)
+Nov 22 16:14:35 mark-websrv systemd-logind[158]: New session 87635 of user demarco.
+Nov 22 16:14:35 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user demarco by (uid=0)
+Nov 22 16:16:01 mark-websrv CRON[547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 16:16:01 mark-websrv CRON[547]: pam_unix(cron:session): session closed for user root

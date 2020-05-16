@@ -1,0 +1,18 @@
+2019-12-01 06:40:32.359 - [Info] MITM Version: 1.26
+2019-12-01 06:40:32.386 - [Info] Auto Access Enabled: true
+2019-12-01 06:40:32.388 - [Debug] [Init] Auto Access Barrier: true
+2019-12-01 06:40:32.460 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-12-01 06:42:58.452 - [Debug] [Connection] Attacker connected: 124.163.214.106 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-12-01 06:43:00.361 - [Debug] [Auth] Attacker 124.163.214.106 trying to authenticate with "password"
+2019-12-01 06:43:00.363 - [Debug] [Auto Access] Attacker: 124.163.214.106, Threshold: 1, Attempts: 1
+2019-12-01 06:43:00.363 - [Debug] [Auto Access] Compromising the honeypot
+2019-12-01 06:43:00.363 - [Debug] [Auto Access] Adding the following credentials: "burega:burega"
+2019-12-01 06:43:00.583 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-01 06:43:00.584 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-12-01 06:43:00.631 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-01 06:43:02.459 - [Debug] [Connection] Attacker connected: 124.163.214.106 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-12-01 06:43:04.405 - [Debug] [Auth] Attacker 124.163.214.106 trying to authenticate with "password"
+2019-12-01 06:43:04.407 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-12-01 06:43:04.409 - [Debug] [Auth] Attacker: 124.163.214.106 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-01 06:43:05.092 - [Debug] [Connection] Attacker closed the connection
+2019-12-01 06:43:05.659 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

@@ -1,0 +1,6 @@
+Nov 19 20:04:03 mark-websrv sshd[438]: Accepted password for angil from 172.20.0.1 port 32784 ssh2
+Nov 19 20:04:03 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user angil by (uid=0)
+Nov 19 20:04:03 mark-websrv systemd-logind[163]: New session 79619 of user angil.
+Nov 19 20:04:03 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user angil by (uid=0)
+Nov 19 20:16:01 mark-websrv CRON[525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 19 20:16:01 mark-websrv CRON[525]: pam_unix(cron:session): session closed for user root

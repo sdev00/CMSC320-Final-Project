@@ -1,0 +1,23 @@
+[2019-12-06 07:42:01] INFO  WEBrick 1.4.2
+[2019-12-06 07:42:01] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-06 07:42:01] INFO  WEBrick::HTTPServer#start: pid=401 port=80
+202.158.89.66 - - [06/Dec/2019:08:39:15 +0000] "GET / HTTP/1.1" 200 1574 0.0708
+185.128.41.50 - - [06/Dec/2019:09:08:45 +0000] "GET /manager/html HTTP/1.1" 404 562 0.0079
+103.118.118.119 - - [06/Dec/2019:09:32:13 +0000] "GET / HTTP/1.1" 200 1574 0.0064
+60.191.66.222 - - [06/Dec/2019:09:54:16 +0000] "GET /manager/html HTTP/1.1" 404 562 0.0029
+[2019-12-06 09:54:16] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+94.200.149.42 - - [06/Dec/2019:10:21:45 +0000] "GET / HTTP/1.1" 200 1574 0.0065
+159.203.196.79 - - [06/Dec/2019:10:21:46 +0000] "GET / HTTP/1.1" 200 1574 0.0056
+181.224.172.218 - - [06/Dec/2019:10:26:13 +0000] "GET / HTTP/1.1" 200 1574 0.0083
+61.163.139.3 - - [06/Dec/2019:10:50:06 +0000] "GET /manager/html HTTP/1.1" 404 562 0.0033
+[2019-12-06 10:50:06] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+45.143.221.27 - - [06/Dec/2019:11:01:13 +0000] "GET / HTTP/1.1" 200 1574 0.0067
+177.189.124.17 - - [06/Dec/2019:11:39:50 +0000] "GET / HTTP/1.1" 200 1574 0.0033
+185.153.196.97 - - [06/Dec/2019:11:49:38 +0000] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1574 0.0032
+187.94.251.163 - - [06/Dec/2019:12:22:58 +0000] "GET / HTTP/1.1" 200 1574 0.0068

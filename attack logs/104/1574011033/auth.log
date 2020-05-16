@@ -1,0 +1,4 @@
+Nov 17 17:17:13 mark-websrv sshd[487]: Accepted password for berlon from 172.20.0.1 port 59060 ssh2
+Nov 17 17:17:13 mark-websrv sshd[487]: pam_unix(sshd:session): session opened for user berlon by (uid=0)
+Nov 17 17:17:13 mark-websrv systemd-logind[161]: New session 73948 of user berlon.
+Nov 17 17:17:13 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user berlon by (uid=0)

@@ -1,0 +1,9 @@
+Dec  1 04:47:56 mark-websrv sshd[443]: Accepted password for alcanar from 172.20.0.1 port 41990 ssh2
+Dec  1 04:47:56 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user alcanar by (uid=0)
+Dec  1 04:47:56 mark-websrv systemd-logind[154]: New session 108936 of user alcanar.
+Dec  1 04:47:56 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user alcanar by (uid=0)
+Dec  1 04:58:18 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 41990:11:
+Dec  1 04:58:18 mark-websrv sshd[494]: Disconnected from user alcanar 172.20.0.1 port 41990
+Dec  1 04:58:18 mark-websrv systemd-logind[154]: Removed session 108936.
+Dec  1 04:58:18 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user alcanar
+Dec  1 04:58:18 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user alcanar

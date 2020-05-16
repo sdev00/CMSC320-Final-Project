@@ -1,0 +1,6 @@
+Nov 14 13:03:03 mark-websrv sshd[443]: Accepted password for klundert from 172.20.0.1 port 34600 ssh2
+Nov 14 13:03:03 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user klundert by (uid=0)
+Nov 14 13:03:03 mark-websrv systemd-logind[156]: New session 65012 of user klundert.
+Nov 14 13:03:03 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user klundert by (uid=0)
+Nov 14 13:16:01 mark-websrv CRON[513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 13:16:01 mark-websrv CRON[513]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,9 @@
+2019-12-01 03:55:30.916;106.13.86.236;password;backup;juggle
+2019-12-01 04:18:06.934;128.199.215.42;password;yaeko;yaeko
+2019-12-01 04:18:21.049;124.163.214.106;password;root;PASSWORD!QAZ
+2019-12-01 04:41:02.679;124.163.214.106;password;stonestreet;stonestreet
+2019-12-01 05:05:53.722;124.163.214.106;password;manji;manji
+2019-12-01 05:30:27.215;124.163.214.106;password;florante;florante
+2019-12-01 05:55:25.274;124.163.214.106;password;root;adi0742697527
+2019-12-01 06:18:52.912;139.155.22.165;password;roel;roel
+2019-12-01 06:18:57.628;139.155.22.165;password;nproc;nproc

@@ -1,0 +1,3 @@
+2019-11-16 11:32:55.367;195.29.105.125;password;bodenrader;bodenrader
+2019-11-16 12:03:36.545;185.94.188.195;password;root;guest7777
+2019-11-16 12:03:37.796;185.94.188.195;password;nproc;nproc

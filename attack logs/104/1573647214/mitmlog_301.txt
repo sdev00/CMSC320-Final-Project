@@ -1,0 +1,18 @@
+2019-11-13 06:47:44.294 - [Info] MITM Version: 1.26
+2019-11-13 06:47:44.301 - [Info] Auto Access Enabled: true
+2019-11-13 06:47:44.301 - [Debug] [Init] Auto Access Barrier: true
+2019-11-13 06:47:44.332 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-13 07:13:33.515 - [Debug] [Connection] Attacker connected: 91.121.157.83 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-13 07:13:34.120 - [Debug] [Auth] Attacker 91.121.157.83 trying to authenticate with "password"
+2019-11-13 07:13:34.123 - [Debug] [Auto Access] Attacker: 91.121.157.83, Threshold: 1, Attempts: 1
+2019-11-13 07:13:34.123 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-13 07:13:34.123 - [Debug] [Auto Access] Adding the following credentials: "fujioka:remote"
+2019-11-13 07:13:34.601 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-13 07:13:34.602 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-13 07:13:34.712 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-13 07:13:35.084 - [Debug] [Connection] Attacker connected: 91.121.157.83 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-13 07:13:35.664 - [Debug] [Auth] Attacker 91.121.157.83 trying to authenticate with "password"
+2019-11-13 07:13:35.666 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-13 07:13:35.668 - [Debug] [Auth] Attacker: 91.121.157.83 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-13 07:13:35.878 - [Debug] [Connection] Attacker closed the connection
+2019-11-13 07:13:36.042 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

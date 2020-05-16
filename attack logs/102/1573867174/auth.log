@@ -1,0 +1,4 @@
+Nov 16 01:19:34 mark-websrv sshd[439]: Accepted password for wintour from 172.20.0.1 port 59392 ssh2
+Nov 16 01:19:34 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user wintour by (uid=0)
+Nov 16 01:19:34 mark-websrv systemd-logind[159]: New session 69248 of user wintour.
+Nov 16 01:19:34 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user wintour by (uid=0)

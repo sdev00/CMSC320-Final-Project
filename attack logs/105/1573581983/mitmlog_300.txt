@@ -1,0 +1,18 @@
+2019-11-12 12:46:36.744 - [Info] MITM Version: 1.26
+2019-11-12 12:46:36.751 - [Info] Auto Access Enabled: true
+2019-11-12 12:46:36.751 - [Debug] [Init] Auto Access Barrier: true
+2019-11-12 12:46:36.781 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-12 13:06:19.470 - [Debug] [Connection] Attacker connected: 80.211.169.93 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 13:06:20.214 - [Debug] [Auth] Attacker 80.211.169.93 trying to authenticate with "password"
+2019-11-12 13:06:20.216 - [Debug] [Auto Access] Attacker: 80.211.169.93, Threshold: 1, Attempts: 1
+2019-11-12 13:06:20.217 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-12 13:06:20.217 - [Debug] [Auto Access] Adding the following credentials: "gosling:gosling"
+2019-11-12 13:06:23.396 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-12 13:06:23.396 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-12 13:06:23.492 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-12 13:06:23.960 - [Debug] [Connection] Attacker connected: 80.211.169.93 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-12 13:06:24.701 - [Debug] [Auth] Attacker 80.211.169.93 trying to authenticate with "password"
+2019-11-12 13:06:24.702 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-12 13:06:24.704 - [Debug] [Auth] Attacker: 80.211.169.93 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-12 13:06:24.956 - [Debug] [Connection] Attacker closed the connection
+2019-11-12 13:06:25.176 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

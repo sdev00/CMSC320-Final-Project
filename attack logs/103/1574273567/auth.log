@@ -1,0 +1,11 @@
+Nov 20 18:12:47 mark-websrv sshd[438]: Accepted password for jenne from 172.20.0.1 port 56068 ssh2
+Nov 20 18:12:47 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user jenne by (uid=0)
+Nov 20 18:12:47 mark-websrv systemd-logind[160]: New session 82240 of user jenne.
+Nov 20 18:12:47 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user jenne by (uid=0)
+Nov 20 18:15:02 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 56068:11:
+Nov 20 18:15:02 mark-websrv sshd[489]: Disconnected from user jenne 172.20.0.1 port 56068
+Nov 20 18:15:02 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user jenne
+Nov 20 18:15:02 mark-websrv systemd-logind[160]: Removed session 82240.
+Nov 20 18:15:02 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user jenne
+Nov 20 18:16:01 mark-websrv CRON[511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 20 18:16:01 mark-websrv CRON[511]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,3 @@
+2019-11-16 01:08:38.020;123.21.220.249;password;admin;admin
+2019-11-16 01:56:00.966;142.93.235.214;password;baghdadi;baghdadi
+2019-11-16 01:56:02.379;142.93.235.214;password;nproc;nproc

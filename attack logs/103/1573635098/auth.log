@@ -1,0 +1,9 @@
+Nov 13 08:51:38 mark-websrv sshd[438]: Accepted password for test from 172.20.0.1 port 39760 ssh2
+Nov 13 08:51:38 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user test by (uid=0)
+Nov 13 08:51:38 mark-websrv systemd-logind[157]: New session 61511 of user test.
+Nov 13 08:51:38 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user test by (uid=0)
+Nov 13 09:04:04 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 39760:11:
+Nov 13 09:04:04 mark-websrv sshd[489]: Disconnected from user test 172.20.0.1 port 39760
+Nov 13 09:04:04 mark-websrv systemd-logind[157]: Removed session 61511.
+Nov 13 09:04:04 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user test
+Nov 13 09:04:04 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user test

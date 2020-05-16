@@ -1,0 +1,6 @@
+Nov 14 10:02:37 mark-websrv sshd[442]: Accepted password for sync from 172.20.0.1 port 55040 ssh2
+Nov 14 10:02:37 mark-websrv sshd[442]: pam_unix(sshd:session): session opened for user sync by (uid=0)
+Nov 14 10:02:37 mark-websrv systemd-logind[161]: New session 64645 of user sync.
+Nov 14 10:02:37 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user sync by (uid=0)
+Nov 14 10:16:01 mark-websrv CRON[509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 10:16:01 mark-websrv CRON[509]: pam_unix(cron:session): session closed for user root

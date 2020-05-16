@@ -1,0 +1,6 @@
+Nov 21 18:00:59 mark-websrv sshd[443]: Accepted password for churn-hu from 172.20.0.1 port 37042 ssh2
+Nov 21 18:00:59 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user churn-hu by (uid=0)
+Nov 21 18:00:59 mark-websrv systemd-logind[152]: New session 85067 of user churn-hu.
+Nov 21 18:00:59 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user churn-hu by (uid=0)
+Nov 21 18:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 18:16:01 mark-websrv CRON[514]: pam_unix(cron:session): session closed for user root

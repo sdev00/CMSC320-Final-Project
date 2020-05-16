@@ -1,0 +1,20 @@
+2019-11-23 17:01:45.938 - [Info] MITM Version: 1.26
+2019-11-23 17:01:45.945 - [Info] Auto Access Enabled: true
+2019-11-23 17:01:45.945 - [Debug] [Init] Auto Access Barrier: true
+2019-11-23 17:01:45.969 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-23 17:43:27.781 - [Debug] [Connection] Attacker connected: 196.52.43.100 | Client Identification: SSH-2.0-ZGrab ZGrab SSH Survey
+2019-11-23 17:43:30.712 - [Debug] [Connection] Attacker closed the connection
+2019-11-23 17:57:29.472 - [Debug] [Connection] Attacker connected: 182.61.48.209 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-23 17:57:31.001 - [Debug] [Auth] Attacker 182.61.48.209 trying to authenticate with "password"
+2019-11-23 17:57:31.002 - [Debug] [Auto Access] Attacker: 182.61.48.209, Threshold: 1, Attempts: 1
+2019-11-23 17:57:31.003 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-23 17:57:31.003 - [Debug] [Auto Access] Adding the following credentials: "pcap:abcdefghijklmnopqrstuvw"
+2019-11-23 17:57:31.226 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-23 17:57:31.227 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-23 17:57:31.265 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-23 17:57:32.295 - [Debug] [Connection] Attacker connected: 182.61.48.209 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-23 17:57:33.879 - [Debug] [Auth] Attacker 182.61.48.209 trying to authenticate with "password"
+2019-11-23 17:57:33.880 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-23 17:57:33.881 - [Debug] [Auth] Attacker: 182.61.48.209 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-23 17:57:34.420 - [Debug] [Connection] Attacker closed the connection
+2019-11-23 17:57:34.893 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

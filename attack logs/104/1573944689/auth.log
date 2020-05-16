@@ -1,0 +1,4 @@
+Nov 16 22:51:29 mark-websrv sshd[443]: Accepted password for durnin from 172.20.0.1 port 57376 ssh2
+Nov 16 22:51:29 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user durnin by (uid=0)
+Nov 16 22:51:29 mark-websrv systemd-logind[150]: New session 71775 of user durnin.
+Nov 16 22:51:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user durnin by (uid=0)

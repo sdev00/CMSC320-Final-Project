@@ -1,0 +1,4 @@
+Nov 29 09:40:27 mark-websrv sshd[472]: Accepted password for Admin from 172.20.0.1 port 38750 ssh2
+Nov 29 09:40:27 mark-websrv sshd[472]: pam_unix(sshd:session): session opened for user Admin by (uid=0)
+Nov 29 09:40:27 mark-websrv systemd-logind[150]: New session 105828 of user Admin.
+Nov 29 09:40:27 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user Admin by (uid=0)

@@ -1,0 +1,23 @@
+2019-11-14 17:26:30.804 - [Info] MITM Version: 1.26
+2019-11-14 17:26:30.816 - [Info] Auto Access Enabled: true
+2019-11-14 17:26:30.817 - [Debug] [Init] Auto Access Barrier: true
+2019-11-14 17:26:30.855 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-14 17:57:08.373 - [Debug] [Connection] Attacker connected: 106.13.55.170 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 17:57:09.887 - [Debug] [Auth] Attacker 106.13.55.170 trying to authenticate with "password"
+2019-11-14 17:57:09.888 - [Debug] [Auto Access] Attacker: 106.13.55.170, Threshold: 1, Attempts: 1
+2019-11-14 17:57:09.889 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-14 17:57:09.889 - [Debug] [Auto Access] Adding the following credentials: "smmsp:passwd777"
+2019-11-14 17:57:10.127 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-14 17:57:10.128 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-14 17:57:10.177 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-14 17:57:11.163 - [Debug] [Connection] Attacker connected: 106.13.55.170 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-14 17:57:12.670 - [Debug] [Auth] Attacker 106.13.55.170 trying to authenticate with "password"
+2019-11-14 17:57:12.671 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-14 17:57:12.673 - [Debug] [Auth] Attacker: 106.13.55.170 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-14 17:57:13.187 - [Debug] [Connection] Attacker closed the connection
+2019-11-14 17:57:13.665 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-14 18:01:11.590 - [Debug] [Connection] Client error on ssh server
+2019-11-14 18:01:11.592 - [Debug] [Connection] Attacker closed connection
+2019-11-14 18:01:11.600 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-14 18:01:11.601 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-14 18:16:30.545 - [Debug] [Connection] Client error on ssh server

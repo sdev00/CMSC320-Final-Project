@@ -1,0 +1,18 @@
+2019-11-16 04:00:16.038 - [Info] MITM Version: 1.26
+2019-11-16 04:00:16.048 - [Info] Auto Access Enabled: true
+2019-11-16 04:00:16.048 - [Debug] [Init] Auto Access Barrier: true
+2019-11-16 04:00:16.222 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-16 04:07:43.497 - [Debug] [Connection] Attacker connected: 106.12.90.45 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 04:07:45.240 - [Debug] [Auth] Attacker 106.12.90.45 trying to authenticate with "password"
+2019-11-16 04:07:45.243 - [Debug] [Auto Access] Attacker: 106.12.90.45, Threshold: 1, Attempts: 1
+2019-11-16 04:07:45.243 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-16 04:07:45.243 - [Debug] [Auto Access] Adding the following credentials: "root:lanxuncache"
+2019-11-16 04:07:45.522 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-16 04:07:45.523 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-16 04:07:45.637 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-16 04:07:46.749 - [Debug] [Connection] Attacker connected: 106.12.90.45 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 04:07:48.435 - [Debug] [Auth] Attacker 106.12.90.45 trying to authenticate with "password"
+2019-11-16 04:07:48.436 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-16 04:07:48.438 - [Debug] [Auth] Attacker: 106.12.90.45 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-16 04:07:49.013 - [Debug] [Connection] Attacker closed the connection
+2019-11-16 04:07:49.573 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

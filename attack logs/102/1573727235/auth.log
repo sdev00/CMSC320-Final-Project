@@ -1,0 +1,9 @@
+Nov 14 10:27:15 mark-websrv sshd[438]: Accepted password for qhsupport from 172.20.0.1 port 55130 ssh2
+Nov 14 10:27:15 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user qhsupport by (uid=0)
+Nov 14 10:27:15 mark-websrv systemd-logind[153]: New session 64699 of user qhsupport.
+Nov 14 10:27:15 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user qhsupport by (uid=0)
+Nov 14 10:27:17 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 55130:11:
+Nov 14 10:27:17 mark-websrv sshd[489]: Disconnected from user qhsupport 172.20.0.1 port 55130
+Nov 14 10:27:17 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user qhsupport
+Nov 14 10:27:20 mark-websrv systemd-logind[153]: Removed session 64699.
+Nov 14 10:27:20 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user qhsupport

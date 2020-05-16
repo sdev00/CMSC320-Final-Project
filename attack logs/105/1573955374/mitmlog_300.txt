@@ -1,0 +1,29 @@
+2019-11-16 20:38:00.314 - [Info] MITM Version: 1.26
+2019-11-16 20:38:00.320 - [Info] Auto Access Enabled: true
+2019-11-16 20:38:00.320 - [Debug] [Init] Auto Access Barrier: true
+2019-11-16 20:38:00.343 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-16 20:49:17.231 - [Debug] [Connection] Attacker connected: 27.211.86.111 | Client Identification: SSH-2.0-OpenSSH_6.7p1 Raspbian-5+deb8u5
+2019-11-16 20:49:17.264 - [Debug] [Connection] Attacker connected: 27.211.86.111 | Client Identification: SSH-2.0-OpenSSH_6.7p1 Raspbian-5+deb8u5
+2019-11-16 20:49:18.684 - [Debug] [Auth] Attacker 27.211.86.111 trying to authenticate with "none"
+2019-11-16 20:49:18.684 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-16 20:49:18.723 - [Debug] [Auth] Attacker 27.211.86.111 trying to authenticate with "none"
+2019-11-16 20:49:18.723 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2019-11-16 20:49:19.195 - [Debug] [Auth] Attacker 27.211.86.111 trying to authenticate with "password"
+2019-11-16 20:49:19.196 - [Debug] [Auto Access] Attacker: 27.211.86.111, Threshold: 1, Attempts: 1
+2019-11-16 20:49:19.196 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-16 20:49:19.196 - [Debug] [Auto Access] Adding the following credentials: "pi:raspberryraspberry993311"
+2019-11-16 20:49:19.429 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-16 20:49:19.430 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-16 20:49:19.436 - [Debug] [Auth] Attacker 27.211.86.111 trying to authenticate with "password"
+2019-11-16 20:49:19.436 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-16 20:49:19.437 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-16 20:49:34.882 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-16 20:49:34.885 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-16 20:49:35.888 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/0UCtaExO
+2019-11-16 20:49:35.904 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/0UCtaExO
+2019-11-16 20:49:42.041 - [Debug] [Connection] Attacker closed connection
+2019-11-16 20:49:42.055 - [Debug] [Connection] Attacker closed connection
+2019-11-16 20:49:42.099 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-16 20:49:42.100 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-16 20:49:42.103 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-16 20:49:42.104 - [Debug] [LXC] Container's OpenSSH server closed connection

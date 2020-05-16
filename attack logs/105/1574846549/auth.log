@@ -1,0 +1,4 @@
+Nov 27 09:22:29 mark-websrv sshd[498]: Accepted password for eyrignoux from 172.20.0.1 port 54976 ssh2
+Nov 27 09:22:29 mark-websrv sshd[498]: pam_unix(sshd:session): session opened for user eyrignoux by (uid=0)
+Nov 27 09:22:29 mark-websrv systemd-logind[160]: New session 100350 of user eyrignoux.
+Nov 27 09:22:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user eyrignoux by (uid=0)

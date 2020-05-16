@@ -1,0 +1,4 @@
+Nov 21 03:45:23 mark-websrv sshd[443]: Accepted password for oracle from 172.20.0.1 port 56960 ssh2
+Nov 21 03:45:23 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user oracle by (uid=0)
+Nov 21 03:45:23 mark-websrv systemd-logind[162]: New session 83371 of user oracle.
+Nov 21 03:45:23 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)

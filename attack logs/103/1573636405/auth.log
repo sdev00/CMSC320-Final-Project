@@ -1,0 +1,6 @@
+Nov 13 09:13:25 mark-websrv sshd[438]: Accepted password for vcsa from 172.20.0.1 port 39818 ssh2
+Nov 13 09:13:25 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user vcsa by (uid=0)
+Nov 13 09:13:25 mark-websrv systemd-logind[148]: New session 61551 of user vcsa.
+Nov 13 09:13:25 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user vcsa by (uid=0)
+Nov 13 09:16:01 mark-websrv CRON[506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 09:16:01 mark-websrv CRON[506]: pam_unix(cron:session): session closed for user root

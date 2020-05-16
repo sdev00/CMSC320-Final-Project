@@ -1,0 +1,4 @@
+Nov 30 00:23:57 mark-websrv sshd[473]: Accepted password for postgres from 172.20.0.1 port 40014 ssh2
+Nov 30 00:23:57 mark-websrv sshd[473]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Nov 30 00:23:57 mark-websrv systemd-logind[151]: New session 107549 of user postgres.
+Nov 30 00:23:57 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user postgres by (uid=0)

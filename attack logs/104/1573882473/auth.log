@@ -1,0 +1,4 @@
+Nov 16 05:34:33 mark-websrv sshd[438]: Accepted password for mukai from 172.20.0.1 port 55544 ssh2
+Nov 16 05:34:33 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user mukai by (uid=0)
+Nov 16 05:34:33 mark-websrv systemd-logind[175]: New session 69744 of user mukai.
+Nov 16 05:34:33 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mukai by (uid=0)

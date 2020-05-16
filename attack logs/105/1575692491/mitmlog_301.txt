@@ -1,0 +1,25 @@
+2019-12-06 17:20:32.475 - [Info] MITM Version: 1.26
+2019-12-06 17:20:32.482 - [Info] Auto Access Enabled: true
+2019-12-06 17:20:32.482 - [Debug] [Init] Auto Access Barrier: true
+2019-12-06 17:20:32.505 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-12-06 21:38:43.305 - [Debug] [Connection] Attacker connected: 51.79.68.99 | Client Identification: SSH-2.0-libssh-0.1
+2019-12-06 21:38:43.349 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 22:39:54.390 - [Debug] [Connection] Attacker connected: 65.49.20.67 | Client Identification: SSH-2.0-Go
+2019-12-06 22:40:04.909 - [Debug] [Connection] Attacker closed the connection
+2019-12-06 23:21:28.035 - [Debug] [Connection] Attacker connected: 5.143.117.38 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-12-06 23:21:30.541 - [Debug] [Auth] Attacker 5.143.117.38 trying to authenticate with "password"
+2019-12-06 23:21:30.543 - [Debug] [Auto Access] Attacker: 5.143.117.38, Threshold: 1, Attempts: 1
+2019-12-06 23:21:30.543 - [Debug] [Auto Access] Compromising the honeypot
+2019-12-06 23:21:30.543 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2019-12-06 23:21:31.005 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-12-06 23:21:31.006 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-12-06 23:21:31.056 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-12-06 23:21:32.211 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2019-12-06 23:21:37.311 - [Debug] [Connection] Attacker closed connection
+2019-12-06 23:21:37.322 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-12-06 23:21:37.322 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-12-06 23:21:37.586 - [Debug] [Connection] Attacker connected: 5.143.117.38 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-12-06 23:21:40.723 - [Debug] [Auth] Attacker 5.143.117.38 trying to authenticate with "password"
+2019-12-06 23:21:40.724 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2019-12-06 23:21:40.725 - [Debug] [Auth] Attacker: 5.143.117.38 has so far made 1 attempts. Remaining: 5 attempts
+2019-12-06 23:21:41.319 - [Debug] [Connection] Attacker closed the connection

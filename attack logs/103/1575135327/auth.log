@@ -1,0 +1,4 @@
+Nov 30 17:35:27 mark-websrv sshd[1866]: Accepted password for belir from 172.20.0.1 port 41344 ssh2
+Nov 30 17:35:27 mark-websrv sshd[1866]: pam_unix(sshd:session): session opened for user belir by (uid=0)
+Nov 30 17:35:27 mark-websrv systemd-logind[154]: New session 108467 of user belir.
+Nov 30 17:35:27 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user belir by (uid=0)

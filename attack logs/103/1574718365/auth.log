@@ -1,0 +1,4 @@
+Nov 25 21:46:05 mark-websrv sshd[438]: Accepted password for tappert from 172.20.0.1 port 34230 ssh2
+Nov 25 21:46:05 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user tappert by (uid=0)
+Nov 25 21:46:05 mark-websrv systemd-logind[152]: New session 96291 of user tappert.
+Nov 25 21:46:05 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user tappert by (uid=0)

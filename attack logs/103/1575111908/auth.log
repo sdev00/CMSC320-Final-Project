@@ -1,0 +1,11 @@
+Nov 30 11:05:08 mark-websrv sshd[477]: Accepted password for rpc from 172.20.0.1 port 40828 ssh2
+Nov 30 11:05:08 mark-websrv sshd[477]: pam_unix(sshd:session): session opened for user rpc by (uid=0)
+Nov 30 11:05:08 mark-websrv systemd-logind[155]: New session 108161 of user rpc.
+Nov 30 11:05:08 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user rpc by (uid=0)
+Nov 30 11:12:34 mark-websrv sshd[528]: Received disconnect from 172.20.0.1 port 40828:11:
+Nov 30 11:12:34 mark-websrv sshd[528]: Disconnected from user rpc 172.20.0.1 port 40828
+Nov 30 11:12:34 mark-websrv sshd[477]: pam_unix(sshd:session): session closed for user rpc
+Nov 30 11:12:34 mark-websrv systemd-logind[155]: Removed session 108161.
+Nov 30 11:12:34 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user rpc
+Nov 30 11:16:01 mark-websrv CRON[548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 11:16:01 mark-websrv CRON[548]: pam_unix(cron:session): session closed for user root

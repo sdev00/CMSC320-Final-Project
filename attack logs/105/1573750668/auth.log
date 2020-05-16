@@ -1,0 +1,11 @@
+Nov 14 16:57:48 mark-websrv sshd[434]: Accepted password for daemon from 172.20.0.1 port 35128 ssh2
+Nov 14 16:57:48 mark-websrv sshd[434]: pam_unix(sshd:session): session opened for user daemon by (uid=0)
+Nov 14 16:57:48 mark-websrv systemd-logind[147]: New session 65494 of user daemon.
+Nov 14 16:57:48 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user daemon by (uid=0)
+Nov 14 16:57:52 mark-websrv nologin: Attempted login by daemon on UNKNOWN
+Nov 14 16:57:52 mark-websrv sshd[485]: Received disconnect from 172.20.0.1 port 35128:11:
+Nov 14 16:57:52 mark-websrv sshd[485]: Disconnected from user daemon 172.20.0.1 port 35128
+Nov 14 16:57:52 mark-websrv sshd[434]: pam_unix(sshd:session): session closed for user daemon
+Nov 14 16:57:54 mark-websrv systemd-logind[147]: Removed session 65494.
+Nov 14 17:16:01 mark-websrv CRON[505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:16:01 mark-websrv CRON[505]: pam_unix(cron:session): session closed for user root

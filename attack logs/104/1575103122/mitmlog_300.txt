@@ -1,0 +1,22 @@
+2019-11-30 03:30:38.662 - [Info] MITM Version: 1.26
+2019-11-30 03:30:38.671 - [Info] Auto Access Enabled: true
+2019-11-30 03:30:38.671 - [Debug] [Init] Auto Access Barrier: true
+2019-11-30 03:30:38.702 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-30 03:38:39.576 - [Debug] [Connection] Attacker connected: 118.89.249.95 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 03:38:42.375 - [Debug] [Auth] Attacker 118.89.249.95 trying to authenticate with "password"
+2019-11-30 03:38:42.377 - [Debug] [Auto Access] Attacker: 118.89.249.95, Threshold: 1, Attempts: 1
+2019-11-30 03:38:42.377 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-30 03:38:42.378 - [Debug] [Auto Access] Adding the following credentials: "root:yta"
+2019-11-30 03:38:42.600 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-30 03:38:42.600 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-30 03:38:42.670 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-30 03:38:45.279 - [Debug] [Connection] Attacker connected: 118.89.249.95 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 03:38:47.379 - [Debug] [Auth] Attacker 118.89.249.95 trying to authenticate with "password"
+2019-11-30 03:38:47.380 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-30 03:38:47.381 - [Debug] [Auth] Attacker: 118.89.249.95 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-30 03:38:47.907 - [Debug] [Connection] Attacker closed the connection
+2019-11-30 03:38:48.394 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-30 03:46:16.194 - [Debug] [Connection] Client error on ssh server
+2019-11-30 03:46:16.196 - [Debug] [Connection] Attacker closed connection
+2019-11-30 03:46:16.210 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-30 03:46:16.212 - [Debug] [LXC] Container's OpenSSH server closed connection

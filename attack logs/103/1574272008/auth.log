@@ -1,0 +1,4 @@
+Nov 20 17:46:48 mark-websrv sshd[487]: Accepted password for kumiko from 172.20.0.1 port 56042 ssh2
+Nov 20 17:46:48 mark-websrv sshd[487]: pam_unix(sshd:session): session opened for user kumiko by (uid=0)
+Nov 20 17:46:48 mark-websrv systemd-logind[147]: New session 82194 of user kumiko.
+Nov 20 17:46:48 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kumiko by (uid=0)

@@ -1,0 +1,4 @@
+Nov 13 08:54:42 mark-websrv sshd[438]: Accepted password for marje from 172.20.0.1 port 59028 ssh2
+Nov 13 08:54:42 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user marje by (uid=0)
+Nov 13 08:54:42 mark-websrv systemd-logind[150]: New session 61513 of user marje.
+Nov 13 08:54:42 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user marje by (uid=0)

@@ -1,0 +1,4 @@
+Nov 26 00:16:39 mark-websrv sshd[446]: Accepted password for leodora from 172.20.0.1 port 34456 ssh2
+Nov 26 00:16:39 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user leodora by (uid=0)
+Nov 26 00:16:39 mark-websrv systemd-logind[151]: New session 96591 of user leodora.
+Nov 26 00:16:40 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user leodora by (uid=0)

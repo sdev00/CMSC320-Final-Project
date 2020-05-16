@@ -1,0 +1,4 @@
+Nov 16 02:18:10 mark-websrv sshd[446]: Accepted password for ling from 172.20.0.1 port 39094 ssh2
+Nov 16 02:18:10 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user ling by (uid=0)
+Nov 16 02:18:10 mark-websrv systemd-logind[158]: New session 69358 of user ling.
+Nov 16 02:18:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ling by (uid=0)

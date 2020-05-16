@@ -1,0 +1,3 @@
+2019-11-26 11:18:55.346;193.70.114.154;password;postgres;00local22
+2019-11-26 11:52:37.476;92.222.47.41;password;pobiero;pobiero123
+2019-11-26 11:52:38.683;92.222.47.41;password;nproc;nproc

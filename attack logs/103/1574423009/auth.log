@@ -1,0 +1,4 @@
+Nov 22 11:43:29 mark-websrv sshd[454]: Accepted password for hymans from 172.20.0.1 port 59354 ssh2
+Nov 22 11:43:29 mark-websrv sshd[454]: pam_unix(sshd:session): session opened for user hymans by (uid=0)
+Nov 22 11:43:29 mark-websrv systemd-logind[156]: New session 87098 of user hymans.
+Nov 22 11:43:29 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hymans by (uid=0)

@@ -1,0 +1,10 @@
+Nov 13 19:33:39 mark-websrv sshd[439]: Accepted password for lp from 172.20.0.1 port 48446 ssh2
+Nov 13 19:33:39 mark-websrv sshd[439]: pam_unix(sshd:session): session opened for user lp by (uid=0)
+Nov 13 19:33:39 mark-websrv systemd-logind[153]: New session 62844 of user lp.
+Nov 13 19:33:39 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user lp by (uid=0)
+Nov 13 19:33:41 mark-websrv nologin: Attempted login by lp on UNKNOWN
+Nov 13 19:33:41 mark-websrv sshd[490]: Received disconnect from 172.20.0.1 port 48446:11:
+Nov 13 19:33:41 mark-websrv sshd[490]: Disconnected from user lp 172.20.0.1 port 48446
+Nov 13 19:33:41 mark-websrv sshd[439]: pam_unix(sshd:session): session closed for user lp
+Nov 13 19:33:45 mark-websrv systemd-logind[153]: Removed session 62844.
+Nov 13 19:33:45 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user lp

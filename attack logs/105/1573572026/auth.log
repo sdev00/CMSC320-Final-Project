@@ -1,0 +1,4 @@
+Nov 12 15:20:26 mark-websrv sshd[484]: Accepted password for dale from 172.20.0.1 port 55550 ssh2
+Nov 12 15:20:26 mark-websrv sshd[484]: pam_unix(sshd:session): session opened for user dale by (uid=0)
+Nov 12 15:20:26 mark-websrv systemd-logind[147]: New session 59306 of user dale.
+Nov 12 15:20:26 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dale by (uid=0)

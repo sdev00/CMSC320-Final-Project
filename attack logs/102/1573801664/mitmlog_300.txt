@@ -1,0 +1,18 @@
+2019-11-15 01:55:07.644 - [Info] MITM Version: 1.26
+2019-11-15 01:55:07.651 - [Info] Auto Access Enabled: true
+2019-11-15 01:55:07.651 - [Debug] [Init] Auto Access Barrier: true
+2019-11-15 01:55:07.689 - [Info] SSH man-in-the-middle server for 172.20.0.3 listening on 0.0.0.0:10102
+2019-11-15 02:07:43.269 - [Debug] [Connection] Attacker connected: 189.91.239.121 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-15 02:07:44.128 - [Debug] [Auth] Attacker 189.91.239.121 trying to authenticate with "password"
+2019-11-15 02:07:44.130 - [Debug] [Auto Access] Attacker: 189.91.239.121, Threshold: 1, Attempts: 1
+2019-11-15 02:07:44.130 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-15 02:07:44.130 - [Debug] [Auto Access] Adding the following credentials: "farima:farima"
+2019-11-15 02:07:44.419 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-15 02:07:44.420 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.3
+2019-11-15 02:07:44.479 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-15 02:07:45.029 - [Debug] [Connection] Attacker connected: 189.91.239.121 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-15 02:07:45.881 - [Debug] [Auth] Attacker 189.91.239.121 trying to authenticate with "password"
+2019-11-15 02:07:45.883 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-15 02:07:45.886 - [Debug] [Auth] Attacker: 189.91.239.121 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-15 02:07:46.182 - [Debug] [Connection] Attacker closed the connection
+2019-11-15 02:07:46.446 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

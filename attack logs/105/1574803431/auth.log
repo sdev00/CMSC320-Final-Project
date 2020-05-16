@@ -1,0 +1,10 @@
+Nov 26 21:23:51 mark-websrv sshd[450]: Accepted password for sshd from 172.20.0.1 port 54266 ssh2
+Nov 26 21:23:51 mark-websrv sshd[450]: pam_unix(sshd:session): session opened for user sshd by (uid=0)
+Nov 26 21:23:51 mark-websrv systemd-logind[161]: New session 98984 of user sshd.
+Nov 26 21:23:51 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user sshd by (uid=0)
+Nov 26 21:23:54 mark-websrv nologin: Attempted login by sshd on UNKNOWN
+Nov 26 21:23:54 mark-websrv sshd[501]: Received disconnect from 172.20.0.1 port 54266:11:
+Nov 26 21:23:54 mark-websrv sshd[501]: Disconnected from user sshd 172.20.0.1 port 54266
+Nov 26 21:23:54 mark-websrv sshd[450]: pam_unix(sshd:session): session closed for user sshd
+Nov 26 21:23:57 mark-websrv systemd-logind[161]: Removed session 98984.
+Nov 26 21:23:57 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user sshd

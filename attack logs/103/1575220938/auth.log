@@ -1,0 +1,4 @@
+Dec  1 17:22:18 mark-websrv sshd[438]: Accepted password for kandari from 172.20.0.1 port 42482 ssh2
+Dec  1 17:22:18 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user kandari by (uid=0)
+Dec  1 17:22:18 mark-websrv systemd-logind[148]: New session 109484 of user kandari.
+Dec  1 17:22:19 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kandari by (uid=0)

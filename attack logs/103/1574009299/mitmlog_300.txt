@@ -1,0 +1,33 @@
+2019-11-17 10:48:14.823 - [Info] MITM Version: 1.26
+2019-11-17 10:48:14.830 - [Info] Auto Access Enabled: true
+2019-11-17 10:48:14.831 - [Debug] [Init] Auto Access Barrier: true
+2019-11-17 10:48:14.855 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-17 11:48:05.641 - [Debug] [Connection] Attacker connected: 50.116.123.103 | Client Identification: SSH-2.0-libssh2_1.8.0
+2019-11-17 11:48:19.309 - [Debug] [Auth] Attacker 50.116.123.103 trying to authenticate with "password"
+2019-11-17 11:48:19.312 - [Debug] [Auto Access] Attacker: 50.116.123.103, Threshold: 1, Attempts: 1
+2019-11-17 11:48:19.312 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-17 11:48:19.312 - [Debug] [Auto Access] Adding the following credentials: "steam:steam"
+2019-11-17 11:48:19.771 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-17 11:48:19.772 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-17 11:48:19.859 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-17 11:48:20.047 - [Debug] [EXEC] Noninteractive mode attacker command: uptime
+2019-11-17 11:48:21.506 - [Debug] [Connection] Attacker closed connection
+2019-11-17 11:48:21.538 - [Debug] [Connection] Attacker connected: 50.116.123.103 | Client Identification: SSH-2.0-libssh2_1.8.0
+2019-11-17 11:48:22.422 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-17 11:48:22.423 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-17 11:48:32.938 - [Debug] [Auth] Attacker 50.116.123.103 trying to authenticate with "password"
+2019-11-17 11:48:32.940 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-17 11:48:32.942 - [Debug] [Auth] Attacker: 50.116.123.103 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-17 11:48:33.004 - [Debug] [Connection] Attacker closed the connection
+2019-11-17 11:48:33.044 - [Debug] [Connection] Attacker connected: 50.116.123.103 | Client Identification: SSH-2.0-libssh2_1.8.0
+2019-11-17 11:48:48.658 - [Debug] [Auth] Attacker 50.116.123.103 trying to authenticate with "password"
+2019-11-17 11:48:48.659 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-17 11:48:48.660 - [Debug] [Auth] Attacker: 50.116.123.103 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-17 11:48:48.720 - [Debug] [Connection] Attacker closed the connection
+2019-11-17 11:48:48.752 - [Debug] [Connection] Attacker connected: 50.116.123.103 | Client Identification: SSH-2.0-libssh2_1.8.0
+2019-11-17 11:48:58.046 - [Debug] [Auth] Attacker 50.116.123.103 trying to authenticate with "password"
+2019-11-17 11:48:58.047 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-17 11:48:58.047 - [Debug] [Auth] Attacker: 50.116.123.103 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-17 11:48:58.108 - [Debug] [Connection] Attacker closed the connection
+2019-11-17 11:48:58.186 - [Debug] [Connection] Attacker connected: 50.116.123.103 | Client Identification: SSH-2.0-libssh2_1.8.0
+2019-11-17 11:49:04.543 - [Debug] [Connection] Attacker closed the connection

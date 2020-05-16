@@ -1,0 +1,6 @@
+Nov 13 20:58:53 mark-websrv sshd[448]: Accepted password for noc from 172.20.0.1 port 48684 ssh2
+Nov 13 20:58:53 mark-websrv sshd[448]: pam_unix(sshd:session): session opened for user noc by (uid=0)
+Nov 13 20:58:53 mark-websrv systemd-logind[167]: New session 63018 of user noc.
+Nov 13 20:58:53 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user noc by (uid=0)
+Nov 13 21:16:01 mark-websrv CRON[526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 21:16:01 mark-websrv CRON[526]: pam_unix(cron:session): session closed for user root

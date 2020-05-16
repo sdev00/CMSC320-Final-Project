@@ -1,0 +1,9 @@
+Nov 21 01:19:35 mark-websrv sshd[491]: Accepted password for mangesh from 172.20.0.1 port 47206 ssh2
+Nov 21 01:19:35 mark-websrv sshd[491]: pam_unix(sshd:session): session opened for user mangesh by (uid=0)
+Nov 21 01:19:35 mark-websrv systemd-logind[155]: New session 83082 of user mangesh.
+Nov 21 01:19:35 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mangesh by (uid=0)
+Nov 21 01:26:37 mark-websrv sshd[542]: Received disconnect from 172.20.0.1 port 47206:11:
+Nov 21 01:26:37 mark-websrv sshd[542]: Disconnected from user mangesh 172.20.0.1 port 47206
+Nov 21 01:26:37 mark-websrv systemd-logind[155]: Removed session 83082.
+Nov 21 01:26:37 mark-websrv sshd[491]: pam_unix(sshd:session): session closed for user mangesh
+Nov 21 01:26:37 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user mangesh

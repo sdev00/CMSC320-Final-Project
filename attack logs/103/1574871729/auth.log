@@ -1,0 +1,4 @@
+Nov 27 16:22:09 mark-websrv sshd[484]: Accepted password for cvega from 172.20.0.1 port 36638 ssh2
+Nov 27 16:22:09 mark-websrv sshd[484]: pam_unix(sshd:session): session opened for user cvega by (uid=0)
+Nov 27 16:22:09 mark-websrv systemd-logind[147]: New session 101154 of user cvega.
+Nov 27 16:22:09 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user cvega by (uid=0)

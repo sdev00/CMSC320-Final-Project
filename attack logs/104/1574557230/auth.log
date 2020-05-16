@@ -1,0 +1,6 @@
+Nov 24 01:00:30 mark-websrv sshd[462]: Accepted password for hagans from 172.20.0.1 port 40506 ssh2
+Nov 24 01:00:30 mark-websrv sshd[462]: pam_unix(sshd:session): session opened for user hagans by (uid=0)
+Nov 24 01:00:30 mark-websrv systemd-logind[155]: New session 91372 of user hagans.
+Nov 24 01:00:30 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hagans by (uid=0)
+Nov 24 01:16:01 mark-websrv CRON[560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 24 01:16:01 mark-websrv CRON[560]: pam_unix(cron:session): session closed for user root

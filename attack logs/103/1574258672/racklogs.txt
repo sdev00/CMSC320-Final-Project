@@ -1,0 +1,4 @@
+[2019-11-20 13:36:01] INFO  WEBrick 1.4.2
+[2019-11-20 13:36:01] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-20 13:36:01] INFO  WEBrick::HTTPServer#start: pid=378 port=80
+37.49.117.82 - - [20/Nov/2019:13:54:53 +0000] "GET /v1/agent/self HTTP/1.1" 404 562 0.0877

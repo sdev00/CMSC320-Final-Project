@@ -1,0 +1,4 @@
+Nov 27 18:52:37 mark-websrv sshd[443]: Accepted password for nadira from 172.20.0.1 port 36740 ssh2
+Nov 27 18:52:37 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user nadira by (uid=0)
+Nov 27 18:52:37 mark-websrv systemd-logind[158]: New session 101431 of user nadira.
+Nov 27 18:52:37 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user nadira by (uid=0)

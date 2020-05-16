@@ -1,0 +1,4 @@
+Nov 27 10:44:20 mark-websrv sshd[441]: Accepted password for blackmore from 172.20.0.1 port 55078 ssh2
+Nov 27 10:44:20 mark-websrv sshd[441]: pam_unix(sshd:session): session opened for user blackmore by (uid=0)
+Nov 27 10:44:20 mark-websrv systemd-logind[159]: New session 100503 of user blackmore.
+Nov 27 10:44:20 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user blackmore by (uid=0)

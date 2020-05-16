@@ -1,0 +1,8 @@
+Nov 19 06:07:54 mark-websrv sshd[457]: Accepted password for tatjana from 172.20.0.1 port 53388 ssh2
+Nov 19 06:07:54 mark-websrv sshd[457]: pam_unix(sshd:session): session opened for user tatjana by (uid=0)
+Nov 19 06:07:54 mark-websrv systemd-logind[164]: New session 78051 of user tatjana.
+Nov 19 06:07:54 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user tatjana by (uid=0)
+Nov 19 06:12:01 mark-websrv CRON[521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 19 06:12:17 mark-websrv CRON[521]: pam_unix(cron:session): session closed for user root
+Nov 19 06:16:01 mark-websrv CRON[711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 19 06:16:01 mark-websrv CRON[711]: pam_unix(cron:session): session closed for user root

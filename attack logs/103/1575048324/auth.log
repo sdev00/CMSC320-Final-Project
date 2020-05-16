@@ -1,0 +1,4 @@
+Nov 29 17:25:24 mark-websrv sshd[450]: Accepted password for ocadmin from 172.20.0.1 port 39384 ssh2
+Nov 29 17:25:24 mark-websrv sshd[450]: pam_unix(sshd:session): session opened for user ocadmin by (uid=0)
+Nov 29 17:25:24 mark-websrv systemd-logind[157]: New session 106731 of user ocadmin.
+Nov 29 17:25:24 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ocadmin by (uid=0)

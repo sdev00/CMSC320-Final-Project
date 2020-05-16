@@ -1,0 +1,29 @@
+2019-11-29 15:58:25.749 - [Info] MITM Version: 1.26
+2019-11-29 15:58:25.755 - [Info] Auto Access Enabled: true
+2019-11-29 15:58:25.756 - [Debug] [Init] Auto Access Barrier: true
+2019-11-29 15:58:25.777 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-29 16:01:19.244 - [Debug] [Connection] Attacker connected: 154.209.245.102 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 16:01:20.758 - [Debug] [Auth] Attacker 154.209.245.102 trying to authenticate with "password"
+2019-11-29 16:01:20.760 - [Debug] [Auto Access] Attacker: 154.209.245.102, Threshold: 1, Attempts: 1
+2019-11-29 16:01:20.761 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-29 16:01:20.761 - [Debug] [Auto Access] Adding the following credentials: "test:alamgir"
+2019-11-29 16:01:21.190 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-29 16:01:21.190 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-29 16:01:25.078 - [Debug] [Connection] Attacker connected: 150.136.152.237 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-29 16:01:25.841 - [Debug] [Auth] Attacker 150.136.152.237 trying to authenticate with "password"
+2019-11-29 16:01:25.842 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-29 16:01:25.843 - [Debug] [Auth] Attacker: 150.136.152.237 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-29 16:01:25.892 - [Debug] [Connection] Attacker closed the connection
+2019-11-29 16:01:27.702 - [Debug] [Connection] Attacker connected: 150.136.152.237 | Client Identification: SSH-2.0-libssh2_1.4.3
+2019-11-29 16:01:28.665 - [Debug] [Auth] Attacker 150.136.152.237 trying to authenticate with "password"
+2019-11-29 16:01:28.666 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-29 16:01:28.666 - [Debug] [Auth] Attacker: 150.136.152.237 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-29 16:01:28.669 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-29 16:01:29.646 - [Debug] [Connection] Attacker connected: 154.209.245.102 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-29 16:01:31.156 - [Debug] [Auth] Attacker 154.209.245.102 trying to authenticate with "password"
+2019-11-29 16:01:31.158 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-29 16:01:31.159 - [Debug] [Auth] Attacker: 154.209.245.102 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-29 16:01:31.672 - [Debug] [Connection] Attacker closed the connection
+2019-11-29 16:01:32.151 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-29 16:17:15.858 - [Debug] [Connection] Client error on ssh server
+2019-11-29 16:17:15.858 - [Debug] [Connection] Attacker closed the connection

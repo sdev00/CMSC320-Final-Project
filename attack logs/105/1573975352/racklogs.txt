@@ -1,0 +1,15 @@
+[2019-11-17 05:27:01] INFO  WEBrick 1.5.0
+[2019-11-17 05:27:01] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-17 05:27:01] INFO  WEBrick::HTTPServer#start: pid=388 port=80
+23.94.43.107 - - [17/Nov/2019:06:39:25 +0000] "GET /index.php HTTP/1.1" 404 562 0.1393
+[2019-11-17 06:39:25] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+[2019-11-17 07:33:14] ERROR bad Request-Line `\x05\x01\x00'.
+[2019-11-17 07:33:20] ERROR bad Request-Line `\x05\x01\x00'.
+[2019-11-17 07:33:26] ERROR bad Request-Line `\x05\x01\x00'.
+[2019-11-17 07:34:05] ERROR bad Request-Line `\x04\x01\x00P\x05¼Òe\x00'.
+[2019-11-17 07:34:11] ERROR bad Request-Line `\x04\x01\x00P\x05¼Òe\x00'.
+[2019-11-17 07:34:17] ERROR bad Request-Line `\x04\x01\x00P\x05¼Òe\x00'.
+5.188.210.101 - - [17/Nov/2019:07:34:58 +0000] "GET /echo.php HTTP/1.1" 404 562 0.0053

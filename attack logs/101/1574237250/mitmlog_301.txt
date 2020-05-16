@@ -1,0 +1,18 @@
+2019-11-20 02:50:10.940 - [Info] MITM Version: 1.26
+2019-11-20 02:50:10.970 - [Info] Auto Access Enabled: true
+2019-11-20 02:50:10.971 - [Debug] [Init] Auto Access Barrier: true
+2019-11-20 02:50:11.051 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-20 03:07:29.375 - [Debug] [Connection] Attacker connected: 5.39.92.185 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 03:07:29.945 - [Debug] [Auth] Attacker 5.39.92.185 trying to authenticate with "password"
+2019-11-20 03:07:29.947 - [Debug] [Auto Access] Attacker: 5.39.92.185, Threshold: 1, Attempts: 1
+2019-11-20 03:07:29.948 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-20 03:07:29.948 - [Debug] [Auto Access] Adding the following credentials: "root:tonecan"
+2019-11-20 03:07:30.251 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-20 03:07:30.251 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-20 03:07:30.379 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-20 03:07:30.741 - [Debug] [Connection] Attacker connected: 5.39.92.185 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 03:07:31.321 - [Debug] [Auth] Attacker 5.39.92.185 trying to authenticate with "password"
+2019-11-20 03:07:31.322 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-20 03:07:31.324 - [Debug] [Auth] Attacker: 5.39.92.185 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-20 03:07:31.527 - [Debug] [Connection] Attacker closed the connection
+2019-11-20 03:07:31.681 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

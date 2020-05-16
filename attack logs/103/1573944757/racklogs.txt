@@ -1,0 +1,11 @@
+[2019-11-16 22:09:52] INFO  WEBrick 1.4.2
+[2019-11-16 22:09:52] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-16 22:09:52] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+[2019-11-16 22:19:35] ERROR bad Request-Line `\x05\x01\x00'.
+[2019-11-16 22:19:41] ERROR bad Request-Line `\x05\x01\x00'.
+[2019-11-16 22:19:46] ERROR bad Request-Line `\x05\x01\x00'.
+[2019-11-16 22:20:36] ERROR bad Request-Line `\x04\x01\x00P\x05¼Òe\x00'.
+[2019-11-16 22:20:42] ERROR bad Request-Line `\x04\x01\x00P\x05¼Òe\x00'.
+[2019-11-16 22:20:47] ERROR bad Request-Line `\x04\x01\x00P\x05¼Òe\x00'.
+5.188.210.101 - - [16/Nov/2019:22:21:13 +0000] "GET /echo.php HTTP/1.1" 404 562 0.1183
+139.99.186.165 - - [16/Nov/2019:23:10:41 +0000] "GET / HTTP/1.1" 200 1574 0.0046

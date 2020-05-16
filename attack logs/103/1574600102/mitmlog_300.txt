@@ -1,0 +1,23 @@
+2019-11-24 06:38:24.276 - [Info] MITM Version: 1.26
+2019-11-24 06:38:24.296 - [Info] Auto Access Enabled: true
+2019-11-24 06:38:24.297 - [Debug] [Init] Auto Access Barrier: true
+2019-11-24 06:38:24.350 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-24 07:25:31.025 - [Debug] [Connection] Attacker connected: 23.106.123.77 | Client Identification: SSH-2.0-libssh-0.1
+2019-11-24 07:25:31.261 - [Debug] [Connection] Attacker closed the connection
+2019-11-24 07:38:40.665 - [Debug] [Connection] Attacker connected: 82.102.20.165 | Client Identification: SSH-2.0-libssh2_1.7.0
+2019-11-24 07:38:40.796 - [Debug] [Connection] Client error on ssh server
+2019-11-24 07:38:40.797 - [Debug] [Connection] Attacker closed the connection
+2019-11-24 07:55:01.569 - [Debug] [Connection] Attacker connected: 176.31.69.108 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-24 07:55:02.162 - [Debug] [Auth] Attacker 176.31.69.108 trying to authenticate with "password"
+2019-11-24 07:55:02.164 - [Debug] [Auto Access] Attacker: 176.31.69.108, Threshold: 1, Attempts: 1
+2019-11-24 07:55:02.165 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-24 07:55:02.165 - [Debug] [Auto Access] Adding the following credentials: "mysql:debra"
+2019-11-24 07:55:02.614 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-24 07:55:02.615 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-24 07:55:02.695 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-24 07:55:03.071 - [Debug] [Connection] Attacker connected: 176.31.69.108 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-24 07:55:03.669 - [Debug] [Auth] Attacker 176.31.69.108 trying to authenticate with "password"
+2019-11-24 07:55:03.671 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-24 07:55:03.674 - [Debug] [Auth] Attacker: 176.31.69.108 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-24 07:55:03.880 - [Debug] [Connection] Attacker closed the connection
+2019-11-24 07:55:04.059 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

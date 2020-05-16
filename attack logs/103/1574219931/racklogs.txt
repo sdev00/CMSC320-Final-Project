@@ -1,0 +1,28 @@
+[2019-11-20 03:18:26] INFO  WEBrick 1.5.0
+[2019-11-20 03:18:26] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-20 03:18:26] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+129.2.204.40 - - [20/Nov/2019:03:21:13 +0000] "GET / HTTP/1.1" 200 1574 0.1315
+129.2.204.40 - - [20/Nov/2019:03:21:26 +0000] "GET / HTTP/1.1" 200 1574 0.0057
+94.102.49.193 - - [20/Nov/2019:03:25:51 +0000] "GET / HTTP/1.1" 200 1574 0.0073
+94.102.49.193 - - [20/Nov/2019:03:25:53 +0000] "GET /robots.txt HTTP/1.1" 404 562 0.0036
+[2019-11-20 03:25:54] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+94.102.49.193 - - [20/Nov/2019:03:25:54 +0000] "GET /sitemap.xml HTTP/1.1" 404 562 0.0056
+[2019-11-20 03:25:54] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+94.102.49.193 - - [20/Nov/2019:03:25:58 +0000] "GET /.well-known/security.txt HTTP/1.1" 404 562 0.0058
+[2019-11-20 03:25:58] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+94.102.49.193 - - [20/Nov/2019:03:26:34 +0000] "GET /favicon.ico HTTP/1.1" 404 562 0.0028
+129.2.204.40 - - [20/Nov/2019:03:29:21 +0000] "GET / HTTP/1.1" 200 1574 0.0027
+129.2.204.40 - - [20/Nov/2019:03:29:37 +0000] "GET / HTTP/1.1" 200 1574 0.0062
+129.2.204.40 - - [20/Nov/2019:03:30:58 +0000] "GET / HTTP/1.1" 200 1574 0.0068
+129.2.204.40 - - [20/Nov/2019:03:32:31 +0000] "GET / HTTP/1.1" 200 1574 0.0045
+129.2.204.40 - - [20/Nov/2019:03:37:45 +0000] "GET / HTTP/1.1" 200 1574 0.0040
+129.2.204.40 - - [20/Nov/2019:03:38:36 +0000] "GET / HTTP/1.1" 200 1574 0.0058

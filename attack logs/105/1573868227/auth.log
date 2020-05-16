@@ -1,0 +1,4 @@
+Nov 16 01:37:07 mark-websrv sshd[485]: Accepted password for keyondra from 172.20.0.1 port 38466 ssh2
+Nov 16 01:37:07 mark-websrv sshd[485]: pam_unix(sshd:session): session opened for user keyondra by (uid=0)
+Nov 16 01:37:07 mark-websrv systemd-logind[158]: New session 69283 of user keyondra.
+Nov 16 01:37:07 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user keyondra by (uid=0)

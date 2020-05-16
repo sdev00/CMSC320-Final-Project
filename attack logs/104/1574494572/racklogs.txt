@@ -1,0 +1,24 @@
+[2019-11-23 06:14:45] INFO  WEBrick 1.4.2
+[2019-11-23 06:14:45] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-23 06:14:45] INFO  WEBrick::HTTPServer#start: pid=389 port=80
+183.60.141.184 - - [23/Nov/2019:06:19:53 +0000] "GET / HTTP/1.1" 200 1574 0.1219
+51.38.239.33 - - [23/Nov/2019:06:29:30 +0000] "GET / HTTP/1.1" 200 1574 0.0029
+14.29.49.58 - - [23/Nov/2019:06:45:45 +0000] "GET / HTTP/1.1" 200 1574 0.0066
+14.29.49.58 - - [23/Nov/2019:06:45:46 +0000] "GET /css/main.css HTTP/1.1" 200 999 0.0092
+14.29.49.58 - - [23/Nov/2019:06:45:46 +0000] "GET /css/normalize.css HTTP/1.1" 200 7719 0.0066
+[2019-11-23 06:45:50] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+[2019-11-23 06:45:50] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:12 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+[2019-11-23 06:45:50] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:13 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+79.143.181.172 - - [23/Nov/2019:06:52:43 +0000] "GET / HTTP/1.1" 200 1574 0.0069
+[2019-11-23 07:15:05] ERROR bad URI `mstshash=Administr'.
+163.172.10.53 - - [23/Nov/2019:07:22:43 +0000] "GET / HTTP/1.1" 200 1574 0.0063
+173.249.57.206 - - [23/Nov/2019:07:36:38 +0000] "GET / HTTP/1.1" 200 1574 0.0031

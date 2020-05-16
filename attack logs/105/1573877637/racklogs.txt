@@ -1,0 +1,16 @@
+[2019-11-16 03:36:42] INFO  WEBrick 1.4.2
+[2019-11-16 03:36:42] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-16 03:36:42] INFO  WEBrick::HTTPServer#start: pid=352 port=80
+122.116.109.66 - - [16/Nov/2019:03:39:02 +0000] "GET / HTTP/1.1" 200 1574 0.0870
+122.116.109.66 - - [16/Nov/2019:03:39:02 +0000] "GET / HTTP/1.1" 200 1574 0.0058
+165.22.43.33 - - [16/Nov/2019:03:44:43 +0000] "GET / HTTP/1.1" 200 1574 0.0041
+190.94.135.201 - - [16/Nov/2019:04:15:42 +0000] "GET / HTTP/1.1" 200 1574 0.0078
+[2019-11-16 04:15:42] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+122.51.14.115 - - [16/Nov/2019:04:32:17 +0000] "GET /TP/public/index.php HTTP/1.1" 404 562 0.0055
+122.51.14.115 - - [16/Nov/2019:04:32:17 +0000] "GET /TP/index.php HTTP/1.1" 404 562 0.0111
+122.51.14.115 - - [16/Nov/2019:04:32:18 +0000] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 562 0.0058
+122.51.14.115 - - [16/Nov/2019:04:32:18 +0000] "GET /html/public/index.php HTTP/1.1" 404 562 0.0138
+122.51.14.115 - - [16/Nov/2019:04:32:19 +0000] "GET /public/index.php HTTP/1.1" 404 562 0.0067

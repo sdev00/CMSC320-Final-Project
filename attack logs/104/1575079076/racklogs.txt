@@ -1,0 +1,20 @@
+[2019-11-30 01:54:27] INFO  WEBrick 1.5.0
+[2019-11-30 01:54:27] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-30 01:54:27] INFO  WEBrick::HTTPServer#start: pid=294 port=80
+94.102.49.193 - - [30/Nov/2019:01:58:23 +0000] "GET / HTTP/1.1" 200 1574 0.1569
+94.102.49.193 - - [30/Nov/2019:01:58:26 +0000] "GET /robots.txt HTTP/1.1" 404 562 0.0039
+[2019-11-30 01:58:26] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+94.102.49.193 - - [30/Nov/2019:01:58:28 +0000] "GET /sitemap.xml HTTP/1.1" 404 562 0.0056
+[2019-11-30 01:58:29] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+94.102.49.193 - - [30/Nov/2019:01:58:33 +0000] "GET /.well-known/security.txt HTTP/1.1" 404 562 0.0029
+[2019-11-30 01:58:34] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+94.102.49.193 - - [30/Nov/2019:01:58:48 +0000] "GET /favicon.ico HTTP/1.1" 404 562 0.0028

@@ -1,0 +1,4 @@
+Nov 27 22:18:59 mark-websrv sshd[446]: Accepted password for bert from 172.20.0.1 port 55596 ssh2
+Nov 27 22:18:59 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user bert by (uid=0)
+Nov 27 22:18:59 mark-websrv systemd-logind[148]: New session 101822 of user bert.
+Nov 27 22:18:59 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user bert by (uid=0)

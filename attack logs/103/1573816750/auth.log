@@ -1,0 +1,4 @@
+Nov 15 11:19:10 mark-websrv sshd[438]: Accepted password for godson from 172.20.0.1 port 46726 ssh2
+Nov 15 11:19:10 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user godson by (uid=0)
+Nov 15 11:19:10 mark-websrv systemd-logind[150]: New session 67636 of user godson.
+Nov 15 11:19:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user godson by (uid=0)

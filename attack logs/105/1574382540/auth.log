@@ -1,0 +1,9 @@
+Nov 22 00:29:00 mark-websrv sshd[506]: Accepted password for enman from 172.20.0.1 port 48986 ssh2
+Nov 22 00:29:00 mark-websrv sshd[506]: pam_unix(sshd:session): session opened for user enman by (uid=0)
+Nov 22 00:29:00 mark-websrv systemd-logind[164]: New session 85793 of user enman.
+Nov 22 00:29:00 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user enman by (uid=0)
+Nov 22 00:31:58 mark-websrv sshd[557]: Received disconnect from 172.20.0.1 port 48986:11:
+Nov 22 00:31:58 mark-websrv sshd[557]: Disconnected from user enman 172.20.0.1 port 48986
+Nov 22 00:31:58 mark-websrv sshd[506]: pam_unix(sshd:session): session closed for user enman
+Nov 22 00:31:58 mark-websrv systemd-logind[164]: Removed session 85793.
+Nov 22 00:31:58 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user enman

@@ -1,0 +1,4 @@
+Nov 13 04:22:10 mark-websrv sshd[447]: Accepted password for heisey from 172.20.0.1 port 46064 ssh2
+Nov 13 04:22:10 mark-websrv sshd[447]: pam_unix(sshd:session): session opened for user heisey by (uid=0)
+Nov 13 04:22:10 mark-websrv systemd-logind[149]: New session 60949 of user heisey.
+Nov 13 04:22:10 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user heisey by (uid=0)

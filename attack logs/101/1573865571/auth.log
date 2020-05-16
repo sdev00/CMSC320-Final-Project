@@ -1,0 +1,9 @@
+Nov 16 00:52:51 mark-websrv sshd[438]: Accepted password for hosteng from 172.20.0.1 port 38962 ssh2
+Nov 16 00:52:51 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user hosteng by (uid=0)
+Nov 16 00:52:51 mark-websrv systemd-logind[160]: New session 69198 of user hosteng.
+Nov 16 00:52:51 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user hosteng by (uid=0)
+Nov 16 01:07:52 mark-websrv sshd[489]: Received disconnect from 172.20.0.1 port 38962:11:
+Nov 16 01:07:52 mark-websrv sshd[489]: Disconnected from user hosteng 172.20.0.1 port 38962
+Nov 16 01:07:52 mark-websrv sshd[438]: pam_unix(sshd:session): session closed for user hosteng
+Nov 16 01:07:52 mark-websrv systemd-logind[160]: Removed session 69198.
+Nov 16 01:07:52 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user hosteng

@@ -1,0 +1,6 @@
+[2019-12-04 17:33:02] INFO  WEBrick 1.5.0
+[2019-12-04 17:33:02] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-04 17:33:02] INFO  WEBrick::HTTPServer#start: pid=332 port=80
+185.153.196.97 - - [04/Dec/2019:17:33:29 +0000] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1" 404 562 0.1295
+37.29.81.4 - - [04/Dec/2019:19:30:01 +0000] "POST /editBlackAndWhiteList HTTP/1.1" 404 562 0.0032
+185.153.196.97 - - [04/Dec/2019:19:40:17 +0000] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1" 404 562 0.0066

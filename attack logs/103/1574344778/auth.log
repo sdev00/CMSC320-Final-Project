@@ -1,0 +1,6 @@
+Nov 21 13:59:38 mark-websrv sshd[449]: Accepted password for funkey from 172.20.0.1 port 57954 ssh2
+Nov 21 13:59:38 mark-websrv sshd[449]: pam_unix(sshd:session): session opened for user funkey by (uid=0)
+Nov 21 13:59:38 mark-websrv systemd-logind[147]: New session 84596 of user funkey.
+Nov 21 13:59:38 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user funkey by (uid=0)
+Nov 21 14:16:01 mark-websrv CRON[523]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 14:16:01 mark-websrv CRON[523]: pam_unix(cron:session): session closed for user root

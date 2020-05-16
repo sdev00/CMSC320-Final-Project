@@ -1,0 +1,9 @@
+Nov 29 15:34:00 mark-websrv sshd[473]: Accepted password for tanch from 172.20.0.1 port 46268 ssh2
+Nov 29 15:34:00 mark-websrv sshd[473]: pam_unix(sshd:session): session opened for user tanch by (uid=0)
+Nov 29 15:34:00 mark-websrv systemd-logind[148]: New session 106515 of user tanch.
+Nov 29 15:34:00 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user tanch by (uid=0)
+Nov 29 15:40:27 mark-websrv sshd[524]: Received disconnect from 172.20.0.1 port 46268:11:
+Nov 29 15:40:27 mark-websrv sshd[524]: Disconnected from user tanch 172.20.0.1 port 46268
+Nov 29 15:40:27 mark-websrv systemd-logind[148]: Removed session 106515.
+Nov 29 15:40:27 mark-websrv sshd[473]: pam_unix(sshd:session): session closed for user tanch
+Nov 29 15:40:27 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user tanch

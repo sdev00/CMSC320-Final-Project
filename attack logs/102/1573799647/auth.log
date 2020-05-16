@@ -1,0 +1,4 @@
+Nov 15 06:34:07 mark-websrv sshd[438]: Accepted password for cgi-1 from 172.20.0.1 port 57576 ssh2
+Nov 15 06:34:07 mark-websrv sshd[438]: pam_unix(sshd:session): session opened for user cgi-1 by (uid=0)
+Nov 15 06:34:07 mark-websrv systemd-logind[158]: New session 67078 of user cgi-1.
+Nov 15 06:34:07 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user cgi-1 by (uid=0)

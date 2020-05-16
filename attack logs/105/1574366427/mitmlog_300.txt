@@ -1,0 +1,23 @@
+2019-11-21 14:56:54.796 - [Info] MITM Version: 1.26
+2019-11-21 14:56:54.806 - [Info] Auto Access Enabled: true
+2019-11-21 14:56:54.806 - [Debug] [Init] Auto Access Barrier: true
+2019-11-21 14:56:54.838 - [Info] SSH man-in-the-middle server for 172.20.0.6 listening on 0.0.0.0:10105
+2019-11-21 15:00:25.478 - [Debug] [Connection] Attacker connected: 118.89.153.229 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-21 15:00:27.075 - [Debug] [Auth] Attacker 118.89.153.229 trying to authenticate with "password"
+2019-11-21 15:00:27.078 - [Debug] [Auto Access] Attacker: 118.89.153.229, Threshold: 1, Attempts: 1
+2019-11-21 15:00:27.078 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-21 15:00:27.078 - [Debug] [Auto Access] Adding the following credentials: "harol:harol"
+2019-11-21 15:00:27.579 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-21 15:00:27.580 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.6
+2019-11-21 15:00:27.678 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-21 15:00:28.727 - [Debug] [Connection] Attacker connected: 118.89.153.229 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-21 15:00:30.353 - [Debug] [Auth] Attacker 118.89.153.229 trying to authenticate with "password"
+2019-11-21 15:00:30.353 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-21 15:00:30.354 - [Debug] [Auth] Attacker: 118.89.153.229 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-21 15:00:30.901 - [Debug] [Connection] Attacker closed the connection
+2019-11-21 15:00:31.404 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-21 15:03:41.906 - [Debug] [Connection] Client error on ssh server
+2019-11-21 15:03:41.907 - [Debug] [Connection] Attacker closed connection
+2019-11-21 15:03:41.914 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-21 15:03:41.914 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-21 15:19:06.066 - [Debug] [Connection] Client error on ssh server

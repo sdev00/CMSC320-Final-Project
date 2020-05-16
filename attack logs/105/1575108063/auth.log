@@ -1,0 +1,11 @@
+Nov 30 10:01:03 mark-websrv sshd[488]: Accepted password for stangebye from 172.20.0.1 port 59414 ssh2
+Nov 30 10:01:03 mark-websrv sshd[488]: pam_unix(sshd:session): session opened for user stangebye by (uid=0)
+Nov 30 10:01:03 mark-websrv systemd-logind[150]: New session 108113 of user stangebye.
+Nov 30 10:01:03 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user stangebye by (uid=0)
+Nov 30 10:07:17 mark-websrv sshd[539]: Received disconnect from 172.20.0.1 port 59414:11:
+Nov 30 10:07:17 mark-websrv sshd[539]: Disconnected from user stangebye 172.20.0.1 port 59414
+Nov 30 10:07:17 mark-websrv systemd-logind[150]: Removed session 108113.
+Nov 30 10:07:17 mark-websrv sshd[488]: pam_unix(sshd:session): session closed for user stangebye
+Nov 30 10:07:17 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user stangebye
+Nov 30 10:16:01 mark-websrv CRON[560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 10:16:01 mark-websrv CRON[560]: pam_unix(cron:session): session closed for user root

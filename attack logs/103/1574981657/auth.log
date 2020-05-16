@@ -1,0 +1,10 @@
+Nov 28 22:54:17 mark-websrv sshd[481]: Accepted password for mail from 172.20.0.1 port 38210 ssh2
+Nov 28 22:54:17 mark-websrv sshd[481]: pam_unix(sshd:session): session opened for user mail by (uid=0)
+Nov 28 22:54:17 mark-websrv systemd-logind[161]: New session 104610 of user mail.
+Nov 28 22:54:17 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user mail by (uid=0)
+Nov 28 22:54:20 mark-websrv nologin: Attempted login by mail on UNKNOWN
+Nov 28 22:54:20 mark-websrv sshd[532]: Received disconnect from 172.20.0.1 port 38210:11:
+Nov 28 22:54:20 mark-websrv sshd[532]: Disconnected from user mail 172.20.0.1 port 38210
+Nov 28 22:54:20 mark-websrv sshd[481]: pam_unix(sshd:session): session closed for user mail
+Nov 28 22:54:21 mark-websrv systemd-logind[161]: Removed session 104610.
+Nov 28 22:54:22 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user mail

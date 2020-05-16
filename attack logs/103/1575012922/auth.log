@@ -1,0 +1,9 @@
+Nov 29 07:35:22 mark-websrv sshd[484]: Accepted password for domel from 172.20.0.1 port 38594 ssh2
+Nov 29 07:35:22 mark-websrv sshd[484]: pam_unix(sshd:session): session opened for user domel by (uid=0)
+Nov 29 07:35:22 mark-websrv systemd-logind[149]: New session 105582 of user domel.
+Nov 29 07:35:22 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user domel by (uid=0)
+Nov 29 07:41:54 mark-websrv sshd[535]: Received disconnect from 172.20.0.1 port 38594:11:
+Nov 29 07:41:54 mark-websrv sshd[535]: Disconnected from user domel 172.20.0.1 port 38594
+Nov 29 07:41:54 mark-websrv sshd[484]: pam_unix(sshd:session): session closed for user domel
+Nov 29 07:41:54 mark-websrv systemd-logind[149]: Removed session 105582.
+Nov 29 07:41:54 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user domel

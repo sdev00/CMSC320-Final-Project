@@ -1,0 +1,4 @@
+Nov 26 16:52:37 mark-websrv sshd[443]: Accepted password for pobiero from 172.20.0.1 port 54028 ssh2
+Nov 26 16:52:37 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user pobiero by (uid=0)
+Nov 26 16:52:37 mark-websrv systemd-logind[148]: New session 98467 of user pobiero.
+Nov 26 16:52:37 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user pobiero by (uid=0)

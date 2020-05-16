@@ -1,0 +1,11 @@
+Nov 13 13:08:01 mark-websrv sshd[446]: Accepted password for ricarda from 172.20.0.1 port 51882 ssh2
+Nov 13 13:08:01 mark-websrv sshd[446]: pam_unix(sshd:session): session opened for user ricarda by (uid=0)
+Nov 13 13:08:01 mark-websrv systemd-logind[157]: New session 62044 of user ricarda.
+Nov 13 13:08:01 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ricarda by (uid=0)
+Nov 13 13:16:01 mark-websrv CRON[516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 13:16:01 mark-websrv CRON[516]: pam_unix(cron:session): session closed for user root
+Nov 13 13:17:21 mark-websrv sshd[497]: Received disconnect from 172.20.0.1 port 51882:11:
+Nov 13 13:17:21 mark-websrv sshd[497]: Disconnected from user ricarda 172.20.0.1 port 51882
+Nov 13 13:17:21 mark-websrv systemd-logind[157]: Removed session 62044.
+Nov 13 13:17:21 mark-websrv sshd[446]: pam_unix(sshd:session): session closed for user ricarda
+Nov 13 13:17:21 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user ricarda

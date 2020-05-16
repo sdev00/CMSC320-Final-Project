@@ -1,0 +1,4 @@
+Nov 14 08:25:53 mark-websrv sshd[476]: Accepted password for penon from 172.20.0.1 port 54776 ssh2
+Nov 14 08:25:53 mark-websrv sshd[476]: pam_unix(sshd:session): session opened for user penon by (uid=0)
+Nov 14 08:25:53 mark-websrv systemd-logind[147]: New session 64448 of user penon.
+Nov 14 08:25:53 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user penon by (uid=0)

@@ -1,0 +1,11 @@
+Nov 12 09:07:22 mark-websrv sshd[443]: Accepted password for applmgr from 172.20.0.1 port 47252 ssh2
+Nov 12 09:07:22 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user applmgr by (uid=0)
+Nov 12 09:07:22 mark-websrv systemd-logind[148]: New session 58518 of user applmgr.
+Nov 12 09:07:22 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user applmgr by (uid=0)
+Nov 12 09:07:25 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 47252:11:
+Nov 12 09:07:25 mark-websrv sshd[494]: Disconnected from user applmgr 172.20.0.1 port 47252
+Nov 12 09:07:25 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user applmgr
+Nov 12 09:07:25 mark-websrv systemd-logind[148]: Removed session 58518.
+Nov 12 09:07:25 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user applmgr
+Nov 12 09:16:01 mark-websrv CRON[516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 12 09:16:01 mark-websrv CRON[516]: pam_unix(cron:session): session closed for user root

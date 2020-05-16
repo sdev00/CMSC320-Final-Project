@@ -1,0 +1,4 @@
+Nov 13 08:46:07 mark-websrv sshd[445]: Accepted password for maute from 172.20.0.1 port 51146 ssh2
+Nov 13 08:46:07 mark-websrv sshd[445]: pam_unix(sshd:session): session opened for user maute by (uid=0)
+Nov 13 08:46:08 mark-websrv systemd-logind[155]: New session 61501 of user maute.
+Nov 13 08:46:08 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user maute by (uid=0)

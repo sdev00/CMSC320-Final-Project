@@ -1,0 +1,4 @@
+Nov 17 05:29:42 mark-websrv sshd[469]: Accepted password for schindler from 172.20.0.1 port 42168 ssh2
+Nov 17 05:29:42 mark-websrv sshd[469]: pam_unix(sshd:session): session opened for user schindler by (uid=0)
+Nov 17 05:29:42 mark-websrv systemd-logind[156]: New session 72559 of user schindler.
+Nov 17 05:29:42 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user schindler by (uid=0)

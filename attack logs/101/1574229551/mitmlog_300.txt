@@ -1,0 +1,22 @@
+2019-11-20 00:47:50.855 - [Info] MITM Version: 1.26
+2019-11-20 00:47:50.871 - [Info] Auto Access Enabled: true
+2019-11-20 00:47:50.872 - [Debug] [Init] Auto Access Barrier: true
+2019-11-20 00:47:50.927 - [Info] SSH man-in-the-middle server for 172.20.0.2 listening on 0.0.0.0:10101
+2019-11-20 00:59:10.174 - [Debug] [Connection] Attacker connected: 188.131.181.189 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 00:59:11.695 - [Debug] [Auth] Attacker 188.131.181.189 trying to authenticate with "password"
+2019-11-20 00:59:11.696 - [Debug] [Auto Access] Attacker: 188.131.181.189, Threshold: 1, Attempts: 1
+2019-11-20 00:59:11.696 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-20 00:59:11.696 - [Debug] [Auto Access] Adding the following credentials: "gi:password1"
+2019-11-20 00:59:11.931 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-20 00:59:11.931 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.2
+2019-11-20 00:59:11.979 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-20 00:59:12.980 - [Debug] [Connection] Attacker connected: 188.131.181.189 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-20 00:59:14.511 - [Debug] [Auth] Attacker 188.131.181.189 trying to authenticate with "password"
+2019-11-20 00:59:14.512 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-20 00:59:14.514 - [Debug] [Auth] Attacker: 188.131.181.189 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-20 00:59:15.035 - [Debug] [Connection] Attacker closed the connection
+2019-11-20 00:59:15.521 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-20 01:09:38.730 - [Debug] [Connection] Client error on ssh server
+2019-11-20 01:09:38.732 - [Debug] [Connection] Attacker closed connection
+2019-11-20 01:09:38.751 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-20 01:09:38.752 - [Debug] [LXC] Container's OpenSSH server closed connection

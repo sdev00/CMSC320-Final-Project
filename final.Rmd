@@ -1,0 +1,59 @@
+---
+title: "final"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(data.table)
+library(reticulate)
+library(geolocate)
+```
+
+## Introduction
+
+```{r ingestion}
+
+# locate all of the files containing login attempts
+files <- list.files(pattern = "attempts.txt", recursive = TRUE)
+
+# the binary database used by ip2location
+ip_database <- system.file("extdata","GeoLite2-Country.mmdb", package = "rgeolocate")
+
+# set up the data frame containing attempts
+attempt_df <- data.frame(Time=character(),
+                         Address=character(),
+                         Method=character(),
+                         Username=character(),
+                         Password=character(),
+                         CountryCode=character(),
+                         CountryName=character())
+
+# have patience: this next step took about 47 seconds on my computer
+parseLine <- function(line) {
+  # I'm lucky none of the attackers used a semicolon in their password guess; this could've been irritating
+  segments <- strsplit(line, ";")
+  location <- maxmind(segments[[1]][2], ip_database)
+  return(data.frame(Time=segments[[1]][1],
+                    Address=segments[[1]][2],
+                    Method=segments[[1]][3],
+                    Username=segments[[1]][4],
+                    Password=segments[[1]][5],
+                    CountryCode=location[3][1],
+                    CountryName=location[2][1]))
+}
+
+parseFile <- function(file) {
+  lines <- readLines(con = file)
+  return(rbindlist(lapply(lines, parseLine)))
+}
+
+attempt_df <- rbindlist(lapply(files, parseFile))
+attempt_df
+```
+
+
+
+``` {python testing}
+print(r.attempt_df['Time'][0])
+```

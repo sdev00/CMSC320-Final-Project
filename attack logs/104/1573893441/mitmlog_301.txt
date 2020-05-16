@@ -1,0 +1,18 @@
+2019-11-16 03:25:51.650 - [Info] MITM Version: 1.26
+2019-11-16 03:25:51.656 - [Info] Auto Access Enabled: true
+2019-11-16 03:25:51.657 - [Debug] [Init] Auto Access Barrier: true
+2019-11-16 03:25:51.680 - [Info] SSH man-in-the-middle server for 172.20.0.5 listening on 0.0.0.0:10104
+2019-11-16 03:37:19.585 - [Debug] [Connection] Attacker connected: 150.109.40.31 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 03:37:21.060 - [Debug] [Auth] Attacker 150.109.40.31 trying to authenticate with "password"
+2019-11-16 03:37:21.062 - [Debug] [Auto Access] Attacker: 150.109.40.31, Threshold: 1, Attempts: 1
+2019-11-16 03:37:21.063 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-16 03:37:21.063 - [Debug] [Auto Access] Adding the following credentials: "root:derward"
+2019-11-16 03:37:21.333 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-16 03:37:21.334 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.5
+2019-11-16 03:37:21.394 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-16 03:37:22.359 - [Debug] [Connection] Attacker connected: 150.109.40.31 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-16 03:37:23.828 - [Debug] [Auth] Attacker 150.109.40.31 trying to authenticate with "password"
+2019-11-16 03:37:23.829 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-16 03:37:23.831 - [Debug] [Auth] Attacker: 150.109.40.31 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-16 03:37:24.331 - [Debug] [Connection] Attacker closed the connection
+2019-11-16 03:37:24.790 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l

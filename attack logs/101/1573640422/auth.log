@@ -1,0 +1,9 @@
+Nov 13 10:20:22 mark-websrv sshd[482]: Accepted password for sandbox from 172.20.0.1 port 59264 ssh2
+Nov 13 10:20:22 mark-websrv sshd[482]: pam_unix(sshd:session): session opened for user sandbox by (uid=0)
+Nov 13 10:20:22 mark-websrv systemd-logind[146]: New session 61697 of user sandbox.
+Nov 13 10:20:22 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user sandbox by (uid=0)
+Nov 13 10:29:37 mark-websrv sshd[533]: Received disconnect from 172.20.0.1 port 59264:11:
+Nov 13 10:29:37 mark-websrv sshd[533]: Disconnected from user sandbox 172.20.0.1 port 59264
+Nov 13 10:29:37 mark-websrv sshd[482]: pam_unix(sshd:session): session closed for user sandbox
+Nov 13 10:29:37 mark-websrv systemd-logind[146]: Removed session 61697.
+Nov 13 10:29:37 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user sandbox

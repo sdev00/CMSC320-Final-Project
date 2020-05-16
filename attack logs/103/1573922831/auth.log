@@ -1,0 +1,10 @@
+Nov 16 16:47:11 mark-websrv sshd[437]: Accepted password for backup from 172.20.0.1 port 49768 ssh2
+Nov 16 16:47:11 mark-websrv sshd[437]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Nov 16 16:47:11 mark-websrv systemd-logind[147]: New session 71072 of user backup.
+Nov 16 16:47:11 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user backup by (uid=0)
+Nov 16 16:47:12 mark-websrv nologin: Attempted login by backup on UNKNOWN
+Nov 16 16:47:12 mark-websrv sshd[488]: Received disconnect from 172.20.0.1 port 49768:11:
+Nov 16 16:47:12 mark-websrv sshd[488]: Disconnected from user backup 172.20.0.1 port 49768
+Nov 16 16:47:12 mark-websrv sshd[437]: pam_unix(sshd:session): session closed for user backup
+Nov 16 16:47:15 mark-websrv systemd-logind[147]: Removed session 71072.
+Nov 16 16:47:15 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user backup

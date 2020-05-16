@@ -1,0 +1,8 @@
+[2019-12-04 19:55:50] INFO  WEBrick 1.5.0
+[2019-12-04 19:55:50] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-04 19:55:50] INFO  WEBrick::HTTPServer#start: pid=358 port=80
+185.153.196.97 - - [04/Dec/2019:21:05:05 +0000] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1" 404 562 0.0726
+223.152.78.227 - - [04/Dec/2019:21:34:23 +0000] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 562 0.0082
+[2019-12-04 21:34:24] ERROR bad Request-Line `/tmp/gpon80&ipv=0'.
+143.0.69.219 - - [04/Dec/2019:21:37:06 +0000] "GET / HTTP/1.1" 200 1574 0.0039
+212.133.251.234 - - [04/Dec/2019:22:30:29 +0000] "GET / HTTP/1.1" 200 1574 0.0047

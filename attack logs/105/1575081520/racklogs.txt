@@ -1,0 +1,5 @@
+[2019-11-30 02:33:49] INFO  WEBrick 1.5.0
+[2019-11-30 02:33:49] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-11-30 02:33:49] INFO  WEBrick::HTTPServer#start: pid=424 port=80
+187.56.217.79 - - [30/Nov/2019:02:44:10 +0000] "GET / HTTP/1.1" 200 1574 0.1392
+89.251.33.7 - - [30/Nov/2019:02:57:22 +0000] "POST /editBlackAndWhiteList HTTP/1.1" 404 562 0.0036

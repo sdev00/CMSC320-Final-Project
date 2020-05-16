@@ -1,0 +1,21 @@
+[2019-12-07 09:02:36] INFO  WEBrick 1.4.2
+[2019-12-07 09:02:36] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-07 09:02:36] INFO  WEBrick::HTTPServer#start: pid=391 port=80
+139.162.106.181 - - [07/Dec/2019:10:07:11 +0000] "GET / HTTP/1.1" 200 1574 0.1327
+190.43.191.41 - - [07/Dec/2019:10:49:35 +0000] "GET / HTTP/1.1" 200 1574 0.0061
+185.153.196.97 - - [07/Dec/2019:11:17:47 +0000] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1574 0.0038
+66.86.86.34 - - [07/Dec/2019:11:18:34 +0000] "GET / HTTP/1.1" 200 1574 0.0027
+[2019-12-07 11:18:34] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `eof?'
+	/usr/lib/ruby/2.5.0/webrick/httpserver.rb:82:in `run'
+	/usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+115.159.63.130 - - [07/Dec/2019:13:29:20 +0000] "GET /TP/public/index.php HTTP/1.1" 404 562 0.0043
+115.159.63.130 - - [07/Dec/2019:13:29:20 +0000] "GET /TP/index.php HTTP/1.1" 404 562 0.0028
+115.159.63.130 - - [07/Dec/2019:13:29:21 +0000] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 562 0.0070
+115.159.63.130 - - [07/Dec/2019:13:29:22 +0000] "GET /html/public/index.php HTTP/1.1" 404 562 0.0029
+115.159.63.130 - - [07/Dec/2019:13:29:22 +0000] "GET /public/index.php HTTP/1.1" 404 562 0.0027
+115.159.63.130 - - [07/Dec/2019:13:29:23 +0000] "GET /TP/html/public/index.php HTTP/1.1" 404 562 0.0030
+115.159.63.130 - - [07/Dec/2019:13:29:24 +0000] "GET /elrekt.php HTTP/1.1" 404 562 0.0094
+115.159.63.130 - - [07/Dec/2019:13:29:25 +0000] "GET /index.php HTTP/1.1" 404 562 0.0056
+115.159.63.130 - - [07/Dec/2019:13:29:25 +0000] "GET / HTTP/1.1" 200 1574 0.0045
+185.153.196.97 - - [07/Dec/2019:14:56:06 +0000] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1" 404 562 0.0062

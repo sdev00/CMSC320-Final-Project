@@ -1,0 +1,9 @@
+Nov 12 20:25:12 mark-websrv sshd[447]: Accepted password for phion from 172.20.0.1 port 56894 ssh2
+Nov 12 20:25:12 mark-websrv sshd[447]: pam_unix(sshd:session): session opened for user phion by (uid=0)
+Nov 12 20:25:12 mark-websrv systemd-logind[163]: New session 59939 of user phion.
+Nov 12 20:25:12 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user phion by (uid=0)
+Nov 12 20:25:13 mark-websrv sshd[498]: Received disconnect from 172.20.0.1 port 56894:11:
+Nov 12 20:25:13 mark-websrv sshd[498]: Disconnected from user phion 172.20.0.1 port 56894
+Nov 12 20:25:13 mark-websrv sshd[447]: pam_unix(sshd:session): session closed for user phion
+Nov 12 20:25:15 mark-websrv systemd-logind[163]: Removed session 59939.
+Nov 12 20:25:15 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user phion

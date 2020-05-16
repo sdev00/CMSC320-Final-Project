@@ -1,0 +1,4 @@
+Nov 29 01:36:02 mark-websrv sshd[454]: Accepted password for alok from 172.20.0.1 port 57022 ssh2
+Nov 29 01:36:02 mark-websrv sshd[454]: pam_unix(sshd:session): session opened for user alok by (uid=0)
+Nov 29 01:36:02 mark-websrv systemd-logind[150]: New session 104914 of user alok.
+Nov 29 01:36:02 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user alok by (uid=0)

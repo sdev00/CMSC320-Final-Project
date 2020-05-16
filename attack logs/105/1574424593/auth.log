@@ -1,0 +1,6 @@
+Nov 22 12:09:53 mark-websrv sshd[497]: Accepted password for gogan from 172.20.0.1 port 49872 ssh2
+Nov 22 12:09:53 mark-websrv sshd[497]: pam_unix(sshd:session): session opened for user gogan by (uid=0)
+Nov 22 12:09:53 mark-websrv systemd-logind[158]: New session 87147 of user gogan.
+Nov 22 12:09:53 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user gogan by (uid=0)
+Nov 22 12:16:01 mark-websrv CRON[567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 12:16:01 mark-websrv CRON[567]: pam_unix(cron:session): session closed for user root

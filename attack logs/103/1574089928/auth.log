@@ -1,0 +1,6 @@
+Nov 18 15:12:08 mark-websrv sshd[452]: Accepted password for bauchon from 172.20.0.1 port 52774 ssh2
+Nov 18 15:12:08 mark-websrv sshd[452]: pam_unix(sshd:session): session opened for user bauchon by (uid=0)
+Nov 18 15:12:08 mark-websrv systemd-logind[165]: New session 76388 of user bauchon.
+Nov 18 15:12:09 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user bauchon by (uid=0)
+Nov 18 15:16:01 mark-websrv CRON[520]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 18 15:16:01 mark-websrv CRON[520]: pam_unix(cron:session): session closed for user root

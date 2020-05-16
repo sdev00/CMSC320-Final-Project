@@ -1,0 +1,4 @@
+Nov 16 15:46:04 mark-websrv sshd[443]: Accepted password for anochin from 172.20.0.1 port 40712 ssh2
+Nov 16 15:46:04 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user anochin by (uid=0)
+Nov 16 15:46:04 mark-websrv systemd-logind[157]: New session 70956 of user anochin.
+Nov 16 15:46:05 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user anochin by (uid=0)

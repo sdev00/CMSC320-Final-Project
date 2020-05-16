@@ -1,0 +1,8 @@
+Nov 30 16:47:58 mark-websrv sshd[476]: Accepted password for dbus from 172.20.0.1 port 59990 ssh2
+Nov 30 16:47:58 mark-websrv sshd[476]: pam_unix(sshd:session): session opened for user dbus by (uid=0)
+Nov 30 16:47:58 mark-websrv systemd-logind[165]: New session 108431 of user dbus.
+Nov 30 16:47:58 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user dbus by (uid=0)
+Nov 30 17:06:22 mark-websrv sshd[527]: Received disconnect from 172.20.0.1 port 59990:11:
+Nov 30 17:06:22 mark-websrv sshd[527]: Disconnected from user dbus 172.20.0.1 port 59990
+Nov 30 17:06:22 mark-websrv sshd[476]: pam_unix(sshd:session): session closed for user dbus
+Nov 30 17:06:22 mark-websrv systemd-logind[165]: Removed session 108431.

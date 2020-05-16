@@ -1,0 +1,10 @@
+Nov 12 14:44:00 mark-websrv sshd[440]: Accepted password for nobody from 172.20.0.1 port 43824 ssh2
+Nov 12 14:44:00 mark-websrv sshd[440]: pam_unix(sshd:session): session opened for user nobody by (uid=0)
+Nov 12 14:44:00 mark-websrv systemd-logind[157]: New session 59220 of user nobody.
+Nov 12 14:44:00 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user nobody by (uid=0)
+Nov 12 14:44:21 mark-websrv nologin: Attempted login by nobody on UNKNOWN
+Nov 12 14:44:22 mark-websrv sshd[491]: Received disconnect from 172.20.0.1 port 43824:11:
+Nov 12 14:44:22 mark-websrv sshd[491]: Disconnected from user nobody 172.20.0.1 port 43824
+Nov 12 14:44:22 mark-websrv sshd[440]: pam_unix(sshd:session): session closed for user nobody
+Nov 12 14:44:22 mark-websrv systemd-logind[157]: Removed session 59220.
+Nov 12 14:44:22 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user nobody

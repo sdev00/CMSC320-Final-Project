@@ -1,0 +1,10 @@
+Nov 14 11:32:44 mark-websrv sshd[466]: Accepted password for daemon from 172.20.0.1 port 50960 ssh2
+Nov 14 11:32:44 mark-websrv sshd[466]: pam_unix(sshd:session): session opened for user daemon by (uid=0)
+Nov 14 11:32:45 mark-websrv systemd-logind[147]: New session 64833 of user daemon.
+Nov 14 11:32:45 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user daemon by (uid=0)
+Nov 14 11:32:48 mark-websrv nologin: Attempted login by daemon on UNKNOWN
+Nov 14 11:32:48 mark-websrv sshd[517]: Received disconnect from 172.20.0.1 port 50960:11:
+Nov 14 11:32:48 mark-websrv sshd[517]: Disconnected from user daemon 172.20.0.1 port 50960
+Nov 14 11:32:48 mark-websrv sshd[466]: pam_unix(sshd:session): session closed for user daemon
+Nov 14 11:32:49 mark-websrv systemd-logind[147]: Removed session 64833.
+Nov 14 11:32:50 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user daemon

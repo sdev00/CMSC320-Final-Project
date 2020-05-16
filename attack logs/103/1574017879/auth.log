@@ -1,0 +1,11 @@
+Nov 17 19:11:19 mark-websrv sshd[496]: Accepted password for simonet from 172.20.0.1 port 52070 ssh2
+Nov 17 19:11:19 mark-websrv sshd[496]: pam_unix(sshd:session): session opened for user simonet by (uid=0)
+Nov 17 19:11:19 mark-websrv systemd-logind[159]: New session 74155 of user simonet.
+Nov 17 19:11:20 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user simonet by (uid=0)
+Nov 17 19:16:01 mark-websrv CRON[563]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 17 19:16:01 mark-websrv CRON[563]: pam_unix(cron:session): session closed for user root
+Nov 17 19:23:56 mark-websrv sshd[547]: Received disconnect from 172.20.0.1 port 52070:11:
+Nov 17 19:23:56 mark-websrv sshd[547]: Disconnected from user simonet 172.20.0.1 port 52070
+Nov 17 19:23:56 mark-websrv sshd[496]: pam_unix(sshd:session): session closed for user simonet
+Nov 17 19:23:56 mark-websrv systemd-logind[159]: Removed session 74155.
+Nov 17 19:23:56 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user simonet

@@ -1,0 +1,4 @@
+Nov 22 13:52:34 mark-websrv sshd[500]: Accepted password for ec2-user from 172.20.0.1 port 59576 ssh2
+Nov 22 13:52:34 mark-websrv sshd[500]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Nov 22 13:52:34 mark-websrv systemd-logind[150]: New session 87362 of user ec2-user.
+Nov 22 13:52:34 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user ec2-user by (uid=0)

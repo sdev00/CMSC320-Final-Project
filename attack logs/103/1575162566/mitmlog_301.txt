@@ -1,0 +1,23 @@
+2019-11-30 19:52:47.090 - [Info] MITM Version: 1.26
+2019-11-30 19:52:47.097 - [Info] Auto Access Enabled: true
+2019-11-30 19:52:47.097 - [Debug] [Init] Auto Access Barrier: true
+2019-11-30 19:52:47.118 - [Info] SSH man-in-the-middle server for 172.20.0.4 listening on 0.0.0.0:10103
+2019-11-30 20:09:24.658 - [Debug] [Connection] Attacker connected: 182.61.54.14 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 20:09:26.251 - [Debug] [Auth] Attacker 182.61.54.14 trying to authenticate with "password"
+2019-11-30 20:09:26.252 - [Debug] [Auto Access] Attacker: 182.61.54.14, Threshold: 1, Attempts: 1
+2019-11-30 20:09:26.252 - [Debug] [Auto Access] Compromising the honeypot
+2019-11-30 20:09:26.252 - [Debug] [Auto Access] Adding the following credentials: "dbus:2222222222"
+2019-11-30 20:09:26.494 - [Debug] [Auth] Valid credentials - Password Authentication
+2019-11-30 20:09:26.494 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.4
+2019-11-30 20:09:26.548 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2019-11-30 20:09:27.591 - [Debug] [Connection] Attacker connected: 182.61.54.14 | Client Identification: SSH-2.0-libssh-0.6.3
+2019-11-30 20:09:32.361 - [Debug] [Auth] Attacker 182.61.54.14 trying to authenticate with "password"
+2019-11-30 20:09:32.362 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2019-11-30 20:09:32.363 - [Debug] [Auth] Attacker: 182.61.54.14 has so far made 1 attempts. Remaining: 5 attempts
+2019-11-30 20:09:33.683 - [Debug] [Connection] Attacker closed the connection
+2019-11-30 20:09:34.182 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2019-11-30 20:11:40.709 - [Debug] [Connection] Client error on ssh server
+2019-11-30 20:11:40.711 - [Debug] [Connection] Attacker closed connection
+2019-11-30 20:11:40.734 - [Debug] [LXC] Container's OpenSSH server ended connection
+2019-11-30 20:11:40.736 - [Debug] [LXC] Container's OpenSSH server closed connection
+2019-11-30 20:27:08.242 - [Debug] [Connection] Client error on ssh server

@@ -1,0 +1,11 @@
+Nov 14 00:01:28 mark-websrv sshd[442]: Accepted password for winders from 172.20.0.1 port 42090 ssh2
+Nov 14 00:01:28 mark-websrv sshd[442]: pam_unix(sshd:session): session opened for user winders by (uid=0)
+Nov 14 00:01:28 mark-websrv systemd-logind[150]: New session 63401 of user winders.
+Nov 14 00:01:28 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user winders by (uid=0)
+Nov 14 00:04:58 mark-websrv sshd[493]: Received disconnect from 172.20.0.1 port 42090:11:
+Nov 14 00:04:58 mark-websrv sshd[493]: Disconnected from user winders 172.20.0.1 port 42090
+Nov 14 00:04:58 mark-websrv systemd-logind[150]: Removed session 63401.
+Nov 14 00:04:58 mark-websrv sshd[442]: pam_unix(sshd:session): session closed for user winders
+Nov 14 00:04:58 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user winders
+Nov 14 00:16:01 mark-websrv CRON[517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 00:16:01 mark-websrv CRON[517]: pam_unix(cron:session): session closed for user root

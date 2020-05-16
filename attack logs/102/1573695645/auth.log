@@ -1,0 +1,4 @@
+Nov 14 01:40:45 mark-websrv sshd[480]: Accepted password for stop from 172.20.0.1 port 53724 ssh2
+Nov 14 01:40:45 mark-websrv sshd[480]: pam_unix(sshd:session): session opened for user stop by (uid=0)
+Nov 14 01:40:45 mark-websrv systemd-logind[161]: New session 63605 of user stop.
+Nov 14 01:40:45 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user stop by (uid=0)

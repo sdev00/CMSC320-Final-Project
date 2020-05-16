@@ -1,0 +1,12 @@
+Nov 17 07:05:40 mark-websrv sshd[433]: Accepted password for bin from 172.20.0.1 port 42284 ssh2
+Nov 17 07:05:40 mark-websrv sshd[433]: pam_unix(sshd:session): session opened for user bin by (uid=0)
+Nov 17 07:05:41 mark-websrv systemd-logind[147]: New session 72753 of user bin.
+Nov 17 07:05:41 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user bin by (uid=0)
+Nov 17 07:05:41 mark-websrv nologin: Attempted login by bin on UNKNOWN
+Nov 17 07:05:41 mark-websrv sshd[484]: Received disconnect from 172.20.0.1 port 42284:11:
+Nov 17 07:05:41 mark-websrv sshd[484]: Disconnected from user bin 172.20.0.1 port 42284
+Nov 17 07:05:41 mark-websrv sshd[433]: pam_unix(sshd:session): session closed for user bin
+Nov 17 07:05:43 mark-websrv systemd-logind[147]: Removed session 72753.
+Nov 17 07:05:43 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user bin
+Nov 17 07:16:01 mark-websrv CRON[499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 17 07:16:02 mark-websrv CRON[499]: pam_unix(cron:session): session closed for user root

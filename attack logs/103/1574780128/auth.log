@@ -1,0 +1,4 @@
+Nov 26 14:55:28 mark-websrv sshd[495]: Accepted password for testftp from 172.20.0.1 port 35204 ssh2
+Nov 26 14:55:28 mark-websrv sshd[495]: pam_unix(sshd:session): session opened for user testftp by (uid=0)
+Nov 26 14:55:28 mark-websrv systemd-logind[148]: New session 98249 of user testftp.
+Nov 26 14:55:28 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user testftp by (uid=0)

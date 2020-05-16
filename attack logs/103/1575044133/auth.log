@@ -1,0 +1,11 @@
+Nov 29 16:15:33 mark-websrv sshd[443]: Accepted password for kvhelio from 172.20.0.1 port 39286 ssh2
+Nov 29 16:15:33 mark-websrv sshd[443]: pam_unix(sshd:session): session opened for user kvhelio by (uid=0)
+Nov 29 16:15:33 mark-websrv systemd-logind[149]: New session 106598 of user kvhelio.
+Nov 29 16:15:33 mark-websrv systemd: pam_unix(systemd-user:session): session opened for user kvhelio by (uid=0)
+Nov 29 16:16:01 mark-websrv CRON[506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 29 16:16:01 mark-websrv CRON[506]: pam_unix(cron:session): session closed for user root
+Nov 29 16:27:39 mark-websrv sshd[494]: Received disconnect from 172.20.0.1 port 39286:11:
+Nov 29 16:27:39 mark-websrv sshd[494]: Disconnected from user kvhelio 172.20.0.1 port 39286
+Nov 29 16:27:39 mark-websrv sshd[443]: pam_unix(sshd:session): session closed for user kvhelio
+Nov 29 16:27:39 mark-websrv systemd-logind[149]: Removed session 106598.
+Nov 29 16:27:39 mark-websrv systemd: pam_unix(systemd-user:session): session closed for user kvhelio
