@@ -15,5 +15,4 @@
 2019-12-01 10:35:27.887 - [Debug] [EXEC] Noninteractive mode attacker command: cat /etc/passwd
 2019-12-01 10:35:28.791 - [Info] Exiting...
 2019-12-01 10:35:28.791 - [Debug] Cleaning up...
-2019-12-01 10:35:28.792 - [Error] Exception occurred: 
-Cannot read property 'write' of undefined
+2019-12-01 10:35:28.792 - [Error] Exception occurred:
