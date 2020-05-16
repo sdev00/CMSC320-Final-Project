@@ -1,9 +1,14 @@
 # sdev00
 CMSC320 Final Project (Spring 2020)
 
-Sahil Dev, Nikos Koutsoheras, and Vivekjyoti Banerjee
+https://sdev00.github.io/CMSC320-Final-Project/
 
-320 blaze it :DDDDD
+Sahil Dev, Nikodemos Koutsoheras, and Vivekjyoti Banerjee
 
-praise coͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦͦrn
->>>>>>> c63113165224cd1f27605eae1319bf9f1fa6e588
+Tentative work distribution:
+
+Data Scraping + Cleaning: Nikos
+
+Data Analysis: Sahil
+
+Hypothesis Testing and Machine Learning: Vivek
