@@ -69,7 +69,9 @@ The timestamp attached to the authentication line in the MITM log will be a few 
 ``` {r parse folder}
 # parses a single attempts/mitmlog pair
 parseFile <- function(file) {
-  lines <- readLines(con = file[1])
+  # join all of the one-row data frames produced by calling parseLine on every line in the attempts file into a single frame
+  file_df <- rbindlist(lapply(readLines(con = file[1]), parseLine))
+  
   log <- readLines(con = file[2])
   # the MITM appends a line containing "[LXC-Auth]" when an attacker enters the container; there will be one such line per file
   stime <- as.POSIXct(strsplit(
@@ -83,23 +85,25 @@ parseFile <- function(file) {
   etime <- as.POSIXct(strsplit(
     tail(log, 1)[1],
     " - ")[[1]][1])
-  
   elapsed <- as.double(difftime(etime, stime, units="secs"))
-  file_df <- rbindlist(lapply(lines, parseLine))
+  
   # for every attempt entry, find the difference between its time and the time associated with the MITM authentication
-  closest_time <- rbindlist(apply(file_df, 1, function(x) {
-    return(data.frame(Time=x[1], Difference=abs(difftime(x[1], stime, units="secs"))))
+  closest_time <- rbindlist(
+    apply(file_df, 1, function(x) {
+      return(data.frame(Time=x[1], Difference=abs(difftime(x[1], stime, units="secs"))))
     }))
   # the closest time is the one with the minimum difference
   closest_time <- closest_time %>%
           slice(which.min(Difference))
   
+  # if the time for any given row equals closest_time, that's the attempt that authenticated
   file_df <- as_tibble(file_df) %>%
     mutate(Authenticated=(Time==closest_time[1,1])) %>%
     mutate(Duration=ifelse(Authenticated==TRUE, elapsed, NA))
   return(file_df)
 }
 
+# join all of the data frames produced by calling parseFile on every pair of files into a single frame
 attempt_df <- rbindlist(apply(files, 1, parseFile))
 attempt_df
 ```
