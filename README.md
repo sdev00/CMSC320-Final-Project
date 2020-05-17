@@ -12,3 +12,17 @@ Data Scraping + Cleaning: Nikos
 Data Analysis: Sahil
 
 Hypothesis Testing and Machine Learning: Vivek
+
+
+Run the following commands in the RStudio console to get started:
+```python
+install.packages("data.table")
+install.packages("reticulate")
+install.packages("rgeolocate")
+install.packages("stringr")
+install.packages("dplyr")
+
+use_condaenv("r-reticulate")
+conda_install("r-reticulate", "matplotlib")
+conda_install("r-reticulate", "pandas")
+```
