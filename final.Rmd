@@ -13,10 +13,18 @@ library(dplyr)
 ```
 
 ## Introduction
-The data consists of approximately 60,000 login attempts and 1500 attack sessions split among 3000 files.
-Each most deeply nested folder represents a single instance of a single container. An instance folder will contain, among others, an attempts.txt file and a mitmlog_30*.txt file.
-```{r ingestion}
+The days when systems administrators could rely on the obscurity of their servers as protection from poor configuration are behind us. Any machine connected to the Internet will be invariably subjected to a background radiation of attackers trying a variety of known software vulnerabilities and common security pitfalls in the hopes of stumbling upon a machine they can control. Only by understanding how these attacks work can we adequately protect our computers from them, and only by observing attackers can we understand the patterns governing their behaviors. 
 
+Possibly the most effective way to observe an attacker is to watch them work on a machine we control. To this end, we construct a series of honeypots: servers made vulnerable to exploitation exposed on the open web. Attackers can freely connect to these honeypots, which will intentionally succumb to any exploit they attempt to use to gain access. Once inside, attackers can install any variety of malicious software they please and search for valuable data anywhere on the machine. When they leave, we have the opportunity to inspect their actions as well as any software they installed at our leisure.
+
+The actual observation is carried out with a program known as a man-in-the-middle, which serves as the interface between the honeypot and the Internet, passing data seamlessly between the two while recording all that it relays.
+(In reality, our honeypots are containers (a lightweight alternative to virtual machines that relies on services provided by the host operating system, rather than a virtualization of its own) running on the MITM server, but it may be easier to think of them as separate physical machines - they certainly could be.)
+
+We analyze in this study the activity recorded on a configuration of five such honeypots managed by a single MITM server over the course of roughly two months.
+
+The data consists of approximately 60,000 login attempts and 1500 attack sessions split across 3000 files.
+Each most deeply nested folder represents a single instance of a single container. An instance folder will contain, among others, an attempts.txt file and a mitmlog_30*.txt file. We'll let R find them all and load them in.
+```{r ingestion}
 # locate all of the relevant files
 # attempts contains tidy login data: each line contains data about a unique login attempt
 attempts <- list.files(pattern = "attempts", recursive = TRUE)
@@ -26,7 +34,14 @@ files <- data.frame(Attempts=attempts, Logs=mitmlogs)
 
 # the binary database used by ip2location
 ip_database <- system.file("extdata","GeoLite2-Country.mmdb", package = "rgeolocate")
+```
 
+The simpler of the two parsing steps involves the attempts.txt file present in every instance folder. The MITM manager script appended a line to this file every time somebody attempted to log in to the server. A single line contains the time of an attempted login, the IP address of the computer attemping to log in, the method they used (almost exclusively "password"), and the credentials they provided. We extract all of these fields and use the rgeolocate package to obtain the attacker's country of origin (or their VPN's) from their IP address.
+
+Storing an attacker's IP and their country in every row represents a bit of redundancy. Ideally, we would store the IPs in the attempts table and create another table associating IPs with their corresponding countries. Our table isn't even in first normal form!
+...But this is 320, not 424. We'll worry about that some other time.
+
+``` {r parse line}
 # have patience: this next step took about 88 seconds on my computer
 # parses a single line in an attempts file
 parseLine <- function(line) {
@@ -41,7 +56,17 @@ parseLine <- function(line) {
                     CountryCode=location[3][1],
                     CountryName=location[2][1]))
 }
+```
 
+In addition to the data we've retrieved from the attempts file, we also want to know how long an attacker spent in a honeypot. It would have been trivial to add a variable that kept track of that to the MITM manager script and write the difference to the end of every line in the attempts.txt files. Accessing it here could have been as simple as adding another field to the data frame we created in the parseLine method.
+We lacked that insight at the time, so, as punishment, we must now parse the data we need from the larger log file.
+
+Fortunately, the MITM log contains an entry for a successful authentication, which we can locate by the unique "[LXC-Auth]" marker that will appear once in every file. We also know that the container is shut down, destroyed, and rebuilt from scratch when the attacker leaves (or is forced out). As such, the time associated with the last line in the log entry represents the last point at which the attacker was active in the honeypot.
+
+The timestamp attached to the authentication line in the MITM log will be a few milliseconds off from the corresponding entry in attempts.txt. To resolve the pair, we say that the authentication entry observed in the MITM log represents the same attempt as the line in the attempts file with the closest timestamp.
+(Even though every IP address except for the attacker's is blacklisted from the container after a successful authentication, we can't just associate the successful entry with the last line in the attempts file because the attacker will occasionally try another username/password combination after gaining access. We speculate that the scripts the attackers use are programmed to try all of their credentials as quickly as possible, rather than wait for the server's response after each one.)
+
+``` {r parse folder}
 # parses a single attempts/mitmlog pair
 parseFile <- function(file) {
   lines <- readLines(con = file[1])
@@ -54,21 +79,21 @@ parseFile <- function(file) {
       },
       log)[1],
     " - ")[[1]][1])
-  # once an attacker has entered the honeypot, an iptables rule is created to block any other connection attempts
-  # when the attacker leaves the honeypot (or is forced out), the container is shut down, destroyed, and rebuilt from scratch
-  # as such, the last line in the log entry for that instance of the container is the point at which the attacker was last active
+  # the end time is simply the timestamp of the last line in the file
   etime <- as.POSIXct(strsplit(
     tail(log, 1)[1],
     " - ")[[1]][1])
-  # 
+  
   elapsed <- as.double(difftime(etime, stime, units="secs"))
   file_df <- rbindlist(lapply(lines, parseLine))
-  # the time in the 
+  # for every attempt entry, find the difference between its time and the time associated with the MITM authentication
   closest_time <- rbindlist(apply(file_df, 1, function(x) {
     return(data.frame(Time=x[1], Difference=abs(difftime(x[1], stime, units="secs"))))
     }))
+  # the closest time is the one with the minimum difference
   closest_time <- closest_time %>%
           slice(which.min(Difference))
+  
   file_df <- as_tibble(file_df) %>%
     mutate(Authenticated=(Time==closest_time[1,1])) %>%
     mutate(Duration=ifelse(Authenticated==TRUE, elapsed, NA))
