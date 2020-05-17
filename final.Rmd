@@ -10,6 +10,10 @@ library(reticulate)
 library(rgeolocate)
 library(stringr)
 library(dplyr)
+
+matplotlib <- import("matplotlib")
+pandas <- import("pandas")
+matplotlib$use("Agg", force = TRUE)
 ```
 
 ## Introduction
@@ -108,7 +112,46 @@ attempt_df <- rbindlist(apply(files, 1, parseFile))
 attempt_df
 ```
 
-```{python Sahil}
-print(r.attempt_df['Time'][0])
+``` {python}
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.DataFrame(r.attempt_df)
+total = len(df)
+
 ```
 
+``` {python}
+countbyaddress = df.groupby(['Address', 'country_name']).count().reset_index()[['Address', 'country_name', 'Method']]
+countbyaddress.columns = ['Address', 'Origin_Country', 'Count']
+countbyaddress = countbyaddress.sort_values('Count', ascending=False).reset_index(drop=True).dropna()
+countbyaddress['Proportion'] = countbyaddress['Count']/total
+print('Attack count by IP Address:\n')
+countbyaddress
+```
+
+In the above code block, we aggregate by the address of the attacker to find the total number of attacks per attacker. We then sort by the number of attacks to find the addresses that made the most attacks.
+
+``` {python}
+countbycountry = df.groupby(['country_name']).count().reset_index()[['country_name', 'Username']]
+countbycountry.columns = ['Country', 'Count']
+countbycountry = countbycountry.sort_values('Count', ascending=False).reset_index(drop=True)
+countbycountry['Attack_Proportion'] = countbyaddress['Count']/total
+
+successbycountry = df.groupby('country_name')['Authenticated'].apply(lambda x: (x==True).sum()).reset_index(name='count')
+successbycountry.columns = ['Country', 'Success_Count']
+countbycountry = countbycountry.join(successbycountry.set_index('Country'), on='Country')
+
+countbycountry['Success_Rate'] = countbycountry['Success_Count'] / countbycountry['Count']
+
+countbycountry
+```
+
+This code block replicates the same aggregation, but this time aggregating by country to see which countries most of the attacks originated from.
+
+``` {python}
+countbycountry.head(20).plot(x='Country', y='Success_Count')
+plt.show()
+```
+
+``` {python}
+```
