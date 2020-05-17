@@ -148,11 +148,23 @@ countbycountry
 This code block replicates the same aggregation, but this time aggregating by country to see which countries most of the attacks originated from.
 
 ``` {python}
-countbycountry.head(20).plot(x='Country', y='Success_Count')
+duration = df.groupby(['country_name'])[['country_name', 'Duration']].mean().reset_index()
+duration = duration.sort_values('Duration', ascending=False).dropna().reset_index(drop=True)
+duration.columns = ['Country', 'Avg_Duration_sec']
+
+duration
+```
+
+``` {python}
+countryvsduration = countbycountry.head(40).join(duration.set_index('Country'), on='Country')
+countryvsduration.plot(kind='scatter', x='Success_Rate', y='Avg_Duration_sec')
 plt.show()
 ```
 
 
 ``` {python}
+sortbyduration = df.sort_values('Duration', ascending=False)[['country_name', 'Duration']].dropna().reset_index(drop=True)
+sortbyduration.columns = ['Country', 'Duration']
+sortbyduration
 ```
 
