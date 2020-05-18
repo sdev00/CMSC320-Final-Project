@@ -1,7 +1,9 @@
 ---
-title: "final"
+title: "CMSC320 Final Project"
 output: html_document
 ---
+
+### Project by Nikos Koutsoheras, Sahil Dev, and Vivek Banerjee
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
