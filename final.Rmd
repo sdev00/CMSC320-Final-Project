@@ -115,7 +115,7 @@ attempt_df
 
 ## Exploratory Data Analysis
 What's the point in having data if you don't do any analysis? The answer is there is none. We have an incredibly interesting dataset at our disposal, and we would like to draw some equally interesting conclusions. Let's try to figure out what kind of information we can draw from our data. Here's what we have:
-Time, IP, Country, Duration (seconds), Username, Password
+Time, IP, Username, Password, Country, Authenticated, Duration (seconds)
 
 Here are some simple questions we might like to answer?
 1. Which IPs contributed to the most attacks?
@@ -145,6 +145,7 @@ print('Attack count by IP Address:\n')
 countbyaddress
 ```
 
+We can see that the IP with the greatest number of attacks was from China and performed 2977 total attacks, or 5% of the total number of attacks.
 Next, we will seek to answer question 2 by performing a similar series of operations as above, using the country name in place of the IP address. We will also add in a column to show the number of authenticated attacks and the authentication rate, since not every attempted attack is authenticated. We would expect that the authentication rate is pretty much constant given the way authentication is determined.
 
 ``` {python}
@@ -162,8 +163,8 @@ countbycountry['Auth_Rate'] = countbycountry['Authenticated'] / countbycountry['
 countbycountry
 ```
 
-As we expect, the authentication rate is nearly constant, though naturally, the variation in the rate is much higher when the attempted attacks is very low.
-To answer the third question (average duration + standard deviation) we will want to perform a simple aggregation on the data, as below.
+The country with the most attacks is China, with nearly 50% of the total number of attacks at almost 21000. As we expect, the authentication rate is nearly constant, though naturally, the variation in the rate is much higher when the attempted attacks is very low.
+To answer the third question (average duration and standard deviation) we will want to perform a simple aggregation on the data, as below.
 
 ``` {python}
 mean_duration = df['Duration'].mean()
@@ -184,20 +185,47 @@ duration.columns = ['Country', 'Avg_Duration']
 duration
 ```
 
+As predicted earlier, we do indeed have a huge range in mean attack durations, from under 1 second to almost 1.5 hours. Let's plot this to see what we find.
+
 ``` {python}
-countryvsduration = countbycountry.head(40).join(duration.set_index('Country'), on='Country')
-countryvsduration.plot(kind='scatter', x='Success_Rate', y='Avg_Duration_sec')
+duration['Rank'] = range(1, len(duration) + 1)
+ax = duration.plot(x='Rank', y='Avg_Duration', color='black')
+duration.plot(ax=ax, kind='scatter', x='Rank', y='Avg_Duration', color='black')
 plt.show()
 ```
-We may want to see if there are any correlations between any of our attributes. What might be some good attribute pairs to try out? We could do:
-Time vs. Country, Country vs. Average Duration, Common Usernames or Passwords vs. Country
 
+We can somewhat clearly tell that the average duration for the first few highest countries, but once we get past perhaps the top 10 countries, we barely tell the difference between them, and the scale of the y-axis does not help.
+Repeating the same thing for all attacks only makes the problem worse.
 
 ``` {python}
-sortbyduration = df.sort_values('Duration', ascending=False)[['country_name', 'Duration']].dropna().reset_index(drop=True)
-sortbyduration.columns = ['Country', 'Duration']
-sortbyduration
+duration_all = df.dropna().sort_values('Duration', ascending=False).reset_index(drop=True)
+duration_all['Rank'] = range(1, len(duration_all) + 1)
+duration_all = duration_all[['Rank', 'Duration']]
+
+duration_all.plot(kind='scatter', x='Rank', y='Duration', color='black')
+plt.show()
 ```
+
+Again, there is no clear way to understand what each of the points mean. In order to make this data more understandable, we will have to standardize our data. We can do so by subtracting the mean value from every data point, so everything is centered around 0, and then dividing by the standard deviation, so every data point is listed in terms of how it's related to the other points.
+
+``` {python}
+mean = duration_all['Duration'].mean()
+std = duration_all['Duration'].std()
+duration_all['std_Duration'] = (duration_all['Duration'] - mean)/std
+
+duration_all.plot(kind='scatter', x='Rank', y='std_Duration', color='black')
+plt.show()
+```
+
+While the graph looks nearly identical to our previous graph, make no mistake - this one gives us much more information. Looking at the scale on the y-axis, we see that it labels the number of standard deviations above the mean for each point. This means that we can understand where each point is compared to one another. The first few points are many standard deviations above the other points, while the remainder of the points are at a very slightly negative standard deviation.
+If we look at a histogram of the data, we see a pretty similar situation.
+
+```{python}
+duration_all['std_Duration'].plot.hist(bins=100)
+plt.show()
+```
+
+In a normal distribution, we would expect the data to be centered and symmetrical around 0. Here, we clearly don't get that. This shows once again that our data is very far from normally distributed.
 
 ## ML and stuff
 
@@ -232,19 +260,18 @@ import sklearn.model_selection
 import sklearn.metrics
 import sklearn.utils.multiclass
 from sklearn.model_selection import KFold
-import matplotlib.pylab as plt
 
-des_tree = sklearn.tree.DecisionTreeClassifier(max_depth=None, min_samples_split=2)
-param_des = {'max_features': ['auto']}
+#des_tree = sklearn.tree.DecisionTreeClassifier(max_depth=None, min_samples_split=2)
+#param_des = {'max_features': ['auto']}
 
-tree_cv = sklearn.model_selection.GridSearchCV(des_tree, param_des, cv=10)
+#tree_cv = sklearn.model_selection.GridSearchCV(des_tree, param_des, cv=10)
 #cv_obj = sklearn.model_selection.StratifiedKFold(n_splits=10)
-cv_obj = KFold(n_splits=10)
+#cv_obj = KFold(n_splits=10)
 
-for i, (train, test) in enumerate(cv_obj.split(X, y)):
-   tree_cv.fit(X[train], y[train])
-   scores = tree_cv.predict_proba(X[test])
-   print(scores)
+#for i, (train, test) in enumerate(cv_obj.split(X, y)):
+#   tree_cv.fit(X[train], y[train])
+#   scores = tree_cv.predict_proba(X[test])
+#   print(scores)
 
 def get_roc_data(model, cv_obj, Xi, yi):
     curve_df = None
