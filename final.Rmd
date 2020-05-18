@@ -14,6 +14,8 @@ library(dplyr)
 matplotlib <- import("matplotlib")
 pandas <- import("pandas")
 matplotlib$use("Agg", force = TRUE)
+conda_install("r-reticulate", "scikit-learn")
+sklearn <- import("sklearn")
 ```
 
 ## Introduction
@@ -169,4 +171,83 @@ plt.show()
 sortbyduration = df.sort_values('Duration', ascending=False)[['country_name', 'Duration']].dropna().reset_index(drop=True)
 sortbyduration.columns = ['Country', 'Duration']
 sortbyduration
+```
+
+We will use ToD and duration to predict the location of an attack.To start, we will do some data preparation by encoding the country name as decimal values.
+```{python}
+import numpy as np
+from sklearn import preprocessing
+from sklearn.preprocessing import LabelEncoder
+
+data = df[['Time','Duration','country_name']].dropna()
+countries = data['country_name'].unique()
+y = data.apply(lambda x: np.where(countries==x['country_name'])[0][0], axis=1).to_numpy()
+y = preprocessing.label_binarize(y, classes=np.arange(len(countries)))
+
+X = data.drop(['country_name'],axis=1)
+X['Time'] = X.apply(lambda x: pd.to_datetime(x['Time']), axis=1)
+X['year'] = X.apply(lambda x: x['Time'].year, axis=1)
+X['month'] = X.apply(lambda x: x['Time'].month, axis=1)
+X['day'] = X.apply(lambda x: x['Time'].day, axis=1)
+X['hour'] = X.apply(lambda x: x['Time'].hour, axis=1)
+X['minute'] = X.apply(lambda x: x['Time'].minute, axis=1)
+X['second'] = X.apply(lambda x: x['Time'].second, axis=1)
+X = X.drop(['Time'],axis=1).iloc[:,:].to_numpy()
+X
+y
+```
+
+Set up models.
+```{python}
+import sklearn.ensemble
+import sklearn.model_selection
+import sklearn.metrics
+import sklearn.utils.multiclass
+from sklearn.model_selection import KFold
+import matplotlib.pylab as plt
+
+des_tree = sklearn.tree.DecisionTreeClassifier(max_depth=None, min_samples_split=2)
+param_des = {'max_features': ['auto']}
+
+tree_cv = sklearn.model_selection.GridSearchCV(des_tree, param_des, cv=10)
+#cv_obj = sklearn.model_selection.StratifiedKFold(n_splits=10)
+cv_obj = KFold(n_splits=10)
+
+for i, (train, test) in enumerate(cv_obj.split(X, y)):
+   tree_cv.fit(X[train], y[train])
+   scores = tree_cv.predict_proba(X[test])
+   print(scores)
+
+def get_roc_data(model, cv_obj, Xi, yi):
+    curve_df = None
+    aucs = []
+    mean_fpr = np.linspace(0, 1, 100)
+    
+    for i, (train, test) in enumerate(cv_obj.split(Xi, yi)):
+        model.fit(Xi[train], yi[train])
+        scores = model.predict_proba(Xi[test])
+        fpr, tpr, _ = sklearn.metrics.roc_curve(yi[test],scores)
+        
+        interp_tpr = np.interp(mean_fpr, fpr, tpr)
+        interp_tpr[0] = 0.0
+        tmp = pd.DataFrame({'fold':i, 'fpr': mean_fpr, 'tpr': interp_tpr})
+        curve_df = tmp if curve_df is None else pd.concat([curve_df, tmp])
+        
+        aucs.append(sklearn.metrics.auc(fpr, tpr))
+        
+    curve_df = curve_df.groupby('fpr').agg({'tpr': 'mean'}).reset_index()
+    curve_df.iloc[-1,1] = 1.0
+    
+    auc_df = pd.DataFrame({'fold': np.arange(len(aucs)), 'auc': aucs})
+        
+    return 0,0
+    return curve_df, auc_df
+    
+        
+```
+
+Let the learning begin!
+```{python}
+tree_curve_df, tree_auc_df = get_roc_data(tree_cv, cv_obj, X, y)
+#tree_auc_df
 ```
