@@ -115,13 +115,14 @@ attempt_df
 
 ## Exploratory Data Analysis
 What's the point in having data if you don't do any analysis? The answer is there is none. We have an incredibly interesting dataset at our disposal, and we would like to draw some equally interesting conclusions. Let's try to figure out what kind of information we can draw from our data. Here's what we have:
-Time, IP, Country, Duration, Username, Password
+Time, IP, Country, Duration (seconds), Username, Password
 
 Here are some simple questions we might like to answer?
 1. Which IPs contributed to the most attacks?
 2. Which countries contributed to the most attacks?
-3. What are the most common usernames/passwords attempted?
-4. During what hour of the day to the most attacks occur?
+3. What is the average amount of time spent in the honeypot, and what is the standard deviation of this duration?
+4. What are the most common usernames/passwords attempted?
+5. During what hour of the day to the most attacks occur?
 
 We will attempt to answer some of these questions, but first, we'll want to get everything set up. We import pandas and the plotting library, create a pandas DataFrame, and get the total number of entries in the dataframe below.
 
@@ -133,6 +134,7 @@ total = len(df)
 
 ```
 
+In the next code block, we will seek to answer the first question (which IPs performed the greatest number of attacks?) by doing a group by on IP address, and an aggregation on the number of entries. We will also add a column for the total proportion of attacks made up by that address. This is done using the count aggregate and the total entries determined previously.
 
 ``` {python}
 countbyaddress = df.groupby(['Address', 'country_name']).count().reset_index()[['Address', 'country_name', 'Method']]
@@ -143,8 +145,7 @@ print('Attack count by IP Address:\n')
 countbyaddress
 ```
 
-In the above code block, we aggregate by the address of the attacker to find the total number of attacks per attacker. We then sort by the number of attacks to find the addresses that made the most attacks.
-
+Next, we will seek to answer question 2 by performing a similar series of operations as above, using the country name in place of the IP address. We will also add in a column to show the number of authenticated attacks and the authentication rate, since not every attempted attack is authenticated. We would expect that the authentication rate is pretty much constant given the way authentication is determined.
 
 ``` {python}
 countbycountry = df.groupby(['country_name']).count().reset_index()[['country_name', 'Username']]
@@ -153,20 +154,32 @@ countbycountry = countbycountry.sort_values('Count', ascending=False).reset_inde
 countbycountry['Attack_Proportion'] = countbyaddress['Count']/total
 
 successbycountry = df.groupby('country_name')['Authenticated'].apply(lambda x: (x==True).sum()).reset_index(name='count')
-successbycountry.columns = ['Country', 'Success_Count']
+successbycountry.columns = ['Country', 'Authenticated']
 countbycountry = countbycountry.join(successbycountry.set_index('Country'), on='Country')
 
-countbycountry['Success_Rate'] = countbycountry['Success_Count'] / countbycountry['Count']
+countbycountry['Auth_Rate'] = countbycountry['Authenticated'] / countbycountry['Count']
 
 countbycountry
 ```
 
-This code block replicates the same aggregation, but this time aggregating by country to see which countries most of the attacks originated from.
+As we expect, the authentication rate is nearly constant, though naturally, the variation in the rate is much higher when the attempted attacks is very low.
+To answer the third question (average duration + standard deviation) we will want to perform a simple aggregation on the data, as below.
+
+``` {python}
+mean_duration = df['Duration'].mean()
+std_duration = df['Duration'].std()
+
+print('mean duration = {}\nstandard deviation = {}'.format(mean_duration, std_duration))
+```
+
+We can see that the average duration is about 3 minutes and 14 seconds, while the standard deviation is much higher at 34 minutes and 43 seconds. This means that most attacks were relatively short, while a few attacks were much, much longer. Analyzing data with wildly different scales can be rather difficult, and we will see later that standardizing our data can make analysis much more useful.
+
+Let's now order the countries by the average duration of their attacks.
 
 ``` {python}
 duration = df.groupby(['country_name'])[['country_name', 'Duration']].mean().reset_index()
 duration = duration.sort_values('Duration', ascending=False).dropna().reset_index(drop=True)
-duration.columns = ['Country', 'Avg_Duration_sec']
+duration.columns = ['Country', 'Avg_Duration']
 
 duration
 ```
