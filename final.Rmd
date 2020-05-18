@@ -1,7 +1,9 @@
 ---
-title: "final"
+title: "CMSC320 Final Project"
 output: html_document
 ---
+
+### Project by Nikos Koutsoheras, Sahil Dev, and Vivek Banerjee
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -14,7 +16,6 @@ library(dplyr)
 matplotlib <- import("matplotlib")
 pandas <- import("pandas")
 matplotlib$use("Agg", force = TRUE)
-conda_install("r-reticulate", "scikit-learn")
 sklearn <- import("sklearn")
 ```
 
@@ -114,6 +115,19 @@ attempt_df <- rbindlist(apply(files, 1, parseFile))
 attempt_df
 ```
 
+## Exploratory Data Analysis
+What's the point in having data if you don't do any analysis? The answer is there is none. We have an incredibly interesting dataset at our disposal, and we would like to draw some equally interesting conclusions. Let's try to figure out what kind of information we can draw from our data. Here's what we have:
+Time, IP, Username, Password, Country, Authenticated, Duration (seconds)
+
+Here are some simple questions we might like to answer?
+1. Which IPs contributed to the most attacks?
+2. Which countries contributed to the most attacks?
+3. What is the average amount of time spent in the honeypot, and what is the standard deviation of this duration?
+4. What are the most common usernames/passwords attempted?
+5. During what hour of the day to the most attacks occur?
+
+We will attempt to answer some of these questions, but first, we'll want to get everything set up. We import pandas and the plotting library, create a pandas DataFrame, and get the total number of entries in the dataframe below.
+
 ``` {python}
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -122,6 +136,7 @@ total = len(df)
 
 ```
 
+In the next code block, we will seek to answer the first question (which IPs performed the greatest number of attacks?) by doing a group by on IP address, and an aggregation on the number of entries. We will also add a column for the total proportion of attacks made up by that address. This is done using the count aggregate and the total entries determined previously.
 
 ``` {python}
 countbyaddress = df.groupby(['Address', 'country_name']).count().reset_index()[['Address', 'country_name', 'Method']]
@@ -132,8 +147,8 @@ print('Attack count by IP Address:\n')
 countbyaddress
 ```
 
-In the above code block, we aggregate by the address of the attacker to find the total number of attacks per attacker. We then sort by the number of attacks to find the addresses that made the most attacks.
-
+We can see that the IP with the greatest number of attacks was from China and performed 2977 total attacks, or 5% of the total number of attacks.
+Next, we will seek to answer question 2 by performing a similar series of operations as above, using the country name in place of the IP address. We will also add in a column to show the number of authenticated attacks and the authentication rate, since not every attempted attack is authenticated. We would expect that the authentication rate is pretty much constant given the way authentication is determined.
 
 ``` {python}
 countbycountry = df.groupby(['country_name']).count().reset_index()[['country_name', 'Username']]
@@ -142,36 +157,79 @@ countbycountry = countbycountry.sort_values('Count', ascending=False).reset_inde
 countbycountry['Attack_Proportion'] = countbyaddress['Count']/total
 
 successbycountry = df.groupby('country_name')['Authenticated'].apply(lambda x: (x==True).sum()).reset_index(name='count')
-successbycountry.columns = ['Country', 'Success_Count']
+successbycountry.columns = ['Country', 'Authenticated']
 countbycountry = countbycountry.join(successbycountry.set_index('Country'), on='Country')
 
-countbycountry['Success_Rate'] = countbycountry['Success_Count'] / countbycountry['Count']
+countbycountry['Auth_Rate'] = countbycountry['Authenticated'] / countbycountry['Count']
 
 countbycountry
 ```
 
-This code block replicates the same aggregation, but this time aggregating by country to see which countries most of the attacks originated from.
+The country with the most attacks is China, with nearly 50% of the total number of attacks at almost 21000. As we expect, the authentication rate is nearly constant, though naturally, the variation in the rate is much higher when the attempted attacks is very low.
+To answer the third question (average duration and standard deviation) we will want to perform a simple aggregation on the data, as below.
+
+``` {python}
+mean_duration = df['Duration'].mean()
+std_duration = df['Duration'].std()
+
+print('mean duration = {}\nstandard deviation = {}'.format(mean_duration, std_duration))
+```
+
+We can see that the average duration is about 3 minutes and 14 seconds, while the standard deviation is much higher at 34 minutes and 43 seconds. This means that most attacks were relatively short, while a few attacks were much, much longer. Analyzing data with wildly different scales can be rather difficult, and we will see later that standardizing our data can make analysis much more useful.
+
+Let's now order the countries by the average duration of their attacks.
 
 ``` {python}
 duration = df.groupby(['country_name'])[['country_name', 'Duration']].mean().reset_index()
 duration = duration.sort_values('Duration', ascending=False).dropna().reset_index(drop=True)
-duration.columns = ['Country', 'Avg_Duration_sec']
+duration.columns = ['Country', 'Avg_Duration']
 
 duration
 ```
 
+As predicted earlier, we do indeed have a huge range in mean attack durations, from under 1 second to almost 1.5 hours. Let's plot this to see what we find.
+
 ``` {python}
-countryvsduration = countbycountry.head(40).join(duration.set_index('Country'), on='Country')
-countryvsduration.plot(kind='scatter', x='Success_Rate', y='Avg_Duration_sec')
+duration['Rank'] = range(1, len(duration) + 1)
+ax = duration.plot(x='Rank', y='Avg_Duration', color='black')
+duration.plot(ax=ax, kind='scatter', x='Rank', y='Avg_Duration', color='black')
 plt.show()
 ```
 
+We can somewhat clearly tell that the average duration for the first few highest countries, but once we get past perhaps the top 10 countries, we barely tell the difference between them, and the scale of the y-axis does not help.
+Repeating the same thing for all attacks only makes the problem worse.
 
 ``` {python}
-sortbyduration = df.sort_values('Duration', ascending=False)[['country_name', 'Duration']].dropna().reset_index(drop=True)
-sortbyduration.columns = ['Country', 'Duration']
-sortbyduration
+duration_all = df.dropna().sort_values('Duration', ascending=False).reset_index(drop=True)
+duration_all['Rank'] = range(1, len(duration_all) + 1)
+duration_all = duration_all[['Rank', 'Duration']]
+
+duration_all.plot(kind='scatter', x='Rank', y='Duration', color='black')
+plt.show()
 ```
+
+Again, there is no clear way to understand what each of the points mean. In order to make this data more understandable, we will have to standardize our data. We can do so by subtracting the mean value from every data point, so everything is centered around 0, and then dividing by the standard deviation, so every data point is listed in terms of how it's related to the other points.
+
+``` {python}
+mean = duration_all['Duration'].mean()
+std = duration_all['Duration'].std()
+duration_all['std_Duration'] = (duration_all['Duration'] - mean)/std
+
+duration_all.plot(kind='scatter', x='Rank', y='std_Duration', color='black')
+plt.show()
+```
+
+While the graph looks nearly identical to our previous graph, make no mistake - this one gives us much more information. Looking at the scale on the y-axis, we see that it labels the number of standard deviations above the mean for each point. This means that we can understand where each point is compared to one another. The first few points are many standard deviations above the other points, while the remainder of the points are at a very slightly negative standard deviation.
+If we look at a histogram of the data, we see a pretty similar situation.
+
+```{python}
+duration_all['std_Duration'].plot.hist(bins=100)
+plt.show()
+```
+
+In a normal distribution, we would expect the data to be centered and symmetrical around 0. Here, we clearly don't get that. This shows once again that our data is very far from normally distributed.
+
+## ML and stuff
 
 We will use ToD and duration to predict the location of an attack.To start, we will do some data preparation by encoding the country name as decimal values.
 ```{python}
