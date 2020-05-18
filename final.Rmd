@@ -197,57 +197,47 @@ X
 y
 ```
 
-Set up models.
+Set up model and training.
 ```{python}
-import sklearn.ensemble
-import sklearn.model_selection
-import sklearn.metrics
-import sklearn.utils.multiclass
-from sklearn.model_selection import KFold
-import matplotlib.pylab as plt
+from sklearn.model_selection import train_test_split
+from sklearn import svm, datasets
+from sklearn.multiclass import OneVsRestClassifier
 
-des_tree = sklearn.tree.DecisionTreeClassifier(max_depth=None, min_samples_split=2)
-param_des = {'max_features': ['auto']}
-
-tree_cv = sklearn.model_selection.GridSearchCV(des_tree, param_des, cv=10)
-#cv_obj = sklearn.model_selection.StratifiedKFold(n_splits=10)
 cv_obj = KFold(n_splits=10)
 
-for i, (train, test) in enumerate(cv_obj.split(X, y)):
-   tree_cv.fit(X[train], y[train])
-   scores = tree_cv.predict_proba(X[test])
-   print(scores)
+# Learn to predict each class against the other
+c = OneVsRestClassifier(svm.SVC(kernel='linear', probability=True,random_state=0))
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1,random_state=0)
+y_score = c.fit(X_train, y_train).decision_function(X_test)
+```
+Compute ROC
+```{python}
+from sklearn.metrics import roc_curve, auc
 
-def get_roc_data(model, cv_obj, Xi, yi):
-    curve_df = None
-    aucs = []
-    mean_fpr = np.linspace(0, 1, 100)
-    
-    for i, (train, test) in enumerate(cv_obj.split(Xi, yi)):
-        model.fit(Xi[train], yi[train])
-        scores = model.predict_proba(Xi[test])
-        fpr, tpr, _ = sklearn.metrics.roc_curve(yi[test],scores)
-        
-        interp_tpr = np.interp(mean_fpr, fpr, tpr)
-        interp_tpr[0] = 0.0
-        tmp = pd.DataFrame({'fold':i, 'fpr': mean_fpr, 'tpr': interp_tpr})
-        curve_df = tmp if curve_df is None else pd.concat([curve_df, tmp])
-        
-        aucs.append(sklearn.metrics.auc(fpr, tpr))
-        
-    curve_df = curve_df.groupby('fpr').agg({'tpr': 'mean'}).reset_index()
-    curve_df.iloc[-1,1] = 1.0
-    
-    auc_df = pd.DataFrame({'fold': np.arange(len(aucs)), 'auc': aucs})
-        
-    return 0,0
-    return curve_df, auc_df
-    
-        
+# Compute ROC curve and ROC area for each class
+fpr = dict()
+tpr = dict()
+roc_auc = dict()
+
+for i in range(len(countries)):
+    fpr[i], tpr[i], _ = roc_curve(y_test[:, i], y_score[:, i])
+    roc_auc[i] = auc(fpr[i], tpr[i])
+roc_auc
 ```
 
-Let the learning begin!
+Plotting
 ```{python}
-tree_curve_df, tree_auc_df = get_roc_data(tree_cv, cv_obj, X, y)
-#tree_auc_df
+import matplotlib.pyplot as plt
+plt.figure()
+lw = 2
+plt.plot(fpr[2], tpr[2], color='darkorange',
+         lw=lw, label='ROC curve (area = %0.2f)' % roc_auc[2])
+plt.plot([0, 1], [0, 1], color='navy', lw=lw, linestyle='--')
+plt.xlim([0.0, 1.0])
+plt.ylim([0.0, 1.05])
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('Receiver operating characteristic example')
+plt.legend(loc="lower right")
+plt.show()
 ```
