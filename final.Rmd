@@ -14,7 +14,6 @@ library(dplyr)
 matplotlib <- import("matplotlib")
 pandas <- import("pandas")
 matplotlib$use("Agg", force = TRUE)
-conda_install("r-reticulate", "scikit-learn")
 sklearn <- import("sklearn")
 ```
 
@@ -114,6 +113,18 @@ attempt_df <- rbindlist(apply(files, 1, parseFile))
 attempt_df
 ```
 
+## Exploratory Data Analysis
+What's the point in having data if you don't do any analysis? The answer is there is none. We have an incredibly interesting dataset at our disposal, and we would like to draw some equally interesting conclusions. Let's try to figure out what kind of information we can draw from our data. Here's what we have:
+Time, IP, Country, Duration, Username, Password
+
+Here are some simple questions we might like to answer?
+1. Which IPs contributed to the most attacks?
+2. Which countries contributed to the most attacks?
+3. What are the most common usernames/passwords attempted?
+4. During what hour of the day to the most attacks occur?
+
+We will attempt to answer some of these questions, but first, we'll want to get everything set up. We import pandas and the plotting library, create a pandas DataFrame, and get the total number of entries in the dataframe below.
+
 ``` {python}
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -165,6 +176,8 @@ countryvsduration = countbycountry.head(40).join(duration.set_index('Country'), 
 countryvsduration.plot(kind='scatter', x='Success_Rate', y='Avg_Duration_sec')
 plt.show()
 ```
+We may want to see if there are any correlations between any of our attributes. What might be some good attribute pairs to try out? We could do:
+Time vs. Country, Country vs. Average Duration, Common Usernames or Passwords vs. Country
 
 
 ``` {python}
@@ -172,6 +185,8 @@ sortbyduration = df.sort_values('Duration', ascending=False)[['country_name', 'D
 sortbyduration.columns = ['Country', 'Duration']
 sortbyduration
 ```
+
+## ML and stuff
 
 We will use ToD and duration to predict the location of an attack.To start, we will do some data preparation by encoding the country name as decimal values.
 ```{python}
@@ -248,6 +263,6 @@ def get_roc_data(model, cv_obj, Xi, yi):
 
 Let the learning begin!
 ```{python}
-tree_curve_df, tree_auc_df = get_roc_data(tree_cv, cv_obj, X, y)
+#tree_curve_df, tree_auc_df = get_roc_data(tree_cv, cv_obj, X, y)
 #tree_auc_df
 ```
