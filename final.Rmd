@@ -125,6 +125,7 @@ Here are some simple questions we might like to answer?
 3. What is the average amount of time spent in the honeypot, and what is the standard deviation of this duration?
 4. What are the most common usernames/passwords attempted?
 5. During what hour of the day to the most attacks occur?
+6. Is attack duration normally distributed?
 
 We will attempt to answer some of these questions, but first, we'll want to get everything set up. We import pandas and the plotting library, create a pandas DataFrame, and get the total number of entries in the dataframe below.
 
