@@ -12,6 +12,7 @@ library(reticulate)
 library(rgeolocate)
 library(stringr)
 library(dplyr)
+library(knitr)
 
 matplotlib <- import("matplotlib")
 pandas <- import("pandas")
@@ -22,14 +23,15 @@ sklearn <- import("sklearn")
 ## Introduction
 The days when systems administrators could rely on the obscurity of their servers as protection from poor configuration are behind us. Any machine connected to the Internet will be invariably subjected to a background radiation of attackers trying a variety of known software vulnerabilities and common security pitfalls in the hopes of stumbling upon a machine they can control. Only by understanding how these attacks work can we adequately protect our computers from them, and only by observing attackers can we understand the patterns governing their behaviors. 
 
-Possibly the most effective way to observe an attacker is to watch them work on a machine we control. To this end, we construct a series of honeypots: servers made vulnerable to exploitation exposed on the open web. Attackers can freely connect to these honeypots, which will intentionally succumb to any exploit they attempt to use to gain access. Once inside, attackers can install any variety of malicious software they please and search for valuable data anywhere on the machine. When they leave, we have the opportunity to inspect their actions as well as any software they installed at our leisure.
+Possibly the most effective way to observe an attacker is to watch them work on a machine we control. To this end, we can construct a series of honeypots: servers made vulnerable to exploitation exposed on the open web. Attackers can freely connect to these honeypots, which will intentionally succumb to any exploit they attempt to use to gain access. Once inside, attackers can install any variety of malicious software they please and search for valuable data anywhere on the machine. When they leave, we have the opportunity to inspect their actions as well as any software they installed at our leisure.
 
 The actual observation is carried out with a program known as a man-in-the-middle, which serves as the interface between the honeypot and the Internet, passing data seamlessly between the two while recording all that it relays.
 (In reality, our honeypots are containers (a lightweight alternative to virtual machines that relies on services provided by the host operating system, rather than a virtualization of its own) running on the MITM server, but it may be easier to think of them as separate physical machines - they certainly could be.)
 
 We analyze in this study the activity recorded on a configuration of five such honeypots managed by a single MITM server over the course of roughly two months.
 
-The data consists of approximately 60,000 login attempts and 1500 attack sessions split across 3000 files.
+## Ingestion
+The data consists of 60,478 login attempts and 1,769 attack sessions split across 3,538 files.
 Each most deeply nested folder represents a single instance of a single container. An instance folder will contain, among others, an attempts.txt file and a mitmlog_30*.txt file. We'll let R find them all and load them in.
 ```{r ingestion}
 # locate all of the relevant files
@@ -49,7 +51,6 @@ Storing an attacker's IP and their country in every row represents a bit of redu
 ...But this is 320, not 424. We'll worry about that some other time.
 
 ``` {r parse line}
-# have patience: this next step took about 88 seconds on my computer
 # parses a single line in an attempts file
 parseLine <- function(line) {
   # I'm lucky none of the attackers used a semicolon in their password guess; this could've been irritating
@@ -65,13 +66,12 @@ parseLine <- function(line) {
 }
 ```
 
-In addition to the data we've retrieved from the attempts file, we also want to know how long an attacker spent in a honeypot. It would have been trivial to add a variable that kept track of that to the MITM manager script and write the difference to the end of every line in the attempts.txt files. Accessing it here could have been as simple as adding another field to the data frame we created in the parseLine method.
+In addition to the data we've retrieved from the attempts file, we also want to know how long an attacker spent in a honeypot. It would have been trivial to add a variable that kept track of that to the MITM manager script and write the difference to the end of every line in the attempts.txt files when we were designing the honeypot architecture. If we had done that, knowing that we would need it now, accessing the data here would have been as simple as adding another field to the data frame we created in the parseLine method.
 We lacked that insight at the time, so, as punishment, we must now parse the data we need from the larger log file.
 
-Fortunately, the MITM log contains an entry for a successful authentication, which we can locate by the unique "[LXC-Auth]" marker that will appear once in every file. We also know that the container is shut down, destroyed, and rebuilt from scratch when the attacker leaves (or is forced out). As such, the time associated with the last line in the log entry represents the last point at which the attacker was active in the honeypot.
+Fortunately, the MITM log contains an entry for a successful authentication, which we can locate by the unique "[LXC-Auth]" marker that will appear once in every file. We also know that the container is shut down, destroyed, and rebuilt from scratch when the attacker leaves (or is forced out due to inactivity). As such, the time associated with the last line in the log entry represents the last point at which the attacker was active in the honeypot.
 
-The timestamp attached to the authentication line in the MITM log will be a few milliseconds off from the corresponding entry in attempts.txt. To resolve the pair, we say that the authentication entry observed in the MITM log represents the same attempt as the line in the attempts file with the closest timestamp.
-(Even though every IP address except for the attacker's is blacklisted from the container after a successful authentication, we can't just associate the successful entry with the last line in the attempts file because the attacker will occasionally try another username/password combination after gaining access. We speculate that the scripts the attackers use are programmed to try all of their credentials as quickly as possible, rather than wait for the server's response after each one.)
+The timestamp attached to the authentication line in the MITM log will be a few milliseconds off from the corresponding entry in attempts.txt. To resolve the pair, we say that the authentication entry observed in the MITM log represents the same attempt as the line in the attempts file with the closest timestamp. At first glance, it might seem that associating the entries in the two files is needlessly complex. Since every IP address except for the attacker's is blacklisted from the container after a successful authentication to prevent multiple attackers from using it at once, and since the log ends when the attacker leaves, it should stand to reason that the last entry in the attempts file be the one that was allowed inside. Unfortunately, that won't work because attackers will occasionally try another username/password combination after gaining access. We speculate that the scripts the attackers use are programmed to try all of their credentials as quickly as possible, rather than wait for the server's response after each one.
 
 ``` {r parse folder}
 # parses a single attempts/mitmlog pair
@@ -109,10 +109,14 @@ parseFile <- function(file) {
     mutate(Duration=ifelse(Authenticated==TRUE, elapsed, NA))
   return(file_df)
 }
+```
 
+We pass our files into the methods we've just created and are treated with a neatly formatted table containing data about all 60,478 login attempts. The first 10 entries are below:
+
+``` {r creation}
 # join all of the data frames produced by calling parseFile on every pair of files into a single frame
 attempt_df <- rbindlist(apply(files, 1, parseFile))
-attempt_df
+kable(head(attempt_df, 10))
 ```
 
 ## Exploratory Data Analysis
@@ -264,6 +268,7 @@ X = X.drop(['Time'],axis=1).iloc[:,:].to_numpy()
 X
 y
 ```
+
 Now we are ready for the next step: set up model and training. Since we have so many countries (87 of them to be specific), we need a multi-class classifier, making the One vs Rest Classifier the perfect fit. The One vs Rest Classifier selects a class to be positive and all others to be negative, then trains the classifier, repeating this n times for n different classifiers— one for each class.
 
 We will be using 10% of our data to test, and the other 90% to train. Subsequently, we train our classifier(s) on our training set and test in order to obtain the testing score.
@@ -277,6 +282,7 @@ c = OneVsRestClassifier(svm.SVC(kernel='linear', probability=True,random_state=0
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1,random_state=0)
 y_score = c.fit(X_train, y_train).decision_function(X_test)
 ```
+
 From the scores we gathered, we can now calculate the ROC area which essentially measures the positive rate against the false positive rates in order to gauge how well the model can class balance— or how well we can distinguish one class from another.
 
 To see the performance of our model, we will compute the micro averages which are computed by aggregating the contributions for each class then compute the ROC values. 
@@ -314,6 +320,7 @@ plt.title('ROC area')
 plt.legend(loc="lower right")
 plt.show()
 ```
+
 From this, we observe that we a greater than 1 ratio of true positive to false positive rates— looking good. The accuracy of our model is demonstrated by how much the ROC area curve is to the top left of the graph. Overall, we seem to be doing okay, but nothing ground breaking. We've been staring at the crystal ball for too long.
 
 Because there are currently 87 different classes that are being summarized in the graph above, we want to see how the model did for a select few classes— five for example's sake. We will be looking at the individual ROC area curve for each of these five classes and their macro averages.
@@ -363,6 +370,7 @@ plt.title('Extension of Receiver operating characteristic to multi-class')
 plt.legend(loc='upper left',fancybox=True, shadow=True, ncol=1)
 plt.show()
 ```
+
 Since there is such a huge imbalance between our classes (more data for one class than another), we see that our model is better at predicting one origin location than another. Particularly, we are ridiculously good at predicting attackers from Sweden— we got you! Not really, we likely have an extremely low subset of attacks originating from Sweden. The class imbalance is further demonstrated by the discrepancy between the micro and macro averages. We seem to be extremely good at predict some classes over the others, evident by our macro averages being mostly above 1.0. However, when we look at our micro average, we see that it is brought down due to this phenomena.
 
 As we can see, life of a predictor is pretty hard. We have to deal with messy data, convoluted parsing, and huge class imbalances. Given these factors, we saw some very interesting resulting for the outcomes of each classes and how a few key attributes/ predictors can help us uncover unseen details, make predictions, and save the world from Armageddon.
