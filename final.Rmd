@@ -13,6 +13,7 @@ library(rgeolocate)
 library(stringr)
 library(dplyr)
 library(knitr)
+library(kableExtra)
 
 matplotlib <- import("matplotlib")
 pandas <- import("pandas")
@@ -116,7 +117,11 @@ We pass our files into the methods we've just created and are treated with a nea
 ``` {r creation}
 # join all of the data frames produced by calling parseFile on every pair of files into a single frame
 attempt_df <- rbindlist(apply(files, 1, parseFile))
-kable(head(attempt_df, 10))
+attempt_df %>%
+  head(10) %>%
+  kable(format = "html") %>%
+  kable_styling() %>%
+  kableExtra::scroll_box(width = "100%", height = "500px")
 ```
 
 ## Exploratory Data Analysis
