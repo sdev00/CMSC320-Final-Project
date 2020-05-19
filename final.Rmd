@@ -43,7 +43,7 @@ files <- data.frame(Attempts=attempts, Logs=mitmlogs)
 ip_database <- system.file("extdata","GeoLite2-Country.mmdb", package = "rgeolocate")
 ```
 
-The simpler of the two parsing steps involves the attempts.txt file present in every instance folder. The MITM manager script appended a line to this file every time somebody attempted to log in to the server. A single line contains the time of an attempted login, the IP address of the computer attemping to log in, the method they used (almost exclusively "password"), and the credentials they provided. We extract all of these fields and use the rgeolocate package to obtain the attacker's country of origin (or their VPN's) from their IP address.
+The simpler of the two parsing steps involves the attempts.txt file present in every instance folder. The MITM manager script appended a line to this file every time somebody attempted to log in to the server. A single line contains the time of an attempted login, the IP address of the computer attempting to log in, the method they used (almost exclusively "password"), and the credentials they provided. We extract all of these fields and use the rgeolocate package to obtain the attacker's country of origin (or their VPN's) from their IP address.
 
 Storing an attacker's IP and their country in every row represents a bit of redundancy. Ideally, we would store the IPs in the attempts table and create another table associating IPs with their corresponding countries. Our table isn't even in first normal form!
 ...But this is 320, not 424. We'll worry about that some other time.
@@ -116,7 +116,7 @@ attempt_df
 ```
 
 ## Exploratory Data Analysis
-What's the point in having data if you don't do any analysis? The answer is there is none. We have an incredibly interesting dataset at our disposal, and we would like to draw some equally interesting conclusions. Let's try to figure out what kind of information we can draw from our data. Here's what we have:
+What's the point in having data if you don't do any analysis? The answer is there is none. We have an incredibly interesting data set at our disposal, and we would like to draw some equally interesting conclusions. Let's try to figure out what kind of information we can draw from our data. Here's what we have:
 Time, IP, Username, Password, Country, Authenticated, Duration (seconds)
 
 Here are some simple questions we might like to answer?
@@ -234,12 +234,12 @@ In a normal distribution, we would expect the data to be centered and symmetrica
 
 "This is where the fun begins." Now that we have compiled our data and looked at some initial trends in the data, it's time to put on our witch hats and look into the crystal ball— it's predicting time! 
 
-To review, the attributes avaliable to us are: Time, IP, Username, Password, Country, Authenticated, Duration (seconds).
+To review, the attributes available to us are: Time, IP, Username, Password, Country, Authenticated, Duration (seconds).
 With this, we can start to look at some factors that can be predicted. One of the key factors to know about any sort of attack in the place of origin. We are aware that an attacker can mask their location, using a VPN or other tools, much such blasphemy is beyond the scope of this project.
 
-Username and passwords can vary too much; therefore, they will likely not contribute greatly towards pinpointing the origin of an attack. Due to the honeypots randomly autheticatic attackers regardless of the credentials also rules out authentication as a possible predictor. IP is a direct predictor for location, making this problem trivial; therefore, we are left with Time and Duration as our predictors for Location.
+Username and passwords can vary too much; therefore, they will likely not contribute greatly towards pinpointing the origin of an attack. Due to the honeypots randomly authenticate attackers regardless of the credentials also rules out authentication as a possible predictor. IP is a direct predictor for location, making this problem trivial; therefore, we are left with Time and Duration as our predictors for Location.
 
-Firstly, we have a bit of data clensing to do. We drop any entries with NaN. Then, since country_name is a categorical variable, we use one-hot-encoding in order to turn it into a numeric variable which is now represented by a vector of 0s and a 1, where the position of the 1 decribes that entity's country of origin.
+Firstly, we have a bit of data cleansing to do. We drop any entries with NaN. Then, since country_name is a categorical variable, we use one-hot-encoding in order to turn it into a numeric variable which is now represented by a vector of 0s and a 1, where the position of the 1 describes that entity's country of origin.
 
 Datetime is currently stored as a string, which poses our next problem. We turn this into a set of numeric variables by parsing into a pandas datetiem object then splitting year, month, day, hour, minute, and second into their respective columns.
 ```{python}
@@ -266,7 +266,7 @@ y
 ```
 Now we are ready for the next step: set up model and training. Since we have so many countries (87 of them to be specific), we need a multi-class classifier, making the One vs Rest Classifier the perfect fit. The One vs Rest Classifier selects a class to be positive and all others to be negative, then trains the classifier, repeating this n times for n different classifiers— one for each class.
 
-We will be using 10% of our data to test, and the other 90% to train. Subsequenctly, we train our classifier(s) on our training set and test in order to obtain the testing score.
+We will be using 10% of our data to test, and the other 90% to train. Subsequently, we train our classifier(s) on our training set and test in order to obtain the testing score.
 ```{python}
 from sklearn.model_selection import train_test_split
 from sklearn import svm, datasets
@@ -279,7 +279,7 @@ y_score = c.fit(X_train, y_train).decision_function(X_test)
 ```
 From the scores we gathered, we can now calculate the ROC area which essentially measures the positive rate against the false positive rates in order to gauge how well the model can class balance— or how well we can distinguish one class from another.
 
-To see the performance of our model, we willcompute the micro averages which are computed by aggregating the contributions for each class then compute the ROC values. 
+To see the performance of our model, we will compute the micro averages which are computed by aggregating the contributions for each class then compute the ROC values. 
 ```{python}
 from sklearn.metrics import roc_curve, auc
 
@@ -363,8 +363,8 @@ plt.title('Extension of Receiver operating characteristic to multi-class')
 plt.legend(loc='upper left',fancybox=True, shadow=True, ncol=1)
 plt.show()
 ```
-Since there is such a huge imbalance between our classes (more data for one class than another), we see that our model is better at predicting one origin location than another. Particularly, we are ridiculously good at predicting attackers from Sweden— we got you! Not really, we likely have an extremely low subset of attacks orriginating from Sweden. The class imbalance is further demonstrated by the discrepancy between the micro and macro averages. We seem to be extremely good at predict some classes over the others, evident by our macro averages being mostly above 1.0. However, when we look at our micro average, we see that it is brought down due to this phenomena.
+Since there is such a huge imbalance between our classes (more data for one class than another), we see that our model is better at predicting one origin location than another. Particularly, we are ridiculously good at predicting attackers from Sweden— we got you! Not really, we likely have an extremely low subset of attacks originating from Sweden. The class imbalance is further demonstrated by the discrepancy between the micro and macro averages. We seem to be extremely good at predict some classes over the others, evident by our macro averages being mostly above 1.0. However, when we look at our micro average, we see that it is brought down due to this phenomena.
 
-As we can see, life of a predictor is pretty hard. We have to deal with messy data, convuluted parsing, and huge class imbalances. Given these factors, we saw some very interesting resulting for the outcomes of each classes and how a few key attributes/ predictors can help us uncover unseen details, make predictions, and save the world from armaggedon.
+As we can see, life of a predictor is pretty hard. We have to deal with messy data, convoluted parsing, and huge class imbalances. Given these factors, we saw some very interesting resulting for the outcomes of each classes and how a few key attributes/ predictors can help us uncover unseen details, make predictions, and save the world from Armageddon.
 
 The end.
