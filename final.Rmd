@@ -3,7 +3,7 @@ title: "CMSC320 Final Project"
 output: html_document
 ---
 
-### Project by Nikos Koutsoheras, Sahil Dev, and Vivek Banerjee
+### Project by Nikos Koutsoheras, Sahil Dev, and Vivekjyoti Banerjee
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -230,9 +230,18 @@ plt.show()
 
 In a normal distribution, we would expect the data to be centered and symmetrical around 0. Here, we clearly don't get that. This shows once again that our data is very far from normally distributed.
 
-## ML and stuff
+## Machine Learning
 
-We will use ToD and duration to predict the location of an attack.To start, we will do some data preparation by encoding the country name as decimal values.
+"This is where the fun begins." Now that we have compiled our data and looked at some initial trends in the data, it's time to put on our witch hats and look into the crystal ball— it's predicting time! 
+
+To review, the attributes avaliable to us are: Time, IP, Username, Password, Country, Authenticated, Duration (seconds).
+With this, we can start to look at some factors that can be predicted. One of the key factors to know about any sort of attack in the place of origin. We are aware that an attacker can mask their location, using a VPN or other tools, much such blasphemy is beyond the scope of this project.
+
+Username and passwords can vary too much; therefore, they will likely not contribute greatly towards pinpointing the origin of an attack. Due to the honeypots randomly autheticatic attackers regardless of the credentials also rules out authentication as a possible predictor. IP is a direct predictor for location, making this problem trivial; therefore, we are left with Time and Duration as our predictors for Location.
+
+Firstly, we have a bit of data clensing to do. We drop any entries with NaN. Then, since country_name is a categorical variable, we use one-hot-encoding in order to turn it into a numeric variable which is now represented by a vector of 0s and a 1, where the position of the 1 decribes that entity's country of origin.
+
+Datetime is currently stored as a string, which poses our next problem. We turn this into a set of numeric variables by parsing into a pandas datetiem object then splitting year, month, day, hour, minute, and second into their respective columns.
 ```{python}
 import numpy as np
 from sklearn import preprocessing
@@ -255,8 +264,9 @@ X = X.drop(['Time'],axis=1).iloc[:,:].to_numpy()
 X
 y
 ```
+Now we are ready for the next step: set up model and training. Since we have so many countries (87 of them to be specific), we need a multi-class classifier, making the One vs Rest Classifier the perfect fit. The One vs Rest Classifier selects a class to be positive and all others to be negative, then trains the classifier, repeating this n times for n different classifiers— one for each class.
 
-Set up model and training.
+We will be using 10% of our data to test, and the other 90% to train. Subsequenctly, we train our classifier(s) on our training set and test in order to obtain the testing score.
 ```{python}
 from sklearn.model_selection import train_test_split
 from sklearn import svm, datasets
@@ -267,7 +277,9 @@ c = OneVsRestClassifier(svm.SVC(kernel='linear', probability=True,random_state=0
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1,random_state=0)
 y_score = c.fit(X_train, y_train).decision_function(X_test)
 ```
-Compute ROC
+From the scores we gathered, we can now calculate the ROC area which essentially measures the positive rate against the false positive rates in order to gauge how well the model can class balance— or how well we can distinguish one class from another.
+
+To see the performance of our model, we willcompute the micro averages which are computed by aggregating the contributions for each class then compute the ROC values. 
 ```{python}
 from sklearn.metrics import roc_curve, auc
 
@@ -286,7 +298,7 @@ roc_auc["micro"] = auc(fpr["micro"], tpr["micro"])
 
 ```
 
-Plotting
+Once we have gathered our ROC data, we can now proceed to plot the ROC area data.
 ```{python}
 import matplotlib.pyplot as plt
 plt.figure()
@@ -298,15 +310,18 @@ plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.05])
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
-plt.title('Receiver operating characteristic example')
+plt.title('ROC area')
 plt.legend(loc="lower right")
 plt.show()
 ```
+From this, we observe that we a greater than 1 ratio of true positive to false positive rates— looking good. The accuracy of our model is demonstrated by how much the ROC area curve is to the top left of the graph. Overall, we seem to be doing okay, but nothing ground breaking. We've been staring at the crystal ball for too long.
 
-Multiclass ROC
+Because there are currently 87 different classes that are being summarized in the graph above, we want to see how the model did for a select few classes— five for example's sake. We will be looking at the individual ROC area curve for each of these five classes and their macro averages.
+
+The macro average is computed by calculating the ROC independently for each class, then taking the average of all the ROCs (giving equal importance to all classes).
 ```{python}
 from scipy import interp
-# First aggregate all false positive rates
+# Aggregate all false positive rates
 n_classes = len(countries[:5])
 all_fpr = np.unique(np.concatenate([fpr[i] for i in range(n_classes)]))
 
@@ -315,7 +330,7 @@ mean_tpr = np.zeros_like(all_fpr)
 for i in range(n_classes):
     mean_tpr += interp(all_fpr, fpr[i], tpr[i])
 
-# Finally average it and compute AUC
+# Average it and compute AUC
 mean_tpr /= n_classes
 
 fpr["macro"] = all_fpr
@@ -348,5 +363,8 @@ plt.title('Extension of Receiver operating characteristic to multi-class')
 plt.legend(loc='upper left',fancybox=True, shadow=True, ncol=1)
 plt.show()
 ```
+Since there is such a huge imbalance between our classes (more data for one class than another), we see that our model is better at predicting one origin location than another. Particularly, we are ridiculously good at predicting attackers from Sweden— we got you! Not really, we likely have an extremely low subset of attacks orriginating from Sweden. The class imbalance is further demonstrated by the discrepancy between the micro and macro averages. We seem to be extremely good at predict some classes over the others, evident by our macro averages being mostly above 1.0. However, when we look at our micro average, we see that it is brought down due to this phenomena.
+
+As we can see, life of a predictor is pretty hard. We have to deal with messy data, convuluted parsing, and huge class imbalances. Given these factors, we saw some very interesting resulting for the outcomes of each classes and how a few key attributes/ predictors can help us uncover unseen details, make predictions, and save the world from armaggedon.
 
 The end.
